@@ -1,0 +1,8 @@
+
+Bubble Sort - It is a sorting algorithm in which two adjacent elements of an array are checked and swapped if they are in wrong order and this process is repeated until we get a sorted array.
+
+In this first two elements of the array are checked and swapped if they are in wrong order. Then first and third elements are checked and swapped if they are in wrong order. This continues till the lat element is checked and swapped if necessary.
+
+Selection Sort - It is also a sorting algorithm in which first step is to find the smallest element in the array. This smallest element is swapped with the first element. After this, search for the smallest element in the subarray formed by excluding the first element and compare it with the first element of the subarray. Repeat it till the array gets sorted.
+
+Insertion Sort - In this, the second element is compared with the first element and is swapped if it is not in order. Similarly, we take the third element in the next iteration and place it at the right place in the subarray of the first and second elements (as the subarray containing the first and second elements is already sorted). We repeat this step with the fourth element of the array in the next iteration and place it at the right position in the subarray containing the first, second and the third elements. We repeat this process until our array gets sorted.

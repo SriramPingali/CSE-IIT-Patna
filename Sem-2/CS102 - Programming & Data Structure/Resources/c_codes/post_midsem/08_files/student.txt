@@ -1,0 +1,6 @@
+
+Name: ma 
+Marks=2 
+
+Name: re 
+Marks=2 
