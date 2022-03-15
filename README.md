@@ -10,7 +10,7 @@ Repo contains 8 Sub-Repos corresponding to 8 semesters. Each Semester repo has F
 And each Subject folder contains content split in to the following parts.
  - Slides
  - Notes
- - Assignments / Tutorials
+ - ATP - Assignments, Tutorials & Projects
  - Mid-Sem Archive
  - End-Sem Archive
 
