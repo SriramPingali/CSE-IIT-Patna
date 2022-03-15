@@ -15,5 +15,5 @@ And each Subject folder contains content split in to the following parts.
  - End-Sem Archive
 
 # Contribute!
-This repo will stay alive if and only if the community wishes to do so. Therefore, on behalf of all the seniors, I'd like to request the upcoming generations to keep updating repo (in the given format) whenever there's a new course, or an existing course went obsolete, or new quizzes and solutions, or new question papers for the semester examinations, please keep updating them here. <br>
+This repo will stay alive if and only if the community wishes to do so. Therefore, on behalf of all the seniors, I'd like to request the upcoming generations to keep updating the repo (in the given format). Whenever there's a new course, or an existing course went obsolete, or new quizzes and solutions, or new question papers for the semester examinations, please keep updating them here. <br>
 **Together Let's Open source CSE@IIT Patna!**
