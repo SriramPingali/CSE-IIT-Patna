@@ -8,11 +8,12 @@ We've all been there, and in our case many many years before you guys. And we've
 # Guide to use
 Repo contains 8 Sub-Repos corresponding to 8 semesters. Each Semester repo has Folders corresponding to the subjects in the format **\<Course Code\> - \<Course Name\>**
 And each Subject folder contains content split in to the following parts.
- - Slides
  - Notes
- - ATP - Assignments, Tutorials & Projects
+ - Slides
+ - Resources
  - Mid-Sem Archive
  - End-Sem Archive
+ - ATP (For Assignments, Tutorials & Projects)
 
 # Contribute!
 This repo will stay alive if and only if the community wishes to do so. Therefore, on behalf of all the seniors, I'd like to request the upcoming generations to keep updating the repo (in the given format). Whenever there's a new course, or an existing course went obsolete, or new quizzes and solutions, or new question papers for the semester examinations, please keep updating them here. <br>
