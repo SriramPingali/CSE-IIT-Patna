@@ -1,0 +1,9 @@
+Executing this project requires the following libraries
+
+In python version (3.7)
+
+1) OpenCV
+2) Keras (Tensorflow backed)
+3) DLIB
+4) CMake
+5) face_recognition
