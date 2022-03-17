@@ -1,0 +1,175 @@
+/*
+	Name of Student: M.Maheeth Reddy
+		   Roll No.: 1801CS31
+
+		   CS355 Assignment 6
+*/
+
+---- Task 1
+
+-- creating database
+create database RobbersGang;
+
+-- use this database
+use RobbersGang;
+
+-- create table for bank
+create table bank (
+    bank_name varchar(20) not null,
+    city varchar(10) not null,
+    num_accounts int,
+    security_level varchar(10),
+    primary key (bank_name,city)
+);
+
+-- load data into bank table from banks.txt
+-- since Loading local data is disabled on my system for security reasons, I specified the path to banks.txt file also in the query
+-- this is the case with all queries in which data is loaded from files
+load data infile '/var/lib/mysql-files/banks.txt' into table bank fields terminated by '\t' lines terminated by '\n';
+-------------------------------------------------------------------------------------------
+
+-- create table for robbers
+create table robber (
+	ID int primary key,
+	nickname varchar(20) not null,
+	age int,
+	years_in_prison int,
+	check(age > 0),
+	check(years_in_prison >= 0)
+);
+
+-- add robber IDs in robbers.txt manually
+-- load data into robber table from robbers.txt
+load data infile '/var/lib/mysql-files/robbers.txt' into table robber fields terminated by '\t' lines terminated by '\n';
+-------------------------------------------------------------------------------------------
+
+-- create a temp table for loading data from hasaccounts.txt
+create table temp (
+	nickname varchar(20) not null,
+	bank_name varchar(20) not null,
+	city varchar(10) not null
+);
+
+-- load data into temp table from hasaccounts.txt
+load data infile '/var/lib/mysql-files/hasaccounts.txt' into table temp fields terminated by '\t' lines terminated by '\n';
+
+-- create hasaccounts table, this table has robber ID instead of robber nickname
+create table hasaccounts as select ID as rob_ID,bank_name,city from robber natural join temp;
+
+-- add foreign key constraint to robber ID in robber table
+alter table hasaccounts add constraint ID_details foreign key (rob_ID) references robber(ID);
+
+-- add foreign key constraint to bank_name,city in bank table
+alter table hasaccounts add constraint bank_details foreign key (bank_name,city) references bank(bank_name,city);
+
+-- drop temp table
+drop table temp;
+-------------------------------------------------------------------------------------------
+
+-- create temp table for loading data from hasskills.txt
+create table temp (
+	nickname varchar(20) not null,
+	skill varchar(15) not null,
+	preference_rank int,
+	grade varchar(2) not null
+);
+
+-- load data into temp table from hasskills.txt
+load data infile '/var/lib/mysql-files/hasskills.txt' into table temp fields terminated by '\t' lines terminated by '\n';
+
+-- create skills table (contains all possible skills)
+create table skills as select distinct skill from temp;
+
+-- do not allow duplicate entries in skills table
+alter table skills add constraint unique (skill);
+
+-- create hasskills table, this table has robber ID instead of robber nickname
+create table hasskills as select ID as rob_ID,skill,preference_rank,grade from robber natural join temp;
+
+-- set constraint on hasskills table such that the skill attribute can only take those values that are present in skills table
+alter table hasskills add constraint valid_skill foreign key (skill) references skills(skill);
+
+-- drop temp table
+drop table temp;
+-------------------------------------------------------------------------------------------
+
+-- create robberies table for loading data from robberies.txt
+create table robberies (
+	bank_name varchar(20) not null,
+	city varchar(10) not null,
+	rob_date date,
+	amount float(8,2),
+	foreign key (bank_name,city) references bank(bank_name,city)
+);
+
+-- load data into robberies table from robberies.txt
+load data infile '/var/lib/mysql-files/robberies.txt' into table robberies fields terminated by '\t' lines terminated by '\n';
+-------------------------------------------------------------------------------------------
+
+-- create temp table for loading data from accomplices.txt
+create table temp (
+	nickname varchar(20) not null,
+	bank_name varchar(20) not null,
+	city varchar(10) not null,
+	rob_date date,
+	share_of_money float(8,2)
+);
+
+-- load data into temp table from accomplices.txt
+load data infile '/var/lib/mysql-files/accomplices.txt' into table temp fields terminated by '\t' lines terminated by '\n';
+
+-- create accomplices table, this table has robber ID instead of robber nickname
+create table accomplices as select ID as rob_ID,bank_name,city,rob_date,share_of_money from robber natural join temp;
+
+-- add referential integrity constraint for bank_name,city,date from accomplices to robberies table
+alter table accomplices add constraint foreign key (bank_name,city) references bank(bank_name,city);
+
+--drop temp table
+drop table temp;
+-------------------------------------------------------------------------------------------
+
+-- create plans table
+create table plans (
+	bank_name varchar(20) not null,
+	city varchar(10) not null,
+	plan_date date,
+	num_robbers int,
+	constraint foreign key (bank_name,city) references bank(bank_name,city)
+);
+
+-- load data into plans table from plans.txt
+load data infile '/var/lib/mysql-files/plans.txt' into table plans fields terminated by '\t' lines terminated by '\n';
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+---- Task 2
+
+-- v1: to list the robbers who have spent more than 4 years in jail and are less than 40 years.
+create view v1 as select * from robber where years_in_prison>4 and age<40;
+
+-- v2: to list the robbers who were not involved in robbery between 2005 and 2010
+create view v2 as select nickname as robber from robber where ID not in (select rob_ID as ID from accomplices where year(rob_date) >= 2005 and year(rob_date) <= 2010);
+
+-- v3: to list for each skill the senior most robber (in terms of age)
+create view v3 as select skill,nickname as robberName,age from (select * from robber inner join hasskills on robber.ID = hasskills.rob_ID)a natural join (select skill,max(age) as maxAge from robber inner join hasskills on robber.ID = hasskills.rob_ID group by skill)b where a.age = b.maxAge order by skill;
+
+-- v4: to list the banks which were robbed more than once
+create view v4 as select bank_name,city,count(*) as num_robbed from robberies group by bank_name,city having count(*) > 1;
+
+-- v5: to list the recent most five robberies in Chicago city
+create view v5 as select * from robberies where city='Chicago' order by rob_date desc limit 5;
+
+-- v6: to list the robbers and the total amount they have robbed so far.
+create view v6 as select robber.ID,nickname as robber,sum as total_amount from robber natural join (select rob_ID as ID,sum(share_of_money) as sum from accomplices group by rob_ID)a;
+
+-- v7: to list the robbers and the number of skills they have
+create view v7 as select nickname as robber,tot as total_skills from robber natural join (select rob_ID as ID,count(skill) as tot from hasskills group by rob_ID)a;
+
+-- v8: to list the banks that may be robbed in next 3 months from the current date
+create view v8 as select * from plans where datediff(plan_date,curdate())/30 <= 3 and datediff(plan_date,curdate())/30 > 0;
+
+-- v9: to list the suspected robbers who may rob in next 3 months. Assume that suspected robbers are those who have accounts at the same bank branch.
+create view v9 as select nickname as suspected_robbers from robber where ID in (select rob_ID as ID from hasaccounts natural join (select * from plans where datediff(plan_date,curdate())/30 <= 3 and datediff(plan_date,curdate())/30 > 0)a);
+
+-- v10: for each bank, provide a summary of security level and the number of times it was robbed so far.
+create view v10 as select bank.bank_name,bank.city,security_level,case when a.num_robbed is NULL then 0 else a.num_robbed end as num_robbed from bank left join (select bank_name,city,count(*) as num_robbed from robberies group by bank_name,city)a on bank.bank_name=a.bank_name and bank.city=a.city;

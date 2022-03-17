@@ -1,0 +1,20 @@
+NXP Bank	Chicago	1593311	very good
+Bankrupt Bank	Evanston	444000	weak
+Loanshark Bank	Evanston	7654321	excellent
+Loanshark Bank	Deerfield	3456789	very good
+Loanshark Bank	Chicago	121212	excellent
+Inter-Gang Bank	Chicago	100000	excellent
+Inter-Gang Bank	Evanston	555555	excellent
+NXP Bank	Evanston	656565	excellent
+Penny Pinchers	Chicago	156165	weak
+Dollar Grabbers	Chicago	56005	very good
+Penny Pinchers	Evanston	130013	excellent
+Dollar Grabbers	Evanston	909090	good
+Gun Chase Bank	Evanston	656565	excellent
+Gun Chase Bank	Deerfield	1999	weak
+PickPocket Bank	Evanston	2000	very good
+PickPocket Bank	Deerfield	6565	excellent
+PickPocket Bank	Chicago	130013	weak
+Hidden Treasure	Chicago	999999	excellent
+Bad Bank	Chicago	6000	weak
+Outside Bank	Chicago	5000	good

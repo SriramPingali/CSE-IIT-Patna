@@ -1,0 +1,49 @@
+//Logging into the server
+mysql -u root -p
+<pswd
+
+// Show the existing databases
+show databases;
+
+// Create a new database with name "dblab"
+create database dblab;
+
+// Set the "dblab" database as active
+use dblab;
+
+// Create a new table with name "Suppliers" having attributes "SID", 
+// "SName", "City"
+create table Suppliers( SID varchar(10), SName varchar(10), City varchar(10));
+
+// Create a new table with name "Products" having attributes "PID", 
+// "PName", "WarrantyPeriod"
+create table Products( PID varchar(10), PName varchar(10), WarrantyPeriod int);
+
+// Create a new table with name "SP" having attributes "SID", "PID" 
+create table SP( SID varchar(10), PID varchar(10));
+
+// 12 Entries into SP table
+insert into sp(sid, pid) values ('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5'), ('6', '6'), ('7', '7'), ('8', '8'), ('9', '9'), ('10', '10'), ('11', '11'), ('12', '12');
+
+// 10 entries into Suppliers table
+ insert into suppliers(sid, sname, city) values('1', 'a', 'ahm'), ('2', 'b', 'bang'), ('3', 'c', 'calc'), ('4','d', 'delhi'), ('5', 'e', 'east god'), ('6', 'f', 'falaknuma'), ('7', 'g', 'gurgaon'), ('8', 'h', 'hyd'), ('9', 'i', 'india'), ('10', 'j', 'jaipur');
+
+// 10 entries into Products table
+insert into products(pid, sname, warrantyperiod) values('1', 'a', 1), ('2', 'b', 2), ('3', 'c', 3), ('4','d', 4), ('5', 'e', 5), ('6', 'f', 6), ('7', 'g', 7), ('8', 'h', 8), ('9', 'i', 9), ('10', 'j', 10);
+
+// Create a new user with name "scot" and password "tiger"
+create user 'scot'@'localhost' identified by 'tiger';
+
+// Grant access on dblab database to "scot"
+grant all privileges on dblab.* to 'scot'@'localhost'; 
+
+
+// Login and verify
+mysql -u scot -p
+tiger
+
+PS: I did a mistake by entering some rows of Products table into Suppliers table. To correct that, I used the following command
+
+INSERT INTO Products SELECT * FROM Suppliers WHERE city REGEXP '^-?[0-9]+$';
+
+DELETE FROM Suppliers WHERE city REGEXP '^-?[0-9]+$';

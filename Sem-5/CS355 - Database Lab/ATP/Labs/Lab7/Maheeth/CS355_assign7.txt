@@ -1,0 +1,214 @@
+/*
+    Name of Student:    M. Maheeth Reddy
+           Roll No.:    1801CS31
+
+           CS355 Assignment-7
+*/
+
+-- use database dblab
+use dblab;
+
+------------------------ Transactions Database
+------------- Subtask A
+-- create table and load data
+create table transactions ( 
+    series_ref varchar(12),
+    period decimal(6,2),
+    data_value varchar(11),         -- some of the values are null, therefore loading as varchar and dealing them seperately
+    suppressed varchar(1),
+    status char(1),
+    units varchar(7),
+    magnitude decimal(1,0),
+    subject char(46),
+    grp varchar(70),
+    ser1 varchar(19),
+    ser2 varchar(59),
+    ser3 varchar(49),
+    ser4 varchar(19),
+    ser5 varchar(19)
+);
+-- before loading data, I modified some values in "group" column of transactions.csv which had extra commas in them
+load data infile '/var/lib/mysql-files/transactions.csv' into table transactions fields terminated by ',' lines terminated by '\n';
+
+-- data_value attribute is currently varchar, all null values are converted to '0' and attribute type is changed to decimal
+update transactions set data_value='0' where data_value='';
+alter table transactions modify data_value decimal(11,1);
+
+------------- Subtask C
+-- create copy of the table
+create table tran1 like transactions;
+insert into tran1 select * from transactions;
+
+-- create indexes on copy table
+alter table tran1 add index idx9 (period);
+alter table tran1 add index idx8 (ser1);
+alter table tran1 add index idx7 (magnitude);
+alter table tran1 add index idx6 (status);
+
+------------- Subtask B
+-- query 1
+select period,sum(data_value) from transactions group by period;
+-- 0.02872 seconds
+
+-- query 2
+select ser1,count(ser1) from transactions group by ser1;
+-- 0.0245 seconds
+
+-- query 3
+update transactions set magnitude=8 where magnitude=6;
+-- 0.1432 seconds
+
+-- query 4
+update transactions set status='f' where status='F';
+-- 0.1172 seconds
+
+-- query 5
+insert into transactions values ('ECTA.S19A1',2004.03,34122.5,'','F','Dollars',6,'Electronic Card Transactions (ANZSIC06) - ECT','Total values - Electronic card transactions A/S/T by division','Actual','RTS total industries','','','');
+-- 0.0299 seconds
+
+------------- Subtask D
+---- Timings after Indexing
+-- query 1
+select period,sum(data_value) from tran1 group by period;
+-- 0.0279 seconds
+
+-- query 2
+select ser1,count(ser1) from tran1 group by ser1;
+-- 0.0135 seconds
+
+-- query 3
+update transactions set magnitude=8 where magnitude=6;
+-- 0.1487 seconds
+
+-- query 4
+update transactions set status='f' where status='F';
+-- 0.1663 seconds
+
+-- query 5
+insert into tran1 values ('ECTA.S19A1',2004.03,34122.5,'','F','Dollars',6,'Electronic Card Transactions (ANZSIC06) - ECT','Total values - Electronic card transactions A/S/T by division','Actual','RTS total industries','','','');
+-- 0.0352 seconds
+
+------------- Subtask E
+/** Comparative Analysis **
+    
+    Select operation:
+        Execution Time decreased after creating index on table.
+    
+    Update operation:
+        Execution Time increased after creating index on table.
+
+    Insert operation:
+        Execution Time increased after creating index on table.
+
+**/
+
+------------------------ Own Database (Profits of an MNC Per Order received)
+------------- Subtask A
+-- create table
+create table sales (
+    region varchar(35),                 -- Continent from which an order was placed
+    country varchar(33),                -- Country from which an order was placed
+    item_type varchar(16),              -- Classification of Item into Fruits/Clothes/Meat/Beverages/Office Supplies/Cosmetics/Snacks/Personal Care/Household/Vegetables/Baby Food/Cereal
+    sales_type varchar(7),              -- Type of Sale (Online/Offline)
+    order_priority char(1),             -- Denotes Order Priority (M/H/L/C)
+    order_date varchar(11),             -- Date when order was placed
+    order_id decimal(9,0),              -- ID of order
+    ship_date varchar(11),              -- Date when product was shipped
+    units_sold int,                     -- No. of units sold
+    unit_price decimal(5,2),            -- Selling Price of one unit of product
+    unit_cost decimal(5,2),             -- Cost Price of one unit of product
+    total_revenue decimal(9,2),         -- Total Selling Price of one unit of product
+    total_cost decimal(9,2),            -- Total Cost Price of one unit of product
+    total_profit decimal(9,2)           -- Total profit gained in the order
+);
+-- attributes order_date, ship_date are not in proper format. So, they are first loaded as strings and modified later
+
+-- load data from csv file, contains 1 million records (10,00,000 records)
+-- link: http://eforexcel.com/wp/wp-content/uploads/2017/07/1000000%20Sales%20Records.zip (file-name changed for simplicity)
+load data infile '/var/lib/mysql-files/sales.csv' into table sales fields terminated by ',' lines terminated by '\n';
+
+-- modify format of each value in order_date, ship_date and update table
+update sales set order_date=str_to_date(order_date,'%m/%d/%Y');
+update sales set ship_date=str_to_date(ship_date,'%m/%d/%Y');
+
+-- change data-type of order_date, ship_date columns to date
+alter table sales modify order_date date, modify ship_date date;
+-- In this way data is loaded into mysql database
+
+------------------ Subtask C
+-- create copy of sales table
+create table sales1 like sales;
+insert into sales1 select * from sales;
+
+-- create index on copy table
+alter table sales1 add index idx (country);
+alter table sales1 add index idx1 (item_type);
+
+------------------ Subtask B
+---- Queries which are being monitored along with average time of execution
+-- query 1
+select country,round(sum(total_profit)/1000000,2) as profit_in_million_dollars from sales group by country;
+-- 1.1020 seconds
+
+-- query 2
+select count(distinct country) from sales;
+-- 0.8187 seconds
+
+-- query 3
+select item_type,avg(datediff(ship_date,order_date)) as avg_shipping_time from sales group by item_type;
+-- 1.2285 seconds
+
+-- query 4
+update sales set item_type='Baby Care' where item_type='Baby Food';
+-- 9.5738 seconds
+
+-- query 5
+update sales set unit_price=450 where item_type='Meat';
+-- 6.1335 seconds
+
+-- query 6
+insert into sales values ('Sub-Saharan Africa','Wakanda','Office Supplies','Offline','C','2020-10-15',999999999,'2020-10-16',21,651.21,524.96,13675.41,11024.16,2651.25);
+-- 0.0318 seconds
+
+------------------ Subtask D
+-- Timings after Indexing
+
+-- query 1
+select country,round(sum(total_profit)/1000000,2) as profit_in_million_dollars from sales1 group by country;
+-- 10.3415 seconds
+
+-- query 2
+select count(distinct country) from sales1;
+-- 0.0038 seconds
+
+-- query 3
+select item_type,avg(datediff(ship_date,order_date)) as avg_shipping_time from sales1 group by item_type;
+-- 26.7897 seconds
+
+-- query 4
+update sales1 set item_type='Baby Care' where item_type='Baby Food';
+-- 13.4568 seconds
+
+-- query 5
+update sales1 set unit_price=450 where item_type='Meat';
+-- 5.28115 seconds
+
+-- query 6
+insert into sales1 values ('Sub-Saharan Africa','Wakanda','Office Supplies','Offline','C','2020-10-15',999999999,'2020-10-16',21,651.21,524.96,13675.41,11024.16,2651.25);
+-- 0.03598 seconds
+
+------------- Subtask E
+/** Comparative Analysis **
+    
+    Select operation:
+        for attributes in table, Execution Time decreased after creating index on table.
+        for derived attributes, Execution Time increased after creating index on table.
+    
+    Update operation:
+        For attribute that is an index, Execution Time increased after creating index on table.
+        For attribute that is not an index, Execution Time decreased after creating index on table.
+
+    Insert operation:
+        Execution Time increased after creating index on table.
+
+**/

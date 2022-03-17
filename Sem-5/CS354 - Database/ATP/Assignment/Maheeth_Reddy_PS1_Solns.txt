@@ -1,0 +1,122 @@
+/*
+	Name of Student: M. Maheeth Reddy
+	Roll No.:		 1801CS31
+*/
+
+CS354: Problem Set 1
+
+Answer 1:
+
+The number of entities from E2 that an entity from E1 can possibly be associated through a relationship (and vice-versa) determines the cardinality ratio of R.
+Participation Constraint indicates whether all entities of an entity set are involved in the association of a relationship or not i.e., total participation or partial participation.
+Clearly, Cardinality gives us more insight about the relationship than Participation Constraint. Therefore, Cardinality is more powerful.
+--------------------------------------------------------------------
+
+Answer 2:
+
+Primary Key constraint is used to uniquely identify each row in a table. Unique constraint just ensures that all values in a column are different.
+Primary Key does not accept NULL values. Unique Key accepts one NULL value.
+A table can have only one primary key, but more than one unique key.
+Primary key generates a clustered index, whereas unique key will generate a non-clustered index.
+--------------------------------------------------------------------
+
+Answer 3:
+
+Primary Key:
+Primary key of a relation is an attribute or a set of attributes that are chosen by the database designer to uniquely identify each and every tuple of that relation.
+
+Foreign Key:
+A relation X may include the primary key of another relation Y among its attributes. Such attribute is called a foreign key from X referencing Y.
+
+For the foreign key, Y is called the referenced relation and X is called referencing relation.
+--------------------------------------------------------------------
+
+Answer 4:
+
+Integrity rules that exist in a database are:
+
+Rule 1:
+Every relation must have a primary key and all primary keys must be unique. None of the primary keys can be null. This rule is called Entity Integrity Rule.
+
+Rule 2:
+Referential integrity is an integrity rule that refers to the accuracy and consistency of data within a relationship.
+In relationships, data is linked between two or more tables. This is achieved by having the foreign key in the associated table reference a primary key value in the referenced table. Because of this, we need to ensure that data on both sides of the relationship remain intact.
+So, referential integrity requires that, whenever a foreign key value is used it must reference a valid, existing primary key in the parent table.
+
+Rule 3:
+All columns of a database must must be declared upon a defined domain. This is called Domain Integrity Rule
+
+Rule 4:
+There are other set of rules that are defined by a user or organisation for operational purposes. For example, a bank can have a restriction on the minimum balance in an account. Such rules are called User-defined integrity rules.
+--------------------------------------------------------------------
+
+Ans 5:
+b) Tuple
+
+Ans 6:
+b) Column
+
+Ans 7:
+a) Domain
+
+Ans 8:
+d) Schema, Instance
+
+Ans 9:
+b) Attributes, Relation
+
+Ans 10:
+a) Any
+
+--------------------------------------------------------------------
+Ans 11:
+
+Referential integrity refers to the accuracy and consistency of data within a relationship.
+In relationships, data is linked between two or more tables. This is achieved by having the foreign key in the associated table reference a primary key value in the referenced table. Because of this, we need to ensure that data on both sides of the relationship remain intact.
+So, referential integrity requires that, whenever a foreign key value is used it must reference a valid, existing primary key in the parent table.
+
+Example of Referential Integrity:
+A university has many departments which offer various courses. The university database consists of a table that has details of its departments such as department ID, department name, HOD etc.  It has another table that has details of all courses offered by the university, such as Course ID, Department ID, Credits etc.
+For referential integrity to be maintained, the department IDs that appear in the courses table must also be present in the departments table. Here department ID acts as a foreign key, department table as referenced table and course table as associated table.
+
+--------------------------------------------------------------------
+
+Ans 12:
+False
+
+Explanation:
+One of the benefits of using a DBMS is Logical Data Independence. This means, if changes are made in the logical schema, no change are required in the physical schema. Therefore, user need not be aware of the different underlying data structures used for the storage of data.
+
+--------------------------------------------------------------------
+
+Ans 13:
+False
+
+Explanation:
+Two entity sets can have multiple relationships. Consider the example of an office having various Departments. A Department "employs" various Employees. An Employee of a department "manages" the Department. Here "employs" and "manages" are two relationships on two entity sets Employees and Department.
+
+--------------------------------------------------------------------
+
+Ans 14:
+
+The attributes that have many components are called Composite Attributes.
+
+Example for Composite single-valued attribute:
+Date_of_Birth (Day, Month, Year)
+Date of Birth attribute for a Person has 3 component attributes, Day, Month and Year. Also a person has only one date of birth, therefore this is a composite single-valued attribute.
+
+Example for Composite multi-valued attribute:
+Education_Details (Name_of_Institute, Course, Starting_Year, Ending_Year, Grade)
+A person studies in various institutions in his life. He spends few years in each instution and receives a grade. All these details can be represented as a composite multi-valued attribute. The component attributes are Name of the Institute, Course, Starting Year, Ending Year and Grade.
+--------------------------------------------------------------------
+
+Ans 15:
+
+A weak entity set is an entity set whose existence is dependent on another entity set, called its identifying entity set.
+
+Weak entity sets don’t have sufficient attributes to form a primary key. Therefore the primary keys of the identifying entity, along with extra attributes, called discriminator attributes or partial keys are used to uniquely identify a weak entity.
+
+The relationship associating the weak entity set with the identifying entity set is called the identifying relationship.
+
+The identifying relationship is many-to-one from the weak entity set to the identifying entity set, and the participation of the weak entity set in the relationship is total.
+--------------------------------------------------------------------

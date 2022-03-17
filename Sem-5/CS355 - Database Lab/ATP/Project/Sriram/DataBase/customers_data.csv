@@ -1,0 +1,26 @@
+Cust_ID,Cust_Name,Phone_No,Membership,Amt_owed,H_No,Street,City
+1,Sriram,9181066023,Yes,146,11,Necklace Road,Hyderabad
+10,Ganga,9730514988,Yes,0,52,Siripuram Road,Vizag
+11,Hanuman,8958385296,No,0,63,Bailey Road,Patna
+12,Jambhavan,9557483499,No,0,48,Madhya Mard,Chandigarh
+13,Jatayu,8645807997,No,0,53,Manek Chowk,Ahmedabad
+14,Janaka,8137780587,No,0,15,FC Road,Pune
+15,Kaikeyi,9386140779,Yes,0,71,Dinkerdo Ave,Agra
+16,Kausalya,8185555458,Yes,115,97,BHU marg,Varanasi
+17,Khumbhakarna,8257683114,Yes,418,74,Bypass Road,Nellore
+18,Ravana,8844421428,Yes,210,24,BRP Road,Vijayawada
+19,Sugriva,8748510750,Yes,0,57,Krishna Nagar,Guntur
+2,Bharata,8215692975,No,284,30,Risala Road,Chennai
+20,Urmila,9564636708,No,0,94,VIP Road,Guwahati
+21,Vali ,8395978293,Yes,0,30,Camel Back Road,Mussorie
+22,Vasishta,8691701805,No,0,38,Alwar road,Gurgaon
+23,Vibhishana,8983425510,No,396,25,Bhagabat Sandhan,Bhubhaneshwar
+24,Vishrava,9029405205,No,164,7,Yadava Nagar,Warangal
+25,Vishvamitra,9140390874,Yes,334,70,MG Road,Kochi
+3,Lakshman,9778125384,No,236,55,Apollo Street,Mumbai
+4,Shatrughna,8907658821,No,0,15,Hailey Road,Delhi
+5,Sita,9426195198,No,446,40,Avenue Street,Bangalore
+6,Agastya,8905966209,No,386,31,VIP Road,Kolkata
+7,Dashatatha,8800893288,Yes,302,25,Sun City,Indore
+8,Devantaka,8205179976,Yes,343,92,Sikar road,Jaipur
+9,Dhanyamalini,9688569174,Yes,0,85,Aminabad Road,Lucknow

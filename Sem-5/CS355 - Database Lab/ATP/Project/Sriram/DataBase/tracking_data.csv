@@ -1,0 +1,114 @@
+Pkg_id,Location_ID,Location_type,Date_Time
+Pkg-125,6482,Warehouse,8/12/2020 18:41
+Pkg-125,7654,Airplane,8/13/2020 1:41
+Pkg-125,3262,Warehouse,8/13/2020 10:41
+Pkg-125,18,Out For Delivery,8/13/2020 13:41
+Pkg-124,3467,Warehouse,6/3/2020 14:29
+Pkg-124,1000,Airplane,6/3/2020 21:29
+Pkg-124,3053,Warehouse,6/4/2020 6:29
+Pkg-124,20,Out For Delivery,6/4/2020 9:29
+Pkg-123,6696,Warehouse,2/5/2020 9:40
+Pkg-123,9012,Train,2/5/2020 16:40
+Pkg-123,7967,Warehouse,2/11/2020 1:40
+Pkg-123,23,Out For Delivery,2/11/2020 4:40
+Pkg-122,6482,Warehouse,5/28/2020 23:49
+Pkg-122,7654,Airplane,5/29/2020 6:49
+Pkg-122,3053,Warehouse,5/31/2020 15:49
+Pkg-122,20,Out For Delivery,5/31/2020 18:49
+Pkg-121,3711,Warehouse,7/14/2020 17:34
+Pkg-121,2324,Truck,7/15/2020 0:34
+Pkg-121,3934,Warehouse,7/21/2020 9:34
+Pkg-121,24,Out For Delivery,7/21/2020 12:34
+Pkg-120,9551,Warehouse,10/14/2020 1:14
+Pkg-120,1129,Airplane,10/14/2020 8:14
+Pkg-120,3220,Warehouse,10/16/2020 17:14
+Pkg-120,16,Out For Delivery,10/16/2020 20:14
+Pkg-119,3467,Warehouse,7/5/2020 15:17
+Pkg-119,1000,Airplane,7/5/2020 22:17
+Pkg-119,7504,Warehouse,7/13/2020 7:17
+Pkg-119,25,Out For Delivery,7/13/2020 10:17
+Pkg-118,3711,Warehouse,3/12/2020 3:50
+Pkg-118,2324,Truck,3/12/2020 10:50
+Pkg-118,7890,Warehouse,3/18/2020 19:50
+Pkg-118,19,Out For Delivery,3/18/2020 22:50
+Pkg-117,6696,Warehouse,7/10/2020 15:01
+Pkg-117,9012,Train,7/10/2020 22:01
+Pkg-117,7504,Warehouse,7/17/2020 7:01
+Pkg-117,25,Out For Delivery,7/17/2020 10:01
+Pkg-116,9684,Warehouse,11/6/2020 21:06
+Pkg-116,7854,Airplane,11/7/2020 4:06
+Pkg-116,3934,Warehouse,11/9/2020 13:06
+Pkg-116,24,Out For Delivery,11/9/2020 16:06
+Pkg-115,3467,Warehouse,10/2/2020 22:30
+Pkg-115,1000,Airplane,10/3/2020 5:30
+Pkg-115,7967,Warehouse,10/10/2020 14:30
+Pkg-115,23,Out For Delivery,10/10/2020 17:30
+Pkg-114,5272,Warehouse,4/25/2020 19:26
+Pkg-114,4110,Truck,4/26/2020 2:26
+Pkg-114,7504,Warehouse,5/2/2020 11:26
+Pkg-114,25,Out For Delivery,5/2/2020 14:26
+Pkg-113,8081,Warehouse,2/17/2020 2:28
+Pkg-113,2945,Airplane,2/17/2020 9:28
+Pkg-113,3053,Warehouse,2/23/2020 18:28
+Pkg-113,20,Out For Delivery,2/23/2020 21:28
+Pkg-112,2363,Warehouse,9/8/2020 2:44
+Pkg-112,8934,Airplane,9/8/2020 9:44
+Pkg-112,3053,Warehouse,9/9/2020 18:44
+Pkg-112,20,Out For Delivery,9/9/2020 21:44
+Pkg-111,8081,Warehouse,4/9/2020 17:08
+Pkg-111,2945,Airplane,4/10/2020 0:08
+Pkg-111,4088,Warehouse,4/14/2020 9:08
+Pkg-111,15,Out For Delivery,4/14/2020 12:08
+Pkg-110,5572,Warehouse,2/29/2020 17:32
+Pkg-110,1234,Airplane,3/1/2020 0:32
+Pkg-110,3262,Warehouse,3/10/2020 9:32
+Pkg-110,18,Out For Delivery,3/10/2020 12:32
+Pkg-109,8992,Warehouse,6/27/2020 18:53
+Pkg-109,5070,Truck,6/28/2020 1:53
+Pkg-109,7504,Warehouse,7/2/2020 10:53
+Pkg-109,25,Out For Delivery,7/2/2020 13:53
+Pkg-108,2363,Warehouse,2/9/2020 1:01
+Pkg-108,8934,Airplane,2/9/2020 8:01
+Pkg-108,4088,Warehouse,2/11/2020 17:01
+Pkg-108,15,Out For Delivery,2/11/2020 20:01
+Pkg-107,6727,Warehouse,9/9/2020 5:51
+Pkg-107,1721,Truck,9/9/2020 12:51
+Pkg-107,9720,Warehouse,9/15/2020 21:51
+Pkg-107,21,Out For Delivery,9/16/2020 0:51
+Pkg-106,9684,Warehouse,2/29/2020 1:58
+Pkg-106,7854,Airplane,2/29/2020 8:58
+Pkg-106,7351,Warehouse,3/2/2020 17:58
+Pkg-106,17,Out For Delivery,3/2/2020 20:58
+Pkg-105,5572,Warehouse,2/14/2020 14:48
+Pkg-105,1234,Airplane,2/14/2020 21:48
+Pkg-105,7351,Warehouse,2/18/2020 6:48
+Pkg-105,17,Out For Delivery,2/18/2020 9:48
+Pkg-104,1194,Warehouse,10/12/2020 19:16
+Pkg-104,9999,Airplane,10/13/2020 2:16
+Pkg-104,3220,Warehouse,10/19/2020 11:16
+Pkg-104,16,Out For Delivery,10/19/2020 14:16
+Pkg-103,3467,Warehouse,8/21/2020 18:43
+Pkg-103,1000,Airplane,8/22/2020 1:43
+Pkg-103,3934,Warehouse,8/29/2020 10:43
+Pkg-103,24,Out For Delivery,8/29/2020 13:43
+Pkg-102,6482,Warehouse,9/4/2020 3:56
+Pkg-102,7654,Airplane,9/4/2020 10:56
+Pkg-102,7504,Warehouse,9/12/2020 19:56
+Pkg-102,25,Out For Delivery,9/12/2020 22:56
+Pkg-101,6696,Warehouse,8/30/2020 9:11
+Pkg-101,9012,Train,8/30/2020 16:11
+Pkg-101,3262,Warehouse,9/3/2020 1:11
+Pkg-101,18,Out For Delivery,9/3/2020 4:11
+Pkg-232,3262,Warehouse,7/5/2020 15:17
+Pkg-232,7777,Train,7/6/2020 15:17
+Pkg-896,3711,Warehouse,7/5/2020 15:17
+Pkg-896,2324,Truck,7/7/2020 15:17
+Pkg-896,2363,Warehouse,\N
+Pkg-896,13,Out For Delivery,\N
+Pkg-653,7504,Warehouse,7/5/2020 15:17
+Pkg-653,2000,Truck,\N
+Pkg-653,9720,Warehouse,\N
+Pkg-571,8992,Warehouse,7/5/2020 15:17
+Pkg-571,5070,Truck,\N
+Pkg-571,9551,Warehouse,\N
+Pkg-571,6,Out For Delivery,\N

@@ -1,0 +1,195 @@
+/*****************************************************************************
+TITLE:  Claims																																
+AUTHOR: M. Maheeth Reddy
+ROLLNO: 1801CS31
+Declaration of Authorship
+This txt file, claims.txt, is part of the assignment of CS321 at the 
+department of Computer Science and Engineering, IIT Patna.
+*****************************************************************************/
+
+Files:
+==========
+*The C++ source codes submitted asm.cpp, emu.cpp and this claims.txt have my name and roll number at the start, along with a declaration of authorship.
+
+Eight test files that were used for testing are also included. The evidence for Assembler includes output files from 8 test examples which are also uploaded.
+They are test01(3 output files), test02(2 output files),test03(3 output files), test04(3 output files), test05(3 output files), test06(3 output files),
+test07(2 output files) and test08(2 output files).
+
+The test files test01.asm - test04.asm were provided for testing, hence they are not authored by me.
+The test files test05.asm - test08.asm were written by me for testing, they include my name, roll number at the start, along with a declaration of authorship.
+
+All the test files have been tested and work properly.
+
+The evidence for Emulator includes the output files from 5 test examples has also been uploaded.
+They are test01.txt, test03.txt, test04.txt, test05.txt and test06.txt.
+
+*My source code for Assembler, asm.cpp and for Emulator, emu.cpp did not show any errors and warnings when I compiled them with g++
+
+*The Source Codes are compilable with g++ asm.cpp -o asm and g++ emu.cpp -o emu
+
+
+=============================
+Program format and structure:
+=============================
+1. The Assembler:
+
+    * Consistent and sensible formatting with sensible program structure.
+    * Sensible variable, function & type names with explanatory comments.
+    * Consists of two data structures to store respectively labels and mnemonic table with expected operands.
+    * Reads input file only once and stores it into an internal format in first pass.
+    * Detects label errors in second pass only. The following errors are detected:
+        * Duplicate labels
+        * Missing labels
+        * Unused Labels
+        * Labels with invalid naming i.e., don’t begin with alphabet, not alphanumeric
+        * Mnemonics that are given operands though not required
+        * Mnemonics that are not given operands though required
+        * Invalid Mnemonic
+    * Machine code, log file are generated only in the second pass.
+    * Advanced listing file is generated in second pass
+    * Accepts numbers in decimal, hexadecimal and octal format.
+    * Can implement and demonstrate the instruction SET.
+    * Allows label names to contain alphabets, numbers, and underscore but they can start with only alphabets or underscore.
+	* Assembles test programs.
+    * Notifies user if input file can't be opened.
+
+2. The Emulator:
+
+    * With data structures to store respectively memory, mnemonic table with expected operands.
+    * Loads object file.
+    * By giving the instructions like "-before/-after" , the program can produce memory dump before/after execution.
+    * By giving the instruction like "-trace", the program prints the result of program executed.
+    * By giving the instruction like "-isa", the program prints the instruction set of SIMPLE assembly language.
+    * Detects errant programs.
+    * Notifies user if input file can't be opened.
+
+=============================
+Testing:
+=============================
+
+1. The Assembler:
+
+I have tested 8 examples shown as below. Errors occurred in the files test02.asm, test07.asm and test08.asm.
+The program immediately stopped on the second pass.
+
+A warning was given in the file test01.asm for having an unused label.
+
+The others were tested without any errors detected and produced (including test01.asm)
+three output files, listing file, error log file and machine readable object file.
+
+The output files, warnings and error messages for each test file have been listed below:
+
+1)
+#Input: ./asm test01.asm
+#Output: 
+a. test01.l 
+b. test01.log (1 warning)
+c. test01.o
+
+warning message:
+WARNING:line 6  Unused Label found: "label:     ; an unused label"
+
+2)
+#Input: ./asm test02.asm
+#Output: 
+a. test02.l 
+b. test02.log (error messages shown as below but also in log file)
+
+error messages:
+ERROR:line 8    Duplicate Label found: "label: ; duplicate label definiton"
+ERROR:line 10   Label doesn't begin with alphabet: "ldc 08ge ; not a number"
+ERROR:line 11   This mnemonic requires a parameter: "ldc ; missing operand"
+ERROR:line 12   This mnemonic doesn't require a parameter: "add 5 ; unexpected operand"
+ERROR:line 13   Label doesn't begin with alphabet: "ldc 5, 6; extra on end of line"
+ERROR:line 14   Label doesn't begin with alphabet: "0def: ; bogus label name"
+ERROR:line 15   Invalid mnemonic: "fibble; bogus mnemonic"
+ERROR:line 16   Invalid mnemonic: "0def ; bogus mnemonic"
+ERROR:line 9    Undefined Label found: "br nonesuch ; no such label"
+WARNING:line 7  Unused Label found: "label:"
+
+3)
+#Input: ./asm test03.asm
+#Output: 
+a. test03.l 
+b. test03.log (without any error messages)
+c. test03.o
+
+4)
+#Input: ./asm test04.asm
+#Output: 
+a. test04.l 
+b. test04.log (without any error messages)
+c. test04.o
+
+5)
+#Input: ./asm test05.asm
+#Output: 
+a. test05.l 
+b. test05.log (without any error messages)
+c. test05.o
+
+6)
+#Input: ./asm test06.asm
+#Output: 
+a. test06.l 
+b. test06.log (without any error messages)
+c. test06.o
+
+7)
+#Input: ./asm test07.asm
+#Output: 
+a. test07.l 
+b. test07.log (error messages shown as below but also in log file)
+
+error messages:
+ERROR:line 9    Label doesn't begin with alphabet: "#def:   add         ; invalid label name"
+ERROR:line 11   Invalid operand type for the instruction: "        ldnl hello"
+ERROR:line 12   Invalid mnemonic: "        swap        ; invalid mnemonic"
+ERROR:line 14   Duplicate Label found: "hello: HALT         ; duplicate label"
+ERROR:line 15   Duplicate Label found: "hello: SET 64       ; duplicate label"
+
+8)
+#Input: ./asm test08.asm
+#Output: 
+a. test08.l 
+b. test08.log (error messages, 1 warning shown as below but also in log file)
+
+error messages:
+ERROR:line 6    Invalid mnemonic: "LAZER           ; invalid mnemonic"
+ERROR:line 7    Label doesn't begin with alphabet: "        ldc 54g ; invalid label name"
+ERROR:line 9    This mnemonic requires a parameter: "        adj     ; operand required"
+ERROR:line 13   This mnemonic doesn't require a parameter: "good:   HALT 57 ; operand not required"
+ERROR:line 10   Undefined Label found: "        br goob ; undefined label"
+WARNING:line 13 Unused Label found: "good:   HALT 57 ; operand not required"
+
+2. The Emulator:
+
+I have tested 5 examples as shown below. The output files, warnings and error messages for each test file have been listed:
+
+1)
+#Input:./emu -trace test01.o
+#Output: test01.txt
+
+Note: Execution Failed to complete. The corresponding assembly program was provided for testing and contains an infinite loop.
+      So the execution had to be terminated.
+
+2)
+#Input: ./emu -trace test03.o
+#Output: test02.txt
+
+Note: Execution Failed to complete. The corresponding assembly program was provided for testing and doesn't contain a HALT instruction.
+      The execution was terminated automatically by the shell with this message
+
+      Segmentation Fault
+
+3)
+#Input: ./emu -trace test04.o
+#Output: test04.txt
+
+4)
+#Input: ./emu -trace test05.o
+#Output: test05.txt
+
+5)
+#Input: ./emu -trace test06.o
+#Output: test06.txt

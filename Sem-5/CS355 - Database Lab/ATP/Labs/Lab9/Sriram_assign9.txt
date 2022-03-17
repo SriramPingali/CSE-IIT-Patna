@@ -1,0 +1,159 @@
+							CS355 Assignment-9
+Name: P.V.Sriram
+Roll No.: 1801CS37
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+TASK - 1
+
+// Initialize the account table
+create table account(
+anum int(5) primary key,
+bname varchar(20),
+balance int);
+
+// Initialize the Customer account table
+create table custAcc(
+anum int(5),
+cname varchar(20),
+primary key(anum, cname));
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+TASK - 2
+
+Q1)
+
+// Create a procedure to insert N entries into account table.
+delimiter $$
+create procedure procAccDummyData(IN N int)
+begin
+	declare count int;
+	declare temp_1 int(5);
+	declare temp_2 varchar(20);
+	declare temp_3 int;
+	declare x int default 1;
+	set count = N;
+	insert_loop: LOOP
+		if x>count THEN
+			leave insert_loop;
+		end if;
+		set x = x + 1;
+		select floor(RAND()*(99999-10000+1))+10000 into temp_1;
+		select left(MD5(RAND()), 20) into temp_2;
+		select floor(RAND()*(99999-10000+1))+10000 into temp_3;
+
+		insert into account values(temp_1, temp_2, temp_3);
+	end LOOP;
+end $$
+delimiter ;
+
+// Utility drop query
+drop procedure procAccDummyData;
+
+// Call Procedure 
+call procAccDummyData(5);
+
+// Verification
+select * from account;
+
+------------------------------------------------------------------------------
+Q2)
+
+// Create a function to update the balance amount of an account
+delimiter $$
+create function funWithdraw(anum_ int(5), amount int)
+returns int
+deterministic
+begin
+	declare remaining int;
+	declare balance_ int;
+
+	select balance from account where anum = anum_ into balance_;
+
+	if balance_ > amount then
+		set remaining = balance_ - amount;
+		update account set balance = remaining where anum = anum_;
+	else
+		set remaining = -1;
+	end if;
+	return(remaining);
+end $$
+delimiter ;
+
+// Utility drop function
+drop function funWithdraw;
+
+// Verification. Please note that ID is random and can change w.r.t run time.
+select funWithdraw(40837, 20000);
+
+------------------------------------------------------------------------------
+Q3 a)
+
+// Create a trigger to check the existence of an account before insertion 
+// into customer account table
+delimiter $$
+create trigger before_custAcc_insert
+before insert
+on custAcc for each row
+begin
+	declare common int;
+	declare error_msg varchar(55);
+	set error_msg = 'Account not found! Please create an account first!';
+	select count(*) 
+	from account 
+	where account.anum = new.anum
+	into common;
+
+	if common = 0 then
+		SIGNAL SQLSTATE '45000' 
+		set message_text = error_msg;
+	end if;
+end$$
+delimiter ;
+
+// Utility drop function
+drop trigger before_custAcc_insert;
+
+// Insert valid entries into custAcc table. Please note that IDs are random // and it can be different in different runtime
+insert into custAcc values(40837, 'Sriram');
+insert into custAcc values(68033, 'Mahesh');
+insert into custAcc values(72187, 'Haindhavi');
+insert into custAcc values(80757, 'Navya');
+insert into custAcc values(88748, 'Madhu');
+
+// Verification
+select * from custAcc;
+
+// Invalid entry. A warning regarding inexistent account would pop up.
+insert into custAcc values(40839, 'Kavya');
+------------------------------------------------------------------------------
+Q3 b)
+
+// Create a log table
+create table accBalanceUpdate(
+anum int(5),
+balance int(6),
+dou date,
+tou time);
+
+// Create trigger to log previous balance of customers while updation of 
+// account table.
+delimiter $$
+create trigger before_account_update
+before update
+on account for each row
+begin
+	if old.balance != new.balance then
+		insert into accBalanceUpdate values(old.anum, old.balance, curdate(), current_time());
+	end if;
+end $$
+delimiter ;
+
+// Utility drop function
+drop trigger before_account_update;
+
+// Verification. Please note that ID is random and can change w.r.t run time.
+select funWithdraw(68033, 60);
+select * from accBalanceUpdate;
+
+------------------------------------------------------------------------------

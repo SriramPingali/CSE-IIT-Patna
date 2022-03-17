@@ -1,0 +1,116 @@
+/*
+Name of Student: M Maheeth Reddy
+        Roll No: 1801CS31
+*/
+
+-- primary key constraint using SID attribute to Suppliers table
+alter table Suppliers add constraint Suppliers_pk primary key (SID);
+
+-- insert 10 more records in Suppliers table
+insert into Suppliers
+values ('SU12','Maruti','Patna'),
+('SU13','Hero','Mumbai'),
+('SU14','Honda','Hyderabad'),
+('SU15','Leyland','Madurai'),
+('SU16','Hyundai','Kochi'),
+('SU17','Bajaj','Mumbai'),
+('SU18','TVS','Mangalore'),
+('SU19','TATA','Patiala'),
+('SU20','Nissan','Mumbai'),
+('SU21','Jeep','Patna');
+
+-- primary key constraint using PID attribute to Products table
+alter table Products add constraint Products_pk primary key (PID);
+
+-- insert 10 more records in Products table
+insert into Products 
+values ('PD12','SUV',4),
+('PD13','TUV',5),
+('PD14','Bike',3),
+('PD15','Scooter',3),
+('PD16','Moped',2),
+('PD17','Auto',3),
+('PD18','Truck',5),
+('PD19','Tractor',5),
+('PD20','Jeep',4),
+('PD21','Bus',6);
+
+-- remove all entries from SP table
+delete from SP;
+
+-- add attribute Qty of smallint type in SP table
+alter table SP add Qty smallint;
+
+-- Primary key for table SP using SID, PID attributes
+alter table SP add constraint SP_pk primary key (SID,PID);
+
+-- Two foreign keys for table SP, SID refers to Suppliers table and PID refers to Products table
+alter table SP add constraint SP_fk1 foreign key (SID) references Suppliers (SID);
+alter table SP add constraint SP_fk2 foreign key (PID) references Products (PID);
+
+-- Insert 15 new entries in SP table : previouly there were 15, 15 more now
+insert into SP
+values ('SU12','PD13',11),
+('SU13','PD14',15),
+('SU14','PD14',17),
+('SU14','PD15',21),
+('SU15','PD18',9),
+('SU16','PD12',15),
+('SU17','PD14',30),
+('SU17','PD15',18),
+('SU18','PD16',8),
+('SU19','PD12',18),
+('SU19','PD18',11),
+('SU19','PD20',21),
+('SU19','PD21',28),
+('SU20','PD12',24),
+('SU21','PD20',15);
+
+-- Suppliers from Patna and Mumbai cities
+select * from Suppliers where City in ('Mumbai','Patna');
+
+-- Products which have warranty period from 2-4 years
+select * from Products where WarrantyPeriod between 2 and 4;
+
+-- Check the total number of PID='P2'product has been supplied.
+select count(*) as total_P2_supply from SP where PID='PD02';
+
+-- Name of the suppliers who have atleast two 'a's in their names
+select SName from Suppliers where length(SName)-length(replace(SName,'a','')) >= 2;
+
+-- Names of the products which end with 'e' or 'E'
+select PName from Products where PName regexp 'e$';
+
+-- Add one more attribute DoM or Date of Manufacture in Products table.
+alter table Products add DoM date;
+
+-- check the values corresponding to DoM attribute.
+select DoM from Products;
+
+-- For each product, update the DoM with some relevant dates.
+update Products set DoM = (
+	case PID when 'PD01' then '2020-05-01'
+			 when 'PD02' then '2020-05-02'
+			 when 'PD03' then '2020-05-03'
+			 when 'PD04' then '2020-05-04'
+			 when 'PD05' then '2020-05-05'
+			 when 'PD06' then '2020-05-06'
+			 when 'PD07' then '2020-05-07'
+			 when 'PD08' then '2020-05-08'
+			 when 'PD09' then '2020-05-09'
+			 when 'PD10' then '2020-05-10'
+			 when 'PD11' then '2020-05-11'
+			 when 'PD12' then '2020-05-12'
+			 when 'PD13' then '2020-05-13'
+			 when 'PD14' then '2020-05-14'
+			 when 'PD15' then '2020-05-15'
+			 when 'PD16' then '2020-05-16'
+			 when 'PD17' then '2020-05-17'
+			 when 'PD18' then '2020-05-18'
+			 when 'PD19' then '2020-05-19'
+			 when 'PD20' then '2020-05-20'
+			 when 'PD21' then '2020-05-21'
+	end
+)
+where PID in ('PD01', 'PD02', 'PD03', 'PD04', 'PD05', 'PD06', 'PD07', 'PD08', 'PD09', 'PD10', 'PD11', 'PD12', 'PD13', 'PD14', 'PD15', 'PD16', 'PD17', 'PD18', 'PD19', 'PD20', 'PD21');
+

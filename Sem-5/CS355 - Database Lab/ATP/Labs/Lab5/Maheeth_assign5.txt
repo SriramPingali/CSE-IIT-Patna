@@ -1,0 +1,71 @@
+/*
+	Name of Student: M.Maheeth Reddy
+			Roll No: 1801CS31
+
+			CS355 Database Lab
+				Assignment 5
+*/
+
+-- Task A)
+
+-- Add DoB (Date of Birth as date datatype) attribute in suppliers relation
+alter table Suppliers add DoB date;
+
+-- Add DoS (Date of Supply as date datatype) attribute in SP relation
+alter table SP add DoS date;
+
+-- save data from Suppliers table into sup_data.txt
+load data infile '/var/lib/mysql-files/sup_data.txt' into table Suppliers fields terminated by ',' lines terminated by '\n';
+
+-- save data from Products table into prod_data.txt
+load data infile '/var/lib/mysql-files/prod_data.txt' into table Products fields terminated by ',' lines terminated by '\n';
+
+-- Task B)
+
+-- Find the details of the youngest supplier.
+select * from Suppliers where DoB=(select max(DoB) from Suppliers);
+
+-- Find the SID of the suppliers who are less than 30 years old.
+select SID from Suppliers where datediff(curdate(),DoB)/365 < 30;
+
+-- Show the average age of the suppliers from each city.
+select City,avg(datediff(curdate(),DoB))/365 as CityAvg_in_years from Suppliers group by City;
+
+-- Find the name of the suppliers who have supplied products in the year 2020.
+select SName from Suppliers where SID in (select distinct SID from SP where extract(year from DoS)=2020);
+
+-- Find the name of the suppliers who have supplied products after 2019-08-15.
+select SName from Suppliers where SID in (select distinct SID from SP where DoS>'2019-08-15');
+
+-- Find the name of the most recently supplied product
+select PName from Products where PID in (select PID from SP where DoS=(select max(DoS) from SP));
+
+-- Find the name of the suppliers who have supplied atleast two products and one product is supplied within 30 days of supply of previous product.
+select SName from Suppliers where SID in (
+	select A.SID from (
+		select * from SP where SID in (
+			select SID from SP
+			group by SID
+			having count(PID)>=2
+		)
+	) A
+	inner join (
+		select * from SP 
+		where SID in (
+			select SID from SP 
+			group by SID
+			having count(PID)>=2
+		)
+	) B
+	on A.SID = B.SID
+	where datediff(A.DoS, B.DoS)>0 and datediff(A.DoS, B.DoS)<=30
+);
+
+-- Find the products which are not sold within 1 year of date of manufacture
+select * from SP natural join Products where datediff(DoS,DoM)>365;
+
+-- Find the PID, WarrantyPeriod, StarRating of each product. Here, StarRating is a derived attribute and is calculated as ‘*’ if the warranty period is in between 0 and 9, ‘**’ if the warranty period is in between 10 and 19, ‘***’ if the warranty period is in between 20 and 29, and so on.
+select PID,WarrantyPeriod,repeat('*',1+floor(WarrantyPeriod/10)) as StarRating from Products;
+
+-- Create a view to show the oldest SID of each city.
+create view OldestSID_per_City as select City,SID from Suppliers natural join (select City,min(DoB) as DoB from Suppliers group by City) a;

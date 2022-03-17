@@ -1,0 +1,31 @@
+Al Capone	NXP Bank	Chicago
+Al Capone	Inter-Gang Bank	Evanston
+Al Capone	Bad Bank	Chicago
+Lucky Luchiano	Bankrupt Bank	Evanston
+Lucky Luchiano	NXP Bank	Chicago
+Anastazia	Loanshark Bank	Evanston
+Bugsy Malone	Loanshark Bank	Deerfield
+Bugsy Malone	Loanshark Bank	Chicago
+Dutch Schulz	Inter-Gang Bank	Chicago
+Clyde	Penny Pinchers	Evanston
+Calamity Jane	Dollar Grabbers	Chicago
+Calamity Jane	Bad Bank	Chicago
+Calamity Jane	PickPocket Bank	Evanston
+Calamity Jane	PickPocket Bank	Chicago
+Meyer Lansky	Penny Pinchers	Evanston
+Moe Dalitz	Gun Chase Bank	Evanston
+Moe Dalitz	Dollar Grabbers	Evanston
+Mickey Cohen	Gun Chase Bank	Deerfield
+Kid Cann	PickPocket Bank	Evanston
+Boo Boo Hoff	PickPocket Bank	Deerfield
+Bugsy Siegel	PickPocket Bank	Chicago
+Sonny Genovese	Hidden Treasure	Chicago
+Vito Genovese	Gun Chase Bank	Evanston
+Vito Genovese	Bad Bank	Chicago
+Mike Genovese	Gun Chase Bank	Deerfield
+Longy Zwillman	PickPocket Bank	Evanston
+Waxey Gordon	PickPocket Bank	Evanston
+Greasy Guzik	PickPocket Bank	Chicago
+Lepke Buchalter	Hidden Treasure	Chicago
+Mimmy The Mau Mau	Loanshark Bank	Evanston
+Mimmy The Mau Mau	Inter-Gang Bank	Evanston

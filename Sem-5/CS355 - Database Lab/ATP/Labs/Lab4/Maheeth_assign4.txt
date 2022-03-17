@@ -1,0 +1,47 @@
+/*
+	Name of Student: M.Maheeth Reddy
+	Roll No.:		 1801CS31
+
+		Assignment 4 - CS355 Database Lab
+*/
+
+
+---- Task A
+-- Add email attribute to Suppliers table such that valid values are of the form 'abcd@xyz.com'
+alter table Suppliers add email varchar(20);
+alter table Suppliers add constraint valid_email check (email regexp '^[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$');
+
+-- Add weight attribute to Products table
+alter table Products add weight int;
+
+
+---- Task B
+-- For each PID of Products table, extract only the number part from PIDs
+select PID,substr(PID,5) as numberPID from Products;
+
+-- display SID,PID,OrderID from SP table
+select SID,PID,concat('*',SID,'@',PID,'#') as OrderID from SP;
+
+-- display each SID of Suppliers table by replacing 'sup' with 'sppl'
+select insert(SID,1,3,"sppl") as newSID from Suppliers;
+
+-- Unique domain name from the email attribute
+select distinct substr(email,instr(email,'@')+1) as DomainName from Suppliers;
+
+-- For each PID of Product table, display the PID, weight and the weight_in_kg
+select PID,weight,(weight/1000) as weight_in_kg from Products;
+
+-- For each PID, check whether the numeric field of each PID is a palindrome or not
+select PID,if(substr(PID,5)=reverse(substr(PID,5)),'Yes','No') as isPalindrome from Products;
+
+-- details of Suppliers who have supplied atleast one product with WarrantyPeriod greater than 2
+select * from Suppliers where SID in (select distinct SID from SP natural join Products where WarrantyPeriod>2);
+
+-- Find the SID who have supplied all items
+select SID from SP natural join Suppliers group by SID having count(PID)=(select count(*) from Products);
+
+-- View to list the products which have not been supplied by any suppliers so far
+create view product_not_supplied as select PID from Products where PID not in (select PID from SP);
+
+-- List of SIDs who have never supplied more than 5 quantity items in a single purchase
+create view not_more_than_5 as select distinct SID from SP group by SID having count(if(not Qty>5,1,NULL));

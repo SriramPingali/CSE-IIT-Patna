@@ -1,0 +1,9 @@
+ERROR: A duplicate label was found on line 4
+ERROR: There is a non-numerical value on line 6
+ERROR: A numerical value was expected on line 7
+ERROR: A numerical value was not expected on line 8
+ERROR: Only one numerical value was expected on line 9
+ERROR: A bogus label name was found on line 10
+ERROR: An unknown mnemonic was found on line 11
+ERROR: An unknown mnemonic was found on line 12
+ERROR: A non existant label was found on line 5

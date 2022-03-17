@@ -1,0 +1,38 @@
+Al Capone	Planning	1	A+
+Al Capone	Safe-Cracking	2	C+
+Al Capone	Preaching	3	A+
+Mimmy The Mau Mau	Planning	1	A+
+Mimmy The Mau Mau	Driving	2	C
+Anastazia	Guarding	1	A 
+Bonnie	Preaching	1	B 
+Boo Boo Hoff	Planning	1	A+
+Bugsy Malone	Explosives	1	A 
+Bugsy Siegel	Driving	1	A+
+Bugsy Siegel	Guarding	2	C+
+Calamity Jane	Gun-Shooting	1	B 
+Clyde	Lock-Picking	1	C+
+Clyde	Scouting	2	C+
+Clyde	Planning	3	C 
+Dutch Schulz	Lock-Picking	1	A+
+Dutch Schulz	Driving	2	C+
+Greasy Guzik	Preaching	1	A+
+Greasy Guzik	Lock-Picking	2	C 
+Kid Cann	Money Counting	1	B 
+King Solomon	Planning	1	A 
+Lepke Buchalter	Driving	1	A 
+Lepke Buchalter	Guarding	2	C 
+Longy Zwillman	Driving	1	C 
+Lucky Luchiano	Lock-Picking	1	B+
+Lucky Luchiano	Driving	2	B+
+Meyer Lansky	Safe-Cracking	1	A+
+Mickey Cohen	Money Counting	1	B+
+Mike Genovese	Money Counting	1	C 
+Moe Dalitz	Safe-Cracking	1	A 
+Sonny Genovese	Explosives	1	B 
+Sonny Genovese	Safe-Cracking	2	C+
+Sonny Genovese	Lock-Picking	3	B 
+Tony Genovese	Eating	1	B+
+Vito Genovese	Scouting	1	B+
+Vito Genovese	Cooking	2	A
+Vito Genovese	Eating	3	A+
+Waxey Gordon	Gun-Shooting	1	C 

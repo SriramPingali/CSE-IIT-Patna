@@ -1,0 +1,113 @@
+CS355 Assignment 3
+Name: P.V.Sriram
+Roll No.: 1801CS37
+-------------------------------------------------------------------------
+// Setting up
+USE dblab;
+SHOW TABLES;
+SELECT * FROM suppliers;
+SELECT * FROM products;
+SELECT * FROM SP;
+
+// Description
+DESC products;
+DESC suppliers;
+DESC sp;
+SELECT COLUMN_NAME, CONSTRAINT_NAME, REFERENCED_COLUMN_NAME,REFERENCED_TABLE_NAME
+from information_schema.KEY_COLUMN_USAGE
+where TABLE_NAME = 'SP';
+
+-------------------------------------------------------------------------
+Q1)
+
+// Finding the names of Suppliers with multiple products(PIDs) frominner // join of SP, Suppliers table
+SELECT suppliers.sname FROM sp INNER JOIN suppliers 
+ON suppliers.sid = sp.sid 
+GROUP BY sname HAVING COUNT(SP.PID) > 1;
+
+-------------------------------------------------------------------------
+Q2)
+
+// Finding the SID of suppliers who have supplied some specific Product // more than five in quantity
+SELECT sid FROM sp WHERE qty > 5;
+
+-------------------------------------------------------------------------
+Q3)
+
+// Finding the PID of product with the max quantity using sub query for // finding max warranty period
+SELECT pid FROM products WHERE warrantyperiod = (SELECT MAX(warrantyperiod) FROM products);
+
+-------------------------------------------------------------------------
+Q4)
+
+// Finding the suppliers with no supplied products using MINUS operation // between suppliers and sp
+SELECT sname FROM suppliers WHERE sid NOT IN(SELECT DISTINCT sid FROM sp);
+
+--------------------------------------------------------------------------
+Q5)
+
+// Find the total number of suppliers city wise by grouping cities and 
+// using count
+SELECT COUNT(sid), city FROM suppliers GROUP BY city;
+
+-------------------------------------------------------------------------
+Q6)
+
+// Finding the city (or cities) with least number of suppliers by using a // nested query to find the minimum count
+SELECT city, count(sid) FROM suppliers GROUP BY city 
+HAVING COUNT(sid) = (select min(a.counts) 
+FROM (select city, COUNT(sid) as counts 
+FROM suppliers GROUP BY city) as a);
+
+-------------------------------------------------------------------------
+Q7)
+
+// Check whether the suppliers ‘S001’ and ‘S002’ are from same city by 
+// returning city name (if same) ot an Empty set (if different)
+SELECT city FROM suppliers WHERE sid = 'S001' AND 
+city in (SELECT city FROM suppliers WHERE sid = 'S002');
+
+-------------------------------------------------------------------------
+Q8)
+
+// Finding the PID of the product which has been supplied atleast 5 in 
+// quantity and by atleast 5 number of suppliers
+SELECT pid, COUNT(sid), SUM(qty) FROM sp GROUP BY pid HAVING count(sid) > 4 and sum(qty) > 4;
+
+-------------------------------------------------------------------------
+Q9)
+
+// Finding the total quantity of each product supplied by supplier 
+// ‘S003’ using where clause
+SELECT sid,pid,qty FROM sp WHERE sid='S003';
+
+-------------------------------------------------------------------------
+Q10)
+
+//  Find out the products with same name but with different warranty 
+// periods by using cartesioan product
+SELECT p1.pname from products as p1, products as p2
+where(p1.pname = p2.pname and p1.warrantyperiod != p2.warrantyperiod);
+
+-------------------------------------------------------------------------
+Q11)
+
+// Finding out the supplier ID, city, PID and total quantity supplied by 
+// each supplier by performing inner join on sp, suppliers.
+SELECT sp.sid, suppliers.city, sp.pid, sp.qty
+FROM sp INNER JOIN suppliers
+ON sp.sid = suppliers.sid;
+
+-------------------------------------------------------------------------
+Q12)
+
+// Checking whether the supplier with name ‘Dharmesh’ has supplied 
+// product with product name ‘screw’ (returns Sname, SID, Pname and PID) // if True
+SELECT suppliers.sname, sp.sid, products.pname, sp.pid FROM sp
+INNER JOIN
+suppliers on sp.sid = suppliers.sid
+INNER JOIN
+products on sp.pid = products.pid
+WHERE sname = 'Dharmesh' and pname = 'screw';
+
+-------------------------------------------------------------------------

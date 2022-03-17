@@ -1,0 +1,74 @@
+create user 'lama'@'localhost' identified by 'lion'
+grant all privileges on dbmidterm.* to 'lama'@'localhost';
+
+create table Customers
+(Cust_ID smallint primary key,
+Gender char(1),
+DoB date);
+
+create table Cars
+(Car_ID char(5) primary key,
+Company varchar(20),
+Price int);
+
+create table purchase(cust_id smallint, car_id char(5), dop date, foreign key (cust_id) references customers (cust_id), foreign key (car_id) references cars (car_id), primary key(cust_id, car_id));
+
+insert into Customers values
+(1, 'M', '1995-05-01'),
+(2, 'F', '1988-02-02'),
+(3, 'M', '1970-05-08'),
+(4, 'F', '1990-02-11'),
+(5, 'M', '2001-03-01'),
+(6, 'F', '1995-05-01');
+
+insert into cars values
+('Car_1', 'Honda', 200000),
+('Car_2', 'Lamborgini', 3000000),
+('Car_3', 'Renault', 1000000),
+('Car_4', 'Maruti', 100000),
+('Car_5', 'Aria', 500000)
+('Car_6', 'Honda', 300000),
+('Car_7', 'Aria', 100000);
+
+insert into Purchase values
+(1, 'Car_1', '2018-06-21'),
+(2, 'Car_2', '2019-07-15'),
+(2, 'Car_3', '2015-06-05'),
+(4, 'Car_4', '2005-12-12'),
+(4, 'Car_3', '2020-12-13');
+
+Q1)
+select company, count(*) as k from (select * from cars where price>200000) as s group by company having count(*)=(select count(*) as k from (select * from cars where price>200000) as t group by company order by k desc limit 1);
+
+Q2)
+select * from customers where DoB in (Select min(DoB) from customers);
+
+Q3)
+select count(*) as purchases, gender from customers inner join purchase on customers.cust_id = purchase.cust_id group by Gender;
+
+Q4)
+select cars.company, cars.car_id,max(purchase.dop) from cars left join purchase on cars.car_id=purchase.car_id group by cars.company;
+
+Q5)
+select * from cars where length(company)-length(replace(company,'a',''))=2;
+
+Q6)
+select company,sum(if(Cust_ID is NULL,0,1)) as x, if(sum(if(Cust_ID is NULL,0,1)) >=5,'5 stars',if(sum(if(Cust_ID is NULL,0,1)) = 0,'1 star','3 stars')) as y from cars left join purchase on cars.Car_ID = purchase.Car_ID group by Company;
+
+Q7)
+select * from customers inner join purchase on customers.cust_id = purchase.cust_id where date(customers.dob) = date(purchase.dop) and month(customers.dob) = month(purchase.dop);
+
+Q8)
+select * from customers where cust_id in (select distinct cid1 from
+(select customers.cust_id as cid1, purchase.car_id as pid1 from customers inner join purchase on customers.cust_id = purchase.cust_id) c1
+cross join
+(select customers.cust_id as cid2, purchase.car_id as pid2 from customers inner join purchase on customers.cust_id = purchase.cust_id) c2
+on cid1 = cid2 and pid1 != pid2);
+
+
+Q9)
+ select cust_id from purchase where car_id = ((select car_id from cars where company="Honda") order by price desc limit 1);
+
+Q10)
+create view unsoldCars as select company, count(*) as cars from cars where car_id not in (select distinct cars.car_id from cars inner join purchase on cars.car_id = purchase.car_id) group by company;
+

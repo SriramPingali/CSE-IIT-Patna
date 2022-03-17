@@ -1,0 +1,76 @@
+Al Capone	Inter-Gang Bank	Evanston	2010-02-14	8769
+Al Capone	Inter-Gang Bank	Evanston	2012-02-16	12103
+Al Capone	Loanshark Bank	Chicago	2005-03-30	4201
+Al Capone	Loanshark Bank	Evanston	2005-02-28	4997
+Al Capone	NXP Bank	Chicago	2009-01-08	6406
+Al Capone	Bad Bank	Chicago	2013-02-02	3010
+Lucky Luchiano	Inter-Gang Bank	Evanston	2010-02-14	8769
+Lucky Luchiano	Loanshark Bank	Chicago	2005-03-30	4201
+Lucky Luchiano	Loanshark Bank	Chicago	2008-11-09	8200
+Lucky Luchiano	Loanshark Bank	Evanston	2005-02-28	4997
+Lucky Luchiano	Penny Pinchers	Evanston	2009-08-30	16500
+Anastazia	Gun Chase Bank	Evanston	2015-04-30	3291.3
+Anastazia	Inter-Gang Bank	Evanston	2010-02-14	8769
+Anastazia	Loanshark Bank	Chicago	2005-03-30	4201
+Anastazia	NXP Bank	Chicago	2009-01-08	6408.32
+Anastazia	Penny Pinchers	Evanston	2009-08-30	16500
+Dutch Schulz	Gun Chase Bank	Evanston	2015-04-30	3282
+Dutch Schulz	Inter-Gang Bank	Evanston	2010-02-14	8769
+Dutch Schulz	Loanshark Bank	Evanston	2013-04-20	2749
+Dutch Schulz	Penny Pinchers	Chicago	2009-08-30	450
+Clyde	Inter-Gang Bank	Evanston	2012-02-16	12103
+Clyde	Loanshark Bank	Evanston	2013-04-20	2747
+Clyde	Penny Pinchers	Chicago	2009-08-30	450
+Clyde	Penny Pinchers	Evanston	2009-08-30	16500
+Bonnie	Gun Chase Bank	Evanston	2015-04-30	3282
+Bonnie	Inter-Gang Bank	Evanston	2012-02-16	12103
+Bonnie	Loanshark Bank	Chicago	2008-11-09	8200
+Bonnie	Penny Pinchers	Evanston	2009-08-30	16500
+Meyer Lansky	Penny Pinchers	Evanston	2008-10-30	3000
+Moe Dalitz	PickPocket Bank	Evanston	2012-03-30	31.99
+Boo Boo Hoff	Inter-Gang Bank	Evanston	2010-02-14	8774
+Boo Boo Hoff	Inter-Gang Bank	Evanston	2012-02-16	12103
+Boo Boo Hoff	Loanshark Bank	Chicago	2005-03-30	4201.01
+Boo Boo Hoff	Penny Pinchers	Evanston	2005-05-30	3250.1
+Boo Boo Hoff	Penny Pinchers	Evanston	2008-10-30	3000.5
+Boo Boo Hoff	PickPocket Bank	Chicago	2010-02-28	119
+King Solomon	Inter-Gang Bank	Evanston	2010-02-14	8769
+King Solomon	Inter-Gang Bank	Evanston	2012-02-16	12103
+King Solomon	Loanshark Bank	Chicago	2008-11-09	8200
+King Solomon	Loanshark Bank	Evanston	2012-04-20	2747
+King Solomon	NXP Bank	Chicago	2009-01-08	6406
+King Solomon	Penny Pinchers	Evanston	2009-08-30	16500.8
+Bugsy Siegel	Inter-Gang Bank	Evanston	2012-02-16	12105
+Bugsy Siegel	Loanshark Bank	Evanston	2005-02-28	4999
+Bugsy Siegel	Loanshark Bank	Evanston	2013-04-20	2747
+Bugsy Siegel	Penny Pinchers	Evanston	2005-05-30	3250.1
+Bugsy Siegel	Penny Pinchers	Evanston	2009-08-30	16500
+Bugsy Siegel	PickPocket Bank	Chicago	2010-02-28	120
+Sonny Genovese	Gun Chase Bank	Evanston	2015-04-30	3282
+Sonny Genovese	Loanshark Bank	Chicago	2005-03-30	4201
+Sonny Genovese	Penny Pinchers	Evanston	2008-10-30	3000
+Sonny Genovese	PickPocket Bank	Chicago	2015-09-21	681
+Longy Zwillman	Loanshark Bank	Chicago	2008-11-09	8200
+Longy Zwillman	NXP Bank	Chicago	2009-01-08	6406
+Longy Zwillman	PickPocket Bank	Evanston	2006-01-30	42.99
+Waxey Gordon	Loanshark Bank	Chicago	2008-11-09	8200
+Waxey Gordon	Loanshark Bank	Evanston	2005-02-28	4997
+Waxey Gordon	Penny Pinchers	Evanston	2005-05-30	3250.1
+Greasy Guzik	Penny Pinchers	Evanston	2005-05-30	3250.1
+Greasy Guzik	PickPocket Bank	Chicago	2015-09-21	679
+Lepke Buchalter	NXP Bank	Chicago	2009-01-08	6406
+Lepke Buchalter	PickPocket Bank	Chicago	2015-09-21	679
+Mimmy The Mau Mau	Loanshark Bank	Evanston	2012-04-20	10000
+Bugsy Siegel	Loanshark Bank	Evanston	2012-04-20	12880
+Mimmy The Mau Mau	Inter-Gang Bank	Evanston	2013-03-13	60000
+Greasy Guzik	Inter-Gang Bank	Evanston	2013-03-13	2620
+Boo Boo Hoff	Inter-Gang Bank	Evanston	2013-03-13	30000
+King Solomon	Gun Chase Bank	Evanston	2015-04-30	5000
+Bugsy Malone	NXP Bank	Chicago	2009-01-08	2300
+Sonny Genovese	PickPocket Bank	Evanston	2012-03-30	2000
+Sonny Genovese	PickPocket Bank	Evanston	2006-01-30	500
+Vito Genovese	Dollar Grabbers	Evanston	2008-11-08	2000
+Vito Genovese	Bad Bank	Chicago	2013-02-02	3010
+Mickey Cohen	Dollar Grabbers	Evanston	2008-11-08	2000
+Vito Genovese	Dollar Grabbers	Evanston	2013-06-28	1790
+Kid Cann	Dollar Grabbers	Evanston	2013-06-28	1790

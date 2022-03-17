@@ -1,0 +1,21 @@
+NXP Bank	Chicago	2009-01-08	34302.3
+Loanshark Bank	Evanston	2005-02-28	19990
+Loanshark Bank	Chicago	2005-03-30	21005
+Inter-Gang Bank	Evanston	2010-02-14	52619
+Penny Pinchers	Chicago	2009-08-30	900
+Penny Pinchers	Evanston	2009-08-30	99000.8
+Gun Chase Bank	Evanston	2015-04-30	18131.3
+PickPocket Bank	Evanston	2012-03-30	2031.99
+PickPocket Bank	Chicago	2010-02-28	239
+Loanshark Bank	Evanston	2013-04-20	10990
+Inter-Gang Bank	Evanston	2012-02-16	72620
+Penny Pinchers	Evanston	2008-10-30	9000.5
+PickPocket Bank	Evanston	2006-01-30	542.99
+Loanshark Bank	Chicago	2008-11-09	41000
+Penny Pinchers	Evanston	2005-05-30	13000.4
+PickPocket Bank	Chicago	2015-09-21	2039
+Loanshark Bank	Evanston	2012-04-20	20880
+Inter-Gang Bank	Evanston	2013-03-13	92620
+Dollar Grabbers	Evanston	2008-11-08	4380
+Dollar Grabbers	Evanston	2013-06-28	3580
+Bad Bank	Chicago	2013-02-02	6020

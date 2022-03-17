@@ -1,0 +1,207 @@
+// Title : Claims
+// Name : Chandrawanshi Mangesh Shivaji
+// Roll Number : 1801CS16
+// Declaration of authorship : I hereby certify that the information I am claiming is entirely my own original work except, where otherwise indicated.
+
+// This file contains all the claims that I have made regarding my submission
+
+
+Files:
+==========
+# General Part : 
+
+*All the files i submitted, asm.cpp, emu.cpp and claims.txt, have my name and roll number at the start, along with a declaration of authorship.
+
+The evidence for Assembler including the output files from the 7 (4 given and 3 additional) test examples has also been uploaded. 
+They are test01(3 output files), test02(2 output files), test03 (3 output file), test04.asm(3 output files), test05.asm(3 output files), 
+test06.asm(3 output files), test07.asm(3 output files). All the test files have been tested and work properly. Evidence is submitted in the
+Report. 
+
+As for the evidence of emulator is uploaded with 7 output files (from trace option) for files assembled without errors. 
+
+My source file compiles without error and creates a executable on using following command (g++ asm.cpp -o asm)
+
+My source file compiles without warnings (g++ asm.cpp -o asm).
+
+=============================
+Program format and structure:
+=============================
+
+1. The assembler:
+
+I have used consistent and sensible formatting with sensible program structure.
+
+I have used sensible variable, function and type names with explanatory comments in the source code file (asm.cpp)
+
+I have used a single process for both passes
+
+I have successfully diagnosed label errors like duplicate, missing, invalid format 
+I have successfully diagnosed instruction errors like no such instruction, invalid operand, unexpected operand 
+(Proof for these errors can be seen in test02.log file)
+
+I have successfully created advanced listing file for every test file
+Format for Listing File :  ProgramCounter => MachineCode => Instruction 
+(More details can be seen in test0x.lst (x is from 1 to 4))
+
+My source code has tables of instruction names and expected operands.
+( 
+I have used map data structure to store the following formats :
+	instructions_without_operand
+	instructions_with_one_operand
+	instructions_with_pcoffset 
+)
+
+My source assembles all the provided test programs identifying appropraite errors, and if there are no errors it produces corressponding object 
+file( Output for a valid input assembly program (.asm) will include : .log , .lst and .o files ) 
+
+.log file contains => declared labels, used labels, errors and warnings (errors and warnings are also available in terminal output if they exist)
+.lst file contains => listing file (format mentioned above)
+.o file contains => object file contains machine code according to specification mentioned 
+
+I have also implemented SET instruction. It is demonstrated through test03 program
+
+2. The emulator :
+
+I have implemented emulator using data structures to store all valid instructions(along with their format), memory (as machine_code and machine_code_int)
+
+It loads object file and is with following options :
+
+		Check Format : ./emu [options] filename.o
+		-trace  show instruction trace
+		-read   show memory reads
+		-write  show memory writes
+		-before show memory dump before execution
+		-after  show memory dump after execution
+		-wipe   wipe written flags before execution (flags means I have considered reg_A, reg_B, stack_pointer and program_counter)
+		-isa    display ISA
+
+It also detect errorneous programs if they have accessed memory location out of the boundary, or instruction opcode does not exists
+
+I am assuming all SET and data instructions are after HALT in the provided assembly code 
+
+
+=============================
+Testing:
+=============================
+
+1. The assembler:
+
+I have tested  7 examples shown as bellow. The errors only occurred in the file test02.asm and the program immediately stopped on the second
+pass. The others were tested without any errors detected and produced three output files, listing file,error log file and machine readable object 
+file, for each example. 
+
+
+1)
+#Input: asm test01.asm
+#Output: 
+a. test01.lst 
+b. test01.log (without any error messages)
+c. test1.o
+
+2)
+#Input:asm test02.asm
+#Output: 
+a. test02.lst
+b. test02.log (with error messages shown as below but also in log file)
+
+Errors 
+Line 0 : No such Label
+Line 0 : Not a Valid Number Format,Use Suitable Prefix For hex = '0x', oct = '0'
+Line 4 : Duplicate Label Definition
+Line 7 : No Operand found
+Line 8 : Unexpected Operand, No Operand is allowed
+Line 9 : Unexpected Operand, Only One Operand is allowed
+Line 10 : Invalid Label Name, Only include alphanumeric, start with alphabets only
+Line 11 : No such insruction
+Line 12 : No such insruction
+
+3)
+#Input:asm test03.asm
+#Output: 
+a. test03.lst 
+b. test03.log (without any error messages)
+c. test03.o
+
+4)
+#Input:asm test04.asm  (This is same as triangle.asm)
+#Output: 
+a. test04.lst 
+b. test04.log (without any error messages)
+c. test04.o
+
+5)
+#Input:asm test05.asm
+#Output: 
+a. test05.lst 
+b. test05.log (without any error messages)
+c. test05.o
+
+6)
+#Input:asm test06.asm
+#Output: 
+a. test06.lst 
+b. test06.log (without any error messages)
+c. test06.o
+
+7)
+#Input:asm test07.asm
+#Output: 
+a. test07.lst 
+b. test07.log (without any error messages)
+c. test07.o
+
+# Bubble Sort Program :
+
+#Input:asm MyBubbleSort.asm
+#Output: 
+a. MyBubbleSort.lst 
+b. MyBubbleSort.log (without any error messages)
+c. MyBubbleSort.o
+
+# The emulator part :
+
+I have tested in total 7 examples(including MyBubbleSort.o) from the given files test01.o needs to be aborted as it has infinite loop
+
+The others were tested without any errors detected and produced excution data. I have redirected the output data to txt files which are uploaded.(test01.txt(incomplete as it was aborted),test03.txt,..,test07.txt and MyBubbleSort.txt) 
+
+
+1)
+#Input: emu -trace test01.o >> test01.txt
+#Output: manually aborted (infinite loop)
+
+2)
+#Input: emu -trace test02.o >> test02.txt
+#Output: Error : No such file exists
+
+3)
+#Input: emu -trace test03.o >> test03.txt
+#Output:
+a. test03.txt
+
+4)
+#Input: emu -trace test04.o >> test04.txt
+#Output:
+a. test04.txt
+
+5)
+#Input: emu -trace test05.o >> test05.txt
+#Output:
+a. test05.txt
+
+6)
+#Input: emu -trace test06.o >> test06.txt
+#Output:
+a. test06.txt
+
+7)
+#Input: emu -trace test07.o >> test07.txt
+#Output:
+a. test07.txt
+
+# Bubble Sort Program :
+
+#Input: emu -trace MyBubbleSort.o >> MyBubbleSort.txt
+#Output:
+a. MyBubbleSort.txt
+
+Examples for other options are in the Report 

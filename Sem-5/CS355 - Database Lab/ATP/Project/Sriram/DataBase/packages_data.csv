@@ -1,0 +1,33 @@
+Pkg_Id,Pkg_Desc,Weight,Mode_of_payment
+Pkg-101,Flat Envelope,30,Credit Card
+Pkg-102,Small Box,70,Debit Card
+Pkg-103,Large Box,37,Net Banking
+Pkg-104,Medicines,20,Cash On Delivery
+Pkg-105,Food,37,UPI
+Pkg-106,Electronics,7,Debit Card
+Pkg-107,Small Box,84,Credit Card
+Pkg-108,International ,93,Cash On Delivery
+Pkg-109,Large Box,10,UPI
+Pkg-110,Flat Envelope,17,Net Banking
+Pkg-111,Electronics,76,Debit Card
+Pkg-112,Large Box,74,UPI
+Pkg-113,Medicines,42,Net Banking
+Pkg-114,Flat Envelope,94,Credit Card
+Pkg-115,International ,97,Net Banking
+Pkg-116,Electronics,87,Cash On Delivery
+Pkg-117,Large Box,93,Net Banking
+Pkg-118,Medicines,83,UPI
+Pkg-119,Flat Envelope,70,Credit Card
+Pkg-120,Food,80,UPI
+Pkg-121,Small Box,57,Debit Card
+Pkg-122,Medicines,5,Credit Card
+Pkg-123,Flat Envelope,29,Net Banking
+Pkg-124,Food,81,Debit Card
+Pkg-125,Flat Envelope,46,Credit Card
+Pkg-232,Electronics,55,Debit Card
+Pkg-252,Medicines,15,Credit Card
+Pkg-402,Food,15,Credit Card
+Pkg-571,Electronics,55,Debit Card
+Pkg-653,Electronics,55,Debit Card
+Pkg-845,Electronics,55,Debit Card
+Pkg-896,Electronics,55,Debit Card

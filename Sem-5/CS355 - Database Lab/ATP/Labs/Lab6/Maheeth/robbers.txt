@@ -1,0 +1,24 @@
+1	Al Capone	31	2
+2	Bugsy Malone	42	15
+3	Lucky Luchiano	42	15
+4	Anastazia	48	15
+5	Mimmy The Mau Mau	18	0
+6	Tony Genovese	28	16
+7	Dutch Schulz	64	31
+8	Clyde	20	0
+9	Calamity Jane	44	3
+10	Bonnie	19	0
+11	Meyer Lansky	34	6
+12	Moe Dalitz	41	3
+13	Mickey Cohen	24	3
+14	Kid Cann	14	0
+15	Boo Boo Hoff	54	13
+16	King Solomon	74	43
+17	Bugsy Siegel	48	13
+18	Vito Genovese	66	0
+19	Mike Genovese	35	0
+20	Longy Zwillman	35	6
+21	Waxey Gordon	15	0
+22	Greasy Guzik	25	1
+23	Lepke Buchalter	25	1
+24	Sonny Genovese	39	0

@@ -1,0 +1,8 @@
+Error Detected in asm file. Cannot go ahead!
+
+Data in the Error LL
+9, More than 1 operand Error
+3, Conflicting Labels Error
+10, Wrong Label Name Error
+11, Pnemonic Doesn't exists Error
+12, Pnemonic Doesn't exists Error

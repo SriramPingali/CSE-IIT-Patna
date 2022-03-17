@@ -1,0 +1,483 @@
+create table Customers
+(cust_id char(8),
+Cust_name varchar(20),
+Phone_No bigint,
+Membership varchar(3),
+Amt_owed int,
+H_No int,
+street varchar(20),
+City varchar(20),
+primary key(cust_id),
+index idx_id (cust_id));
+
+create table Staff
+(Staff_ID int,
+Staff_name varchar(20),
+Phone_No bigint,
+City varchar(20),
+Rating decimal(3, 2),
+deliveries int,
+primary key(Staff_ID),
+index idx_id (Staff_ID));
+
+create table Packages
+(pkg_id char(7),
+pkg_desc varchar(20),
+weight int,
+mode_of_pymnt varchar(20),
+primary key(pkg_id),
+foreign key(Pkg_desc) references services(pkg_desc)
+index idx_id (pkg_id));
+
+create table shipments
+(pkg_id char(7),
+DoS datetime,
+DoD datetime,
+Expt_Dod datetime,
+From_cust char(8),
+To_cust char(8),
+Deliv_Charge int,
+primary key(pkg_id, To_cust, From_cust),
+foreign key(pkg_id) references packages(pkg_id),
+foreign key(From_cust) references customers(cust_id),
+foreign key(To_cust) references customers(cust_id),
+index idx_id (pkg_id));
+
+create table Tracking
+(Pkg_Id char(7),
+Location_Id varchar(20),
+Location_type varchar(20),
+Date_time datetime
+primary key(Pkg_Id, Location_Id),
+index idx_id (pkg_id));
+
+create table logistics
+(ID int,
+type varchar(20),
+Contact_No bigint,
+License varchar(20),
+City varchar(20),
+primary key(ID),
+index idx_id (ID));
+
+ create table services(
+Pkg_desc varchar(20),
+Cost int,
+primary key(Pkg_desc),
+index idx_desc (Pkg_desc));
+
+create table warehouses
+(ID int,
+City varchar(20),
+Contact_No bigint,
+primary key(ID),
+index idx_id (ID));
+
+
+insert into services values
+("Flat Envelope", 5),
+("Large Box", 30),
+("Small Box", 10),
+("Medicines", 50),
+("Food", 60),
+("Electronics", 100),
+("International", 500);
+
+
+// load data 
+Load data infile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/customers.csv' into table customers fields terminated by ',' enclosed by '"' lines terminated by '\r\n' ignore 1 rows;
+
+// load data
+Load data infile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/packages.csv' into table packages fields terminated by ',' enclosed by '"' lines terminated by '\r\n' ignore 1 rows;
+
+// Load Data
+Load data infile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/logistics.csv' into table logistics fields terminated by ',' enclosed by '"' lines terminated by '\r\n' ignore 1 rows;
+
+// Load Data
+Load data infile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/warehouses.csv' into table warehouses fields terminated by ',' enclosed by '"' lines terminated by '\r\n' ignore 1 rows;
+
+// Load Data
+Load data infile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/staff.csv' into table staff fields terminated by ',' enclosed by '"' lines terminated by '\r\n' ignore 1 rows;
+
+// check fk
+SELECT COLUMN_NAME, CONSTRAINT_NAME, REFERENCED_COLUMN_NAME,REFERENCED_TABLE_NAME
+from information_schema.KEY_COLUMN_USAGE
+where TABLE_NAME = 'shipments';
+
+// populate shipments
+delimiter $$
+create procedure populate_shipments()
+begin
+	declare count int;
+	declare pkg_id char(7);
+	declare from_cust int;
+	declare to_cust int;
+	declare charge int;
+	declare dos datetime;
+	declare dod datetime;
+	declare expt_dod datetime;
+	SET @MIN = '2020-01-29 00:53:27';
+	SET @MAX = '2020-11-29 13:53:27';
+
+	set count = 24;
+	while(count >= 0) do
+		select concat("Pkg-", count + 101) into pkg_id;
+		select floor(rand() * 14 + 1) into from_cust;
+		select floor(rand() * 11 + 15) into to_cust;
+		select floor(rand() * 101) into charge;
+		select TIMESTAMPADD(SECOND, FLOOR(RAND() * TIMESTAMPDIFF(SECOND, @MIN, @MAX)), @MIN) into dos;
+		select date_add(dos, interval floor(rand() * 10 + 1) day) into dod;
+		select expt_deliv(pkg_id, dos) into expt_dod;
+		insert into shipments values(pkg_id, from_cust, to_cust, charge, dos, dod, expt_dod);
+		set count = count - 1;
+	end while;
+end $$
+delimiter ;
+
+// function to calc expt_deliv
+delimiter $$
+create function expt_deliv(pkg_id_ char(7), service varchar(20), dos datetime)
+returns datetime
+deterministic
+begin
+	declare time_gap int;
+	declare temp datetime;
+	declare desc_ varchar(20);
+	select pkg_desc from packages where pkg_id = pkg_id_ into desc_;
+	case 
+		when desc_ = "Flat Envelope" and service = "Express" then set time_gap = 1;
+		when desc_ = "Flat Envelope" and service = "Standard" then set time_gap = 3;
+		when desc_ = "Small Box" and service = "Express" then set time_gap = 3;
+		when desc_ = "Small Box" and service = "Standard" then set time_gap = 6;
+		when desc_ = "Large Box" and service = "Express" then set time_gap = 6;
+		when desc_ = "Large Box" and service = "Standard" then set time_gap = 9;
+		when desc_ = "Medicines" and service = "Express" then set time_gap = 5;
+		when desc_ = "Medicines" and service = "Standard" then set time_gap = 7;
+		when desc_ = "Food" and service = "Express" then set time_gap = 4;
+		when desc_ = "Food" and service = "Standard" then set time_gap = 5;
+		when desc_ = "Electronics" and service = "Express" then set time_gap = 7;
+		when desc_ = "Electronics" and service = "Standard" then set time_gap = 10;
+		when desc_ = "International " and service = "Express" then set time_gap = 9;
+		when desc_ = "International " and service = "Standard" then set time_gap = 12;
+	end case;
+	select date_add(dos, interval time_gap day) into temp;
+	return(temp);
+end $$
+delimiter ;
+
+select expt_deliv("Pkg-102", "Express", "2020-03-17 00:50:20");
+
+// Function to calculate charge
+delimiter $$
+create function charge(pkg_desc_ varchar(20), service varchar(20), weight int)
+returns int
+deterministic
+begin
+	declare charge int;
+	select cost from services where pkg_desc = pkg_desc_ into charge;
+	if service = "Express" then
+		set charge = charge + weight * 0.2;
+		set charge = charge + 0.15 * charge;
+	else
+		set charge  = charge + weight * 0.1;
+	end if;
+	set charge = charge + 0.2 * charge;
+	return(charge);
+end $$
+delimiter ;
+
+select charge("International ", "Express", 10);
+
+// Populate tracking table
+delimiter $$
+create procedure populate_tracking()
+begin
+	declare count int;
+	declare pkg_id_ char(7);
+	declare loc_id int;
+	declare loc_typ varchar(20);
+	declare date_time datetime;
+
+	set count = 24;
+	while(count >= 0) do
+		select concat("Pkg-", count + 101) into pkg_id_;
+
+		-- warehouse from 
+		select ID from warehouses where city in (select city from customers where cust_id in (select from_cust from shipments where pkg_id = pkg_id_)) into loc_id;
+
+		set loc_typ = "Warehouse";
+
+		select date_add((select dos from shipments where pkg_id = pkg_id_), interval 3 hour) into date_time;
+
+		insert into tracking values(pkg_id_, loc_id, loc_typ, date_time);
+
+		-- logistics from
+		select ID from logistics where city in (select city from customers where cust_id in (select from_cust from shipments where pkg_id = pkg_id_)) into loc_id;
+
+		select type from logistics where city in (select city from customers where cust_id in (select from_cust from shipments where pkg_id = pkg_id_)) into loc_typ;
+
+		select date_add((select dos from shipments where pkg_id = pkg_id_), interval 10 hour) into date_time;
+
+		insert into tracking values(pkg_id_, loc_id, loc_typ, date_time);
+
+		-- warehouse to 
+		select ID from warehouses where city in (select city from customers where cust_id in (select to_cust from shipments where pkg_id = pkg_id_)) into loc_id;
+
+		set loc_typ = "Warehouse";
+
+		select date_add((select dod from shipments where pkg_id = pkg_id_), interval -5 hour) into date_time;
+
+		insert into tracking values(pkg_id_, loc_id, loc_typ, date_time);
+
+		-- delivery
+		select staff_id from staff where city in (select city from customers where cust_id in (select to_cust from shipments where pkg_id = pkg_id_)) into loc_id;
+
+		set loc_typ = "Out For Delivery";
+
+		select date_add((select dod from shipments where pkg_id = pkg_id_), interval -2 hour) into date_time;
+
+		insert into tracking values(pkg_id_, loc_id, loc_typ, date_time);
+
+		set count = count - 1;
+	end while;
+end $$
+delimiter ;
+
+
+// Queries
+select * from customers where cust_id in (select from_cust from shipments where pkg_id in (select pkg_id from tracking where location_id = 1721 and location_type = "truck" and date_time > "2019-08-12 18:41:57"));
+
+select * from customers where cust_id in (select to_cust from shipments where pkg_id in (select pkg_id from tracking where location_id = 1721 and location_type = "truck" and date_time > "2019-08-12 18:41:57"));
+
+select * from tracking where location_id = 1721 and location_type = "truck" order by date_time a
+nd date_time is not null and date_time < "2019-08-12 18:41:57" desc limit 1;
+
+select cust_id, cust_name, count, dos from customers join
+(select count(*) as count, from_cust, dos from shipments group by from_cust order by count(*) desc) d
+on customers.cust_id
+in (d.from_cust)
+where count in (select max(count) from (select count(*)as count from shipments group by from_cust) x) and year(dos) = 2019;
+
+select cust_id, cust_name, spent from customers join
+(select sum(deliv_charge) as spent, from_cust, dos from shipments group by from_cust order by spent desc) d
+on customers.cust_id
+in (d.from_cust)
+where spent in (select max(spent) from (select sum(deliv_charge) as spent from shipments group by from_cust) x) and year(dos) = 2019; 
+
+select street from customers join
+(select count(*) as count, cust_id from customers group by street order by count(*) desc) d
+on customers.cust_id
+in (d.cust_id)
+where count in (select max(count) from (select count(*)as count from customers group by street) x);
+
+select * from packages where pkg_id in (select Pkg_id from shipments where dod > expt_dod);
+
+select cust_name, H_No, street, City, Amt_owed from customers where cust_id = arg;
+
+select * from services;
+
+select pkg_id, deliv_charge from shipments;
+
+// Extra Functionalities
+// Track package
+delimiter $$
+create procedure track(in pkg_id_ char(7))
+begin
+	declare warehouse_from int;
+	declare warehouse_to int;
+	declare transit int;
+	declare vehicle varchar(20);
+	declare from_city varchar(20);
+	declare to_city varchar(20);
+	declare delivery_name varchar(20);
+	declare delivery_id int;
+	declare delivery_phn bigint;
+	declare temp datetime;
+
+	select location_id from tracking where pkg_id = pkg_id_ and location_type = "Warehouse" order by date_time limit 0,1 into warehouse_from;
+
+	select city from warehouses where ID = warehouse_from into from_city;
+
+	select location_id from tracking where pkg_id = pkg_id_ order by date_time limit 1,1 into transit;
+
+	select location_type from tracking where pkg_id = pkg_id_ order by date_time limit 1,1 into vehicle;
+
+	select location_id from tracking where pkg_id = pkg_id_ and location_type = "Warehouse" order by date_time limit 1,2 into warehouse_to;
+
+	select city from warehouses where ID = warehouse_to into to_city;
+
+	select staff_name from staff where staff_id in (select location_id from tracking where pkg_id = pkg_id_ and location_type = "Out For Delivery") into delivery_name;
+
+	select staff_ID from staff where staff_id in (select location_id from tracking where pkg_id = pkg_id_ and location_type = "Out For Delivery") into delivery_id;
+
+	select Phone_no from staff where staff_id in (select location_id from tracking where pkg_id = pkg_id_ and location_type = "Out For Delivery") into delivery_phn;
+
+	select date_time from tracking where pkg_id = pkg_id_ and location_type = "Warehouse" order by date_time limit 0,1 into temp;
+
+	select concat("Package shipped from ", from_city, " facility (Warehouse ID-", warehouse_from, ")Date time: ", temp) as "Shipped from Facility";
+
+	select date_time from tracking where pkg_id = pkg_id_ order by date_time limit 1,1 into temp;
+
+	select concat("Package in transit ", from_city, " to ", to_city, "(", vehicle," ID-", transit, ")Date Time: ", temp) as "In Transit";
+
+	select date_time from tracking where pkg_id = pkg_id_ and location_type = "Warehouse" order by date_time limit 1,2 into temp;
+
+	select concat("Package recieved at ", to_city, " facility (Warehouse ID-", warehouse_to, ")Date Time: ", temp) as "Recieved at Facility";
+
+	select date_time from tracking where pkg_id = pkg_id_ and location_type = "Out For Delivery" into temp;
+
+	select concat("To be Delivered by Agent ", delivery_name, 
+	"(ID-", delivery_id, ")",
+	" Contact Number: +91", delivery_phn, " ", temp) as "Out for Delivery";
+end $$
+delimiter ;
+
+call track("Pkg-101");
+
+// Add logistics
+delimiter $$
+create procedure add_logistics(in type varchar(20), in Phn_No bigint, in lic varchar(20), in city varchar(20))
+begin
+	declare log_id int;
+	declare count_ int;
+	select floor(rand()*(9999-1000)) + 1000 into log_id;
+	select count(*) from logistics where ID = log_id into count_;
+	while count_ > 0 DO
+		select floor(rand()*(9999-1000)) + 1000 into log_id;
+		select count(*) from logistics where ID = log_id into count_;
+	end while;
+	insert into logistics values(log_id, type, Phn_No, lic, city);
+end $$
+delimiter ;
+
+call add_logistics("Train", 9487123456, 1234567890, "Hyderabad");
+
+// Add Warehouse
+delimiter $$
+create procedure add_warehouses(in city varchar(20),in Phn_No bigint)
+begin
+	declare wr_id int;
+	declare count_ int;
+	select floor(rand()*(9999-1000)) + 1000 into wr_id;
+	select count(*) from warehouses where ID = wr_id into count_;
+	while count_ > 0 DO
+		select floor(rand()*(9999-1000)) + 1000 into wr_id;
+		select count(*) from warehouses where ID = wr_id into count_;
+	end while;
+	insert into warehouses values(wr_id, city, Phn_No);
+end $$
+delimiter ;
+
+// Add staff
+delimiter $$
+create procedure add_staff(in name varchar(20), in Phn_No bigint,in city varchar(20))
+begin
+	declare stf_id int;
+	declare count_ int;
+	select floor(rand()*(100-25)) + 25 into stf_id;
+	select count(*) from staff where staff_ID = stf_id into count_;
+	while count_ > 0 DO
+		select floor(rand()*(100-25)) + 25 into stf_id;
+		select count(*) from staff where staff_ID = stf_id into count_;
+	end while;
+	insert into staff values(stf_id, name, Phn_No, city, 0, 0);
+end $$
+delimiter ;
+
+// Add shipment
+delimiter $$
+create procedure add_shipment(in from_cust char(8),in to_cust char(8), in dos datetime, in pkg_desc varchar(20), in weight int, in mode_of_pymnt varchar(20), service varchar(20))
+begin
+	declare pkg_id_ char(7);
+	declare temp int;
+	declare count_ int;
+	declare expt_dod datetime;
+	declare cost int;
+	declare loc_id int;
+	declare loc_typ varchar(20);
+	declare date_time datetime;
+
+	select floor(rand()*(999-125)) + 125 into temp;
+	set pkg_id_ = concat("Pkg-",temp);
+	select count(*) from packages where pkg_id = pkg_id_ into count_;
+	while count_ > 0 DO
+		select floor(rand()*(999-125)) + 125 into temp;
+		set pkg_id_ = concat("Pkg-",temp);
+		select count(*) from packages where pkg_id = pkg_id_ into count_;
+	end while;
+
+	insert into packages values(pkg_id_, pkg_desc, weight, mode_of_pymnt);
+	
+	select charge(pkg_desc, service, weight) into cost;
+	select expt_deliv(pkg_id_, service, dos) into expt_dod;
+
+	insert into shipments values(pkg_id_, from_cust, to_cust, cost, dos, NULL, expt_dod);
+
+	select ID from warehouses where city in (select city from customers where cust_id = from_cust) order by rand() limit 1 into loc_id;
+
+	set loc_typ = "Warehouse";
+
+	select date_add(dos, interval 3 hour) into date_time;
+
+	insert into tracking values(pkg_id_, loc_id, loc_typ, date_time);
+
+	-- logistics from
+	select ID from logistics where city in (select city from customers where cust_id = from_cust) order by rand() limit 1 into loc_id;
+
+	select type from logistics where ID = loc_id into loc_typ;
+
+	insert into tracking values(pkg_id_, loc_id, loc_typ, NULL);
+
+	-- warehouse to 
+	select ID from warehouses where city in (select city from customers where cust_id = to_cust) into loc_id;
+
+	set loc_typ = "Warehouse";
+
+	insert into tracking values(pkg_id_, loc_id, loc_typ, NULL);
+
+	-- delivery
+	select staff_id from staff where city in (select city from customers where cust_id = to_cust) into loc_id;
+
+	set loc_typ = "Out For Delivery";
+
+	insert into tracking values(pkg_id_, loc_id, loc_typ, NULL);
+end $$
+delimiter ;
+
+call add_shipment("1", "10", "2020-05-05 12:17:49", "Large Box", 75, "Net Banking", "Express");
+
+// Update tracking status
+delimiter $$
+create procedure update_track(in pkg_id_ char(7), in date_time_ datetime)
+begin
+	update tracking set date_time = date_time_ where pkg_id = pkg_id_ and date_time is NULL limit 1;
+end$$
+delimiter ;
+
+call update_track("Pkg-644", "2020-07-07 15:17:49");
+
+// Store Data
+select * into outfile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/customers_data.csv' fields terminated by ',' enclosed by '"' lines terminated by '\r\n' from customers;
+
+select * into outfile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/logistics_data.csv' fields terminated by ',' enclosed by '"' lines terminated by '\r\n' from logistics;
+
+select * into outfile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/packages_data.csv' fields terminated by ',' enclosed by '"' lines terminated by '\r\n' from packages;
+
+select * into outfile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/services_data.csv' fields terminated by ',' enclosed by '"' lines terminated by '\r\n' from services;
+
+select * into outfile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/shipments_data.csv' fields terminated by ',' enclosed by '"' lines terminated by '\r\n' from shipments;
+
+select * into outfile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/staff_data.csv' fields terminated by ',' enclosed by '"' lines terminated by '\r\n' from staff;
+
+select * into outfile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/tracking_data.csv' fields terminated by ',' enclosed by '"' lines terminated by '\r\n' from tracking;
+
+select * into outfile 'C:/ProgramData/MySQL/MySQL\ Server\ 8.0/Uploads/warehouses_data.csv' fields terminated by ',' enclosed by '"' lines terminated by '\r\n' from warehouses;
+
+select * from customers;
+select * from packages;
+select * from shipments;
+select * from logistics;
+select * from tracking;
+select * from warehouses;
+select * from services;
+select * from staff;

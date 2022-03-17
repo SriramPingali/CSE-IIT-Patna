@@ -1,0 +1,132 @@
+							CS355 Lab 5
+Name : P.V.Sriram
+Roll No. : 1801CS37
+
+-------------------------------------------------------------------------
+
+// Task A
+
+// Add column DoB to suppliers table
+UPDATE suppliers SET DoB =
+(
+	CASE SID WHEN 'sup1111' THEN "1989-05-01"
+			 WHEN 'sup1112' THEN "1990-06-02"
+			 WHEN 'sup1113' THEN "1991-07-03"
+			 WHEN 'sup1221' THEN "1993-08-04"
+			 WHEN 'sup3838' THEN "1995-05-21"
+	END
+)
+WHERE SID IN ('sup1111', 'sup1112', 'sup1113', 'sup1221', 'sup3838');
+
+// Add column DoS to SP table
+UPDATE sp SET DoS =
+(
+	CASE     WHEN SID = 'sup1111' AND PID = 'prd-111' THEN "2019-05-01"
+			 WHEN SID = 'sup1221' AND PID = 'prd-373' THEN "2019-06-02"
+			 WHEN SID = 'sup1221' AND PID = 'prd-9291' THEN "2018-07-03"
+			 WHEN SID = 'sup3838' AND PID = 'prd-373' THEN "2020-08-04"
+			 WHEN SID = 'sup3838' AND PID = 'prd-9291' THEN "2020-08-21"
+	END
+);
+
+// Load data from CSV text file into suppliers table
+load data local infile 'sup_data.txt' into table suppliers fields terminated by ',' lines terminated by '\n';
+
+// Load data from CSV text file into products table
+load data local infile 'prod_data.txt' into table products fields terminated by ',' lines terminated by '\n';
+
+-------------------------------------------------------------------------
+
+Q1)
+
+// Find the details of the youngest supplier
+
+select * from suppliers having dob in (select max(dob) from suppliers);
+
+------------------------------------------------------------------------
+
+Q2)
+
+// Find the SID of the suppliers who are less than 30 years old.
+
+select sid from suppliers where datediff(current_date, dob) div 365 < 30;
+
+------------------------------------------------------------------------
+
+Q3)
+
+// Show the average age of the suppliers from each city
+
+select avg(datediff(current_date, dob)) div 365 as age, city from suppliers group by city;
+
+------------------------------------------------------------------------
+
+Q4)
+
+// Find the name of the suppliers who have supplied products in the 
+// year 2020. 
+
+select distinct sname from sp inner join suppliers on sp.sid = suppliers.sid where date_format(dos, '%Y') = 2020;
+
+------------------------------------------------------------------------
+
+Q5)
+
+// Find the name of the suppliers who have supplied products after 
+// 2019-08-15.
+
+select distinct sname from sp inner join suppliers on sp.sid = suppliers.sid where dos > '2019-01-15';
+
+------------------------------------------------------------------------
+
+Q6)
+
+// Find the name of the most recently supplied product
+
+select * from sp inner join products on sp.pid = products.pid having dos = (select max(dos) from sp);
+
+------------------------------------------------------------------------
+
+Q7)
+
+//  Find the name of the suppliers who have supplied atleast two 
+// products and one product is
+// supplied within 30 days of supply of previous product.
+
+
+select distinct sname from suppliers where sid in(
+select a1.sid from 
+(select * from sp where sid in (select sid from sp group by (sid) having count(pid) >= 2)) a1
+inner join
+(select * from sp where sid in (select sid from sp group by (sid) having count(pid) >= 2)) a2
+on a1.sid = a2.sid
+where datediff(a1.dos, a2.dos) <= 30 and datediff(a1.dos, a2.dos) > 0);
+
+------------------------------------------------------------------------
+
+Q8)
+
+//  Find the products which are not sold within 1 year of date of 
+// manufacture
+
+select distinct products.pname from sp inner join products on sp.pid = products.pid where datediff(dos, dom) > 365;
+
+// Other meaning
+select SName from Suppliers where SID in ( select distinct t1.SID from SP as t1,SP as t2 where t1.PID != t2.PID and abs( to_days(t1.DoS) - to_days(t2.DoS) ) <= 30 and t1.SID = t2.SID );
+------------------------------------------------------------------------
+
+Q9)
+
+//  Find the PID, WarrantyPeriod, StarRating of each product. 
+
+select pid,warrantyperiod,repeat('*',ceil(warrantyperiod/10)) as StarRating from products;
+
+------------------------------------------------------------------------
+
+Q10)
+
+// Create a view to show the oldest SID of each city.
+
+create view min_dob as  select sid,city,dob from suppliers where dob in ( select min(dob) from suppliers group by city);
+
+------------------------------------------------------------------------

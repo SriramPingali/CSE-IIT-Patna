@@ -1,0 +1,225 @@
+                              CS354 Problem Set-1
+
+Name : P.V.Sriram
+Roll No. : 1801CS37
+
+-------------------------------------------------------------------------
+
+Q1)  What are the differences between cardinality and participation constraint? 
+Which one is better (i.e.more powerful)?
+
+Ans) 
+Cardinality Ratio:
+
+Cardinality ratio or mapping cardinalities is a concept that describes
+binary relationship set and its types. It is about the maximum number 
+of entities of one entity set that are associated with the maximum number
+of entities of the other entity set.
+
+Types:
+
+1) One to One (Atmost 1 to Atmost 1)
+2) Many to One (0  or more to atmost 1)
+3) Many to Many (0 or more to 0 or more)
+
+Participation Constraint:
+
+Participation constraints define the least number of relationship 
+instances in which an entity must compulsorily participate.
+
+Types :
+
+1) Total Particiation (Every entity in the set is involved
+in some association (or tuple) of the relationship)
+
+2) Partial Participation (Not all entities in the set are
+involved in association (or tuples) of the relationship)
+
+Cardinality ratio gives a more refined insight into how the entities are related to each
+other i.e) Depending on the type of cardinality we have an idea on how each element is related
+(atmost 1 or atleast 0 relations). But with participation constraint we just know if each
+element is involved in the relation or not.
+
+Therefore Cardinality ratio is better. 
+
+-------------------------------------------------------------------------
+
+Q2) What are the differences between Primary key constraint and Unique constraint?
+
+Ans) 
+Primary Key:
+
+1) Primary Key is a column that is used to uniquely identify each tuple of the table.
+2) Only one primary key is allowed to be used in a table.
+3) Duplicate and NULL (empty) values are not valid in the case of the primary key. 
+4) A primary key will generate a unique clustered index.
+
+Unique Key:
+
+1) Unique key is a constraint that is used to uniquely identify a tuple in a table
+   only when its value is not null, and hence can't be a unique identity for all rows.
+2) Multiple unique keys can present in a table. 
+3) NULL values are allowed in case of a unique key.
+4) A unique constraint will generate a unique non-clustered index.
+
+-------------------------------------------------------------------------
+
+Q3) Explain the concepts of a Primary key and Foreign Key.
+
+Ans)
+Primary Key:
+
+The PRIMARY KEY constraint uniquely identifies each record in a table.
+Primary keys must contain unique values, and cannot contain NULL values.
+A table can have only ONE primary key; and in the table, this primary key can 
+consist of single or multiple columns (fields).
+
+Foreign Key:
+
+A FOREIGN KEY is a key used to link two tables together. It is a field (or collection of fields) 
+in one table that refers to the PRIMARY KEY in another table.The table containing the 
+foreign key is called the child table, and the table containing the candidate 
+key is called the referenced or parent table.
+
+-------------------------------------------------------------------------
+
+Q4) What integrity rules exist in the DBMS?
+
+Ans) 
+Integrity Rules are imperative to a good database design. Most RDBMS have these rules automatically,
+but it is safer to just make sure that the rules are already applied in the design. 
+
+Domain constraints:
+
+The data type of domain includes string, character, integer, time, date, currency, etc. The value of 
+the attribute must be available in the corresponding domain.
+
+Entity integrity:
+
+Entity integrity exists when each primary key within a table has a value that is unique. this ensures 
+that each row is uniquely identified by the primary key.
+
+Reference integrity:
+
+Reference integrity exists when a foreign contains a value that value refers to an 
+exiting tuple/row in another relation.If a foreign key in Table 1 refers to the Primary Key of Table 2,
+then every value of the Foreign Key in Table 1 must be null or be available in Table 2.
+
+Key Constraints:
+
+An entity set can have multiple keys, but out of which one key will be the primary key. 
+A primary key can contain a unique and null value in the relational table.
+
+-------------------------------------------------------------------------
+
+Q5) A row in a table is also referred to as a _______.
+
+Ans) B - Tuple
+
+-------------------------------------------------------------------------
+
+Q6) The term attribute refers to a ___________ of a table. 
+
+Ans) B - Column
+
+-------------------------------------------------------------------------
+
+Q7) For each attribute of a relation, there is a set of permitted values, 
+called the ________ of that attribute.
+
+Ans) A - Domain
+
+------------------------------------------------------------------------
+
+Q8) A Database __________ is the logical design of the database, 
+and the database _______ which is asnapshot of the data in the database at 
+a given instant in time
+
+Ans) D - Schema, Instance
+
+------------------------------------------------------------------------
+
+Q9) Course (course_id, sec_id, semester) Here the course_id, sec_id 
+and semester are __________ and Course is a _______
+
+Ans) B - Attributes, Relation
+
+------------------------------------------------------------------------
+
+Q10) The tuples of a relation can be of ________ order. 
+
+Ans) A - Any
+
+------------------------------------------------------------------------
+
+Q11) Explain ‘Referential Integrity’ with an example. 
+
+Ans)
+Referential Integrity refers to the accuracy and consistency of data within a relation.
+
+In relationships, data is linked between two or more tables. This is achieved by having the foreign key
+reference a primary key value  Because of this, we need to ensure that data on both sides of the relationship 
+remain same.
+
+So, referential integrity requires that, whenever a foreign key value is used it must reference a valid, 
+existing primary key in the parent table.
+
+
+Ex:For example, if we delete record number 2 in a primary table, we need to be sure that there’s no foreign 
+  key in any related table with the value of 2. We should only be able to delete a primary key if there are 
+  no associated records with the primary table. Otherwise, we would end up with an invalid ouputs and records.
+
+------------------------------------------------------------------------
+
+Q12)  During the decision of a logical schema, a user must be aware of the different 
+underlying data structures used for the storage of the data.
+
+Ans) False
+
+------------------------------------------------------------------------
+
+Q13) Two entity sets cannot have multiple relationships, but any relationship set 
+can have multiple attributes
+
+Ans) False
+
+------------------------------------------------------------------------
+
+Q14) What are composite attributes? Give one example each of composite 
+single values attributes and composite multi-valued attributes along with 
+their sub attributes.
+
+Ans) 
+Composite attributes:
+
+The attributes which are composed of more than one simple attribute is called as composite 
+attribute. For example, a student's complete name attribute may have first_name and last_name.
+It could be  of two types:
+
+Composite single-valued attributes:
+
+For a database containing information of students enrolled in courses, the "Name" attribute of
+each entry could be considered as a Composite single valued attribute as the name consists of 
+First name and Last name (Composite) But the name is a singular one for each entry (single valued)
+
+Composite multi-valued attributes:
+
+For a database containing information of students enrolled in courses, the "Courses" attribute of
+each entry could be considered as a composite multi valued attribute as the course consists of
+Course ID and Credits (Composite) But the student can be enrolled in multiple courses (multi vaalued).
+
+------------------------------------------------------------------------
+
+Q15) What are Weak entity sets? How are they dependent on other entities in terms of attributes and
+key? 
+
+Ans)
+An entity type should have a key attribute which uniquely identifies each entity in the entity set, but there exists some entity type for which key attribute can’t be defined. 
+These are called Weak Entity type. The entity sets which do not have sufficient attributes to form a primary key are known as weak entity sets.
+As the weak entities do not have any primary key, they cannot be identified on their own, so they depend on some other entity (known as owner entity). 
+The weak entities have total participation constraint (existence dependency) in its identifying relationship with owner identity. Weak entity types have partial keys. 
+Partial Keys are set of attributes with the help of which the tuples of the weak entities can be distinguished and identified.
+weak entity does not have any primary key, It has partial discriminator key. Weak entity is represented by double rectangle. The relation between one strong and one weak entity is represented by double diamond.
+      
+Example:-The existence of rooms is entirely dependent on the existence of a hotel. So room can be seen as the weak entity of the hotel.
+

@@ -1,0 +1,6 @@
+ERROR:line 6	Invalid mnemonic: "LAZER           ; invalid mnemonic"
+ERROR:line 7	Label doesn't begin with alphabet: "        ldc 54g ; invalid label name"
+ERROR:line 9	This mnemonic requires a parameter: "        adj     ; operand required"
+ERROR:line 13	This mnemonic doesn't require a parameter: "good:   HALT 57 ; operand not required"
+ERROR:line 10	Undefined Label found: "        br goob ; undefined label"
+WARNING:line 13	Unused Label found: "good:   HALT 57 ; operand not required"

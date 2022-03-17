@@ -1,0 +1,11 @@
+NXP Bank	Chicago	2017-09-30	5
+Loanshark Bank	Deerfield	2018-05-15	4
+Inter-Gang Bank	Evanston	2017-10-31	4
+Dollar Grabbers	Chicago	2019-06-10	3
+Gun Chase Bank	Evanston	2017-12-30	6
+PickPocket Bank	Deerfield	2020-06-15	6
+PickPocket Bank	Chicago	2017-11-10	2
+Hidden Treasure	Chicago	2019-07-11	5
+NXP Bank	Chicago	2021-08-10	5
+Bad Bank	Chicago	2018-02-02	2
+PickPocket Bank	Deerfield	2017-11-30	6

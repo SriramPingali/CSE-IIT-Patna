@@ -1,0 +1,5 @@
+ERROR:line 9	Label doesn't begin with alphabet: "#def:   add         ; invalid label name"
+ERROR:line 11	Invalid operand type for the instruction: "        ldnl hello"
+ERROR:line 12	Invalid mnemonic: "        swap        ; invalid mnemonic"
+ERROR:line 14	Duplicate Label found: "hello: HALT         ; duplicate label"
+ERROR:line 15	Duplicate Label found: "hello: SET 64       ; duplicate label"

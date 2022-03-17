@@ -1,0 +1,407 @@
+                            CS-355 Assignment-7
+Name : P.V.Sriram
+Roll No. : 1801CS37
+
+------------------------------------------------------------------------------
+                            Transaction.csv
+------------------------------------------------------------------------------
+Q 1.1) Define the table and load data into it from the CSV file
+
+// Defining the Table
+create table transactions(
+Series_reference varchar(20),
+Period float,
+Data_value float,
+Suppressed varchar(10),
+STATUS char(1),
+UNITS varchar(10),
+Magnitude int,
+Subject varchar(50),
+group_type varchar(100),
+Series_title_1 varchar(50),
+Series_title_2 varchar(100),
+Series_title_3 varchar(50),
+Series_title_4 varchar(20),
+Series_title_5 varchar(20));
+
+// Loading Data
+Load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/transactions.csv' into table transactions fields terminated by ',' enclosed by '"' lines terminated by '\n' ignore 1 rows;
+
+------------------------------------------------------------------------------
+Q 1.2)  Check various queries and monitor the timings
+
+// For a baseline metric, we measure time taken to print the table
+select * from transactions;
+16352 rows in set (0.08 sec)
+0.07989525 sec
+
+------------------------------------------------------------------------------
+
+// We now use a where clause on UNITS and check the average time
+select * from transactions where UNITS = "Dollars";
+11869 rows in set (0.03 sec) 0.02491675
+11869 rows in set (0.02 sec) 0.02363275
+11869 rows in set (0.02 sec) 0.02478550
+11869 rows in set (0.03 sec) 0.02487650
+11869 rows in set (0.02 sec) 0.02390050
+Avg : 0.0244224 sec
+
+// We also check on multiple conditions and see the effect again
+select * from transactions where UNITS = "Dollars" and Period > 2000 and Period < 2015;
+8736 rows in set (0.02 sec) 0.02175600 
+8736 rows in set (0.02 sec) 0.02283950 
+8736 rows in set (0.03 sec) 0.02798675 
+8736 rows in set (0.02 sec) 0.02178150 
+8736 rows in set (0.02 sec) 0.02233400 
+Avg : 0.02334075 sec
+
+------------------------------------------------------------------------------
+
+// Average Insert query time is measured 
+insert into transactions values('ECTQ.S4AXP',2020.03,62.5,NULL,'C','PERCENT',0,'Electronic','Electronic card transactions by mean and proportion','Actual','Debit card','Proportion(%)',NULL,NULL);
+Query OK, 1 row affected (0.04 sec) 0.03759725
+Query OK, 1 row affected (0.03 sec) 0.03407100
+Query OK, 1 row affected (0.03 sec) 0.03381425
+Query OK, 1 row affected (0.03 sec) 0.03430150
+Query OK, 1 row affected (0.03 sec) 0.03373375
+Avg : 0.03470355 sec
+
+insert into transactions values('ECTQ.S4AXP',2020.03,62.5,NULL,'C','DOLLARS',0,'Electronic','Ele
+ctronic card transactions by mean and proportion','Actual','Debit card','Proportion(%)',NULL,NULL);
+Query OK, 1 row affected (0.01 sec) 0.00728250
+Query OK, 1 row affected (0.03 sec) 0.03340550
+Query OK, 1 row affected (0.04 sec) 0.03407650
+Query OK, 1 row affected (0.03 sec) 0.03561525
+Query OK, 1 row affected (0.01 sec) 0.00594975
+Avg : 0.0232659 sec
+
+------------------------------------------------------------------------------
+
+// Average update queries time is measured using multiple queries
+update transactions set UNITS = "Doll" where UNITS = "Dollars";
+Query OK, 11875 rows affected (0.31 sec) 0.30732800
+Rows matched: 11875  Changed: 11875  Warnings: 0
+
+update transactions set UNITS = "Dollars" where UNITS = "Doll";
+Query OK, 11875 rows affected (0.34 sec) 0.33716175
+Rows matched: 11875  Changed: 11875  Warnings: 0
+
+update transactions set UNITS = "Doll" where UNITS = "Dollars";
+Query OK, 11875 rows affected (0.27 sec) 0.27229400 
+Rows matched: 11875  Changed: 11875  Warnings: 0
+
+update transactions set UNITS = "Dollars" where UNITS = "Doll";
+Query OK, 11875 rows affected (0.39 sec) 0.38741800
+Rows matched: 11875  Changed: 11875  Warnings: 0
+
+update transactions set UNITS = "Doll" where UNITS = "Dollars";
+Query OK, 11875 rows affected (0.27 sec) 0.26862825
+Rows matched: 11875  Changed: 11875  Warnings: 0
+
+Avg : 0.314566
+
+------------------------------------------------------------------------------
+Q 1.3) Create index on the copied table
+
+// We now make a copy table and add index to the copy table
+create table transactions_cpy like transactions;
+insert transactions_cpy select * from transactions;
+
+alter table transactions_cpy add index idx_dstct (Units);
+Query OK, 0 rows affected (0.26 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+------------------------------------------------------------------------------
+Q 1.4) Check various queries and monitor the timings
+
+// We dont find a huge variation in the average interval of search due to the // high number of "Dollar" units in the database
+select * from transactions_cpy where UNITS = "Dollars";
+11875 rows in set (0.03 sec) 0.02803225
+11875 rows in set (0.03 sec) 0.02752425
+11875 rows in set (0.03 sec) 0.02810750
+11875 rows in set (0.03 sec) 0.02791575
+11875 rows in set (0.03 sec) 0.02900000
+Avg : 0.02811595
+
+select * from transactions_cpy where UNITS = "Dollars" and Period > 2000 and Period < 2015;
+8736 rows in set (0.03 sec) 0.02698500
+8736 rows in set (0.03 sec) 0.02588875
+8736 rows in set (0.03 sec) 0.02536600
+8736 rows in set (0.03 sec) 0.02525900
+8736 rows in set (0.03 sec) 0.02529275
+Avg : 0.0256583
+
+------------------------------------------------------------------------------
+
+// We can see an evident increase in the insert time from 0.034 to 0.041
+insert into transactions_cpy values('ECTQ.S4AXP',2020.03,62.5,NULL,'C','PERCENT',0,'Electronic','Electronic card transactions by mean and proportion','Actual','Debit card','Proportion(%)',NULL,NULL);
+Query OK, 1 row affected (0.04 sec) 0.04214825
+Query OK, 1 row affected (0.04 sec) 0.03661250
+Query OK, 1 row affected (0.06 sec) 0.05418250
+Query OK, 1 row affected (0.04 sec) 0.03902125
+Query OK, 1 row affected (0.04 sec) 0.03602000
+Avg : 0.0415969
+
+// We can see an evident increase in the insert time from 0.028 to 0.041
+insert into transactions_cpy values('ECTQ.S4AXP',2020.03,62.5,NULL,'C','DOLLARS',0,'Electronic','Ele
+ctronic card transactions by mean and proportion','Actual','Debit card','Proportion(%)',NULL,NULL);
+Query OK, 1 row affected (0.05 sec) 0.05397275
+Query OK, 1 row affected (0.04 sec) 0.03978275
+Query OK, 1 row affected (0.04 sec) 0.03777625
+Query OK, 1 row affected (0.04 sec) 0.04027300
+Query OK, 1 row affected (0.04 sec) 0.03480175
+Avg : 0.0413213
+
+------------------------------------------------------------------------------
+
+// We can find a huge increase in tupdate time from 0.31 to 0.89
+
+update transactions_cpy set UNITS = "Doll" where UNITS = "Dollars";
+Query OK, 11880 rows affected (0.73 sec) 0.72932500
+Rows matched: 11880  Changed: 11880  Warnings: 0
+
+update transactions set UNITS = "Dollars" where UNITS = "Doll";
+Query OK, 11880 rows affected (0.97 sec) 0.96668300
+Rows matched: 11880  Changed: 11880  Warnings: 0
+
+update transactions_cpy set UNITS = "Doll" where UNITS = "Dollars";
+Query OK, 11880 rows affected (0.68 sec) 0.67702625
+Rows matched: 11880  Changed: 11880  Warnings: 0
+
+update transactions_cpy set UNITS = "Dollars" where UNITS = "Doll";
+Query OK, 11880 rows affected (1.23 sec) 1.23054825
+Rows matched: 11880  Changed: 11880  Warnings: 0
+
+update transactions_cpy set UNITS = "Doll" where UNITS = "Dollars";
+Query OK, 11880 rows affected (0.87 sec) 0.86762150
+Rows matched: 11880  Changed: 11880  Warnings: 0
+
+Avg : 0.8942408
+
+------------------------------------------------------------------------------
+                            Poilce.csv
+------------------------------------------------------------------------------
+Q 1.1) Define the table and load data into it from the CSV file
+
+// Defining the Table
+create table police
+(IncidntNum int,
+Category varchar(50),
+Descript varchar(100),
+DayOfWeek varchar(9),
+Date varchar(30),
+Time time,
+PdDistrict varchar(15),
+Resolution varchar(50),
+Address varchar(50),
+X int,
+Y int,
+Pdld varchar(50)
+location bigint);
+
+IncidntNum -> Incident Number
+Category -> Category of Crime
+Descript -> Description of Crime
+Day of Week -> Day of Week when the crime occured
+Date -> Date of the crime
+Time -> Time of the crime
+District -> District of the crime
+Resolution -> Kind of Punishment given to the criminal to resolve the case.
+Address -> Address where the crime scene happened.
+X -> Latitude of the crime Location
+Y -> Longitude of the Crime Location
+Location -> Exact Location cordinates 
+PdLd -> Police department
+
+Total number of rows -> 150500
+
+
+// Loading Data
+load data infile 'C:/ProgramData/MySql/MySql Server 8.0/uploads/police.csv' into table police fields terminated by ',' enclosed by '"' lines terminated by '\n' ignore 1 rows;
+
+------------------------------------------------------------------------------
+Q 1.2)  Check various queries and monitor the timings
+
+// For a baseline metric, we measure time taken to print the table
+Select * from police
+150500 rows in set (0.92 sec)
+
+------------------------------------------------------------------------------
+
+// We now use a where clause on PdDistrict and Y and check the average time
+select * from police where PdDistrict = 'BAYVIEW' and Y > 10 and Y < 50;
+28450 rows in set (1.17 sec) 1.17480725
+28450 rows in set (1.13 sec) 1.13263625
+28450 rows in set (0.84 sec) 0.84385825
+28450 rows in set (0.74 sec) 0.73795256
+28450 rows in set (0.52 sec) 0.52289000
+Avg : 0.882428862
+
+------------------------------------------------------------------------------
+
+// Average Insert query time is measured 
+insert into police values
+(120058272, 'WEAPON LAWS', 'POSS OF PROHIBITED WEAPON', 'Friday', '1/29/2016 0:00  11:00', '11:00', 'SOUTHERN', 'ARREST, BOOKED', '800 Block of BRYANT ST', -122.4034048, 37.77542071, '(37.775420706711, -122.403404791479)', 12005827212120);
+1 row affected (0.04 sec)
+1 row affected (0.03 sec)
+1 row affected (0.01 sec)
+1 row affected (0.04 sec)
+1 row affected (0.03 sec)
+Avg : 0.03
+
+------------------------------------------------------------------------------
+
+// Average update queries time is measured using multiple queries
+update police set Descript = "POSS OF PROHIBITED WEAPON" where Descript = "Possesion of illegal weapon";
+Query OK, 119 rows affected (0.29 sec) 0.29222325
+Rows matched: 119  Changed: 119  Warnings: 0
+
+update police set Descript = "FIREARM, LOADED, IN VEHICLE, POSS OR USE" where Descript = "FIREARM, LOADED, IN VEHICLE, POSSESSION OR USE";
+Query OK, 104 rows affected (0.35 sec) 0.35059500
+Rows matched: 104  Changed: 104  Warnings: 0
+
+update police set Descript = "Arrest Warrant" where Descript = "WARRANT ARREST";
+Query OK, 3089 rows affected (1.42 sec) 1.41659200
+Rows matched: 3089  Changed: 3089  Warnings: 0 
+
+update police set Descript = "Theft from Vehicle" where Descript = "ATTEMPTED THEFT FROM LOCKED
+VEHICLE";
+Query OK, 219 rows affected (0.39 sec) 0.38466025
+Rows matched: 219  Changed: 219  Warnings: 0
+
+update police set Descript = "Report on Fire" where Descript = "FIRE REPORT";
+Query OK, 146 rows affected (0.31 sec) 0.31170800 
+Rows matched: 146  Changed: 146  Warnings: 0
+
+Avg : 0.5511557
+
+------------------------------------------------------------------------------
+Q 1.3) Create index on the copied table
+
+// We now make a copy table and add index to the copy table
+create table police_cpy like police;
+insert police_cpy select * from police;
+
+alter table police_cpy add index idx_dstct (PdDistrict);
+Query OK, 0 rows affected (1.79 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+------------------------------------------------------------------------------
+Q 1.4) Check various queries and monitor the timings
+
+// We can find a considerable decrease in search time from 0.88 sec to 0.67 // sec
+select * from police where PdDistrict = 'BAYVIEW' and Y > 10 and Y < 50;
+28450 rows in set (0.45 sec) 0.45100350
+28450 rows in set (0.55 sec) 0.54235001
+28450 rows in set (0.77 sec) 0.76501000
+28450 rows in set (1.02 sec) 1.02495975 
+28450 rows in set (0.58 sec) 0.57733875
+Avg : 0.672132402
+------------------------------------------------------------------------------
+
+// An increase in the average insert time is observed
+insert into police_cpy values
+(120058272, 'WEAPON LAWS', 'POSS OF PROHIBITED WEAPON', 'Friday', '1/29/2016 0:00  11:00', '11:00', 'SOUTHERN', 'ARREST, BOOKED', '800 Block of BRYANT ST', -122.4034048, 37.77542071, '(37.775420706711, -122.403404791479)', 12005827212120);
+Query OK, 1 row affected (0.01 sec) 0.01100350
+Query OK, 1 row affected (0.04 sec) 0.04235001
+Query OK, 1 row affected (0.04 sec) 0.04495975
+Query OK, 1 row affected (0.03 sec) 0.03278756
+Query OK, 1 row affected (0.04 sec) 0.03839432
+Avg : 0.033899028
+
+------------------------------------------------------------------------------
+
+// Huge increase in average update time is observed from 0.55 to 0.95
+update police_cpy set Descript = "POSS OF PROHIBITED WEAPON" where Descript = "Possesion of illegal weapon";
+Query OK, 119 rows affected (1.21 sec)
+Rows matched: 119  Changed: 119  Warnings: 0
+1.20927875
+
+update police_cpy set Descript = "FIREARM, LOADED, IN VEHICLE, POSS OR USE" where Descript = "FIREARM, LOADED, IN VEHICLE, POSSESSION OR USE";
+Query OK, 104 rows affected (0.63 sec)
+Rows matched: 104  Changed: 104  Warnings: 0
+0.63222325
+
+update police_cpy set Descript = "Arrest Warrant" where Descript = "WARRANT ARREST";
+Query OK, 3089 rows affected (2.03 sec)
+Rows matched: 3089  Changed: 3089  Warnings: 0
+2.02839432 
+
+update police_cpy set Descript = "Theft from Vehicle" where Descript = "ATTEMPTED THEFT FROM LOCKED VEHICLE";
+Query OK, 219 rows affected (0.54 sec)
+Rows matched: 219  Changed: 219  Warnings: 0
+0.54203075 
+
+update police_cpy set Descript = "Report on Fire" where Descript = "FIRE REPORT";
+Query OK, 146 rows affected (0.36 sec)
+Rows matched: 146  Changed: 146  Warnings: 0
+0.35665425 
+
+Avg : 0.953716264
+
+------------------------------------------------------------------------------
+Q 1.5) Perform Comparative Analysis
+
+In Transactions table,
+    1) Average select query from original table approx equal to 
+       Average select query from copied table approx equal due to the skewed data
+
+    2)  insert into transactions values
+        ('ECTQ.S4AXP',2020.03,62.5,NULL,'C','PERCENT',0,'Electronic','Electronic card transactions by mean and proportion','Actual','Debit card','Proportion(%)',NULL,NULL);
+        Avg : 0.03470355 sec
+
+                        <
+
+        insert into transactions_cpy values
+        ('ECTQ.S4AXP',2020.03,62.5,NULL,'C','PERCENT',0,'Electronic','Electronic card transactions by mean and proportion','Actual','Debit card','Proportion(%)',NULL,NULL);
+        Avg : 0.0415969
+
+        Average insert time has increased
+
+    3) update transactions set UNITS = "Doll" where UNITS = "Dollars";
+        Avg : 0.314566
+
+                <
+
+        update transactions_cpy set UNITS = "Doll" where UNITS = "Dollars";
+        Avg : 0.8942408
+
+        Average update time increased
+
+In Police Table,
+    1) select * from police where PdDistrict = 'BAYVIEW' and Y > 10 and Y<50 ;
+        Avg : 0.882428862
+
+                >
+
+        select * from police where PdDistrict = 'BAYVIEW' and Y > 10 and Y < 50;
+        Avg : 0.672132402
+
+        Average search time has decreased
+
+    2) insert into police values
+        (120058272, 'WEAPON LAWS', 'POSS OF PROHIBITED WEAPON', 'Friday', '1/29/2016 0:00  11:00', '11:00', 'SOUTHERN', 'ARREST, BOOKED', '800 Block of BRYANT ST', -122.4034048, 37.77542071, '(37.775420706711, -122.403404791479)', 12005827212120);
+        Avg : 0.03
+
+                <
+
+        insert into police_cpy values
+        (120058272, 'WEAPON LAWS', 'POSS OF PROHIBITED WEAPON', 'Friday', '1/29/2016 0:00  11:00', '11:00', 'SOUTHERN', 'ARREST, BOOKED', '800 Block of BRYANT ST', -122.4034048, 37.77542071, '(37.775420706711, -122.403404791479)', 12005827212120);
+        Avg : 0.033899028
+
+        Average insert time has increased
+
+    3) update police set Descript = "Report on Fire" where Descript = "FIRE REPORT";
+        Avg : 0.5511557
+
+            <
+
+    update police_cpy set Descript = "Report on Fire" where Descript = "FIRE REPORT";
+        Avg : 0.953716264
+
+        Average update time has increased
+
+    The time for select queries is reduces from non-indexed tables to indexed table.
+    The select statement for range query is greater for indexed table. This is may be because of the leaf node transversal which gives biggest performance risk.
+    Both update and insert are slower in indexed tables. This is because, for each query it should update both table and the indexes.
+

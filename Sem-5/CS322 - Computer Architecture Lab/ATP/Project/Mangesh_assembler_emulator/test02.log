@@ -1,0 +1,18 @@
+LabelName => Value
+label => 0
+
+UsedLabelName
+
+Warnings 
+Line 0 : Unused Label
+
+Errors 
+Line 0 : No such Label
+Line 0 : Not a Valid Number Format,Use Suitable Prefix For hex = '0x', oct = '0'
+Line 4 : Duplicate Label Definition
+Line 7 : No Operand found
+Line 8 : Unexpected Operand, No Operand is allowed
+Line 9 : Unexpected Operand, Only One Operand is allowed
+Line 10 : Invalid Label Name, Only include alphanumeric, start with alphabets only
+Line 11 : No such insruction
+Line 12 : No such insruction

@@ -1,0 +1,164 @@
+CS-355 Assignment 6
+
+Name: P.V.Sriram
+Roll No.: 1801CS37
+
+------------------------------------------------------------------------------
+
+// TASK-1
+
+// Loading all the tables from text file
+create table plans(B_name varchar(20), city varchar(20), Rob_date date, no_members int);
+
+
+ load data local infile 'c:/programdata/mysql/mysql\ server\ 8.0/uploads/plans.txt' into table pl
+ans fields terminated by '\t' lines terminated by '\n';
+
+create table Accomplices(R_name varchar(20),B_name varchar(20), city varchar(20), Rob_date date,
+ share int);
+
+
+load data local infile 'c:/programdata/mysql/mysql\ server\ 8.0/uploads/accomplices.txt' into ta
+ble accomplices fields terminated by '\t' lines terminated by '\n';
+
+create table Robberies(B_name varchar(20),city varchar(20), Rob_date date, amount float);
+
+
+load data local infile 'c:/programdata/mysql/mysql\ server\ 8.0/uploads/robberies.txt' into table robberies fields terminated by '\t' lines terminated by '\n';
+
+create table hasccounts(R_name varchar(20),B_name varchar(20), city varchar(20));
+
+
+load data local infile 'c:/programdata/mysql/mysql\ server\ 8.0/uploads/hasaccounts.txt' into ta
+ble hasaccounts fields terminated by '\t' lines terminated by '\n';
+
+create table Banks(B_name varchar(20),city varchar(20), no_acc int,sec_level varchar(15));
+
+
+load data local infile 'c:/programdata/mysql/mysql\ server\ 8.0/uploads/banks.txt' into table ba
+nks fields terminated by '\t' lines terminated by '\n';
+
+create table robbers(R_name varchar(20),Age int,Jail_time int);
+
+
+load data local infile 'c:/programdata/mysql/mysql\ server\ 8.0/uploads/robbers.txt' into table
+robbers fields terminated by '\t' lines terminated by '\n';
+
+create table hasskills(r_name varchar(20), skills varchar(20), r_rank int, r_grade varchar(10));
+
+
+load data local infile 'c:/programdata/mysql/mysql\ server\ 8.0/uploads/hasskills.txt' into table hasskills fields terminated by '\t' lines terminated by '\n';
+
+------------------------------------------------------------------------------
+1.1)
+
+// Add unique ids to all robbers wherever relevant
+UPDATE robbers SET robber_id =
+(
+	CASE     WHEN R_name = 'Al Capone' THEN "r_1"
+			 WHEN R_name = 'Bugsy Malone' THEN "r_2"
+			 WHEN R_name = 'Lucky Luchiano' THEN "r_3"
+			 WHEN R_name = 'Anastazia' THEN "r_4"
+			 WHEN R_name = 'Mimmy The Mau Mau' THEN "r_5"
+			 WHEN R_name = 'Tony Genovese' THEN "r_6"
+			 WHEN R_name = 'Dutch Schulz' THEN "r_7"
+			 WHEN R_name = 'Clyde' THEN "r_8"
+			 WHEN R_name = 'Calamity Jane' THEN "r_9"
+			 WHEN R_name = 'Bonnie' THEN "r_10"
+			 WHEN R_name = 'Meyer Lansky' THEN "r_11"
+			 WHEN R_name = 'Moe Dalitz' THEN "r_12"
+			 WHEN R_name = 'Mickey Cohen' THEN "r_13"
+			 WHEN R_name = 'Kid Cann' THEN "r_14"
+			 WHEN R_name = 'Boo Boo Hoff' THEN "r_15"
+			 WHEN R_name = 'King Solomon' THEN "r_16"
+			 WHEN R_name = 'Bugsy Siegel' THEN "r_17"
+			 WHEN R_name = 'Vito Genovese' THEN "r_18"
+			 WHEN R_name = 'Mike Genovese' THEN "r_19"
+			 WHEN R_name = 'Longy Zwillman' THEN "r_20"
+			 WHEN R_name = 'Waxey Gordon' THEN "r_21"
+			 WHEN R_name = 'Greasy Guzik' THEN "r_22"
+			 WHEN R_name = 'Lepke Buchalter' THEN "r_23"
+			 WHEN R_name = 'Sonny Genovese' THEN "r_24"		 
+	END
+);
+
+alter table hasccounts add r_id int;
+
+update hasccounts inner join robbers on (hasccounts.r_name=robbers.r_name) set hasccounts.robber_id = robbers.robber_id;
+
+ alter table hasskills add robber_id int;
+
+update hasskills inner join robbers on (hasskills.r_name=robbers.r_name) set hasskills.robber_id = robbers.robber_id;
+
+alter table accomplices add  robber_id int;
+
+update accomplices inner join robbers on (accomplices.r_name=robbers.r_name) set accomplices.robber_id = robbers.robber_id;
+
+
+------------------------------------------------------------------------------
+1.2)
+
+create table possible_skills(skills varchar(20) primary key);
+insert into possible_skills select distinct skills from hasskills;
+
+ALTER TABLE hasskills
+ADD CONSTRAINT fk_skills
+FOREIGN KEY (SID) REFERENCES skills(sid);
+
+------------------------------------------------------------------------------
+1.3)
+
+alter table banks add primary key (B_name, city);
+
+------------------------------------------------------------------------------
+// TASK-2
+
+2.1)
+create view v1 as select * from robbers where age < 40 and jail_time > 4;
+
+------------------------------------------------------------------------------
+
+2.2)
+create view v2 as select distinct R_name, robber_id from accomplices where year(rob_date) > 2010 or year(Rob_date) < 2005;
+
+------------------------------------------------------------------------------
+
+2.3)
+create view v3 as select robbers.robber_id,robbers.r_name,age,skills from robbers inner join hasskills on hasskills.robber_id=robbers.robber_id where (age,skills) in (select max(robbers.age),hasskills.skills from robbers inner join hasskills on hasskills.robber_id=robbers.robber_id group by hasskills.skills);
+
+------------------------------------------------------------------------------
+
+2.4)
+create view v4 as select b_name from robberies group by b_name having count(b_name)>1;
+
+------------------------------------------------------------------------------
+
+2.5)
+create view v5 as select * from robberies where city = 'Chicago' order by rob_date desc limit 5;
+
+------------------------------------------------------------------------------
+
+2.6)
+create view v6 as select sum(share),r_name, robber_id from accomplices group by robber_id;
+
+------------------------------------------------------------------------------
+
+2.7)
+create view v7 as Select r_name,robber_id,count(skills) from hasskills group by robber_id;
+
+------------------------------------------------------------------------------
+
+2.8)
+create view v8 as select * from plans where rob_date>=CURDATE() and rob_date<=DATE_ADD(CURDATE(), INTERVAL 3 MONTH);
+
+------------------------------------------------------------------------------
+
+2.9)
+create view v9 as Select r_name, robber_id from hasccounts where B_name in (select distinct (b_name) from plans where rob_date>curdate() and rob_date<date_add(curdate(),interval 3 month));
+
+------------------------------------------------------------------------------
+
+2.10)
+create view v10 as select Banks.b_name,Banks.city,sum(if(robberies.amount is NULL,0,1)),banks.sec_level from Banks left join Robberies on Banks.b_name = Robberies.b_name and Banks.city = Robberies.city group by Banks.b_name,Banks.City;
+
+------------------------------------------------------------------------------

@@ -1,0 +1,104 @@
+/*
+    Name of Student: M. Maheeth Reddy
+           Roll No.: 1801CS31
+
+            CS355 Assignment 9
+*/
+
+-- use dblab
+use dblab;
+
+---- Task 1
+
+-- create account table
+create table account (
+    anum decimal(5,0) primary key,
+    bname varchar(20),
+    balance int
+);
+
+-- create custAcc table
+create table custAcc (
+    anum decimal(5,0),
+    cname varchar(20),
+    primary key (anum,cname)
+);
+
+
+---- Task 2
+
+-- 1. procedure procAccDummyData
+delimiter $$
+create procedure procAccDummyData (in N int)
+begin
+    declare cnt int default 0;
+    declare _anum decimal(5,0);
+    declare _bname varchar(20);
+    declare _balance int;
+    declare _there int;
+
+    while(cnt < N) do
+        _exists: while(1) do
+            select floor(rand()*(99999-10000+1)+10000) into _anum;
+            select count(*) into _there from account where anum=_anum;
+            if _there=0 then
+                leave _exists;
+            end if;
+        end while _exists;
+
+        select substring(md5(rand()) from 1 for 20) into _bname;
+        select floor(rand()*(99999-10000+1)+10000) into _balance;
+        insert into account values (_anum,_bname,_balance);
+        set cnt=cnt+1;
+    end while;
+end$$
+delimiter ;
+
+-- 2. function funWithdraw
+delimiter $$
+create function funWithdraw (_anum decimal(5,0), _amount int) returns int deterministic
+begin
+    declare _balance int;
+    select balance into _balance from account where anum=_anum;
+    if _balance < _amount then
+        return -1;
+    else 
+        update account set balance=_balance-_amount where anum=_anum;
+        return _balance-_amount;
+    end if;
+end$$
+delimiter ;
+
+-- 3a. trigger before insertion operation into custAcc table, check whether the anum value exists in the account relation
+delimiter $$
+create trigger before_custAcc_insert
+before insert
+on custAcc for each row
+begin
+    declare cnt int;
+    declare errorMessage VARCHAR(255);
+    set errorMessage = concat('The account number ',new.anum,' does not exist');
+    select count(*) into cnt from account where anum=new.anum;
+    if cnt=0 then
+        signal sqlstate '45000'
+            set message_text = errorMessage;
+    end if;
+end$$
+delimiter ;
+
+-- 3b. trigger for each update operation on balance attribute of account relation, store the corresponding old balance value in a separate table accBalanceUpdate
+create table accBalanceUpdate (
+    anum decimal(5,0), 
+    balance decimal(6,0), 
+    dou date, 
+    tou timestamp
+);
+
+delimiter $$
+create trigger before_account_update
+before update
+on account for each row
+begin
+    insert into accBalanceUpdate values (old.anum,old.balance,curdate(),now());
+end$$
+delimiter ;

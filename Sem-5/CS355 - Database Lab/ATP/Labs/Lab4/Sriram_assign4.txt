@@ -1,0 +1,131 @@
+CS355 Database Lab-4
+Name : P.V.Sriram
+Roll No. : 1801CS37
+--------------------------------------------------------------------------
+
+// TASK A
+
+// Add new column called email
+
+ALTER TABLE suppliers add email varchar(20);
+
+insert into suppliers values
+('sup1111', 'aa', 'citya', '1111@yahoo.com'),
+('sup1112', 'bb', 'cityb', '1112@yahoo.com'),
+('sup1113', 'cc', 'cityc', '1113@yahoo.com'),
+('sup1221', 'dd', 'cityd', '1221@yahoo.com'),
+('sup3838', 'ee', 'citye', '3838@yahoo.com'),
+
+--------------------------------------------------------------------------
+
+// Add a new column called weights
+
+alter table products add weights int;
+
+insert into products values
+('prd-111', 'aa', 21, 2020-05-21, 12),
+('prd-112', 'bb', 22, 2020-05-22, 13),
+('prd-113', 'cc', 23, 2020-05-23, 14),
+('prd-373', 'dd', 24, 2020-05-24, 15),
+('prd-9291', 'ee', 25, 2020-05-25,16);
+
+--------------------------------------------------------------------------
+
+// TASK B
+
+Q1) 
+
+// For each PID of Products table, extract only the number part from 
+// PIDs by replacing prd- with blank. 
+
+select replace(pid, "prd-", "") from products;
+
+--------------------------------------------------------------------------
+
+Q2)
+
+// Process the Order ID as * + sid + @ + pid + #
+
+select sid, pid, concat("*", sid, "@", pid, "#") as OrderID from SP;
+
+--------------------------------------------------------------------------
+
+Q3)
+
+// For each entry of Suppliers table, display the SID by replacing the 
+// ‘sup’ string of SIDs with ‘sppl’ string
+
+select replace(sid, "sup", "sppl") as SID_ from suppliers;
+
+--------------------------------------------------------------------------
+
+Q4)
+
+// Find the unique domain name from the email attribute. 
+
+select distinct substr(email, locate("@", email) + 1) as Domain from suppliers;
+
+--------------------------------------------------------------------------
+
+Q5)
+
+// For each PID of Product table, display the PID, weight and the 
+// weight_in_kg 
+select pid, weights, weights / 1000 as weight_in_kg from products;
+
+--------------------------------------------------------------------------
+
+Q6)
+
+// For each PID, check whether the numeric field of each PID is a 
+// palindrome or not by using reverse command
+
+select pid from products where replace(pid, "prd-", "") = reverse(replace
+(pid, "prd-", ""));
+
+--------------------------------------------------------------------------
+
+Q7)
+
+// Find the details of Suppliers who have supplied atleast one product 
+// with WarrantyPeriod greater than 2 using inner join. 
+
+select distinct suppliers.sid, suppliers.sname, suppliers.city, suppliers.email from
+sp
+inner join suppliers
+on sp.sid = suppliers.sid
+inner join products
+on sp.pid = products.pid
+where products.warrantyperiod>2;
+
+--------------------------------------------------------------------------
+
+Q8)
+
+// Find the SID who have supplied all items. Using Division btw sp and 
+// products
+
+SELECT DISTINCT sid FROM sp c1
+WHERE NOT EXISTS
+(SELECT products.pid FROM products
+WHERE products.pid NOT IN (SELECT c2.pid FROM sp c2 WHERE c2.sid = c1.sid)); 
+
+--------------------------------------------------------------------------
+
+Q9)
+
+// Create a view to list the products which have not been supplied by 
+// any suppliers so far.
+
+create view product_not_supplied as select * from products where pid not in (select PID from sp);
+
+--------------------------------------------------------------------------
+
+Q10)
+
+// Create a view to show the list of SIDs who have never supplied more 
+// than 5 quantity items in a single purchase
+
+create view Filtered_Table as select sid from sp where sid not in (select sid from sp where qty>5);
+
+--------------------------------------------------------------------------
