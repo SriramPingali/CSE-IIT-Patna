@@ -1,0 +1,12 @@
+
+Number of instances wrongly classified by "any base model" but 
+correctly classified by the majority vote ensemble: 105
+
+Number of instances wrongly classified by "any base model" but 
+correctly classified by the weighted vote ensemble: 105
+
+Number of instances wrongly classified by "all base models" but 
+correctly classified by the majority vote ensemble: 0
+
+Number of instances wrongly classified by "all base models" but 
+correctly classified by the weighted vote ensemble: 0

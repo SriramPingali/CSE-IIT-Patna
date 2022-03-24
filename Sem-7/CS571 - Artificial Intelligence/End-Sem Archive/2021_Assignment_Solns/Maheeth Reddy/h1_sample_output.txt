@@ -1,0 +1,37 @@
+Heuristic Chosen : number of tiles displaced from their destined position 
+Start State: 
+0, 1, 3
+4, 2, 5
+7, 8, 6
+
+Goal State: 
+1, 2, 3
+4, 5, 6
+7, 8, 0
+
+The chosen heuristic is admissible!
+Total Number of state explored : 5
+Search Status : Successful
+(Sub) Optimal Path length: 4 
+(Sub) Optimal Path 
+0, 1, 3
+4, 2, 5
+7, 8, 6
+
+1, 0, 3
+4, 2, 5
+7, 8, 6
+
+1, 2, 3
+4, 0, 5
+7, 8, 6
+
+1, 2, 3
+4, 5, 0
+7, 8, 6
+
+1, 2, 3
+4, 5, 6
+7, 8, 0
+
+Time Taken : 0:00:00.010949 

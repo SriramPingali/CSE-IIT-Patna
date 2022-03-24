@@ -1,0 +1,70 @@
+Classification Accuracy of Assignment-4 Feedforward NN is: 81.20104438642298
+Classification Report:
+               precision    recall  f1-score   support
+
+     business       0.95      0.68      0.79        79
+entertainment       0.66      0.86      0.74        69
+     politics       0.77      0.91      0.84        93
+        sport       0.90      0.81      0.85        47
+         tech       0.89      0.79      0.84        95
+
+     accuracy                           0.81       383
+    macro avg       0.83      0.81      0.81       383
+ weighted avg       0.83      0.81      0.81       383
+============================================
+Classification Accuracy of Pretrained Feedforward NN is: 81.4621409921671
+Classification Report:
+               precision    recall  f1-score   support
+
+     business       0.95      0.70      0.80        79
+entertainment       0.67      0.86      0.75        69
+     politics       0.77      0.92      0.84        93
+        sport       0.90      0.81      0.85        47
+         tech       0.89      0.78      0.83        95
+
+     accuracy                           0.81       383
+    macro avg       0.84      0.81      0.82       383
+ weighted avg       0.84      0.81      0.82       383
+============================================
+Classification Accuracy of RNN is: 65.0130548302872
+Classification Report:
+               precision    recall  f1-score   support
+
+     business       0.94      0.77      0.85        79
+entertainment       0.46      0.57      0.51        69
+     politics       0.86      0.71      0.78        93
+        sport       0.45      0.45      0.45        47
+         tech       0.57      0.65      0.61        95
+
+     accuracy                           0.65       383
+    macro avg       0.65      0.63      0.64       383
+ weighted avg       0.68      0.65      0.66       383
+============================================
+Classification Accuracy of Majority Voting Ensemble Model is: 81.72323759791122
+Classification Report:
+               precision    recall  f1-score   support
+
+     business       0.95      0.70      0.80        79
+entertainment       0.67      0.86      0.75        69
+     politics       0.77      0.92      0.84        93
+        sport       0.90      0.81      0.85        47
+         tech       0.89      0.79      0.84        95
+
+     accuracy                           0.82       383
+    macro avg       0.84      0.81      0.82       383
+ weighted avg       0.84      0.82      0.82       383
+============================================
+Classification Accuracy of Weighted Voting Ensemble Model is: 81.72323759791122
+Classification Report:
+               precision    recall  f1-score   support
+
+     business       0.95      0.70      0.80        79
+entertainment       0.67      0.86      0.75        69
+     politics       0.77      0.92      0.84        93
+        sport       0.90      0.81      0.85        47
+         tech       0.89      0.79      0.84        95
+
+     accuracy                           0.82       383
+    macro avg       0.84      0.81      0.82       383
+ weighted avg       0.84      0.82      0.82       383
+============================================

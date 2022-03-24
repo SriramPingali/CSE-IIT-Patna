@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script>
+    <script src='./question_1.js'></script>
+
+    <title>Nanomaterials Project</title>
+</head>
+
+<body>
+    <div class="bg-image"></div>
+
+    <div class="container bg-text">
+        <span style="text-align:center">
+            <h2 class="course_title">PH401 - Introduction to Nanomaterials</h2>
+            <h3><span class="subtitle">Assignment: Code for</span> <span class="question_no">Question 1</h3>
+            <h4>by <span class="student_name">M. Maheeth Reddy</span> (Roll no. <span class="roll_no">1801CS31</span>),
+        <span class="student_name">M. Nitesh Reddy</span> (Roll no. <span class="roll_no">1801CS32</span>),
+        <span class="student_name">Nischal A</span> (Roll no. <span class="roll_no">1801CS33</span>)</h4>
+        </span>
+        <br>
+
+        <h3 class="question_no">Question 1:</h3>
+        <h5 class="question">
+            Write a computer programming to deduce the total number of atoms and surface atoms for different shell of cuboctahedral/spherical shape. <br> Plot % of atoms in bulk/surface versus particle size. The user should get idea to generate the thickness
+            or size of nanoparticle for a <br> particular application (optical/electrical/magnetic/strength).
+        </h5>
+        
+        <h3 class="question_no" style="display: inline;">Answer:</h3><a class="readme btn" onclick="window.open('https://github.com/Mintellect310/ph401-1801cs31_1801cs32_1801cs33/blob/main/README.md','_blank')">View README</a>
+        <table class="inline">
+            <tr>
+                <td>
+                    <div class="question">
+                        <h4>Select a shape:</h4>
+                        <input class="form-check-input" type="radio" name="shape" id="cuboctahedral" value="Cuboctahedral">
+                        <label class="form-check-label" for="cuboctahedral">Cuboctahedral</label>
+                        <input class="form-check-input" type="radio" name="shape" id="spherical" value="Spherical">
+                        <label class="form-check-label" for="spherical">Spherical</label>
+                    </div>
+                </td>
+                <td rowspan="4" style="padding-left: 20%;">
+                    <h5 id="results"></h5>
+                    <div id="finalPlot" style="z-index: 3; margin-top: auto; margin-bottom: auto;">
+                        <!-- Graph will be drawn here -->
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="question">
+                        <h4>Select an application:</h4>
+                        <input class="form-check-input" type="radio" name="application" id="optical" value="Optical" onclick="autoSize()">
+                        <label class="form-check-label" for="optical">Optical</label>
+                        <input class="form-check-input" type="radio" name="application" id="electrical" value="Electrical" onclick="autoSize()">
+                        <label class="form-check-label" for="electrical">Electrical</label>
+                        <input class="form-check-input" type="radio" name="application" id="magnetic" value="Magnetic" onclick="autoSize()">
+                        <label class="form-check-label" for="magnetic">Magnetic</label><br>
+                        <input class="form-check-input" type="radio" name="application" id="strength" value="Strength" onclick="autoSize()">
+                        <label class="form-check-label" for="strength">Strength</label>
+                        <input class="form-check-input" type="radio" name="application" id="none" value="None" onclick="autoSize()">
+                        <label class="form-check-label" for="none">None</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="inline">
+                    <div class="question">
+                        <h4>Specify the limits for particle size:</h4>
+                        <label for="min_particle_size">Minimum:</label>
+                        <input type="number" id="min_particle_size" default="1" class="input_num" min="1" value="1">
+                        <br>
+                        <label for="min_particle_size">Maximum:</label>
+                        <input type="number" id="max_particle_size" default="50" class="input_num" min="1" value="50">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="btn btn-primary button1 center" onclick="draw()">Draw Graph!</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+Stakeholder Identification:
+----------------------------
+
+For example, Teaching methods:
+a) Students.
+b) Teachers.
+c) Administration.
+d) Parents.
+e) Education Ministry.
+f) Technology Platforms.
+
+To do: Duplicate Slide. Shrink problem box. List down stakeholders.
+Can you communicate with stakeholders in current scenario.
+What motivates you.
+a) Addition to existing slides.
+b) Each of the problems, make a stakeholder page.
+c) Make a decision based on metrics (RICE score, Economic / Social Impact value, Ease-Experience-2Bill dollar problems)
+d) Make questions for stakeholders.
+
+Talking to stakeholders, gives more insights to the problem at hand.
+Interview is as good as questions asked.
+a) Questionaire. - Be clear regarding the cohort. No more than 9 questions.
+    Cant be all subjective. Can be a conditional flow. Closed ended questions are screening questions.
+b) Interviews. - Good interview is where we dont speak more than 10%.
+c) Focus Groups. - Get a few ppl in a room and ask open ended questions. Do proper moderation (Enable everyone to speak)
+
+Get consent.
+
+Talking to humans: https://jmp.sh/qqg9IjR
+Form tool: https://www.qualtrics.com/au/?rid=ip&prevsite=en&newsite=au&geo=IN&geomatch=au
+  Typeform: https://www.typeform.com/chat/
+  Chatform: https://chat-forms.com/#/

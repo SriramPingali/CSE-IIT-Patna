@@ -1,0 +1,42 @@
+TAM SAM SOM (Case study on Byjus)
+------------
+
+https://www.thebusinessplanshop.com/blog/en/entry/tam_sam_som
+
+Framework for market analysis.
+
+TAM -> Total Available Market is the total market demand for a product or service. 
+SAM -> Serviceable Available Market is the segment of the TAM targeted by your products and services which is within your geographical reach.
+SOM -> Serviceable Obtainable Market is the portion of SAM that you can capture.
+
+TAM is usually very high. Assumes 100% global market penetration.
+Eg: For Byjus,
+	TAM is India ( CBSE), All CBSE students registered in class 4-12.
+
+Regulations:
+Can the business reach everywhere? -> NO
+Consider operating constraints
+	Network Connectivity.
+	Access to equipment.
+	Affordability.
+	Awareness.
+
+Considering regulations, we can estimate SAM, SOM.
+Serviceability -> Familiarity with product. Can start with urban area (Easier convert,adapt rate)
+Obtainable -> Intrinsic factors (Like staff / Budget / Marketing) restricting service to all SAM.
+
+SAM -> Tier 1 cities of india.
+SOM -> Some Tier 1 cities 
+
+Sarvana Bhavan:
+Considering sarvana bhavan is a south indian cusine restaurant with access to man power and inputs in south india currently. It wants to cater to customers with knack for south indian cuisune. 
+
+Regulation:
+	1) Sparse population outside south east asia for a target market (External).
+	2) Access to ingredients and inputs outside south east asia (External).
+	3) Lack of chefs specialising in cuisine (Internal).
+	4) Lack of finances to export ingredients worldwide (Internal).
+
+	TAM : 100 cities where 0.5% of population are indians.
+	SAM : Provincial South east asian cities with easy access to ingredients and resources.
+	SOM : South Indian Metropolitan cities

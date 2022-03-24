@@ -1,0 +1,3 @@
+DL	In recent years, researchers, for computer vision, have proposed many deep learning (DL) methods for various tasks, and facial recognition (FR) made an enormous leap using these techniques.
+DL	Deep FR systems benefit from the hierarchical architecture of the deep learning methods to learn discriminative face representation. 
+CV	Computer vision methods have been widely used for facial recognition.

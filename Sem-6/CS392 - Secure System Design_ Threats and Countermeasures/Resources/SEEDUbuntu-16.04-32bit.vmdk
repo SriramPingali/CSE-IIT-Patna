@@ -1,0 +1,35 @@
+# Disk DescriptorFile
+version=1
+CID=3eb5b55e
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 4192256 SPARSE "SEEDUbuntu-16.04-32bit-s001.vmdk"
+RW 4192256 SPARSE "SEEDUbuntu-16.04-32bit-s002.vmdk"
+RW 4192256 SPARSE "SEEDUbuntu-16.04-32bit-s003.vmdk"
+RW 4192256 SPARSE "SEEDUbuntu-16.04-32bit-s004.vmdk"
+RW 4192256 SPARSE "SEEDUbuntu-16.04-32bit-s005.vmdk"
+RW 4192256 SPARSE "SEEDUbuntu-16.04-32bit-s006.vmdk"
+RW 4192256 SPARSE "SEEDUbuntu-16.04-32bit-s007.vmdk"
+RW 4192256 SPARSE "SEEDUbuntu-16.04-32bit-s008.vmdk"
+RW 4192256 SPARSE "SEEDUbuntu-16.04-32bit-s009.vmdk"
+RW 4192256 SPARSE "SEEDUbuntu-16.04-32bit-s010.vmdk"
+RW 20480 SPARSE "SEEDUbuntu-16.04-32bit-s011.vmdk"
+
+# The disk Data Base 
+#DDB
+
+ddb.virtualHWVersion = "4"
+ddb.adapterType="ide"
+ddb.geometry.cylinders="16383"
+ddb.geometry.heads="16"
+ddb.geometry.sectors="63"
+ddb.geometry.biosCylinders="1024"
+ddb.geometry.biosHeads="255"
+ddb.geometry.biosSectors="63"
+ddb.uuid.image="ab11a061-1e6b-4eff-aae2-9192aee9ba5d"
+ddb.uuid.parent="00000000-0000-0000-0000-000000000000"
+ddb.uuid.modification="4ce0bd38-766f-4cef-9529-b1552e9bd462"
+ddb.uuid.parentmodification="00000000-0000-0000-0000-000000000000"
+ddb.comment=""

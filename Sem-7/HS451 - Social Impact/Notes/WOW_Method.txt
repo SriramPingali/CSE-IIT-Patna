@@ -1,0 +1,16 @@
+WOW Method
+-----------
+A way to solve WHAT for WHOM in order to achieve OUTCOME
+Eg: A way to design effective learning environment for classroom Students
+  in order to improve their Class performance
+
+Eg: A way to design effective learning environment for classroom Students
+  in order to improve their marks.
+
+
+What: How to design the most effective learning environment
+Whom: Students
+Metrics: Gap between delivery and comprehension should reduce.
+  Marks/Engagement/Class performance
+
+**

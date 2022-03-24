@@ -1,0 +1,121 @@
+CS359 Computer Networks Lab
+
+Assignment 1
+
+Name of Student: M. Maheeth Reddy
+Roll No.:        1801CS31
+
+Problem1: Writing Wireshark filter expressions for packet capture
+
+Packet Capture Filter Expressions to:
+
+Q1. Capture all TCP traffic to/from Facebook, during the time when you log in to your Facebook account
+A1: tcp and host 69.171.250.35
+
+Q2. Capture all HTTP traffic to/from Facebook, when you log in to your Facebook account
+A2: To capture HTTP traffic, use capture filter tcp and host 69.171.250.35
+    Later apply Display Filter, tcp.port==80
+
+    To capture HTTPS traffic, use capture filter tcp and host 69.171.250.35
+    Later apply Display Filter, tcp.port==443
+
+Q3. Find a popular YouTube video and play it while capturing all traffic to/from YouTube
+A3: tcp and host 172.217.163.46
+    For HTTP packets, use same Capture filter along with the Display Filter, tcp.port==80
+    For HTTPS packets, use same Capture filter along with the Display Filter, tcp.port==443
+
+
+Display Filter Expressions for:
+
+Q1. Write a DISPLAY filter expression to count all TCP packets (captured under item #1) that 
+    have the flags SYN, PSH, and RST set. Show the fraction of packets that had each flag set.
+A1: For packets with SYN flag set,
+        Display filter: tcp.flags.syn==1
+        Fraction: 0
+    
+    For packets with PUSH flag set,
+        Display filter: tcp.flags.push==1
+        Fraction: 531/1072 = 0.495
+    
+    For packets with RESET flag set,
+        Display filter: tcp.flags.reset==1
+        Fraction: 0
+
+Q2. Use a DISPLAY filter expression to separate the packets sent by your computer vs. received 
+    from Facebook and YouTube in items #2 and #3 above. Show the fractions for each type.
+A2: For Packets sent to Facebook:
+        Display Filter: ip.dst==69.171.250.35
+        Fraction: 514/1072 = 0.479
+    
+    For Packets received from Facebook:
+        Display Filter: ip.dst==10.0.2.15
+        Fraction: 558/1072 = 0.521
+    -------------------------------------------------
+    For Packets sent to YouTube:
+        Display Filter: ip.dst==172.217.163.46
+        Fraction: 450/1092 = 0.412
+    
+    For Packets received from YouTube:
+        Display Filter: ip.dst==10.0.2.15
+        Fraction: 642/1092 = 0.588
+
+-------------+-------------+-------------+-------------+-------------
+
+Problem2: Captured Data Analysis
+
+a. Count how many TCP packets you received from / sent to Facebook or YouTube, and how many of each were also HTTP packets.
+A:  TCP packets received from / sent to Facebook:
+        Packets Captured: 1072 over 75 seconds
+        Packets sent to Facebook: 514
+        Packets received from Facebook: 558
+    
+    HTTP packets received from / sent to Facebook:
+        Packets Captured: 0 over 75 seconds
+        Packets sent to Facebook: 0
+        Packets received from Facebook: 0
+
+    HTTPS packets received from / sent to Facebook:
+        Packets Captured: 1072 over 75 seconds
+        Packets sent to Facebook: 514
+        Packets received from Facebook: 558
+    ----------------------------------------------------
+    TCP packets received from / sent to YouTube:
+        Packets Captured: 1092 over 798 seconds
+        Packets sent to Facebook: 450
+        Packets received from Facebook: 642
+    
+    HTTP packets received from / sent to YouTube:
+        Packets Captured: 0 over 798 seconds
+        Packets sent to Facebook: 0
+        Packets received from Facebook: 0
+
+    HTTPS packets received from / sent to YouTube:
+        Packets Captured: 1092 over 798 seconds
+        Packets sent to Facebook: 450
+        Packets received from Facebook: 642
+
+
+b. Determine if any TCP packets with SYN or PSH flags set were sent from your host or received from Facebook/Youtube.
+A:  No TCP packets with SYN flags were sent to Facebook
+    No TCP packets with SYN flags were received from Facebook
+    151 TCP packets with PSH flags were sent to Facebook (total packets = 1072)
+    380 TCP packets with PSH flags were received from Facebook (total packets = 1072)
+    -------------------------------------------------------------
+    No TCP packets with SYN flags were sent to YouTube
+    No TCP packets with SYN flags were received from YouTube
+    367 TCP packets with PSH flags were sent to YouTube (total packets = 1092)
+    205 TCP packets with PSH flags were received from YouTube (total packets = 1092)
+
+
+c. Go flag-by-flag and count how many packets have tcp.flags.push set, then how many have 
+   tcp.flags.syn set, and finally, how many have tcp.flags.reset set.
+A:  For Facebook: Packets Captured: 1072
+        531 packets with tcp.flags.push set
+        No packets with tcp.flags.syn set
+        No packets with tcp.flags.reset set
+    -------------------------------------------
+    For YouTube: Packets Captured: 1092
+        572 packets with tcp.flags.push set
+        No packets with tcp.flags.syn set
+        No packets with tcp.flags.reset set
+    

@@ -1,0 +1,160 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-text {
+    /* background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4); */
+    color: white;
+    /* font-weight: bold; */
+    /* border: 3px solid #f1f1f1; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    /* text-align: center; */
+}
+
+.bg-image {
+    background-image: url('./images/download.jpeg');
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    filter: brightness(50%);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed
+}
+
+.course_title {
+    color: rgb(255, 162, 227);
+    font-weight: bold;
+}
+
+.subtitle {
+    color: rgb(255, 255, 255);
+}
+
+.question_no {
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.student_name {
+    color: rgb(251, 255, 0);
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.roll_no {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.box {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* z-index: 2; */
+    /* width: 80%; */
+    /* padding: 20px; */
+    /* text-align: center; */
+}
+
+.question {
+    line-height: 1.6;
+    font-size: 22px;
+}
+
+.question1 {
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.button1 {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.a1 {
+    color: rgb(255, 162, 227);
+}
+
+.a1:hover {
+    color: gold;
+}
+
+.readme {
+    color: rgb(255, 255, 255);
+    background-color: rgb(111, 172, 172);
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: rgb(251, 255, 0);
+    border-width: 2px;
+}
+
+.readme:hover {
+    background-color: rgb(85, 235, 230);
+    border-color: rgb(0, 17, 255);
+    transition: all 1s ease;
+}
+
+.inline {
+    padding: 5px;
+}
+
+.input_num {
+    color: black;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    color: cyan;
+}
+
+.link:hover {
+    color: gold;
+}
+
+ul {
+    font-size: x-large;
+}
+
+label {
+    font-size: 20px;
+}
+
+/* table, tr, td {
+    border: 5px solid white;
+} */

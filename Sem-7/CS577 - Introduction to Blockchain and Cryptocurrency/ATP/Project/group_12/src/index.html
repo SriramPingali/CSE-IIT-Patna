@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Smart Farming DApp</title>
+    <link href="./app.css" rel='stylesheet' type='text/css'>
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <h1>Smart Farming DApp</h1>
+    <h2 class="subhead">by Group 12</h2>
+    <h4>Account Id: <span class="white"><span id="SenderBalance"></span> </h4>
+
+    <div class="btn-group" id="form-selector" align="center">
+
+        <button type="button" class="btn1 btn-selector active" id="sign-up-btn">Farmer</button>
+        <button type="button" class="btn1 btn-selector" id="log-in-btn">Quality Testing</button>
+        <button type="button" class="btn1 btn-selector" id="payments-btn">Customer</button>
+        <button type="button" class="btn1 btn-selector" id="finance-btn">Micro-Finance</button>
+
+    </div>
+    <div class="form" id="sign-up-form">
+        <h2 class="form-title" align="center">Farmer and Crop Details</h2>
+        <b>Farmer Id:</b>
+        <input type="text" class="input-std" id="fid">
+        <b>Farmer's Name:</b>
+        <input type="text" class="input-std" id="fname">
+        <b>Location:</b>
+        <input type="text" class="input-std" id="loc">
+        <b>Crop Name:</b>
+        <input type="text" class="input-std" id="crop">
+        <b>Phone:</b>
+        <input type="text" class="input-std" id="contact">
+        <b>Quantity:</b>
+        <input type="text" class="input-std" id="quantity">
+        <b>Expected Price:</b>
+        <input type="text" class="input-std" id="exprice">
+        <button type="button" class="btn-submit" id="setvalue" onclick="set()">Submit</button>
+        <span id="status"></span>
+    </div>
+
+
+    <div class="form" id="log-in-form">
+        <h2 class="form-title" align="center">Quality Testing</h2>
+
+
+        <br>
+        <table>
+            <!-- <tr><td><b><label class = "black">Farmer Id</label></td><td>:</td></b><td><span class="black" span id="getval1"></span></td></tr> -->
+            <b>Farmer Id:</b>
+            <input type="text" class="input-std" id="fid1">
+            <tr>
+                <td><b><label class = "black">Farmer Name</label></td><td>:</td></b>
+                    <td><span class="black" span id="getval2"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Location</label></td><td>:</td></b>
+                    <td><span class="black" span id="getval3"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Crop</label></td><td>:</td></b>
+                    <td><span class="black" span id="getval4"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Phone</label></td><td>:</td></b>
+                    <td><span class="black" span id="getval5"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Quantity</label></td><td>:</td></b>
+                    <td><span class="black" span id="getval6"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Expected price</label><td>:</td></td></b>
+                    <td><span class="black" span id="getval7"></span></td>
+            </tr>
+
+        </table>
+        <button type="button" class="btn-submit" id="getvalue" onclick="get();">Get Value</button>
+
+        <br><br>
+
+        <h2 class="form-title" align="center">View Info</h2>
+        <table align="center">
+            <tr>
+                <td><button type="button" id="printBlock" class="btn btn-selector" onclick="printBlock()">Get Block No.</button></td>
+                <td><button type="button" id="printTransaction" class="btn btn-selector" onclick="printTransaction()">Display Transaction</button></td>
+            </tr>
+        </table>
+
+        <br>
+        <h4>Block Number: <span class="blockclass" span id="blocknum"></span></h4>
+        <br>
+        <button type="button" class="btn-submit1" id="Approve-btn" align="center" font="20px">Approve Details</button>
+
+
+
+        <span id="status"></span>
+
+    </div>
+
+
+    <div class="form" id="approve-form">
+        <h2 class="form-title" align="center">Product Details</h2>
+        <b>Lot Number:</b>
+        <input type="text" class="input-std" id="lotno">
+        <b>Grade:</b>
+        <input type="text" class="input-std" id="grade">
+        <b>MRP</b>
+        <input type="text" class="input-std" id="mrp">
+        <b>Test Date</b>
+        <input type="text" class="input-std" id="testdate">
+        <b>Expiry Date</b>
+        <input type="text" class="input-std" id="expdate">
+
+        <button type="button" class="btn-submit" id="setvalue" onclick="setQ()">Submit</button>
+
+        <span id="status"></span>
+
+    </div>
+
+
+    <div class="form" id="payments-form">
+        <h2 class="form-title" align="center">Customer</h2>
+        <table>
+            <b>Farmer Id:</b>
+            <input type="text" class="input-std" id="getfid">
+            <tr>
+                <td><b><label class = "black">Farmer Id</label></td><td>:</td></b>
+                    <td><span class="black" span id="cgetval1"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Farmer Name</label></td><td>:</td></b>
+                    <td><span class="black" span id="cgetval2"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Location</label></td><td>:</td></b>
+                    <td><span class="black" span id="cgetval3"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Crop</label></td><td>:</td></b>
+                    <td><span class="black" span id="cgetval4"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Phone</label></td><td>:</td></b>
+                    <td><span class="black" span id="cgetval5"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Quantity</label></td><td>:</td></b>
+                    <td><span class="black" span id="cgetval6"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Expected price</label><td>:</td></td></b>
+                    <td><span class="black" span id="cgetval7"></span></td>
+            </tr>
+            <b>Lot number:</b>
+            <input type="text" class="input-std" id="lotnum">
+            <tr>
+                <td><b><label class = "black">Lot Number</label><td>:</td></td></b>
+                    <td><span class="black" span id="cgetval8"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Grade</label><td>:</td></td></b>
+                    <td><span class="black" span id="cgetval9"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">MRP</label><td>:</td></td></b>
+                    <td><span class="black" span id="cgetval10"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Test Date</label><td>:</td></td></b>
+                    <td><span class="black" span id="cgetval11"></span></td>
+            </tr>
+            <tr>
+                <td><b><label class = "black">Expiry Date</label><td>:</td></td></b>
+                    <td><span class="black" span id="cgetval12"></span></td>
+            </tr>
+        </table>
+        <button type="button" class="btn-submit" id="getcustval" onclick="getQ();cgetQ();">Get Value</button>
+        <br><br>
+        <tr>
+            <td><b><label class = "black">Balance</label></td><td>:</td></b>
+                <td><span class="black">Rs. <span class="black" span id="balance"></span></span>
+                </td>
+        </tr>
+        <button type="button" class="btn-submit" id="makepay" onclick="pay()">Make Payment</button>
+    </div>
+
+    <div class="form" id="finance-form">
+        <h2 class="form-title" align="center">Micro-Finance</h2>
+
+
+        <b>Farmer Id:</b>
+        <input type="text" class="input-std" id="pfid">
+        <!-- <b>Lot Number:</b>
+    <input type="text" class="input-std" id="lotnum"> -->
+        <b>Fund Amount:</b>
+        <input type="text" class="input-std" id="amount">
+        <table>
+            <tr>
+                <td><b><label class = "black">Balance</label></td><td>:</td></b>
+                    <td><span class="black">Rs. <span class="black" span id="balance2"></span></span>
+                    </td>
+            </tr>
+
+        </table>
+        <button type="button" class="btn-submit" id="getfund" onclick="fund()">Fund Farmer</button>
+
+        <span id="status"></span>
+    </div>
+
+
+
+    <link href="./app.css" rel='stylesheet' type='text/css'>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
