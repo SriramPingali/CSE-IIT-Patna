@@ -18,3 +18,9 @@ And each Subject folder contains content split in to the following parts.
 # Contribute!
 This repo will stay alive if and only if the community wishes to do so. Therefore, on behalf of all the seniors, I'd like to request the upcoming generations to keep updating the repo (in the given format). Whenever there's a new course, or an existing course went obsolete, or new quizzes and solutions, or new question papers for the semester examinations, please keep updating them here. <br>
 **Together Let's Open source CSE@IIT Patna!**
+
+# Credits
+- [Maheeth Reddy](https://www.linkedin.com/in/maheethreddym310/)
+- [Nischal Ashok](https://www.linkedin.com/in/nischal-ashok/)
+- [Shashwat Mahajan](https://www.linkedin.com/in/shashwat211/)
+- [Mangesh Chandrawanshi](https://www.linkedin.com/in/mangesh2102000/)
