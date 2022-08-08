@@ -1,0 +1,574 @@
+iitp@iitp-virtual-machine:~$ pwd
+/home/iitp
+iitp@iitp-virtual-machine:~$ mkdir netflix
+iitp@iitp-virtual-machine:~$ cd netflix/
+iitp@iitp-virtual-machine:~/netflix$ mkdir src
+iitp@iitp-virtual-machine:~/netflix$ cd src/
+iitp@iitp-virtual-machine:~/netflix/src$ mkdir main
+iitp@iitp-virtual-machine:~/netflix/src$ cd main
+iitp@iitp-virtual-machine:~/netflix/src/main$ mkdir java
+iitp@iitp-virtual-machine:~/netflix/src/main$ cd java
+iitp@iitp-virtual-machine:~/netflix/src/main/java$ vi CooccurrenceMatrixGenerator.java
+iitp@iitp-virtual-machine:~/netflix/src/main/java$ vi CooccurrenceMatrixNormalization.java
+iitp@iitp-virtual-machine:~/netflix/src/main/java$ vi Driver.java
+-rw-rw-r-- 1 iitp iitp 2886 Aug 24 12:44 CooccurrenceMatrixGenerato
+iitp@iitp-virtual-machine:~/netflix/src/main/java$ vi MatrixCellMultiplication.java
+iitp@iitp-virtual-machine:~/netflix/src/main/java$ vi MatrixCellSum.java
+iitp@iitp-virtual-machine:~/netflix/src/main/java$ vi RatingDataReader.java
+iitp@iitp-virtual-machine:~/netflix/src/main/java$ vi UserRatingAveraging.java
+iitp@iitp-virtual-machine:~/netflix/src/main/java$ cd /home/iitp/netflix
+iitp@iitp-virtual-machine:~/netflix$ vi pom.xml
+iitp@iitp-virtual-machine:~/netflix$ mvn clean && mvn compile && mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building "Netflix" 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ NetflixRec ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.451 s
+[INFO] Finished at: 2021-08-24T12:51:54+05:30
+[INFO] Final Memory: 7M/60M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building "Netflix" 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ NetflixRec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/iitp/netflix/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ NetflixRec ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /home/iitp/netflix/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.309 s
+[INFO] Finished at: 2021-08-24T12:51:59+05:30
+[INFO] Final Memory: 27M/64M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building "Netflix" 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ NetflixRec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/iitp/netflix/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ NetflixRec ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ NetflixRec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/iitp/netflix/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ NetflixRec ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ NetflixRec ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ NetflixRec ---
+[INFO] Building jar: /home/iitp/netflix/target/NetflixRec-1.0.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.554 s
+[INFO] Finished at: 2021-08-24T12:52:03+05:30
+[INFO] Final Memory: 15M/60M
+[INFO] ------------------------------------------------------------------------
+iitp@iitp-virtual-machine:~/netflix$ mkdir inputdata
+iitp@iitp-virtual-machine:~/netflix$ cd /home/iitp/netflix/inputdata
+iitp@iitp-virtual-machine:~/netflix/inputdata$ vi input.txt
+iitp@iitp-virtual-machine:~/netflix/inputdata$ cd /home/iitp/hadoop-2.6.0/sbin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/sbin$ ./start-all.sh
+This script is Deprecated. Instead use start-dfs.sh and start-yarn.sh
+21/08/24 12:53:46 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Starting namenodes on [localhost]
+iitp@localhost's password:
+localhost: namenode running as process 3353. Stop it first.
+iitp@localhost's password:
+localhost: datanode running as process 3507. Stop it first.
+iiStarting secondary namenodes [0.0.0.0]
+iitp@0.0.0.0's password:
+0.0.0.0: Permission denied, please try again.
+iitp@0.0.0.0's password:
+0.0.0.0: secondarynamenode running as process 3698. Stop it first.
+21/08/24 12:54:19 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+starting yarn daemons
+resourcemanager running as process 3854. Stop it first.
+iitp@localhost's password:
+localhost: nodemanager running as process 4171. Stop it first.
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/sbin$ cd /home/iitp/hadoop-2.6.0/bin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -mkdir /netflix
+21/08/24 12:55:37 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -mkdir /netflix/inputdata
+21/08/24 12:55:48 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop dfs -put /home/iitp/netflix/inputdata/input.txt /netflix/inputdata
+DEPRECATED: Use of this script to execute hdfs command is deprecated.
+Instead use the hdfs command for it.
+
+21/08/24 12:56:57 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop jar /home/iitp/netflix/target/NetflixRec-1.0.0.jar Driver /netflix/inputdata /netflix/userrating /netflix/cooccurencegenerator /netflix/cooccurencenormalize /netflix/useraveragerating /netflix/multiplication /netflix/sum
+21/08/24 12:59:05 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/08/24 12:59:06 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/08/24 12:59:06 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+21/08/24 12:59:07 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/24 12:59:07 INFO mapreduce.JobSubmitter: number of splits:1
+21/08/24 12:59:07 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1627968868617_0024
+21/08/24 12:59:07 INFO impl.YarnClientImpl: Submitted application application_1627968868617_0024
+21/08/24 12:59:07 INFO mapreduce.Job: The url to track the job: http://iitp-virtual-machine:8088/proxy/application_1627968868617_0024/
+21/08/24 12:59:07 INFO mapreduce.Job: Running job: job_1627968868617_0024
+21/08/24 12:59:14 INFO mapreduce.Job: Job job_1627968868617_0024 running in uber mode : false
+21/08/24 12:59:14 INFO mapreduce.Job:  map 0% reduce 0%
+21/08/24 12:59:19 INFO mapreduce.Job:  map 100% reduce 0%
+21/08/24 12:59:25 INFO mapreduce.Job:  map 100% reduce 100%
+21/08/24 12:59:25 INFO mapreduce.Job: Job job_1627968868617_0024 completed successfully
+21/08/24 12:59:26 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=300
+                FILE: Number of bytes written=211121
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=366
+                HDFS: Number of bytes written=220
+                HDFS: Number of read operations=6
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Data-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=2965
+                Total time spent by all reduces in occupied slots (ms)=3082
+                Total time spent by all map tasks (ms)=2965
+                Total time spent by all reduce tasks (ms)=3082
+                Total vcore-seconds taken by all map tasks=2965
+                Total vcore-seconds taken by all reduce tasks=3082
+                Total megabyte-seconds taken by all map tasks=3036160
+                Total megabyte-seconds taken by all reduce tasks=3155968
+        Map-Reduce Framework
+                Map input records=21
+                Map output records=21
+                Map output bytes=252
+                Map output materialized bytes=300
+                Input split bytes=114
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=5
+                Reduce shuffle bytes=300
+                Reduce input records=21
+                Reduce output records=5
+                Spilled Records=42
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=92
+                CPU time spent (ms)=820
+                Physical memory (bytes) snapshot=329396224
+                Virtual memory (bytes) snapshot=3763724288
+                Total committed heap usage (bytes)=222429184
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=252
+        File Output Format Counters
+                Bytes Written=220
+21/08/24 12:59:26 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/08/24 12:59:26 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+21/08/24 12:59:26 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/24 12:59:26 INFO mapreduce.JobSubmitter: number of splits:1
+21/08/24 12:59:26 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1627968868617_0025
+21/08/24 12:59:26 INFO impl.YarnClientImpl: Submitted application application_1627968868617_0025
+21/08/24 12:59:26 INFO mapreduce.Job: The url to track the job: http://iitp-virtual-machine:8088/proxy/application_1627968868617_0025/
+21/08/24 12:59:26 INFO mapreduce.Job: Running job: job_1627968868617_0025
+21/08/24 12:59:37 INFO mapreduce.Job: Job job_1627968868617_0025 running in uber mode : false
+21/08/24 12:59:37 INFO mapreduce.Job:  map 0% reduce 0%
+21/08/24 12:59:42 INFO mapreduce.Job:  map 100% reduce 0%
+21/08/24 12:59:48 INFO mapreduce.Job:  map 100% reduce 100%
+21/08/24 12:59:48 INFO mapreduce.Job: Job job_1627968868617_0025 completed successfully
+21/08/24 12:59:48 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=1680
+                FILE: Number of bytes written=214023
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=338
+                HDFS: Number of bytes written=602
+                HDFS: Number of read operations=6
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Data-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=2892
+                Total time spent by all reduces in occupied slots (ms)=2880
+                Total time spent by all map tasks (ms)=2892
+                Total time spent by all reduce tasks (ms)=2880
+                Total vcore-seconds taken by all map tasks=2892
+                Total vcore-seconds taken by all reduce tasks=2880
+                Total megabyte-seconds taken by all map tasks=2961408
+                Total megabyte-seconds taken by all reduce tasks=2949120
+        Map-Reduce Framework
+                Map input records=5
+                Map output records=93
+                Map output bytes=1488
+                Map output materialized bytes=1680
+                Input split bytes=118
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=43
+                Reduce shuffle bytes=1680
+                Reduce input records=93
+                Reduce output records=43
+                Spilled Records=186
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=92
+                CPU time spent (ms)=730
+                Physical memory (bytes) snapshot=328544256
+                Virtual memory (bytes) snapshot=3763724288
+                Total committed heap usage (bytes)=222429184
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=220
+        File Output Format Counters
+                Bytes Written=602
+21/08/24 12:59:48 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/08/24 12:59:48 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+21/08/24 12:59:48 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/24 12:59:48 INFO mapreduce.JobSubmitter: number of splits:1
+21/08/24 12:59:48 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1627968868617_0026
+21/08/24 12:59:48 INFO impl.YarnClientImpl: Submitted application application_1627968868617_0026
+21/08/24 12:59:48 INFO mapreduce.Job: The url to track the job: http://iitp-virtual-machine:8088/proxy/application_1627968868617_0026/
+21/08/24 12:59:48 INFO mapreduce.Job: Running job: job_1627968868617_0026
+21/08/24 12:59:59 INFO mapreduce.Job: Job job_1627968868617_0026 running in uber mode : false
+21/08/24 12:59:59 INFO mapreduce.Job:  map 0% reduce 0%
+21/08/24 13:00:05 INFO mapreduce.Job:  map 100% reduce 0%
+21/08/24 13:00:11 INFO mapreduce.Job:  map 100% reduce 100%
+21/08/24 13:00:11 INFO mapreduce.Job: Job job_1627968868617_0026 completed successfully
+21/08/24 13:00:11 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=694
+                FILE: Number of bytes written=212109
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=730
+                HDFS: Number of bytes written=1105
+                HDFS: Number of read operations=6
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Data-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=2983
+                Total time spent by all reduces in occupied slots (ms)=3250
+                Total time spent by all map tasks (ms)=2983
+                Total time spent by all reduce tasks (ms)=3250
+                Total vcore-seconds taken by all map tasks=2983
+                Total vcore-seconds taken by all reduce tasks=3250
+                Total megabyte-seconds taken by all map tasks=3054592
+                Total megabyte-seconds taken by all reduce tasks=3328000
+        Map-Reduce Framework
+                Map input records=43
+                Map output records=43
+                Map output bytes=602
+                Map output materialized bytes=694
+                Input split bytes=128
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=7
+                Reduce shuffle bytes=694
+                Reduce input records=43
+                Reduce output records=43
+                Spilled Records=86
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=112
+                CPU time spent (ms)=810
+                Physical memory (bytes) snapshot=329629696
+                Virtual memory (bytes) snapshot=3763724288
+                Total committed heap usage (bytes)=222429184
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=602
+        File Output Format Counters
+                Bytes Written=1105
+21/08/24 13:00:11 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/08/24 13:00:11 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+21/08/24 13:00:11 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/24 13:00:11 INFO mapreduce.JobSubmitter: number of splits:1
+21/08/24 13:00:11 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1627968868617_0027
+21/08/24 13:00:11 INFO impl.YarnClientImpl: Submitted application application_1627968868617_0027
+21/08/24 13:00:11 INFO mapreduce.Job: The url to track the job: http://iitp-virtual-machine:8088/proxy/application_1627968868617_0027/
+21/08/24 13:00:11 INFO mapreduce.Job: Running job: job_1627968868617_0027
+21/08/24 13:00:22 INFO mapreduce.Job: Job job_1627968868617_0027 running in uber mode : false
+21/08/24 13:00:22 INFO mapreduce.Job:  map 0% reduce 0%
+21/08/24 13:00:27 INFO mapreduce.Job:  map 100% reduce 0%
+21/08/24 13:00:33 INFO mapreduce.Job:  map 100% reduce 100%
+21/08/24 13:00:33 INFO mapreduce.Job: Job job_1627968868617_0027 completed successfully
+21/08/24 13:00:33 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=258
+                FILE: Number of bytes written=211113
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=366
+                HDFS: Number of bytes written=51
+                HDFS: Number of read operations=6
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Data-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=2916
+                Total time spent by all reduces in occupied slots (ms)=3061
+                Total time spent by all map tasks (ms)=2916
+                Total time spent by all reduce tasks (ms)=3061
+                Total vcore-seconds taken by all map tasks=2916
+                Total vcore-seconds taken by all reduce tasks=3061
+                Total megabyte-seconds taken by all map tasks=2985984
+                Total megabyte-seconds taken by all reduce tasks=3134464
+        Map-Reduce Framework
+                Map input records=21
+                Map output records=21
+                Map output bytes=210
+                Map output materialized bytes=258
+                Input split bytes=114
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=5
+                Reduce shuffle bytes=258
+                Reduce input records=21
+                Reduce output records=5
+                Spilled Records=42
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=98
+                CPU time spent (ms)=800
+                Physical memory (bytes) snapshot=328994816
+                Virtual memory (bytes) snapshot=3763724288
+                Total committed heap usage (bytes)=222429184
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=252
+        File Output Format Counters
+                Bytes Written=51
+21/08/24 13:00:33 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/08/24 13:00:33 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+21/08/24 13:00:33 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/24 13:00:33 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/24 13:00:33 INFO mapreduce.JobSubmitter: number of splits:2
+21/08/24 13:00:33 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1627968868617_0028
+21/08/24 13:00:34 INFO impl.YarnClientImpl: Submitted application application_1627968868617_0028
+21/08/24 13:00:34 INFO mapreduce.Job: The url to track the job: http://iitp-virtual-machine:8088/proxy/application_1627968868617_0028/
+21/08/24 13:00:34 INFO mapreduce.Job: Running job: job_1627968868617_0028
+21/08/24 13:00:45 INFO mapreduce.Job: Job job_1627968868617_0028 running in uber mode : false
+21/08/24 13:00:45 INFO mapreduce.Job:  map 0% reduce 0%
+21/08/24 13:00:52 INFO mapreduce.Job:  map 100% reduce 0%
+21/08/24 13:00:58 INFO mapreduce.Job:  map 100% reduce 100%
+21/08/24 13:00:59 INFO mapreduce.Job: Job job_1627968868617_0028 completed successfully
+21/08/24 13:00:59 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=1491
+                FILE: Number of bytes written=320732
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=1962
+                HDFS: Number of bytes written=4988
+                HDFS: Number of read operations=11
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=2
+                Launched reduce tasks=1
+                Data-local map tasks=2
+                Total time spent by all maps in occupied slots (ms)=12036
+                Total time spent by all reduces in occupied slots (ms)=3107
+                Total time spent by all map tasks (ms)=12036
+                Total time spent by all reduce tasks (ms)=3107
+                Total vcore-seconds taken by all map tasks=12036
+                Total vcore-seconds taken by all reduce tasks=3107
+                Total megabyte-seconds taken by all map tasks=12324864
+                Total megabyte-seconds taken by all reduce tasks=3181568
+        Map-Reduce Framework
+                Map input records=64
+                Map output records=64
+                Map output bytes=1357
+                Map output materialized bytes=1497
+                Input split bytes=554
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=7
+                Reduce shuffle bytes=1497
+                Reduce input records=64
+                Reduce output records=215
+                Spilled Records=128
+                Shuffled Maps =2
+                Failed Shuffles=0
+                Merged Map outputs=2
+                GC time elapsed (ms)=260
+                CPU time spent (ms)=1150
+                Physical memory (bytes) snapshot=545189888
+                Virtual memory (bytes) snapshot=5644525568
+                Total committed heap usage (bytes)=381878272
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=0
+        File Output Format Counters
+                Bytes Written=4988
+21/08/24 13:00:59 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/08/24 13:00:59 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+21/08/24 13:00:59 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/24 13:00:59 INFO mapreduce.JobSubmitter: number of splits:1
+21/08/24 13:00:59 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1627968868617_0029
+21/08/24 13:00:59 INFO impl.YarnClientImpl: Submitted application application_1627968868617_0029
+21/08/24 13:00:59 INFO mapreduce.Job: The url to track the job: http://iitp-virtual-machine:8088/proxy/application_1627968868617_0029/
+21/08/24 13:00:59 INFO mapreduce.Job: Running job: job_1627968868617_0029
+21/08/24 13:01:09 INFO mapreduce.Job: Job job_1627968868617_0029 running in uber mode : false
+21/08/24 13:01:09 INFO mapreduce.Job:  map 0% reduce 0%
+21/08/24 13:01:14 INFO mapreduce.Job:  map 100% reduce 0%
+21/08/24 13:01:20 INFO mapreduce.Job:  map 100% reduce 100%
+21/08/24 13:01:21 INFO mapreduce.Job: Job job_1627968868617_0029 completed successfully
+21/08/24 13:01:22 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=3876
+                FILE: Number of bytes written=218259
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=5110
+                HDFS: Number of bytes written=804
+                HDFS: Number of read operations=6
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Data-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=2971
+                Total time spent by all reduces in occupied slots (ms)=3120
+                Total time spent by all map tasks (ms)=2971
+                Total time spent by all reduce tasks (ms)=3120
+                Total vcore-seconds taken by all map tasks=2971
+                Total vcore-seconds taken by all reduce tasks=3120
+                Total megabyte-seconds taken by all map tasks=3042304
+                Total megabyte-seconds taken by all reduce tasks=3194880
+        Map-Reduce Framework
+                Map input records=215
+                Map output records=215
+                Map output bytes=3440
+                Map output materialized bytes=3876
+                Input split bytes=122
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=35
+                Reduce shuffle bytes=3876
+                Reduce input records=215
+                Reduce output records=35
+                Spilled Records=430
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=100
+                CPU time spent (ms)=820
+                Physical memory (bytes) snapshot=329183232
+                Virtual memory (bytes) snapshot=3763724288
+                Total committed heap usage (bytes)=222429184
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=4988
+        File Output Format Counters
+                Bytes Written=804
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -cat /netflix/sum/part-r-00000
+21/08/24 13:01:49 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+1       10001   3.595238095238095
+1       10002   3.5
+1       10003   3.5294117647058827
+1       10004   3.6111111111111107
+1       10005   3.6500000000000004
+1       10006   3.5500000000000003
+1       10007   3.875
+2       10001   2.851190476190476
+2       10002   2.9423076923076925
+2       10003   2.9485294117647065
+2       10004   2.7986111111111107
+2       10005   2.7
+2       10006   2.9125
+2       10007   2.4375
+3       10001   3.5654761904761902
+3       10002   3.5096153846153846
+3       10003   3.4926470588235294
+3       10004   3.6180555555555554
+3       10005   3.7625000000000006
+3       10006   3.5875000000000004
+3       10007   3.875
+4       10001   4.178571428571429
+4       10002   4.115384615384616
+4       10003   4.11764705882353
+4       10004   4.201388888888889
+4       10005   4.25
+4       10006   4.125
+4       10007   4.4375
+5       10001   3.4007936507936503
+5       10002   3.2692307692307687
+5       10003   3.3235294117647065
+5       10004   3.4675925925925926
+5       10005   3.541666666666667
+5       10006   3.45
+5       10007   3.7291666666666665

@@ -1,0 +1,25 @@
+I. Copying the directory of source code files from local machine to VM:
+
+scp -r /home/iitp/CS-555-Lab-2021/Lab-V/Fraudcustomer/src/ iitp@172.16.27.166:/home/iitp/Fraudcustomer
+
+scp -r /home/iitp/CS-555-Lab-2021/Lab-V/Fraudcustomer/inputdata/ iitp@172.16.27.166:/home/iitp/Fraudcustomer
+
+scp -r /home/iitp/CS-555-Lab-2021/Lab-V/Fraudcustomer/pom.xml  iitp@172.16.27.166:/home/iitp/Fraudcustomer
+
+
+II. Making directory on HDFS
+
+./hadoop fs -mkdir Fraudcustomer
+
+./hadoop fs -mkdir Fraudcustomer/inputdata
+
+
+./hadoop dfs -put /home/iitp/Fraudcustomer/inputdata/fraud.txt Fraudcustomer/inputdata
+
+./hadoop dfs -ls Fraudcustomer/inputdata/
+
+./hadoop jar /home/iitp/Fraudcustomer/target/FraudDetect-1.0.0.jar FraudCustomerECommerce Fraudcustomer/inputdata/ Fraudcustomer/outputdata
+
+./hadoop dfs -cat Fraudcustomer/outputdata/part-r-00000
+
+

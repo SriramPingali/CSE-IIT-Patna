@@ -1,0 +1,19 @@
+1) Connect to IIT Patna's intranet using VPN
+
+2) Open a command prompt
+
+3) Type:
+
+ssh iitp@Your_assigned_VM_IP_Address
+
+# I am using - 172.16.27.166
+
+Press Enter, and then type your password: iitp@123
+
+The username and password is common for all the I/P Addresses i.e. username/password :- iitp/iitp@123
+
+4) Check if the folder "wordcount" is already present in your home directory of assigned VM
+If YES:
+	then, rename the file by typing: $ mv wordcount wordcount-100
+
+NOTE: Do not reboot the VM, else the IP address will change.

@@ -1,0 +1,24 @@
+mkdir ReduceSideJoin
+
+scp -r /home/iitp/CS-555-Lab-2021/Lab-VI/ReduceSideJoin/src/ iitp@172.16.27.166:/home/iitp/ReduceSideJoin
+
+scp -r /home/iitp/CS-555-Lab-2021/Lab-VI/ReduceSideJoin/Inputdata/ iitp@172.16.27.166:/home/iitp/ReduceSideJoin
+
+scp -r /home/iitp/CS-555-Lab-2021/Lab-VI/ReduceSideJoin/pom.xml iitp@172.16.27.166:/home/iitp/ReduceSideJoin
+
+./hadoop fs -mkdir ReduceSideJoin
+
+./hadoop fs -mkdir ReduceSideJoin/Inputdata
+
+./hadoop dfs -put /home/iitp/ReduceSideJoin/Inputdata/customers ReduceSideJoin/Inputdata/
+./hadoop dfs -put /home/iitp/ReduceSideJoin/Inputdata/sales ReduceSideJoin/Inputdata/
+
+
+./hadoop dfs -ls -R ReduceSideJoin/Inputdata/
+
+./hadoop jar /home/iitp/ReduceSideJoin/target/ReduceSide-1.0.0.jar CalculateTotalSales ReduceSideJoin/Inputdata/customers ReduceSideJoin/Inputdata/sales ReduceSideJoin/Outputdata
+
+./hadoop dfs -cat ReduceSideJoin/Outputdata/part-r-00000
+
+
+

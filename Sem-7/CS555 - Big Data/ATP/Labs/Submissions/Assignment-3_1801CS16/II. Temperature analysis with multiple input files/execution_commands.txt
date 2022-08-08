@@ -1,0 +1,189 @@
+iitp@iitp-virtual-machine:~$ pwd
+/home/iitp
+iitp@iitp-virtual-machine:~$ mkdir Temperature
+iitp@iitp-virtual-machine:~$ cd Temperature
+iitp@iitp-virtual-machine:~/Temperature$ mkdir src
+iitp@iitp-virtual-machine:~/Temperature$ cd src
+iitp@iitp-virtual-machine:~/Temperature/src$ mkdir main
+iitp@iitp-virtual-machine:~/Temperature/src$ cd main
+iitp@iitp-virtual-machine:~/Temperature/src/main$ mkdir java
+iitp@iitp-virtual-machine:~/Temperature/src/main$ cd java
+iitp@iitp-virtual-machine:~/Temperature/src/main/java$ vi TotalDriver.java
+iitp@iitp-virtual-machine:~/Temperature/src/main/java$ vi TotalMapper1.java
+iitp@iitp-virtual-machine:~/Temperature/src/main/java$ vi TotalMapper2.java
+iitp@iitp-virtual-machine:~/Temperature/src/main/java$ vi TotalReducer.java
+iitp@iitp-virtual-machine:~/Temperature/src/main/java$ cd /home/iitp/Temperature
+iitp@iitp-virtual-machine:~/Temperature$ vi pom.xml
+iitp@iitp-virtual-machine:~/Temperature$ mvn clean && mvn compile && mvn package
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building "Temperature" 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ MaxTemp ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.435 s
+[INFO] Finished at: 2021-08-17T12:27:07+05:30
+[INFO] Final Memory: 7M/60M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building "Temperature" 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MaxTemp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/iitp/Temperature/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MaxTemp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/iitp/Temperature/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.954 s
+[INFO] Finished at: 2021-08-17T12:27:12+05:30
+[INFO] Final Memory: 26M/64M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building "Temperature" 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MaxTemp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/iitp/Temperature/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MaxTemp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MaxTemp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/iitp/Temperature/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MaxTemp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ MaxTemp ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ MaxTemp ---
+[INFO] Building jar: /home/iitp/Temperature/target/MaxTemp-1.0.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.435 s
+[INFO] Finished at: 2021-08-17T12:27:16+05:30
+[INFO] Final Memory: 15M/60M
+[INFO] ------------------------------------------------------------------------
+iitp@iitp-virtual-machine:~/Temperature$ mkdir inputdata
+iitp@iitp-virtual-machine:~/Temperature$ cd /home/iitp/Temperature/inputdata
+iitp@iitp-virtual-machine:~/Temperature/inputdata$ vi file1.txt
+iitp@iitp-virtual-machine:~/Temperature/inputdata$ vi file2.txt
+iitp@iitp-virtual-machine:~/Temperature/inputdata$ cd /home/iitp/hadoop-2.6.0/sbin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/sbin$ jps
+3698 SecondaryNameNode
+3507 DataNode
+6147 Jps
+3353 NameNode
+4171 NodeManager
+3854 ResourceManager
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/sbin$ cd /home/iitp/hadoop-2.6.0/bin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -mkdir /Temperature
+21/08/17 12:29:23 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -mkdir /Temperature/inputdata
+21/08/17 12:29:32 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ cd /home/iitp/hadoop-2.6.0/bin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop dfs -put /home/iitp/Temperature/inputdata/file1.txt /Temperature/inputdata/
+DEPRECATED: Use of this script to execute hdfs command is deprecated.
+Instead use the hdfs command for it.
+
+21/08/17 12:30:09 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop dfs -put /home/iitp/Temperature/inputdata/file2.txt /Temperature/inputdata/
+DEPRECATED: Use of this script to execute hdfs command is deprecated.
+Instead use the hdfs command for it.
+
+21/08/17 12:30:17 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop jar /home/iitp/Temperature/target/MaxTemp-1.0.0.jar TotalDriver 1 /Temperature/inputdata/file1.txt /Temperature/inputdata/file2.txt /Temperature/outputdata/
+21/08/17 12:31:18 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/08/17 12:31:18 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/08/17 12:31:19 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/17 12:31:19 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/17 12:31:19 INFO mapreduce.JobSubmitter: number of splits:2
+21/08/17 12:31:19 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1627968868617_0023
+21/08/17 12:31:19 INFO impl.YarnClientImpl: Submitted application application_1627968868617_0023
+21/08/17 12:31:19 INFO mapreduce.Job: The url to track the job: http://iitp-virtual-machine:8088/proxy/application_1627968868617_0023/
+21/08/17 12:31:19 INFO mapreduce.Job: Running job: job_1627968868617_0023
+21/08/17 12:31:26 INFO mapreduce.Job: Job job_1627968868617_0023 running in uber mode : false
+21/08/17 12:31:26 INFO mapreduce.Job:  map 0% reduce 0%
+21/08/17 12:31:34 INFO mapreduce.Job:  map 100% reduce 0%
+21/08/17 12:31:40 INFO mapreduce.Job:  map 100% reduce 100%
+21/08/17 12:31:40 INFO mapreduce.Job: Job job_1627968868617_0023 completed successfully
+21/08/17 12:31:40 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=142
+		FILE: Number of bytes written=319459
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=680
+		HDFS: Number of bytes written=32
+		HDFS: Number of read operations=9
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=2
+		Launched reduce tasks=1
+		Data-local map tasks=2
+		Total time spent by all maps in occupied slots (ms)=11956
+		Total time spent by all reduces in occupied slots (ms)=2955
+		Total time spent by all map tasks (ms)=11956
+		Total time spent by all reduce tasks (ms)=2955
+		Total vcore-seconds taken by all map tasks=11956
+		Total vcore-seconds taken by all reduce tasks=2955
+		Total megabyte-seconds taken by all map tasks=12242944
+		Total megabyte-seconds taken by all reduce tasks=3025920
+	Map-Reduce Framework
+		Map input records=8
+		Map output records=8
+		Map output bytes=120
+		Map output materialized bytes=148
+		Input split bytes=480
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=2
+		Reduce shuffle bytes=148
+		Reduce input records=8
+		Reduce output records=2
+		Spilled Records=16
+		Shuffled Maps =2
+		Failed Shuffles=0
+		Merged Map outputs=2
+		GC time elapsed (ms)=279
+		CPU time spent (ms)=1140
+		Physical memory (bytes) snapshot=543997952
+		Virtual memory (bytes) snapshot=5642416128
+		Total committed heap usage (bytes)=381878272
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=32
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop dfs -cat /Temperature/outputdata/part-r-00000
+DEPRECATED: Use of this script to execute hdfs command is deprecated.
+Instead use the hdfs command for it.
+
+21/08/17 12:31:50 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-01-01	30.2
+2016-01-02	31.5

@@ -1,0 +1,147 @@
+iitp@iitp-virtual-machine:~$ pwd
+/home/iitp
+iitp@iitp-virtual-machine:~$ mkdir uber
+iitp@iitp-virtual-machine:~$ cd uber
+iitp@iitp-virtual-machine:~/uber$ vi Basement_trips.java
+iitp@iitp-virtual-machine:~/uber$ mkdir inputdata
+iitp@iitp-virtual-machine:~/uber$ cd inputdata/
+iitp@iitp-virtual-machine:~/uber/inputdata$ vi uberdata.txt
+iitp@iitp-virtual-machine:~/uber/inputdata$ jps
+26545 Jps
+3698 SecondaryNameNode
+3507 DataNode
+3353 NameNode
+4171 NodeManager
+3854 ResourceManager
+iitp@iitp-virtual-machine:~/uber/inputdata$ cd /home/iitp/hadoop-2.6.0/bin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -mkdir /uber
+21/08/17 11:26:05 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -mkdir /uber/inputdata
+21/08/17 11:26:14 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop dfs -put /home/iitp/uber/inputdata/uberdata.txt /uber/inputdata
+DEPRECATED: Use of this script to execute hdfs command is deprecated.
+Instead use the hdfs command for it.
+
+21/08/17 11:26:24 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ export HADOOP_CLASSPATH=/usr/lib/jvm/java-1.8.0-openjdk-amd64/lib/tools.jar
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop com.sun.tools.javac.Main /home/iitp/uber/Basement_trips.java
+Note: /home/iitp/uber/Basement_trips.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ cd /home/iitp/uber
+iitp@iitp-virtual-machine:~/uber$ jar cf basement_trips.jar Basement_trips*.class
+iitp@iitp-virtual-machine:~/uber$ cd /home/iitp/hadoop-2.6.0/bin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop jar /home/iitp/uber/basement_trips.jar Basement_trips /uber/inputdata/ /uber/outputdata
+21/08/17 11:28:17 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/08/17 11:28:18 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/08/17 11:28:19 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+21/08/17 11:28:19 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/17 11:28:19 INFO mapreduce.JobSubmitter: number of splits:1
+21/08/17 11:28:19 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1627968868617_0009
+21/08/17 11:28:19 INFO impl.YarnClientImpl: Submitted application application_1627968868617_0009
+21/08/17 11:28:19 INFO mapreduce.Job: The url to track the job: http://iitp-virtual-machine:8088/proxy/application_1627968868617_0009/
+21/08/17 11:28:19 INFO mapreduce.Job: Running job: job_1627968868617_0009
+21/08/17 11:28:25 INFO mapreduce.Job: Job job_1627968868617_0009 running in uber mode : false
+21/08/17 11:28:25 INFO mapreduce.Job:  map 0% reduce 0%
+21/08/17 11:28:31 INFO mapreduce.Job:  map 100% reduce 0%
+21/08/17 11:28:37 INFO mapreduce.Job:  map 100% reduce 100%
+21/08/17 11:28:37 INFO mapreduce.Job: Job job_1627968868617_0009 completed successfully
+21/08/17 11:28:37 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=720
+		FILE: Number of bytes written=212267
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=9574
+		HDFS: Number of bytes written=727
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3205
+		Total time spent by all reduces in occupied slots (ms)=3050
+		Total time spent by all map tasks (ms)=3205
+		Total time spent by all reduce tasks (ms)=3050
+		Total vcore-seconds taken by all map tasks=3205
+		Total vcore-seconds taken by all reduce tasks=3050
+		Total megabyte-seconds taken by all map tasks=3281920
+		Total megabyte-seconds taken by all reduce tasks=3123200
+	Map-Reduce Framework
+		Map input records=354
+		Map output records=354
+		Map output bytes=5310
+		Map output materialized bytes=720
+		Input split bytes=114
+		Combine input records=354
+		Combine output records=42
+		Reduce input groups=42
+		Reduce shuffle bytes=720
+		Reduce input records=42
+		Reduce output records=42
+		Spilled Records=84
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=96
+		CPU time spent (ms)=830
+		Physical memory (bytes) snapshot=329465856
+		Virtual memory (bytes) snapshot=3763716096
+		Total committed heap usage (bytes)=222429184
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=9460
+	File Output Format Counters 
+		Bytes Written=727
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -cat /uber/outputdata/part-r-00000
+21/08/17 11:28:48 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+B02512 Fri	16435
+B02512 Mon	11297
+B02512 Sat	15026
+B02512 Sun	10487
+B02512 Thu	15809
+B02512 Tue	12041
+B02512 Wed	12691
+B02598 Fri	93126
+B02598 Mon	60882
+B02598 Sat	94588
+B02598 Sun	66477
+B02598 Thu	90333
+B02598 Tue	63429
+B02598 Wed	71956
+B02617 Fri	125067
+B02617 Mon	80591
+B02617 Sat	127902
+B02617 Sun	91722
+B02617 Thu	118254
+B02617 Tue	86602
+B02617 Wed	94887
+B02682 Fri	114662
+B02682 Mon	74939
+B02682 Sat	120283
+B02682 Sun	82825
+B02682 Thu	106643
+B02682 Tue	76905
+B02682 Wed	86252
+B02764 Fri	326968
+B02764 Mon	214116
+B02764 Sat	356789
+B02764 Sun	249896
+B02764 Thu	304200
+B02764 Tue	221343
+B02764 Wed	241137
+B02765 Fri	34934
+B02765 Mon	21974
+B02765 Sat	36737
+B02765 Sun	22536
+B02765 Thu	30408
+B02765 Tue	22741
+B02765 Wed	24340

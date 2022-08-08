@@ -1,0 +1,302 @@
+iitp@iitp-virtual-machine:~$ mkdir wordcount
+iitp@iitp-virtual-machine:~$ cd wordcount/
+iitp@iitp-virtual-machine:~/wordcount$ vi WordCount.java
+iitp@iitp-virtual-machine:~/wordcount$ mkdir inputdata
+iitp@iitp-virtual-machine:~/wordcount$ ls
+inputdata  WordCount.java
+iitp@iitp-virtual-machine:~/wordcount$ cd inputdata/
+iitp@iitp-virtual-machine:~/wordcount/inputdata$ vi input.txt
+iitp@iitp-virtual-machine:~/wordcount/inputdata$ cd /home/iitp/hadoop-2.6.0/sbin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/sbin$ ./start-all.sh
+This script is Deprecated. Instead use start-dfs.sh and start-yarn.sh
+21/08/10 11:02:04 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Starting namenodes on [localhost]
+iitp@localhost's password:
+localhost: namenode running as process 3353. Stop it first.
+iitp@localhost's password:
+localhost: datanode running as process 3507. Stop it first.
+Starting secondary namenodes [0.0.0.0]
+iitp@0.0.0.0's password:
+0.0.0.0: secondarynamenode running as process 3698. Stop it first.
+21/08/10 11:02:25 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+starting yarn daemons
+resourcemanager running as process 3854. Stop it first.
+iitp@localhost's password:
+localhost: nodemanager running as process 4171. Stop it first.
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/sbin$ cd /home/iitp/hadoop-2.6.0/bin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -mkdir /wordcount
+21/08/10 11:07:14 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -mkdir /wordcount/inputdata
+21/08/10 11:07:36 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop dfs -put /home/iitp/wordcount/inputdata/input.txt /wordcount/inputdata/
+DEPRECATED: Use of this script to execute hdfs command is deprecated.
+Instead use the hdfs command for it.
+
+21/08/10 11:08:16 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ export HADOOP_CLASSPATH=/usr/lib/jvm/java-1.8.0-openjdk-amd64/lib/tools.jar
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ cd /home/iitp/hadoop-2.6.0/bin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop com.sun.tools.javac.Main /home/iitp/wordcount/WordCount.java
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ cd /home/iitp/wordcount
+iitp@iitp-virtual-machine:~/wordcount$ jar cf wc.jar WordCount*.class
+iitp@iitp-virtual-machine:~/wordcount$ ls
+inputdata  WordCount.class                WordCount.java
+wc.jar     WordCount$IntSumReducer.class  WordCount$TokenizerMapper.class
+iitp@iitp-virtual-machine:~/wordcount$ cd /home/iitp/hadoop-2.6.0/bin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop jar /home/iitp/wordcount/wc.jar WordCount /wordcount/inputdata/ /wordcount/outputdata
+21/08/10 11:11:19 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/08/10 11:11:20 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/08/10 11:11:20 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+21/08/10 11:11:21 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/10 11:11:21 INFO mapreduce.JobSubmitter: number of splits:1
+21/08/10 11:11:21 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1627968868617_0002
+21/08/10 11:11:21 INFO impl.YarnClientImpl: Submitted application application_1627968868617_0002
+21/08/10 11:11:21 INFO mapreduce.Job: The url to track the job: http://iitp-virtual-machine:8088/proxy/application_1627968868617_0002/
+21/08/10 11:11:21 INFO mapreduce.Job: Running job: job_1627968868617_0002
+21/08/10 11:11:27 INFO mapreduce.Job: Job job_1627968868617_0002 running in uber mode : false
+21/08/10 11:11:27 INFO mapreduce.Job:  map 0% reduce 0%
+21/08/10 11:11:32 INFO mapreduce.Job:  map 100% reduce 0%
+21/08/10 11:11:38 INFO mapreduce.Job:  map 100% reduce 100%
+21/08/10 11:11:38 INFO mapreduce.Job: Job job_1627968868617_0002 completed successfully
+21/08/10 11:11:39 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=2491
+                FILE: Number of bytes written=215791
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=2172
+                HDFS: Number of bytes written=1746
+                HDFS: Number of read operations=6
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Data-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=2894
+                Total time spent by all reduces in occupied slots (ms)=3054
+                Total time spent by all map tasks (ms)=2894
+                Total time spent by all reduce tasks (ms)=3054
+                Total vcore-seconds taken by all map tasks=2894
+                Total vcore-seconds taken by all reduce tasks=3054
+                Total megabyte-seconds taken by all map tasks=2963456
+                Total megabyte-seconds taken by all reduce tasks=3127296
+        Map-Reduce Framework
+                Map input records=30
+                Map output records=302
+                Map output bytes=3238
+                Map output materialized bytes=2491
+                Input split bytes=116
+                Combine input records=302
+                Combine output records=185
+                Reduce input groups=185
+                Reduce shuffle bytes=2491
+                Reduce input records=185
+                Reduce output records=185
+                Spilled Records=370
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=85
+                CPU time spent (ms)=840
+                Physical memory (bytes) snapshot=328798208
+                Virtual memory (bytes) snapshot=3763716096
+                Total committed heap usage (bytes)=222429184
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=2056
+        File Output Format Counters
+                Bytes Written=1746
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -cat /wordcount/outputdata/part-r-00000
+21/08/10 11:12:06 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+(ARM)   1
+(FIM)   1
+(HUIM)  1
+(KDD)   1
+(like   1
+(pattern)       1
+A       1
+ARM     1
+FIM     2
+FIM-based       1
+For     2
+Furthermore,    1
+HUIM    1
+HUIs    1
+High-utility    1
+It      1
+KDD     1
+Many    1
+Several 1
+Therefore,      1
+This    1
+Traditional     1
+Unfortunately,  1
+With    1
+a       8
+account 1
+algorithms      1
+also    1
+an      2
+and     6
+and/or  1
+applications.   3
+applied 2
+applies 1
+are     1
+as      2
+association     1
+at      1
+attention       2
+be      4
+been    2
+but     1
+by      1
+called  1
+can     2
+commercial      1
+company 1
+complete        1
+concepts        1
+construct       1
+create  1
+critical        1
+data    1
+database.       2
+databases       1
+dataset,        1
+different       4
+discovered      1
+discovery       1
+does    1
+domains 1
+essential       2
+example,        2
+expertise       1
+factors 2
+factors,        1
+field   1
+for     2
+frequency       1
+frequent-itemset        1
+from    4
+fundamental     1
+future. 1
+gain    1
+gained  1
+generate        1
+given   1
+growth  1
+has     2
+have    2
+high-utility    5
+higher  1
+if      1
+ignored 1
+important       1
+important,      1
+in      7
+incomplete      1
+individuals     1
+information     5
+instead 1
+interesting     1
+interesting,    1
+into    1
+is      5
+it      1
+it.     1
+itemset 5
+itemset,        1
+itemsets,       1
+itemsets.       1
+itemsets;       1
+its     1
+kinds   1
+knowledge       3
+let     1
+look    1
+many    1
+match   1
+may     1
+means   1
+might   1
+minimum 1
+mining  4
+more    8
+not     4
+of      7
+often   1
+only    1
+or      3
+other   1
+overly  1
+past    1
+patterns.       1
+potential       1
+present 1
+previous        1
+profit  2
+profit) 1
+profits 1
+proposed        3
+purchase        1
+put     1
+quantities.     1
+rapid   1
+real    1
+real-world      1
+recent  1
+requirement     1
+research        1
+respectively    1
+reveal  2
+revealing       2
+rule    1
+rules   1
+select  1
+set     2
+should  2
+since   1
+solutions       1
+sources.        1
+state   1
+suitable        1
+take    1
+techniques,     1
+than    2
+that    2
+the     8
+these   1
+this    1
+threshold       1
+threshold.      1
+thus    1
+to      13
+traditional     1
+transaction     1
+types   2
+unprocessed     1
+us      1
+useful  1
+useful. 1
+usually 1
+utility 5
+valuable        2
+valuable,       1
+value   1
+was     1
+were    1
+which   1
+work    1
+works   1
+years.  1
+“cost”  1
+“profit”        1
+“weight”,       1

@@ -1,0 +1,285 @@
+iitp@iitp-virtual-machine:~$ pwd
+/home/iitp
+iitp@iitp-virtual-machine:~$ mkdir K-means
+iitp@iitp-virtual-machine:~$ cd K-means/
+iitp@iitp-virtual-machine:~/K-means$ mkdir src
+iitp@iitp-virtual-machine:~/K-means$ cd src/
+iitp@iitp-virtual-machine:~/K-means/src$ mkdir main
+iitp@iitp-virtual-machine:~/K-means/src$ cd main/
+iitp@iitp-virtual-machine:~/K-means/src/main$ mkdir java
+iitp@iitp-virtual-machine:~/K-means/src/main$ cd java/
+iitp@iitp-virtual-machine:~/K-means/src/main/java$ vi Kmeans.java
+iitp@iitp-virtual-machine:~/K-means/src/main/java$ rm Kmeans.java
+iitp@iitp-virtual-machine:~/K-means/src/main/java$ vi KMeans.java
+iitp@iitp-virtual-machine:~/K-means/src/main/java$ vi KMeansMap.java
+iitp@iitp-virtual-machine:~/K-means/src/main/java$ vi KMeansReduce.java
+iitp@iitp-virtual-machine:~/K-means/src/main/java$ cd ../../..
+iitp@iitp-virtual-machine:~/K-means$ vi pom.xml
+iitp@iitp-virtual-machine:~/K-means$ mvn clean && mvn compile && mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building "K-means" 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ KMeansClus ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.445 s
+[INFO] Finished at: 2021-08-24T13:11:46+05:30
+[INFO] Final Memory: 7M/60M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building "K-means" 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ KMeansClus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/iitp/K-means/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ KMeansClus ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/iitp/K-means/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.062 s
+[INFO] Finished at: 2021-08-24T13:11:51+05:30
+[INFO] Final Memory: 27M/64M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building "K-means" 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ KMeansClus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/iitp/K-means/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ KMeansClus ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ KMeansClus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/iitp/K-means/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ KMeansClus ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ KMeansClus ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ KMeansClus ---
+[INFO] Building jar: /home/iitp/K-means/target/KMeansClus-1.0.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.386 s
+[INFO] Finished at: 2021-08-24T13:11:56+05:30
+[INFO] Final Memory: 15M/60M
+[INFO] ------------------------------------------------------------------------
+iitp@iitp-virtual-machine:~/K-means$ mkdir inputdata
+iitp@iitp-virtual-machine:~/K-means$ vi input.txt
+iitp@iitp-virtual-machine:~/K-means$ cd /home/iitp/hadoop-2.6.0/sbin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/sbin$ jps
+3698 SecondaryNameNode
+8771 Jps
+3507 DataNode
+3353 NameNode
+4171 NodeManager
+3854 ResourceManager
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/sbin$ cd ..
+iitp@iitp-virtual-machine:~/hadoop-2.6.0$ cd bin/
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -mkdir /K-means
+21/08/24 13:13:17 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -mkdir /K-means/inputdata
+21/08/24 13:13:26 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop dfs -put /home/iitp/K-means/inputdata/input.txt /K-means/inputdata
+DEPRECATED: Use of this script to execute hdfs command is deprecated.
+Instead use the hdfs command for it.
+
+21/08/24 13:14:01 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+put: `/home/iitp/K-means/inputdata/input.txt': No such file or directory
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ cd ..
+iitp@iitp-virtual-machine:~/hadoop-2.6.0$ cd ..
+iitp@iitp-virtual-machine:~$ cd K-means/
+iitp@iitp-virtual-machine:~/K-means$ ls
+inputdata  input.txt  pom.xml  src  target
+iitp@iitp-virtual-machine:~/K-means$ rm input.txt
+iitp@iitp-virtual-machine:~/K-means$ cd inputdata/
+iitp@iitp-virtual-machine:~/K-means/inputdata$ vi input.txt
+iitp@iitp-virtual-machine:~/K-means/inputdata$ rm input.txt
+iitp@iitp-virtual-machine:~/K-means/inputdata$ vi input.txt
+iitp@iitp-virtual-machine:~/K-means/inputdata$ cd /home/iitp/hadoop-2.6.0/bin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop dfs -put /home/iitp/K-means/inputdata/input.txt /K-means/inputdata
+DEPRECATED: Use of this script to execute hdfs command is deprecated.
+Instead use the hdfs command for it.
+
+21/08/24 13:15:41 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ cd /home/iitp/hadoop-2.6.0/bin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ cd ...
+-bash: cd: ...: No such file or directory
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ cd ..
+iitp@iitp-virtual-machine:~/hadoop-2.6.0$ cd ..
+iitp@iitp-virtual-machine:~$ cd K-means/
+iitp@iitp-virtual-machine:~/K-means$ ls
+inputdata  pom.xml  src  target
+iitp@iitp-virtual-machine:~/K-means$ cd target/
+iitp@iitp-virtual-machine:~/K-means/target$ ls
+classes  generated-sources  KMeansClus-1.0.0.jar  maven-archiver  maven-status
+iitp@iitp-virtual-machine:~/K-means/target$ cd /home/iitp/hadoop-2.6.0/bin
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop jar /home/iitp/K-means/target/KMeansClus-1.0.0.jar KMeans /page/inputdata /page/outputdata
+21/08/24 13:27:35 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/08/24 13:27:36 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/08/24 13:27:36 INFO mapreduce.JobSubmitter: Cleaning up the staging area /tmp/hadoop-yarn/staging/iitp/.staging/job_1627968868617_0030
+Exception in thread "main" org.apache.hadoop.mapreduce.lib.input.InvalidInputException: Input path does not exist: hdfs://localhost:9000/page/inputdata
+        at org.apache.hadoop.mapreduce.lib.input.FileInputFormat.singleThreadedListStatus(FileInputFormat.java:321)
+        at org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:264)
+        at org.apache.hadoop.mapreduce.lib.input.FileInputFormat.getSplits(FileInputFormat.java:385)
+        at org.apache.hadoop.mapreduce.JobSubmitter.writeNewSplits(JobSubmitter.java:597)
+        at org.apache.hadoop.mapreduce.JobSubmitter.writeSplits(JobSubmitter.java:614)
+        at org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:492)
+        at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1296)
+        at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1293)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at javax.security.auth.Subject.doAs(Subject.java:422)
+        at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1628)
+        at org.apache.hadoop.mapreduce.Job.submit(Job.java:1293)
+        at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:1314)
+        at KMeans.run(KMeans.java:41)
+        at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+        at KMeans.main(KMeans.java:49)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+        at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop jar /home/iitp/K-means/target/KMeansClus-1.0.0.jar KMeans /K-means/inputdata /K-means/outputdata
+21/08/24 13:28:58 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/08/24 13:28:59 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/08/24 13:29:00 INFO input.FileInputFormat: Total input paths to process : 1
+21/08/24 13:29:00 INFO mapreduce.JobSubmitter: number of splits:1
+21/08/24 13:29:00 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1627968868617_0031
+21/08/24 13:29:00 INFO impl.YarnClientImpl: Submitted application application_1627968868617_0031
+21/08/24 13:29:00 INFO mapreduce.Job: The url to track the job: http://iitp-virtual-machine:8088/proxy/application_1627968868617_0031/
+21/08/24 13:29:00 INFO mapreduce.Job: Running job: job_1627968868617_0031
+21/08/24 13:29:07 INFO mapreduce.Job: Job job_1627968868617_0031 running in uber mode : false
+21/08/24 13:29:07 INFO mapreduce.Job:  map 0% reduce 0%
+21/08/24 13:29:12 INFO mapreduce.Job:  map 100% reduce 0%
+21/08/24 13:29:18 INFO mapreduce.Job:  map 100% reduce 100%
+21/08/24 13:29:18 INFO mapreduce.Job: Job job_1627968868617_0031 completed successfully
+21/08/24 13:29:18 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=426
+                FILE: Number of bytes written=212659
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=197
+                HDFS: Number of bytes written=141
+                HDFS: Number of read operations=6
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=4
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Data-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=2888
+                Total time spent by all reduces in occupied slots (ms)=2999
+                Total time spent by all map tasks (ms)=2888
+                Total time spent by all reduce tasks (ms)=2999
+                Total vcore-seconds taken by all map tasks=2888
+                Total vcore-seconds taken by all reduce tasks=2999
+                Total megabyte-seconds taken by all map tasks=2957312
+                Total megabyte-seconds taken by all reduce tasks=3070976
+        Map-Reduce Framework
+                Map input records=30
+                Map output records=30
+                Map output bytes=360
+                Map output materialized bytes=426
+                Input split bytes=114
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=5
+                Reduce shuffle bytes=426
+                Reduce input records=30
+                Reduce output records=0
+                Spilled Records=60
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=96
+                CPU time spent (ms)=730
+                Physical memory (bytes) snapshot=327659520
+                Virtual memory (bytes) snapshot=3763716096
+                Total committed heap usage (bytes)=222429184
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=83
+        File Output Format Counters
+                Bytes Written=0
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -cat /K-means/outputdata/part-r-00000
+21/08/24 13:29:56 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ hdfs dfs -ls hdfs:/
+21/08/24 13:30:31 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 20 items
+drwxr-xr-x   - iitp supergroup          0 2021-08-24 13:29 hdfs:///K-means
+drwxr-xr-x   - iitp supergroup          0 2018-08-30 15:48 hdfs:///PageRankTemp
+drwxr-xr-x   - iitp supergroup          0 2021-08-17 12:31 hdfs:///Temperature
+drwxr-xr-x   - iitp supergroup          0 2018-08-23 16:17 hdfs:///Tempmax
+drwxr-xr-x   - iitp supergroup          0 2020-09-13 23:39 hdfs:///Vowelopener
+drwxr-xr-x   - iitp supergroup          0 2020-09-01 22:15 hdfs:///myfirst
+drwxr-xr-x   - iitp supergroup          0 2020-09-01 23:13 hdfs:///mysecond
+drwxr-xr-x   - iitp supergroup          0 2021-08-24 13:01 hdfs:///netflix
+drwxr-xr-x   - iitp supergroup          0 2021-08-24 13:27 hdfs:///page
+drwxr-xr-x   - iitp supergroup          0 2020-09-22 00:41 hdfs:///popular
+drwxr-xr-x   - iitp supergroup          0 2018-09-06 15:39 hdfs:///rel_join1Temp
+drwxr-xr-x   - iitp supergroup          0 2018-09-06 15:38 hdfs:///rel_joinTemp
+drwx------   - iitp supergroup          0 2018-08-09 15:14 hdfs:///tmp
+drwxr-xr-x   - iitp supergroup          0 2020-09-15 19:23 hdfs:///top
+drwxr-xr-x   - iitp supergroup          0 2020-09-15 19:18 hdfs:///top5
+drwxr-xr-x   - iitp supergroup          0 2021-08-17 11:28 hdfs:///uber
+drwxr-xr-x   - iitp supergroup          0 2020-09-18 21:50 hdfs:///vowelopener
+drwxr-xr-x   - iitp supergroup          0 2021-08-17 12:09 hdfs:///wiki
+drwxr-xr-x   - iitp supergroup          0 2021-08-10 11:11 hdfs:///wordcount
+drwxr-xr-x   - iitp supergroup          0 2021-08-10 11:36 hdfs:///youtube
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ hdfs dfs -ls hdfs:///K-means
+21/08/24 13:30:42 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 2 items
+drwxr-xr-x   - iitp supergroup          0 2021-08-24 13:15 hdfs:///K-means/inputdata
+drwxr-xr-x   - iitp supergroup          0 2021-08-24 13:29 hdfs:///K-means/outputdata
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ hdfs dfs -ls hdfs:///K-means/outputdata
+21/08/24 13:30:52 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 4 items
+-rw-r--r--   1 iitp supergroup          0 2021-08-24 13:29 hdfs:///K-means/outputdata/_SUCCESS
+-rw-r--r--   1 iitp supergroup         29 2021-08-24 13:29 hdfs:///K-means/outputdata/center-r-00000
+-rw-r--r--   1 iitp supergroup        112 2021-08-24 13:29 hdfs:///K-means/outputdata/clustereddata-r-00000
+-rw-r--r--   1 iitp supergroup          0 2021-08-24 13:29 hdfs:///K-means/outputdata/part-r-00000
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -cat /K-means/outputdata/part-r-00000
+21/08/24 13:31:22 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -cat /K-means/outputdata/center-r-00000
+21/08/24 13:31:34 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+8.0
+21.0
+30.0
+41.0
+48.0
+iitp@iitp-virtual-machine:~/hadoop-2.6.0/bin$ ./hadoop fs -cat /K-means/outputdata/clustereddata-r-00000
+21/08/24 13:31:52 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+8.0      12 8 3 14 6 13 10 14 4 3 7 1 12
+21.0     21
+30.0     31 29 33 25 32 29 31 29 30 32
+41.0     44 44 44 37 36
+48.0     48

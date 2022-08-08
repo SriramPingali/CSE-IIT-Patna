@@ -1,0 +1,29 @@
+With the rapid growth of information techniques, knowledge discovery in databases (KDD) is a critical research field to reveal important,
+
+valuable, interesting, and essential knowledge from unprocessed data sources. Many different kinds of expertise or rules have been proposed
+
+to state the essential concepts from a dataset, and association rule mining (ARM) and/or frequent-itemset mining (FIM) work to gain
+
+fundamental knowledge in KDD which has been applied to many domains and applications. Traditional FIM-based algorithms ignored important
+
+factors that are more often than not present in real applications. For example, a commercial company should put more attention to profits 
+
+and purchase quantities. Unfortunately, FIM does not take into account these types of valuable factors, thus the discovered information may 
+
+be incomplete or not overly useful. High-utility itemset mining (HUIM) was proposed to create solutions for revealing more valuable 
+
+information from a database. HUIM is different from traditional ARM or FIM since it applies utility information (like profit) instead of 
+
+frequency information for revealing useful patterns. It is usually more suitable to match the requirement of real-world applications. A 
+
+utility threshold is set by individuals to select high-utility itemsets; if an itemset is called a high-utility itemset, its utility has to 
+
+be higher than the minimum utility threshold. For example, let us look at an itemset (pattern) as a high-utility itemset in a transaction 
+
+database. This means that this itemset gained more profit in the past and might have more potential to generate more profit in the future. 
+
+Therefore, more attention should be given to it. Furthermore, not only “profit” can be applied as a utility value to mining high-utility 
+
+itemsets, but “weight”, “cost” and other different interesting factors can also construct different types of high-utility itemsets. Several 
+
+previous works were respectively proposed to reveal the set of complete HUIs in recent years. 
