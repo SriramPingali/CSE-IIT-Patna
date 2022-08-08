@@ -1,0 +1,1 @@
+Good course for people interested in Entrepreneurship. Course is very less of teaching and more of case studies and discussions. You'll learn the abc's of starting a business of your own. Dont expect pointer though, less people are likely to choose course and tough to get 8 and above with less sample size.
