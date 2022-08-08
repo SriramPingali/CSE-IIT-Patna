@@ -1,0 +1,29 @@
+*/* s/s t/t a/a r/r STOP/STOP
+*/* w/w a/a r/r s/s STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* p/p l/l o/o y/y i/i n/n g/g STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* t/t h/h i/i STOP/STOP
+*/* r/r e/e g/g a/a l/l STOP/STOP
+*/* l/l l/l o/o y/n d/d STOP/STOP
+*/* c/c e/e n/n t/t e/e r/r STOP/STOP
+*/* a/a n/n d/d STOP/STOP
+*/* i/i m/m a/a x/x STOP/STOP
+*/* m/m u/u l/l t/i n/n o/o m/m a/a h/n STOP/STOP
+*/* s/s t/t STOP/STOP
+*/* p/p o/o r/r t/t l/l a/a n/n d/d STOP/STOP
+*/* a/a n/n g/g STOP/STOP
+*/* a/a l/l s/s o/o STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* t/t h/h o/o STOP/STOP
+*/* c/c e/e n/n t/t u/u p/r y/y STOP/STOP
+*/* e/e a/a s/s t/t p/p o/o r/r t/t STOP/STOP
+*/* p/p l/l a/a z/z a/a STOP/STOP
+*/* w/w u/o u/u l/l d/d STOP/STOP
+*/* a/a n/n y/y STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* t/t h/h o/o s/s s/s STOP/STOP
+*/* t/t i/i m/m e/e s/s STOP/STOP
+*/* w/p u/u r/r k/k STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* y/y o/o z/u STOP/STOP

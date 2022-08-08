@@ -1,0 +1,7 @@
+1. Objective
+2. Problem Statement
+3. Motivation
+4. Contribution
+5. The Proposed solution
+6. Tool/ Result
+7. Critical Analysis

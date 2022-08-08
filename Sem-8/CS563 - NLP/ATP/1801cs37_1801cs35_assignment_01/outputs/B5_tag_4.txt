@@ -1,0 +1,783 @@
+*/* */* It/N said/V it/N needs/N to/O make/V the/O payment/N by/O Dec./N 1/O to/O avoid/N a/O default/N that/O could/O lead/N to/O an/O acceleration/N of/O the/O debt./N STOP/STOP
+*/* */* Separately,/N Citadel/N posted/V a/O third-quarter/N net/A loss/N of/O $2.3/N million,/O or/O 68/N cents/N a/O share,/N versus/N net/A income/N of/O $5.3/N million,/O or/O $1.61/N a/O share,/N a/O year/N earlier./A STOP/STOP
+*/* */* A/O former/A member/N of/O the/O prosecution/N team/N in/O the/O Iran/Contra/N affair/N joined/N the/O Chicago/N firm/N of/O Mayer,/N Brown/N &/O Platt./N STOP/STOP
+*/* */* Volume/N was/V 372.9/N million/O shares,/N up/O from/O 334.5/N million/O on/O Tuesday./N STOP/STOP
+*/* */* And/O sales/N of/O test-coaching/N booklets/N for/O classroom/N instruction/N are/V booming./N STOP/STOP
+*/* */* You/N dismiss/N as/O ``sentimental''/N the/O view/N that/O the/O reduction/N of/O federal/A housing-assistance/N programs/N by/O 77%/N might/O have/V played/N a/O significant/A role/N in/O the/O increased/V number/N of/O men/N and/O women/N sleeping/N on/O our/N city/N streets/N during/O the/O Reagan-Bush/N years./N STOP/STOP
+*/* */* Lorillard/N Inc.,/N the/O unit/N of/O New/N York-based/N Loews/N Corp./N that/O makes/V Kent/N cigarettes,/N stopped/N using/V crocidolite/N in/O its/N Micronite/N cigarette/N filters/N in/O 1956./N STOP/STOP
+*/* */* Mitsubishi's/N investment/N in/O Free/N State/N is/V ``very/N small/A .../O less/A than/O $4/N million,''/N Mr./N Wakui/N says./V STOP/STOP
+*/* */* The/O competitive/N rates/N were/V generally/A offset/V by/O hefty/N fees/N on/O various/N services./N STOP/STOP
+*/* */* Friends/N told/V her/N she/N was/V pushing/N too/A hard./N STOP/STOP
+*/* */* Packages/N encourage/N loyalty/N by/O rewarding/N customers/N for/O doing/V the/O bulk/N of/O their/N banking/N in/O one/O place./N STOP/STOP
+*/* */* While/O it/N breaks/N down/O in/O prolonged/N sunlight,/N it/N isn't/V recyclable./N STOP/STOP
+*/* */* But/O its/N earnings/N became/V a/O major/A disappointment/N as/O its/N traditional/A retail,/N or/O individual/A investor,/N business/N showed/V no/O signs/N of/O rebounding/N from/O the/O slump/N that/O followed/V the/O October/N 1987/O stock/N market/N crash./N STOP/STOP
+*/* */* While/O U.S./N officials/N voice/N optimism/N about/O Japan's/N enlarged/N role/N in/O Asia,/N they/N also/A convey/N an/O undertone/N of/O caution./N STOP/STOP
+*/* */* It's/N imaginative/N and/O often/A funny./N STOP/STOP
+*/* */* The/O judge/N was/V quoted/N as/O referring/N to/O the/O victims/N as/O ``queers''/N and/O saying/V they/N wouldn't/O have/V been/V killed/N ``if/N they/N hadn't/V been/V cruising/N the/O streets/N picking/N up/O teenage/N boys.''/N STOP/STOP
+*/* */* Institutions/N mostly/N remained/N on/O the/O sidelines/N because/O of/O uncertainty/N regarding/N interest/N rates/N and/O the/O dollar./N STOP/STOP
+*/* */* Except/N where/A noted,/N none/N of/O these/O people/N could/O be/V reached/V for/O comment/N or/O had/V any/O comment./N STOP/STOP
+*/* */* In/O October/N 1989,/O 16.9%/N said/V more/A jobs/N will/O be/V created/V in/O the/O coming/V six/O months,/N compared/V with/O 17.4%/N in/O September/N and/O 18.6%/N in/O October/N 1988./O STOP/STOP
+*/* */* ``The/O Herald/N was/V a/O survivor/N from/O a/O bygone/N age,''/N said/V J./N Kendrick/N Noble,/N a/O media/N analyst/N with/O PaineWebber/N Inc./N STOP/STOP
+*/* */* Under/O measures/N approved/V by/O both/O houses/N of/O Congress,/N the/O administration's/N request/N for/O $47/N million/O for/O the/O Antitrust/N Division/N would/O be/V cut/V $15/N million./O STOP/STOP
+*/* */* A/O Shearson/N spokesman/N said/V the/O firm/N isn't/V worried./N STOP/STOP
+*/* */* Heating/N oil/N for/O November/N delivery/N ended/V at/O 58.64/N cents/N a/O gallon,/N up/O one/O cent/N on/O the/O New/N York/N Mercantile/N Exchange./N STOP/STOP
+*/* */* Mrs./N Gorman/N took/V advantage/N of/O low/A prices/N after/O the/O 1987/O crash/N to/O buy/V stocks/N and/O has/V hunted/N for/O other/A bargains/N since/O the/O Oct./N 13/O plunge./N STOP/STOP
+*/* */* Several/N times,/N Chinese/A guards/N have/V pointed/N their/N automatic/N rifles/N at/O young/A children/N of/O U.S./N diplomats/N and/O clicked/N the/O trigger./N STOP/STOP
+*/* */* A/O stadium/N craze/N is/V sweeping/N the/O country./N STOP/STOP
+*/* */* Tony/N Lama/N Co./N said/V that/O Equus/N Investment/N II/N Limited/N Partnership/N has/V proposed/V changing/N the/O offer/N for/O the/O company/N to/O $13.65/N in/O cash/N and/O stock/N from/O an/O all-cash/N transaction./N STOP/STOP
+*/* */* The/O futures/N industry/N is/V regulated/N by/O the/O Commodity/N Futures/N Trading/N Commission,/N which/O reports/N to/O the/O Agriculture/N committees/N in/O both/O houses./N STOP/STOP
+*/* */* With/O the/O biggest/N wine-buying/N period/N of/O the/O year/N looming/N as/O the/O holidays/N approach,/N it/N will/O be/V interesting/N to/O see/V how/A the/O superpremiums/N fare./N STOP/STOP
+*/* */* It's/N hardly/N a/O question/N of/O quality/N --/O the/O 1982/N Salon/N is/V a/O beautiful/N wine,/N but,/N as/O Mr./N Pratt/N noted,/N people/N have/V their/N own/A ideas/N about/O value./N STOP/STOP
+*/* */* ``We/N flat/A ran/N out/O of/O financing/N resources,''/N Mr./N Jerritts/N said./V STOP/STOP
+*/* */* Companies/N listed/V below/O reported/V quarterly/N profit/N substantially/N different/A from/O the/O average/A of/O analysts'/N estimates./N STOP/STOP
+*/* */* Jamaica,/N wary/N of/O upsetting/N its/N Caribbean/N Basin/N allies,/N has/V apparently/A instructed/N its/N lobbyist/N to/O abandon/N the/O provision/N initially/N drafted/N by/O Mr./N Gray,/N but/O the/O greater/A question/N is/V whether/O Mr./N Inouye,/N who/N has/V strong/A ties/N to/O the/O sugar/N industry,/N is/V able/A to/O insert/N a/O claim/V by/O the/O Philippines./N STOP/STOP
+*/* */* Cathryn/N Rice/N could/O hardly/N believe/V her/N eyes./N STOP/STOP
+*/* */* The/O firm/N and/O the/O NASD/N differ/N over/O the/O meaning/N of/O markup/N and/O markdown,/N he/N added./V STOP/STOP
+*/* */* The/O target/N of/O their/N wrath?/N STOP/STOP
+*/* */* In/O both/O cases,/N NEC/N lost/V the/O contract/N to/O Fujitsu,/N which/O made/V the/O same/A bid/N and/O won/V a/O tie-breaking/N lottery./N STOP/STOP
+*/* */* In/O addition,/N a/O big/A loan/N that/O First/N Boston/N made/V to/O Ohio/N Mattress/N Co./N wasn't/V repaid/N on/O time/N when/A its/N $450/N million/O junk/N financing/V for/O a/O buy-out/N of/O the/O bedding/N company/N was/V withdrawn./N STOP/STOP
+*/* */* In/O a/O second/A area/N of/O common/A concern,/N the/O world/N environment,/N an/O additional/A $15/N million/O will/O be/V provided/V in/O development/N assistance/N to/O fund/N a/O series/N of/O initiatives,/N related/V both/O to/O global/N warming/N and/O the/O plight/N of/O the/O African/N elephant./N STOP/STOP
+*/* */* It/N was/V later/A applied/N to/O other/A new-car/N programs,/N including/V those/O that/O produced/V the/O Ford/N Thunderbird/N and/O Mercury/N Cougar./N STOP/STOP
+*/* */* Many/A are/V far/A enough/A from/O residential/N areas/N to/O pass/N public/A muster,/N yet/A close/V enough/A to/O permit/N family/N visits./N STOP/STOP
+*/* */* ``We/N are/V shipping/N the/O most/A corn/N in/O that/O short/A of/O time/N period/N to/O one/O customer/N on/O record,''/N said/V William/N Dunton,/N a/O U.S./N Agriculture/N Department/N transportation/N expert./N STOP/STOP
+*/* */* What's/N wrong/N with/O asking/N for/O more/A money?/N STOP/STOP
+*/* */* LTV/N Corp./N said/V a/O federal/A bankruptcy/N court/N judge/N agreed/V to/O extend/N until/O March/N 8,/N 1990,/O the/O period/N in/O which/O the/O steel,/N aerospace/N and/O energy/N products/N company/N has/V the/O exclusive/N right/N to/O file/V a/O reorganization/N plan./N STOP/STOP
+*/* */* The/O department/N previously/A estimated/V that/O durable-goods/N orders/N fell/V 0.1%/N in/O September./N STOP/STOP
+*/* */* As/O a/O result,/N the/O company/N said/V it/N decided/V to/O phase/N out/O its/N oldest/N capacity/N and/O ``make/N appropriate/N reductions''/N in/O operating/N expenses./N STOP/STOP
+*/* */* ``The/O events/N of/O April/N through/O June/N damaged/N the/O respect/N and/O confidence/N which/O most/A Americans/N previously/A had/V for/O the/O leaders/N of/O China.''/N STOP/STOP
+*/* */* Ray/N Shaw,/N chairman/N of/O American/N City,/N said/V he/N would/O assume/N Mr./N Russell's/N responsibilities/N if/O a/O successor/N isn't/V found/V this/O month./N STOP/STOP
+*/* */* Policy/N makers/N regard/N the/O youth/N wage/N as/O helping/N to/O limit/N the/O loss/N of/O jobs/N from/O an/O increase/N in/O the/O minimum/A wage,/N but/O they/N have/V lately/N touted/N it/N as/O necessary/N to/O help/V impart/N job/N skills/N to/O entrants/N into/O the/O work/N force./N STOP/STOP
+*/* */* Both/N Dr./N Mason/N and/O Dr./N Sullivan/N oppose/N federal/A funding/N for/O abortion,/N as/O does/V President/N Bush,/N except/N in/O cases/N where/A a/O woman's/N life/N is/V threatened./N STOP/STOP
+*/* */* The/O market/N again/N showed/V little/A interest/N in/O further/A evidence/N of/O a/O slowing/N U.S./N economy,/N and/O traders/N note/N that/O the/O market/N in/O recent/A weeks/N has/V taken/V its/N cues/N more/A from/O Wall/N Street/N than/O U.S./N economic/A indicators./N STOP/STOP
+*/* */* The/O proposal/N comes/N as/O a/O surprise/N even/A to/O administration/N officials/N and/O temporarily/N throws/N into/O chaos/N the/O House's/N work/V on/O clean-air/N legislation./N STOP/STOP
+*/* */* A/O reading/N below/O 50%/O indicates/V that/O the/O manufacturing/N sector/N is/V slowing/V while/O a/O reading/N above/O 50%/O suggests/N that/O the/O industry/N is/V expanding./N STOP/STOP
+*/* */* Unless/N it/N can/O raise/V money/N in/O financial/A markets,/N Mr./N Basham/N said,/V the/O federal/A government/N won't/O have/V the/O cash/N to/O pay/V off/O $13.8/N billion/O in/O Treasury/N bills/N that/O mature/V on/O Thursday./N STOP/STOP
+*/* */* Judie/N MacDonald,/N vice/N president/N of/O retail/A sales/N at/O Barnett/N Banks/N Inc./N of/O Jacksonville,/N Fla.,/N says/V the/O company/N now/A targets/N sub-segments/N within/O the/O market/N by/O tailoring/N its/N popular/N Seniors/N Partners/N Program/N to/O various/N life/N styles./N STOP/STOP
+*/* */* As/O for/O the/O findings/N on/O the/O 203/N Baltimore/N homeless/N who/N underwent/N psychiatric/N examinations,/N I/N suggest/N you/N conduct/N your/N own/A survey./N STOP/STOP
+*/* */* Under/O an/O accord/N signed/N yesterday,/N the/O government/N and/O Union/N Bank/N of/O Finland/N would/O become/V major/A shareholders/N in/O the/O new/A company,/N each/O injecting/N 100/O million/O Finnish/N markkaa/N -LRB-/O $23.5/N million/O -RRB-./O STOP/STOP
+*/* */* Standardized/N achievement/N tests/N are/V given/N about/O 10/O million/O times/N a/O year/N across/O the/O country/N to/O students/N generally/A from/O kindergarten/N through/O eighth/N grade./N STOP/STOP
+*/* */* Ringers,/N she/N added,/N are/V ``filled/N with/O the/O solemn/N intoxication/N that/O comes/N of/O intricate/N ritual/N faultlessly/N performed.''/N STOP/STOP
+*/* */* Mr./N Ross/N said/V IRS/N officials/N opposed/N the/O Justice/N Department's/N moderate/N stance/N on/O the/O matter./N STOP/STOP
+*/* */* To/O further/A load/N the/O stakes,/N Mr./N Lane/N dreamed/N up/O a/O highly/A improbable/N romance/N for/O the/O Artist,/N with/O a/O young/A woman/N who/N owns/V her/N own/A children's/N shop/N and/O who/N lives/N in/O an/O expensive/N high-rise/N apartment/N building./N STOP/STOP
+*/* */* Rep./N James/N Traficant/N -LRB-/O D.,/N Ohio/N -RRB-,/O said/V the/O amendment,/N which/O passed/N 271-147,/N would/O ``let/N the/O American/N worker/N know/V that/O we/N consider/V them/N occasionally.''/N STOP/STOP
+*/* */* Guber/Peters/N has/V been/V locked/N in/O litigation/N with/O Warner/N Communications/N Inc./N in/O an/O attempt/N to/O get/V out/O of/O an/O exclusive/N production/N contract/N with/O Warner./N STOP/STOP
+*/* */* ``You/N 've/V got/V to/O make/V the/O restructuring/N work,''/N said/V Mr./N Baum./N STOP/STOP
+*/* */* California's/N education/N department/N suspects/N adult/N responsibility/N for/O erasures/N at/O 40/O schools/N that/O changed/V wrong/N answers/N to/O right/A ones/N on/O a/O statewide/N test./N STOP/STOP
+*/* */* Rep./N Dingell/N of/O Michigan/N plans/V to/O unveil/N today/N a/O proposal/N that/O would/O break/N with/O Bush's/N clean-air/N bill/N on/O the/O issue/N of/O emissions/N that/O lead/V to/O acid/N rain./N STOP/STOP
+*/* */* In/O separate/A floor/N action,/N the/O House/N waived/N budget/N restrictions/N and/O gave/N quick/N approval/N to/O $3.18/N billion/O in/O supplemental/N appropriations/N for/O law/N enforcement/N and/O anti-drug/N programs/N in/O fiscal/A 1990./O STOP/STOP
+*/* */* Elisabeth/N Rubinfien/N contributed/V to/O this/O article./N STOP/STOP
+*/* */* He/N also/A rejected/V reports/N that/O his/N departure/N stemmed/N from/O disappointment/N the/O general/A manager's/N post/N hadn't/V also/A led/V to/O a/O board/N directorship/N at/O the/O London-based/N news/N organization./N STOP/STOP
+*/* */* In/O national/A over-the-counter/N trading/N yesterday,/N POP/N plunged/N $4/N to/O $14.75./N STOP/STOP
+*/* */* Outside,/N a/O young/A pressman/N filling/N a/O news/N box/N with/O an/O extra/N edition/N headlined/N ``Herald/N Examiner/N Closes''/N refused/N to/O take/V a/O reader's/N quarter./N STOP/STOP
+*/* */* On/O London's/N Stock/N Exchange,/N Reuters/N shares/N rose/V five/O pence/N to/O 913/N pence/N -LRB-/O $14.43/N -RRB-./O STOP/STOP
+*/* */* Glaxo,/N the/O U.K.'s/N largest/A pharmaceutical/N concern,/N advanced/V 23/N to/O #/O 14.13./N STOP/STOP
+*/* */* ``A/O sweeping/N restructuring/N of/O the/O industry/N is/V possible.''/N STOP/STOP
+*/* */* Revenue/N declined/V 8%/N to/O $85.7/N million,/O from/O $93.3/N million/O a/O year/N earlier./A STOP/STOP
+*/* */* By/O addressing/N those/O problems,/N Mr./N Maxwell/N said,/V the/O new/A funds/N have/V become/V ``extremely/N attractive/N to/O Japanese/A and/O other/A investors/N outside/O the/O U.S..''/N STOP/STOP
+*/* */* Some/O of/O the/O homeless,/N obviously,/N had/V pre-existing/N mental/N illness/N or/O addiction./N STOP/STOP
+*/* */* Meanwhile,/A most/A investment-grade/N bonds/N ended/V unchanged/A to/O as/O much/A as/O 1/8/N point/N higher./N STOP/STOP
+*/* */* Mr./N Harper/N expressed/N confidence/N that/O he/N and/O Mr./N Baum/N can/O convince/N the/O board/N of/O their/N worthiness/N to/O run/V the/O company./N STOP/STOP
+*/* */* Proceeds/N of/O that/O sale/N are/V to/O be/V used/V to/O reduce/V debt/N and/O buy/V back/A shares./N STOP/STOP
+*/* */* Program/N trading/N is/V ``a/O racket,''/N complains/N Edward/N Egnuss,/N a/O White/N Plains,/N N.Y.,/N investor/N and/O electronics/N sales/N executive,/N ``and/N it's/N not/A to/O the/O benefit/N of/O the/O small/A investor,/N that's/O for/O sure.''/N STOP/STOP
+*/* */* But/O Sony/N ultimately/N took/V a/O lesson/N from/O the/O American/N management/N books/N and/O fired/N Mr./N Katzenstein,/N after/O he/N committed/N the/O social/N crime/N of/O making/V an/O appointment/N to/O see/V the/O venerable/N Akio/N Morita,/N founder/N of/O Sony./N STOP/STOP
+*/* */* The/O average/A number/N of/O FT-SE/N option/N contracts/N traded/V on/O the/O London/N exchange/N has/V surged/N nearly/A tenfold/N since/O the/O contract's/N launch/N in/O 1984./N STOP/STOP
+*/* */* The/O city's/N Campaign/N Finance/N Board/N has/V refused/N to/O pay/V Mr./N Dinkins/N $95,142/N in/O matching/N funds/N because/O his/N campaign/N records/N are/V incomplete./N STOP/STOP
+*/* */* Then,/N in/O the/O guests'/N honor,/N the/O speedway/N hauled/N out/O four/O drivers,/N crews/N and/O even/A the/O official/N Indianapolis/N 500/O announcer/N for/O a/O 10-lap/N exhibition/N race./N STOP/STOP
+*/* */* --/O The/O USIA/N said/V that,/O on/O reflection,/N of/O course/N I/N could/O print/V anything/N I/N could/O get/V my/N hands/N on./N STOP/STOP
+*/* */* No/N dummies,/N the/O drivers/N pointed/N out/O they/N still/A had/V space/N on/O their/N machines/N for/O another/O sponsor's/N name/N or/O two./N STOP/STOP
+*/* */* Zenith/N Data/N Systems/N Corp.,/N a/O subsidiary/N of/O Zenith/N Electronics/N Corp.,/N received/V a/O $534/N million/O Navy/N contract/N for/O software/N and/O services/N of/O microcomputers/N over/O an/O 84-month/N period./N STOP/STOP
+*/* */* Net/N income/N more/A than/O tripled/N to/O 4.898/N billion/O yen/N from/O 1.457/N billion/O yen/N a/O year/N earlier./A STOP/STOP
+*/* */* The/O loan/N may/O be/V extended/N by/O the/O McAlpine/N group/N for/O an/O additional/A year/N with/O an/O increase/N in/O the/O conversion/N price/N to/O $2.50/N a/O share./N STOP/STOP
+*/* */* Wilbur/N Ross/N Jr./N of/O Rothschild/N Inc.,/N the/O financial/A adviser/N to/O the/O troubled/N company's/N equity/N holders,/N said/V the/O withdrawal/N of/O New/N England/N Electric/N might/O speed/N up/O the/O reorganization/N process./N STOP/STOP
+*/* */* Yet/N Section/N 605/N of/O the/O appropriations/N bill/N for/O the/O executive/A office/N provides:/N ``No/N part/N of/O any/O appropriation/N for/O the/O current/A fiscal/A year/N contained/N in/O this/O or/O any/O other/A Act/N shall/O be/V paid/V to/O any/O person/N for/O the/O filling/N of/O any/O position/N for/O which/O he/N or/O she/N has/V been/V nominated/N after/O the/O Senate/N has/V voted/N not/A to/O approve/V the/O nomination/N of/O said/V person.''/N STOP/STOP
+*/* */* FEDERAL/N NATIONAL/N MORTGAGE/N ASSOCIATION/N -LRB-/O Fannie/N Mae/N -RRB-:/N Posted/N yields/N on/O 30/O year/N mortgage/N commitments/N for/O delivery/N within/O 30/O days/N -LRB-/O priced/V at/O par/N -RRB-/O 9.75%,/N standard/A conventional/N fixed-rate/N mortgages;/N 8.70%,/N 6/2/N rate/N capped/N one-year/N adjustable/N rate/N mortgages./N STOP/STOP
+*/* */* They/N found/V students/N in/O an/O advanced/V class/N a/O year/N earlier/A who/N said/V she/N gave/N them/N similar/A help,/N although/O because/O the/O case/N wasn't/V tried/N in/O court,/N this/O evidence/N was/V never/A presented/N publicly./N STOP/STOP
+*/* */* Shipments/N have/V been/V relatively/A level/N since/O January,/N the/O Commerce/N Department/N noted./N STOP/STOP
+*/* */* The/O magazine's/N editors/N ran/N a/O giant/N diagram/N of/O the/O product/N with/O arrows/N pointing/N to/O the/O packaging's/N polystyrene/N foam,/N polyproplene/N and/O polyester/N film/N --/O all/O plastic/N items/N they/N say/V are/V non-biodegradable./N STOP/STOP
+*/* */* All/O arguments/N against/O program/N trading,/N even/A those/O pressed/N without/O fact,/N conclude/N with/O three/O expected/V results/N after/O ``reforms''/N are/V implemented:/N 1/O -RRB-/O reduced/V volatility,/N 2/O -RRB-/O a/O long-term/A investment/N focus,/N and/O 3/N -RRB-/O a/O level/N playing/N field/N for/O the/O small/A investor./N STOP/STOP
+*/* */* Despite/O one/O of/O the/O most/A devastating/N droughts/N on/O record,/N net/A cash/N income/N in/O the/O Farm/N Belt/N rose/V to/O a/O new/A high/A of/O $59.9/N billion/O last/A year./N STOP/STOP
+*/* */* I/N feel/V pretty/N good/A about/O it./N STOP/STOP
+*/* */* ``A/O lot/N of/O the/O stocks/N that/O have/V been/V under/O water/N finally/N saw/N a/O reason/N to/O uptick,''/N said/V George/N Jennison,/N head/N trader/N of/O banking/N issues/N in/O Shearson/N Lehman/N Hutton's/N OTC/N department./N STOP/STOP
+*/* */* The/O results/N reflected/N a/O 24%/N gain/N in/O income/N from/O its/N finance/N businesses,/N and/O a/O 15%/O slide/N in/O income/N from/O insurance/N operations./N STOP/STOP
+*/* */* That/O response/N annoyed/N Rep./N Markey,/N House/N aides/N said,/V and/O the/O congressman/N snapped/N back/A that/O there/O had/V been/V enough/A studies/N of/O the/O issue/N and/O that/O it/N was/V time/N for/O action/N on/O the/O matter./N STOP/STOP
+*/* */* Arbitrage/N simply/N transfers/N his/N selling/V pressure/N from/O Chicago/N to/O New/N York,/N while/O functioning/N as/O a/O buyer/N in/O Chicago./N STOP/STOP
+*/* */* The/O indexers/N charge/V only/A a/O few/A pennies/N per/O $100/O managed./N STOP/STOP
+*/* */* At/O that/O meeting,/N he/N said,/V the/O Justice/N Department/N assured/N him/N that/O enforcement/N procedures/N wouldn't/O be/V threatened/N against/O attorneys/N without/O further/A review/N and/O advance/N notice./N STOP/STOP
+*/* */* Next/N week,/N the/O Philippine/N Fund's/N launch/N will/O be/V capped/N by/O a/O visit/N by/O Philippine/N President/N Corazon/N Aquino/N --/O the/O first/A time/N a/O head/N of/O state/N has/V kicked/N off/O an/O issue/N at/O the/O Big/N Board/N here./N STOP/STOP
+*/* */* Each/O right/A entitles/N the/O shareholder/N to/O buy/V $100/O face/V amount/N of/O 13.5%/N bonds/N due/A 1993/N and/O warrants/N to/O buy/V 23.5/N common/A shares/N at/O 30/O cents/N a/O share./N STOP/STOP
+*/* */* Yale/N is/V one/O of/O the/O few/A medical/A institutions/N conducting/N privately/N funded/N research/N on/O fetal-tissue/A transplants./N STOP/STOP
+*/* */* David/N Berson,/N economist/N for/O the/O Mortgage/N Bankers/N Association,/N predicted/N the/O drop/N in/O interest/N rates/N eventually/N will/O boost/V spending/N on/O single-family/N homes,/N but/O probably/A not/A until/O early/A next/A year./N STOP/STOP
+*/* */* Used/N by/O program/N traders/N and/O others/N to/O zip/N orders/N into/O the/O exchange,/N SuperDot/N handles/N about/O 80%/N of/O all/O orders/N entered/N at/O the/O exchange./N STOP/STOP
+*/* */* ``We're/N pleased/N the/O ABA/N rated/N him/N qualified,''/N David/N Runkel,/N the/O department's/N chief/N spokesman,/N said/V in/O an/O interview./N STOP/STOP
+*/* */* Brazil/N is/V the/O third-largest/N producer/N and/O the/O fifth-largest/N exporter/N of/O sugar/N in/O the/O world./N STOP/STOP
+*/* */* Also/N on/O the/O takeover/N front,/N Jaguar's/N ADRs/N rose/V 1/4/N to/O 13/O 7/8/N on/O turnover/N of/O 4.4/N million./O STOP/STOP
+*/* */* Sales/N by/O these/O subsidiaries/N in/O the/O fiscal/A year/N ending/N last/A March/N were/V more/A than/O $17/N billion./O STOP/STOP
+*/* */* On/O the/O other/A hand,/N had/V it/N existed/N then,/N Cray/N Computer/N would/O have/V incurred/N a/O $20.5/N million/O loss./N STOP/STOP
+*/* */* U.S./N News'/N circulation/N in/O the/O same/A time/N was/V 2,303,328,/N down/O 2.6%./N STOP/STOP
+*/* */* Reed/N is/V paying/V an/O interim/N dividend/N of/O 4.6/N pence,/N up/O 15%/O from/O 4/N pence/N a/O year/N earlier./A STOP/STOP
+*/* */* An/O index-arbitrage/N trade/N is/V never/A executed/N unless/O there/O is/V sufficient/N difference/N between/O the/O markets/N in/O New/N York/N and/O Chicago/N to/O cover/N all/O transaction/N costs./N STOP/STOP
+*/* */* Partly/N to/O help/V clear/A the/O myriad/N obstacles/N facing/N any/O overseas/A company/N trying/V to/O penetrate/N Japan,/N tiny/N Candela/N turned/V to/O Mitsui/N &/O Co.,/N one/O of/O Japan's/N largest/A trading/N companies,/N for/O investment./N STOP/STOP
+*/* */* Without/N admitting/N or/O denying/N wrongdoing,/N the/O firm/N consented/V to/O findings/N that/O it/N failed/V to/O respond/N ``in/N a/O timely/N manner''/N to/O the/O NASD's/N requests/N for/O information/N in/O connection/N with/O a/O customer/N complaint./N STOP/STOP
+*/* */* Lord/N Chilver,/N 63-year-old/N chairman/N of/O English/N China/N Clays/N PLC,/N was/V named/V a/O nonexecutive/N director/N of/O this/O British/A chemical/N company./N STOP/STOP
+*/* */* Source:/N Fulton/N Prebon/N -LRB-/O U.S.A./N -RRB-/O Inc./N STOP/STOP
+*/* */* FOREIGN/N PRIME/N RATES:/N Canada/N 13.50%;/N Germany/N 9%;/N Japan/N 4.875%;/N Switzerland/N 8.50%;/N Britain/N 15%./N STOP/STOP
+*/* */* GRAINS/N AND/N SOYBEANS:/N STOP/STOP
+*/* */* Rockwell/N International/N Corp./N won/V a/O $130.7/N million/O Air/N Force/N contract/N for/O AC-130U/N gunship/N replacement/N aircraft./N STOP/STOP
+*/* */* The/O Soviets,/N who/N normally/N have/V few/A clients/N other/A than/O the/O state,/N will/O get/V ``exposure/N to/O a/O market/N system,''/N he/N says./V STOP/STOP
+*/* */* The/O finding/N probably/A will/O support/V those/O who/N argue/N that/O the/O U.S./N should/O regulate/N the/O class/N of/O asbestos/N including/V crocidolite/N more/A stringently/N than/O the/O common/A kind/N of/O asbestos,/N chrysotile,/N found/V in/O most/A schools/N and/O other/A buildings,/N Dr./N Talcott/N said./V STOP/STOP
+*/* */* One/O could/O argue/N that/O it/N is/V not/A an/O assertion/N of/O a/O item/N veto/N at/O all/O for/O the/O president,/N by/O exerting/N a/O power/N of/O excision,/N to/O resist/N unconstitutional/A conditions/N in/O legislation/N that/O violate/N the/O separation/N of/O powers./N STOP/STOP
+*/* */* While/O the/O new/A proposal/N might/O appeal/N to/O the/O dirtiest/N utilities,/N it/N might/O not/A win/V the/O support/N of/O utilities,/N many/A in/O the/O West,/N that/O already/A have/V added/V expensive/N cleanup/N equipment/N or/O burn/N cleaner-burning/N fuels./N STOP/STOP
+*/* */* The/O Midwest/N Financial/N subsidiary/N banks/N will/O continue/V to/O operate/V under/O their/N current/A names/N until/O early/A 1990,/O when/A each/O will/O adopt/N the/O First/N of/O America/N name./N STOP/STOP
+*/* */* Hearst/N had/V flirted/N with/O a/O conversion/N to/O tabloid/N format/N for/O years/N but/O never/A executed/N the/O plan./N STOP/STOP
+*/* */* The/O December/N contract/N advanced/V 2.50/N cents/N a/O pound/N to/O $1.1650./N STOP/STOP
+*/* */* The/O U.S./N and/O Soviet/A Union/N are/V holding/V technical/N talks/N about/O possible/A repayment/N by/O Moscow/N of/O $188/N million/O in/O pre-Communist/N Russian/N debts/N owed/N to/O the/O U.S./N government,/N the/O State/N Department/N said./V STOP/STOP
+*/* */* The/O declaration/N by/O Economy/N Minister/N Nestor/N Rapanelli/N is/V believed/V to/O be/V the/O first/A time/N such/A an/O action/N has/V been/V called/V for/O by/O an/O Argentine/N official/N of/O such/A stature./N STOP/STOP
+*/* */* ``One/N says/V he's/N for/O banning/N cop-killer/N bullets./N STOP/STOP
+*/* */* The/O National/N Association/N of/O Diaper/N Services,/N Philadelphia,/N says/V that/O since/O January/N it/N has/V gotten/N more/A than/O 672/N inquiries/N from/O people/N interested/N in/O starting/N diaper/N services./N STOP/STOP
+*/* */* Besides/N being/V a/O ``minority-owned/N company''/N Wedtech/N was/V located/N in/O the/O South/N Bronx,/N a/O blighted/N area,/N made/V famous/N by/O Jimmy/N Carter/N in/O his/N 1976/N presidential/N campaign./N STOP/STOP
+*/* */* Columbia/N Savings/N &/O Loan/N -LRB-/O NYSE;/N Symbol:/N CSV/N -RRB-/O STOP/STOP
+*/* */* Above/N all,/N Mr./N Oxnard/N noted,/N the/O situation/N is/V extremely/N confused./N STOP/STOP
+*/* */* The/O vicar,/N W.D./N Jones,/N refuses/N to/O talk/V about/O it,/N saying/V it/N would/O ``reopen/N the/O wound.''/N STOP/STOP
+*/* */* Among/O other/A things,/N it/N included/V checking,/N safe/N deposit/N box/N and/O credit/N card/N --/O all/O for/O free/A --/O plus/N a/O good/A deal/N on/O installment/N loans./N STOP/STOP
+*/* */* ``The/O way/N that/O we/N 've/V been/V managing/N Campbell/N U.S.A./N can/O hopefully/N spread/N to/O other/A areas/N of/O the/O company,''/N Mr./N Baum/N said./V STOP/STOP
+*/* */* It/N rose/V 7/8/N to/O 18/N 1/4./N STOP/STOP
+*/* */* Once/N the/O disease/N was/V confirmed,/N all/O the/O man's/N associates/N and/O family/N were/V tested,/N but/O none/N have/V so/A far/A been/V found/V to/O have/V AIDS,/N the/O newspaper/N said./V STOP/STOP
+*/* */* Meanwhile,/A the/O National/N Association/N of/O Purchasing/N Management/N said/V its/N latest/A survey/N indicated/V that/O the/O manufacturing/N economy/N contracted/N in/O October/N for/O the/O sixth/N consecutive/N month./N STOP/STOP
+*/* */* Any/N money/N in/O excess/N of/O $40/N million/O collected/N from/O the/O fees/N in/O fiscal/A 1990/O would/O go/V to/O the/O Treasury/N at/O large./N STOP/STOP
+*/* */* Yesterday,/N Carnival/N said/V a/O new/A company/N has/V been/V formed/N in/O Finland/N that/O will/O carry/V on/O Waertsilae's/N shipbuilding/N operations./N STOP/STOP
+*/* */* West/N Texas/N Intermediate/N crude/N for/O December/N delivery/N rose/V 13/O cents/N a/O barrel/N to/O settle/N at/O $20.07./N STOP/STOP
+*/* */* In/O his/N lawsuit,/N Mr./N Trudeau/N says/V the/O strike/N illegally/N included/V Darkhorse,/N and/O the/O cartoonist/N refused/N to/O honor/N the/O strike/N against/O the/O company./N STOP/STOP
+*/* */* Pierre/N Vinken,/N 61/N years/N old,/N will/O join/N the/O board/N as/O a/O nonexecutive/N director/N Nov./N 29./N STOP/STOP
+*/* */* ``These/N kids/N broke/N my/N heart,''/N she/N says./V STOP/STOP
+*/* */* That's/N almost/A $10/O of/O equity/N for/O each/O Columbia/N share,/N including/V convertible/A preferred/V shares,/N though/O more/A junk/N markdowns/N would/O reduce/V the/O cushion./N STOP/STOP
+*/* */* In/O October,/N 30.6%/N said/V they/N will/O buy/V appliances/N in/O the/O coming/V six/O months,/N compared/V with/O 27.4%/N in/O September/N and/O 26.5%/N in/O October/N 1988./O STOP/STOP
+*/* */* There's/N never/A been/V an/O exception,''/N says/V Gerald/N W./N Perritt,/N a/O Chicago/N investment/N adviser/N and/O money/N manager,/N based/V on/O a/O review/N of/O six/O decades/N of/O stock-market/N data./N STOP/STOP
+*/* */* Reserves/N for/O the/O five/O new/A fields/N total/N 50/O million/O barrels./N STOP/STOP
+*/* */* ``Public/N policy/N favors/N the/O development/N and/O marketing/N of/O beneficial/N new/A drugs,/N even/A though/O some/O risks,/N perhaps/A serious/A ones,/N might/O accompany/N their/N introduction/N because/O drugs/N can/O save/N lives/N and/O reduce/V pain/N and/O suffering,''/N the/O unanimous/N court/N said./V STOP/STOP
+*/* */* Nekoosa/N has/V given/N the/O offer/N a/O public/A cold/N shoulder,/N a/O reaction/N Mr./N Hahn/N hasn't/V faced/N in/O his/N 18/N earlier/A acquisitions,/N all/O of/O which/O were/V negotiated/N behind/N the/O scenes./N STOP/STOP
+*/* */* In/O Richmond,/N Ind.,/N the/O type/N F/N railing/N is/V being/V used/V to/O replace/N arched/N openings/N on/O the/O G/N Street/N Bridge./N STOP/STOP
+*/* */* Says/V Mr./N Sale:/N ``I/N think/V more/A banks/N are/V starting/N to/O realize/N that/O we/N have/V to/O be/V more/A like/O the/O department/N store,/N not/A the/O boutique.''/N STOP/STOP
+*/* */* ``Do/N I/N have/V much/A sympathy/N for/O her?''/N Mr./N Watson/N asks./N STOP/STOP
+*/* */* By/O Tuesday/N night,/N television/N stations/N were/V carrying/N new/A ads/N featuring/N Mr./N Coleman/N himself/N raising/V questions/N about/O Mr./N Wilder's/N sensitivity/N to/O rape/N victims./N STOP/STOP
+*/* */* That/O was/V partially/N offset/V by/O the/O resumption/N of/O space/N shuttle/N flights/N and/O increased/V demand/N for/O expendable/N launch-vehicle/N engines./N STOP/STOP
+*/* */* He/N had/V been/V a/O sales/N and/O marketing/N executive/N with/O Chrysler/N for/O 20/O years./N STOP/STOP
+*/* */* Magna/N International/N Inc.'s/N chief/A financial/A officer,/N James/N McAlpine,/N resigned/N and/O its/N chairman,/N Frank/N Stronach,/N is/V stepping/N in/O to/O help/V turn/V the/O automotive-parts/N manufacturer/N around,/N the/O company/N said./V STOP/STOP
+*/* */* January/N platinum/N was/V down/O $5.70/N an/O ounce/N at/O $494.50./N STOP/STOP
+*/* */* In/O June/N 1988,/O I/N wrote/V in/O this/O space/N about/O this/O issue./N STOP/STOP
+*/* */* It/N all/O adds/N up/O to/O a/O barrier/N to/O American-style/N index/N arbitrage,/N the/O most/A popular/N form/N of/O U.S./N program/N trading/N that/O seeks/N to/O exploit/N brief/N differences/N between/O prices/N of/O stocks/N in/O New/N York/N and/O the/O price/N of/O a/O futures/N contract/N in/O Chicago/N based/V on/O those/O stocks./N STOP/STOP
+*/* */* Mostly,/N she/N says,/V she/N wanted/V to/O prevent/V the/O damage/N to/O self-esteem/N that/O her/N low-ability/N students/N would/O suffer/N from/O doing/V badly/N on/O the/O test./N STOP/STOP
+*/* */* The/O protracted/N downturn/N reflects/N the/O intensity/N of/O Bank/N of/O Japan/N yen-support/N intervention/N since/O June,/N when/A the/O U.S./N currency/N temporarily/N surged/N above/O the/O 150.00/N yen/N level./N STOP/STOP
+*/* */* A/O successor/N wasn't/V named,/N which/O fueled/N speculation/N that/O Mr./N Bernstein/N may/O have/V clashed/N with/O S.I./N Newhouse/N Jr.,/N whose/N family/N company,/N Advance/N Publications/N Inc.,/N owns/V Random/N House./N STOP/STOP
+*/* */* ``David/N Dinkins,''/N says/V the/O kicker,/N ``Why/N does/V he/N always/A wait/N until/O he's/N caught?''/N STOP/STOP
+*/* */* Neither/N Equus/N nor/O Tony/N Lama/N gave/N a/O reason/N for/O the/O changed/V offer/V and/O Tony/N Lama/N couldn't/O be/V reached/V for/O comment./N STOP/STOP
+*/* */* I'm/N not/A saying/V advertising/N revenue/N isn't/V important,''/N she/N says,/V ``but/N I/N couldn't/O sleep/N at/O night''/N if/O the/O magazine/N bowed/N to/O a/O company/N because/O they/N once/A took/V out/O an/O ad./N STOP/STOP
+*/* */* It/N didn't/V elaborate./N STOP/STOP
+*/* */* Mr./N Gartner/N is/V editor/N and/O co-owner/N of/O the/O Daily/N Tribune/N in/O Ames,/N Iowa,/N and/O president/N of/O NBC/N News/N in/O New/N York./N STOP/STOP
+*/* */* Gerard/N Scannell,/N the/O head/N of/O OSHA,/N said/V USX/N managers/N have/V known/V about/O many/A of/O the/O safety/N and/O health/N deficiencies/N at/O the/O plants/N for/O years,/N ``yet/N have/V failed/V to/O take/V necessary/N action/N to/O counteract/N the/O hazards.''/N STOP/STOP
+*/* */* Separately,/N John/N Phelan/N told/V a/O closed/V House/N subcommittee/N meeting/N in/O Washington/N that/O he/N would/O support/V Securities/N and/O Exchange/N Commission/N halts/N of/O program/N trading/N during/O market/N emergencies./N STOP/STOP
+*/* */* But/O Justice/N Department/N and/O FTC/N officials/N said/V they/N expect/N the/O filing/N fees/N to/O make/V up/O for/O the/O budget/N reductions/N and/O possibly/N exceed/N them./N STOP/STOP
+*/* */* The/O Soviet/A Union/N usually/A begins/N buying/V U.S./N crops/N earlier/A in/O the/O fall./N STOP/STOP
+*/* */* As/O interest/N rates/N rose,/N municipalities/N owed/N the/O banks/N more/A than/O the/O banks/N were/V paying/V them./N STOP/STOP
+*/* */* Per-share/N net/A rose/V to/O 7.84/N yen/N from/O 6.53/N yen./N STOP/STOP
+*/* */* The/O newest/N breed,/N also/A called/V ``rocket/N scientists''/N because/O of/O their/N backgrounds/N in/O physics/N and/O mathematics,/N devise/N the/O complex/N hedging/N and/O trading/N strategies/N that/O are/V popularly/N known/V as/O program/N trading./N STOP/STOP
+*/* */* The/O screen/N fills/N with/O a/O small,/N tight/N facial/N shot/N of/O David/N Dinkins,/N Democratic/N candidate/N for/O mayor/N of/O New/N York/N City./N STOP/STOP
+*/* */* DD/N Acquisition/N said/V the/O extension/N is/V to/O allow/V this/O process/N to/O be/V completed./N STOP/STOP
+*/* */* Too/N much/A money/N is/V at/O stake/N for/O program/N traders/N to/O give/V up./N STOP/STOP
+*/* */* Americans/N will/O learn/N more/A about/O making/V products/N for/O the/O Soviets./N STOP/STOP
+*/* */* In/O the/O past/A decade,/N Japanese/A manufacturers/N concentrated/N on/O domestic/A production/N for/O export./N STOP/STOP
+*/* */* But/O advancing/N issues/N on/O the/O New/N York/N Stock/N Exchange/N were/V tidily/N ahead/N of/O declining/N stocks,/N 847/N to/O 644./N STOP/STOP
+*/* */* To/O accommodate/N the/O additional/A cash/N assistance,/N the/O House/N Appropriations/N Committee/N last/A week/N was/V required/V to/O reallocate/N an/O estimated/V $140/N million/O from/O the/O Pentagon./N STOP/STOP
+*/* */* And/O the/O city/N decided/V to/O treat/N its/N guests/N more/A like/O royalty/N or/O rock/N stars/N than/O factory/N owners./N STOP/STOP
+*/* */* The/O total/N of/O 18/N deaths/N from/O malignant/N mesothelioma,/N lung/N cancer/N and/O asbestosis/N was/V far/A higher/A than/O expected,/N the/O researchers/N said./V STOP/STOP
+*/* */* Academically,/N Mrs./N Ward/N says,/V the/O school/N was/V having/V trouble/N serving/N in/O harmony/N its/N two/O disparate,/N and/O evenly/N split,/N student/N groups:/N a/O privileged/N white/N elite/N from/O old/A monied/N neighborhoods/N and/O blacks,/N many/A of/O them/N poor,/N from/O run-down,/N inner/N city/N neighborhoods./N STOP/STOP
+*/* */* The/O size/N of/O IBM's/N issue/N was/V increased/V from/O an/O originally/N planned/V $500/N million/O as/O money/N managers/N and/O investors/N scrambled/N to/O buy/V the/O bonds./N STOP/STOP
+*/* */* Also,/A Mr./N Otero/N was/V barred/V from/O association/N with/O any/O NASD/N member./N STOP/STOP
+*/* */* In/O part,/N prices/N reflect/N development/N of/O a/O market/N structure/N based/V on/O such/A variables/N as/O the/O number/N of/O prints./N STOP/STOP
+*/* */* Biscayne/N Securities/N Corp.,/N of/O Lauderhill,/N Fla.,/N and/O a/O principal/N of/O the/O firm,/N Alvin/N Rosenblum/N of/O Plantation,/N Fla.,/N were/V jointly/N fined/V $20,000/N and/O given/N 10-day/N suspensions/N for/O allegedly/N selling/V securities/N at/O unfair/A prices./N STOP/STOP
+*/* */* But/O there/O still/A aren't/V enough/A ringers/N to/O ring/N more/A than/O six/O of/O the/O eight/N bells./N STOP/STOP
+*/* */* The/O speed/N with/O which/O such/A program/N trades/N take/V place/N and/O the/O volatile/N price/N movements/N they/N can/O cause/V are/V what/N program/N trading/N critics/N profess/N to/O despise./N STOP/STOP
+*/* */* She/N said/V the/O move/N would/O result/V in/O a/O after-tax/N charge/N of/O less/A than/O $4/N million/O to/O be/V spread/N over/O the/O next/A three/O quarters./N STOP/STOP
+*/* */* Odd-year/N elections/N attract/N relatively/A few/A ballot/N issues./N STOP/STOP
+*/* */* SWITCHING/N TO/N THE/N DEFENSE:/N STOP/STOP
+*/* */* In/O addition,/N the/O Apple/N II/N was/V an/O affordable/N $1,298./N STOP/STOP
+*/* */* The/O recent/A cash/N squeeze/N at/O Campeau/N Corp.,/N First/N Boston's/N most/A lucrative/N client/N of/O the/O decade,/N is/V proving/N costly/N to/O First/N Boston/N because/O it/N arranged/N more/A than/O $3/O billion/O of/O high-yield,/N high-risk/N junk/N financings/N for/O Campeau/N units./N STOP/STOP
+*/* */* Department/N officials/N say/V that/O HHS/N Secretary/N Louis/N Sullivan/N will/O support/V Dr./N Mason's/N ruling,/N which/O will/O be/V issued/V soon/N in/O the/O form/N of/O a/O letter/N to/O the/O acting/N director/N of/O the/O National/N Institutes/N of/O Health./N STOP/STOP
+*/* */* It/N is/V not/A supported/N by/O the/O text/N or/O history/N of/O the/O Constitution./N STOP/STOP
+*/* */* Nearby/N cities/N such/A as/O Pasadena/N and/O Long/N Beach/N also/A have/V large/A dailies./N STOP/STOP
+*/* */* ABORTION/N RULING/N UPHELD:/N STOP/STOP
+*/* */* Furukawa/N said/V the/O purchase/N of/O the/O French/N and/O German/N plants/N together/N will/O total/N about/O 40/O billion/O yen/N -LRB-/O $280/N million/O -RRB-./O STOP/STOP
+*/* */* Mr./N Kaminski,/N the/O schoolteacher,/N and/O William/N Mehrens,/N a/O Michigan/N State/N University/N education/N professor,/N concluded/N in/O a/O study/N last/A June/N that/O CAT/N test/N versions/N of/O Scoring/N High/N and/O Learning/N Materials/N shouldn't/N be/V used/V in/O the/O classroom/N because/O of/O their/N similarity/N to/O the/O actual/A test./N STOP/STOP
+*/* */* Dennis/N Hayes/N and/O Dale/N Heatherington,/N two/O Atlanta/N engineers,/N were/V co-developers/N of/O the/O internal/N modems/N that/O allow/V PCs/N to/O share/N data/N via/O the/O telephone./N STOP/STOP
+*/* */* In/O other/A commodity/N markets/N yesterday:/N STOP/STOP
+*/* */* In/O the/O classroom,/N students/N say,/V Mrs./N Yeargin/N distinguished/N herself/N by/O varying/N teaching/N approaches/N --/O forcing/N kids/N to/O pair/N up/O to/O complete/N classroom/N work/V or/O using/V college-bowl/N type/N competitions./N STOP/STOP
+*/* */* At/O the/O Charles/N Schwab/N &/O Co./N office/N in/O Atlanta's/N Buckhead/N district,/N a/O group/N of/O investors/N voices/N skepticism/N that/O federal/A officials/N would/O curb/N program/N trading./N STOP/STOP
+*/* */* PS/N of/O New/N Hampshire,/N Manchester,/N N.H.,/N values/N its/N internal/N reorganization/N plan/N at/O about/O $2.2/N billion./O STOP/STOP
+*/* */* Destinations/N are/V Chicago;/N Honolulu;/N Las/N Vegas,/N Nev.;/N Los/N Angeles;/N Miami/N Beach,/N Fla.;/N New/N Orleans;/N New/N York;/N Orlando,/N Fla.;/N San/N Francisco;/N and/O Washington,/N D.C./N STOP/STOP
+*/* */* The/O worst/N crop/N damage/N occurred/N in/O the/O Midwestern/N Corn/N Belt/N and/O the/O northern/N Great/N Plains./N STOP/STOP
+*/* */* Giant/N Group/N is/V led/V by/O three/O Rally's/N directors,/N Burt/N Sugarman,/N James/N M./N Trotter/N III/N and/O William/N E./N Trotter/N II,/N who/N earlier/A this/O month/N indicated/V they/N had/V a/O 42.5%/N stake/N in/O Rally's/N and/O planned/V to/O seek/V a/O majority/N of/O seats/N on/O Rally's/N nine-member/N board./N STOP/STOP
+*/* */* The/O 1987/O statute/N Mrs./N Yeargin/N violated/N was/V designed/V to/O enforce/N provisions/N of/O South/N Carolina's/N school-improvement/N laws./N STOP/STOP
+*/* */* American/N Telephone/N &/O Telegraph's/N General/N Business/N Systems/N division,/N New/N York,/N awarded/N the/O ad/N account/N for/O its/N Fax/N product/N line/N to/O Ogilvy/N &/O Mather,/N New/N York,/N a/O WPP/N Group/N agency./N STOP/STOP
+*/* */* Treasury/N Securities/N STOP/STOP
+*/* */* ``In/N Moscow,/N they/N kept/N asking/N us/N things/N like,/N ``Why/N do/V you/N make/V 15/O different/A corkscrews,/N when/A all/O you/N need/V is/V one/O good/A one?/N '''/N he/N says./V STOP/STOP
+*/* */* The/O underwriters/N expect/N a/O double-A/N rating/N from/O Moody's./N STOP/STOP
+*/* */* Hallwood,/N a/O Cleveland/N merchant/N bank,/N owns/V about/O 11%/N of/O Integra./N STOP/STOP
+*/* */* Wall/N Street's/N big/A securities/N firms/N face/V the/O prospect/N of/O having/V their/N credit/N ratings/N lowered./N STOP/STOP
+*/* */* Currently,/N the/O government/N charges/N nothing/N for/O such/A filings./N STOP/STOP
+*/* */* Ralston/N Purina/N Co./N reported/V a/O 47%/N decline/N in/O fourth-quarter/N earnings,/N reflecting/N restructuring/N costs/V as/O well/A as/O a/O more/A difficult/N pet/N food/N market./N STOP/STOP
+*/* */* According/V to/O Upjohn's/N estimates,/N only/A 50%/O to/O 60%/N of/O the/O 1,100/N eligible/N employees/N will/O take/V advantage/N of/O the/O plan./N STOP/STOP
+*/* */* San/N Francisco/N voters/N rejected/V a/O new/A ballpark/N two/O years/N ago./O STOP/STOP
+*/* */* -LRB-/O Fewer/N said/V conditions/N won't/O change./N -RRB-/O STOP/STOP
+*/* */* There/O is/V $81.8/N million/O of/O 7.20%/N term/N bonds/N due/A 2009/N priced/V at/O 99/N 1/4/N to/O yield/N 7.272%./N STOP/STOP
+*/* */* Why/N are/V programs/N like/O this/O not/A eliminated?/N STOP/STOP
+*/* */* Another/N OTC/N bank/N stock/N involved/V in/O a/O buy-out/N deal,/N First/N Constitution/N Financial,/N was/V higher./N STOP/STOP
+*/* */* Midwesco/N Filter/N Resources/N Inc.,/N initial/A offering/V of/O 830,000/N common/A shares,/N to/O be/V offered/V by/O the/O company,/N via/O Chicago/N Corp./N STOP/STOP
+*/* */* The/O Supreme/N Court's/N decision/N in/O INS/N v./N Chadha/N held/V that/O legislative/N vetoes/N are/V unconstitutional./N STOP/STOP
+*/* */* That/O impressed/N Robert/N B./N Pamplin,/N Georgia-Pacific's/N chief/N executive/N at/O the/O time,/N whom/N Mr./N Hahn/N had/V met/N while/O fundraising/N for/O the/O institute./N STOP/STOP
+*/* */* But/O state/N courts/N upheld/N a/O challenge/N by/O consumer/N groups/N to/O the/O commission's/N rate/N increase/V and/O found/V the/O rates/N illegal./N STOP/STOP
+*/* */* Note:/N All/O per-share/N figures/N are/V fully/A diluted./N STOP/STOP
+*/* */* In/O October,/N 6.7%/N of/O respondents/N said/V they/N will/O buy/V a/O car,/N easing/N from/O September/N when/A 8.1%/N anticipated/N a/O purchase./N STOP/STOP
+*/* */* Freeport-McMoRan,/N the/O parent/N company,/N holds/N roughly/A 80%/N of/O the/O units/N outstanding./A STOP/STOP
+*/* */* The/O Democrat's/N proposal/N is/V described/N by/O government/N sources/N and/O lobbyists/N as/O significantly/N weaker/N than/O the/O president's/N plan/N to/O cut/V utility/N emissions./N STOP/STOP
+*/* */* Fourteen/N members/N of/O the/O House/N with/O jurisdiction/N over/O the/O EEOC/N have/V said/V they/N oppose/N Mr./N Thomas's/N nomination/N because/O of/O ``serious/N questions/N about/O his/N judgment/N -LCB-/O and/O -RCB-/O respect/N for/O the/O law.''/N STOP/STOP
+*/* */* Mr./N Whelen/N denied/N the/O firm/N had/V sold/V securities/N at/O unfair/A prices/N and/O suggested/N that/O the/O examination/N practices/N of/O the/O NASD/N need/V improvement./N STOP/STOP
+*/* */* Railroad/N companies/N and/O some/O ports/N are/V reaping/N a/O sudden/N windfall/N of/O business./N STOP/STOP
+*/* */* They/N cite/N a/O lack/N of/O ``imbalances''/N that/O provide/V early/A warning/N signals/N of/O a/O downturn./N STOP/STOP
+*/* */* Takeover/N experts/N said/V they/N doubted/N the/O financier/N would/O make/V a/O bid/N by/O himself./N STOP/STOP
+*/* */* If/O those/O words/N weren't/V there,/N the/O nice/N people/N at/O the/O Voice/N would/O be/V able/A to/O send/N you/N the/O information/N or,/N at/O the/O very/A least,/N let/V you/N photocopy/N it./N STOP/STOP
+*/* */* The/O company/N said/V that/O because/O of/O softening/N sales/N it/N isn't/V in/O compliance/N with/O requirements/N that/O it/N maintain/N $3/O million/O in/O working/N capital./N STOP/STOP
+*/* */* The/O government/N reported/V that/O orders/N for/O manufactured/N goods/N were/V essentially/A unchanged/A in/O September/N while/O construction/N spending/N was/V slightly/A lower./N STOP/STOP
+*/* */* He/N said/V the/O company's/N core/N business/N remains/V strong./N STOP/STOP
+*/* */* Along/N the/O way,/N he/N meets/N a/O solicitous/N Christian/N chauffeur/N who/N offers/V the/O hero/N God's/N phone/N number;/N and/O the/O Sheep/N Man,/N a/O sweet,/N roughhewn/N figure/V who/N wears/N --/O what/N else/N --/O a/O sheepskin./N STOP/STOP
+*/* */* That/O proposal/N had/V been/V hailed/N by/O environmentalists/N but/O despised/N by/O utilities/N because/O they/N feared/N it/N would/O limit/N their/N growth./N STOP/STOP
+*/* */* The/O parent/N of/O Younkers,/N after/O failing/N to/O find/V a/O buyer/N for/O the/O chain/N of/O Midwestern/N department/N stores,/N said/V it/N will/O sell/V a/O stake/N in/O the/O chain/N to/O management/N and/O take/V other/A steps/N to/O reduce/V its/N investment/N in/O retailing./N STOP/STOP
+*/* */* The/O dollar/N rose./N STOP/STOP
+*/* */* While/O acknowledging/N one/O month's/N figures/N don't/V prove/V a/O trend,/N Mr./N Bretz/N said,/V ``It/N does/V lead/V you/N to/O suspect/N imports/N are/V going/V down,/N or/O at/O least/A not/A increasing/V that/O much.''/N STOP/STOP
+*/* */* Yet/N it/N is/V difficult/N to/O imagine/N Japan/N racing/N to/O introduce/N Chicago-style/N stock-index/N futures./N STOP/STOP
+*/* */* Mr./N Veraldi/N worked/V at/O Ford/N for/O 40/O years,/N holding/V a/O variety/N of/O car/N and/O parts-engineering/N positions./N STOP/STOP
+*/* */* Campbell/N said/V Mr./N McGovern/N had/V withdrawn/N his/N name/N as/O a/O candidate/N for/O re-election/N as/O a/O director/N at/O the/O annual/A shareholder/N meeting,/N scheduled/V for/O Nov./N 17./N STOP/STOP
+*/* */* Knowing/N a/O tasty/N --/O and/O free/A --/O meal/N when/A they/N eat/N one,/N the/O executives/N gave/N the/O chefs/N a/O standing/N ovation./N STOP/STOP
+*/* */* Argentina/N said/V it/N will/O ask/N creditor/N banks/N to/O halve/N its/N foreign/A debt/N of/O $64/N billion/O --/O the/O third-highest/N in/O the/O developing/N world./N STOP/STOP
+*/* */* AN/N EXCHANGE/N of/O U.S./N and/O Soviet/A designers/N promises/N change/N on/O both/O sides./N STOP/STOP
+*/* */* Each/O new/A trading/N roadblock/N is/V likely/A to/O be/V beaten/N by/O institutions/N seeking/V better/A ways/N to/O serve/N their/N high-volume/N clients,/N here/A or/O overseas./N STOP/STOP
+*/* */* ``We/N don't/V spend/N much/A on/O print/V advertising,''/N she/N says./V STOP/STOP
+*/* */* Its/N budget/N $184/N million/O --/O is/V paid/V for/O by/O you./N STOP/STOP
+*/* */* The/O Chicago/N report/N raised/V the/O possibility/N that/O the/O October/N survey/N of/O the/O National/N Association/N of/O Purchasing/N Management/N would/O also/A show/N a/O reading/N above/O 50%./N STOP/STOP
+*/* */* He/N said/V that/O for/O the/O second/A month/N in/O a/O row,/N food/N processors/N reported/V a/O shortage/N of/O nonfat/N dry/N milk./N STOP/STOP
+*/* */* He/N said/V the/O exchange/N is/V ``headed/N for/O a/O real/A crisis''/N if/O program/N trading/N isn't/V curbed./N STOP/STOP
+*/* */* ``Nasty/N innuendoes,''/N says/V John/N Siegal,/N Mr./N Dinkins's/N issues/N director,/N ``designed/N to/O prosecute/N a/O case/N of/O political/A corruption/N that/O simply/N doesn't/V exist.''/N STOP/STOP
+*/* */* ``When/N I/N see/V prints/N going/V into/O the/O hands/N of/O institutions,/N I/N know/V they/N aren't/V going/V to/O come/V back/A on/O the/O market.''/N STOP/STOP
+*/* */* Mark/N Shepperd,/N an/O analyst/N at/O UBS/N Phillips/N &/O Drew/N in/O London,/N said,/V ``I/N suspect/N -LRB-/O the/O departure/N -RRB-/O will/O be/V fairly/N irrelevant/N for/O the/O company./N STOP/STOP
+*/* */* The/O cash/N value/N is/V determined/N by/O multiplying/N the/O index/N number/N by/O a/O specified/N amount./N STOP/STOP
+*/* */* Under/O terms/N of/O the/O new/A proposal,/N Equus,/N managed/N by/O Equus/N Capital/N Corp.,/N Houston,/N would/O pay/V $12/N cash/N and/O one/O new/A preferred/V share/N with/O a/O liquidation/N preference/N of/O $1.65/N a/O share/N for/O each/O of/O Tony/N Lama's/N 2.1/N million/O shares/N outstanding./A STOP/STOP
+*/* */* The/O action/N followed/V by/O one/O day/N an/O Intelogic/N announcement/N that/O it/N will/O retain/N an/O investment/N banker/N to/O explore/N alternatives/N ``to/N maximize/N shareholder/N value,''/N including/V the/O possible/A sale/N of/O the/O company./N STOP/STOP
+*/* */* A/O few/A years/N ago,/O the/O company/N offered/V two/O round-trip/N tickets/N on/O Trans/N World/N Airlines/N to/O buyers/N of/O its/N Riviera/N luxury/N car./N STOP/STOP
+*/* */* Stock/N prices/N closed/V higher/A in/O Stockholm,/N Amsterdam/N and/O Frankfurt/N and/O lower/A in/O Zurich./N STOP/STOP
+*/* */* Or,/N as/O Dorothy/N Arighi,/N an/O interior/N decorator/N in/O Arnold,/N Calif.,/N puts/N it:/N ``All/N kinds/N of/O funny/N things/N spook/N the/O market/N these/O days.''/N STOP/STOP
+*/* */* And/O because/O of/O the/O time/N difference,/N the/O Japanese/A and/O the/O U.S./N markets'/N trading/N hours/N don't/V overlap./N STOP/STOP
+*/* */* ``We/N work/V damn/N hard/A at/O what/N we/N do/V for/O damn/N little/A pay,/N and/O what/N she/N did/V cast/N unfair/A aspersions/N on/O all/O of/O us.''/N STOP/STOP
+*/* */* Finmeccanica/N is/V an/O Italian/N state-owned/N holding/V company/N with/O interests/N in/O the/O mechanical/N engineering/N industry./N STOP/STOP
+*/* */* A/O Beijing/N food-shop/N assistant/N has/V become/V the/O first/A mainland/N Chinese/A to/O get/V AIDS/N through/O sex,/N the/O People's/N Daily/N said./V STOP/STOP
+*/* */* 2./N Take/N a/O Hawaiian/N vacation./N STOP/STOP
+*/* */* These/O first/A magnitude/N wines/N ranged/N in/O price/N from/O $40/N to/O $125/N a/O bottle./N STOP/STOP
+*/* */* When/A it's/N time/N for/O their/N biannual/N powwow,/N the/O nation's/N manufacturing/N titans/N typically/N jet/N off/O to/O the/O sunny/N confines/N of/O resort/N towns/N like/O Boca/N Raton/N and/O Hot/N Springs./N STOP/STOP
+*/* */* Among/O other/A winners/N Wednesday/N was/V Nippon/N Shokubai,/N which/O was/V up/O 80/N at/O 2,410./N STOP/STOP
+*/* */* American/N Express/N Co./N and/O General/N Motors/N Corp.'s/N beleaguered/N Buick/N division/N are/V joining/N forces/N in/O a/O promotion/N aimed/V at/O boosting/N Buick's/N sales/N while/O encouraging/N broader/N use/V of/O the/O American/N Express/N card./N STOP/STOP
+*/* */* The/O union/N vote/N to/O reject/N the/O proposed/V pact/N was/V 230-215./N STOP/STOP
+*/* */* Mr./N Nixon/N also/A proposed/V that/O China/N restore/N its/N participation/N in/O the/O Fulbright/N Program,/N a/O U.S./N government-funded/N academic/N exchange./N STOP/STOP
+*/* */* ``She/N taught/N us/N more/A in/O Western/A Civilization/N than/O I/N 've/V ever/A learned/N in/O other/A classes,''/N says/V Kelli/N Green,/N a/O Greenville/N senior./N STOP/STOP
+*/* */* In/O this/O era/N of/O frantic/N competition/N for/O ad/N dollars,/N a/O lot/N of/O revenue-desperate/N magazines/N are/V getting/V pretty/N cozy/N with/O advertisers/N --/O fawning/N over/O them/N in/O articles/N and/O offering/V pages/N of/O advertorial/N space./N STOP/STOP
+*/* */* The/O sale/N of/O shares/N to/O the/O McAlpine/N family/N along/N with/O the/O recent/A sale/N of/O 750,000/N shares/N of/O Meridian/N stock/N to/O Haden/N MacLellan/N Holding/N PLC/N of/O Surrey,/N England/N and/O a/O recent/A public/A offering/N have/V increased/V Meridian's/N net/A worth/N to/O $8.5/N million,/O said/V William/N Feniger,/N chief/N executive/N officer/N of/O Toledo,/N Ohio-based/N Meridian./N STOP/STOP
+*/* */* But/O ``the/O concept/N is/V workable./N STOP/STOP
+*/* */* ``We/N would/O like/O to/O apologize/N for/O having/V caused/V huge/A trouble,''/N Fujitsu/N President/N Takuma/N Yamamoto,/N read/V from/O a/O prepared/V statement/N as/O he/N stood/N before/O a/O packed/N news/N conference/N at/O his/N company's/N downtown/N headquarters./N STOP/STOP
+*/* */* Bell's/N father-in-law,/N Gardner/N G./N Hubbard,/N wealthy/N and/O well-connected,/N obtained/N financing/V to/O start/V the/O American/N Bell/N Telephone/N Co./N in/O Boston,/N which/O even/A had/V a/O subsidiary/N in/O New/N York/N called/V the/O Telephone/N Co./N of/O New/N York./N STOP/STOP
+*/* */* There/O is/V no/O downside/N if/O the/O president/N asserts/N a/O right/N of/O excision/N over/O unconstitutional/A conditions/N in/O the/O fiscal/A 1990/O appropriations/N bills./N STOP/STOP
+*/* */* In/O its/N construction/N spending/N report,/N the/O Commerce/N Department/N said/V residential/N construction,/N which/O accounts/N for/O nearly/A half/N of/O all/O construction/N spending,/N was/V off/O 0.9%/N in/O September/N to/O an/O annual/A rate/N of/O $191.9/N billion./O STOP/STOP
+*/* */* The/O Senate/N plans/V to/O take/V up/O the/O measure/N quickly/A and/O is/V expected/V to/O pass/N it./N STOP/STOP
+*/* */* In/O contrast,/N the/O lawyers'/N association/N gives/V a/O ``well/N qualified''/N rating/N to/O those/O ``regarded/N as/O one/O of/O the/O best/A available/A for/O the/O vacancy./N STOP/STOP
+*/* */* ``He/N appears/N to/O be/V in/O it/N for/O the/O long/A haul.''/N STOP/STOP
+*/* */* ``The/O morbidity/N rate/N is/V a/O striking/N finding/N among/O those/O of/O us/N who/N study/N asbestos-related/N diseases,''/N said/V Dr./N Talcott./N STOP/STOP
+*/* */* Heritage/N Media/N Corp.,/N New/N York,/N said/V it/N offered/V to/O buy/V the/O shares/N of/O POP/N Radio/N Corp./N it/N doesn't/V already/A own/A in/O a/O stock/N swap./N STOP/STOP
+*/* */* ``I/N never/A had/V any/O clients/N at/O all./N STOP/STOP
+*/* */* ``A/O stockbroker/N is/V an/O example/N of/O a/O profession/N in/O trade/N and/O finance/N ..../N STOP/STOP
+*/* */* Excluding/N one-time/A additions/N to/O profit/N in/O each/O year,/N earnings/N per/O share/N were/V $2.47,/N up/O 7.4%/N from/O $2.30/N in/O fiscal/A 1988./O STOP/STOP
+*/* */* Profit/N surged/N 42%/N to/O 40.21/N billion/O yen,/N or/O 16.09/N yen/N a/O share,/N from/O 28.36/N billion/O yen,/N or/O 11.72/N yen/N a/O share./N STOP/STOP
+*/* */* If/O President/N Bush/N loses/N at/O the/O court,/N it/N might/O be/V disappointing,/N as/O Morrison/N v./N Olson/N was/V for/O the/O Reagan/N administration./N STOP/STOP
+*/* */* Its/N plans/V to/O be/V acquired/V dashed,/N Comprehensive/N Care/N Corp./N said/V it/N plans/V to/O sell/V most/A of/O its/N psychiatric/N and/O drug/N abuse/N facilities/N in/O California/N and/O some/O other/A assets/N to/O pay/V its/N debt/N and/O provide/V working/N capital./N STOP/STOP
+*/* */* Georgia/N Gulf/N rebuffed/N that/O offer/N in/O September/N and/O said/V it/N would/O study/N other/A alternatives./N STOP/STOP
+*/* */* Video/N Tip:/N Before/N seeing/N ``Sidewalk/N Stories,''/N take/V a/O look/V at/O ``City/N Lights,''/N Chaplin's/N Tramp/N at/O his/N finest./N STOP/STOP
+*/* */* That/O commercial/A --/O which/O said/V Mr./N Coleman/N wanted/V to/O take/V away/A the/O right/N of/O abortion/N ``even/N in/O cases/N of/O rape/N and/O incest,''/N a/O charge/N Mr./N Coleman/N denies/N --/O changed/V the/O dynamics/N of/O the/O campaign,/N transforming/N it,/N at/O least/A in/O part,/N into/O a/O referendum/N on/O abortion./N STOP/STOP
+*/* */* About/N 30%/N of/O Ratners's/N profit/N already/A is/V derived/N from/O the/O U.S../N STOP/STOP
+*/* */* Customers/N holding/V contracts/N for/O Waertsilae/N Marine's/N undelivered/N ships/N are/V expected/V to/O subscribe/N most/A of/O the/O remaining/V 170/N million/O markkaa/N in/O share/N capital,/N government/N officials/N said./V STOP/STOP
+*/* */* Rick/N Brownell,/N senior/A editor/N of/O Scoring/N High,/N says/V that/O Messrs./N Kaminski/N and/O Mehrens/N are/V ignoring/N ``the/O need/V students/N have/V for/O becoming/N familiar/N with/O tests/N and/O testing/N format.''/N STOP/STOP
+*/* */* PHOTOGRAPH/N COLLECTING/N gains/N new/A stature/N as/O prices/N rise./N STOP/STOP
+*/* */* She/N says/V she/N offered/V Mrs./N Yeargin/N a/O quiet/N resignation/N and/O thought/V she/N could/O help/V save/N her/N teaching/N certificate./N STOP/STOP
+*/* */* A/O study/N by/O Tulane/N Prof./N James/N Wright/N says/V homelessness/N is/V due/A to/O a/O complex/N array/N of/O problems,/N with/O the/O common/A thread/N of/O poverty./N STOP/STOP
+*/* */* Department/N economists/N don't/V expect/N 1989/O to/O be/V as/O good/A a/O year/N as/O 1988/O was./N STOP/STOP
+*/* */* The/O Nasdaq/N 100/O index/N of/O the/O biggest/N nonfinancial/N stocks/N gained/V 1.39/N to/O 446.62./N STOP/STOP
+*/* */* But/O the/O waiver/N also/A was/V seen/V as/O a/O signal/N that/O Ford,/N a/O major/A U.K./N auto/N industry/N employer,/N was/V able/A to/O gain/N government/N acceptance/N of/O its/N bid/N for/O control/N of/O Jaguar./N STOP/STOP
+*/* */* The/O Kearny,/N N.J.-based/N maker/N of/O hair/N accessories/N and/O other/A cosmetic/N products/N said/V it/N cut/V the/O dividend/N due/A to/O its/N third-quarter/N loss/N of/O $992,000,/N or/O 15/O cents/N a/O share./N STOP/STOP
+*/* */* The/O big/A problem,/N however,/A is/V that/O there's/O no/O guarantee/N that/O this/O reasoning/N will/O be/V limited/V to/O DES/N or/O to/O drugs./N STOP/STOP
+*/* */* Against/N a/O shot/N of/O Monticello/N superimposed/N on/O an/O American/A flag,/N an/O announcer/N talks/N about/O the/O ``strong/N tradition/N of/O freedom/N and/O individual/A liberty''/N that/O Virginians/N have/V nurtured/N for/O generations./N STOP/STOP
+*/* */* The/O offer,/N which/O follows/N a/O $55-a-share/N bid/N that/O was/V rejected/V in/O September,/N steps/N up/O pressure/N on/O the/O chemicals/N concern./N STOP/STOP
+*/* */* The/O Big/N Board's/N uptick/N rule/N prevents/N the/O short/A sale/N of/O a/O stock/N when/A the/O stock/N is/V falling/N in/O price./N STOP/STOP
+*/* */* Close/N parallels/N between/O tests/N and/O practice/N tests/N are/V common,/N some/O educators/N and/O researchers/N say./V STOP/STOP
+*/* */* For/O the/O first/A time,/N the/O October/N survey/N polled/N members/N on/O imports./N STOP/STOP
+*/* */* In/O a/O telephone/N interview,/N Mr./N Reupke/N said/V his/N departure/N was/V for/O ``personal/N reasons,''/N which/O he/N declined/V to/O specify./N STOP/STOP
+*/* */* Rather,/N Japanese/A investment/N will/O spur/N integration/N of/O certain/A sectors,/N says/V Kent/N Calder,/N a/O specialist/N in/O East/N Asian/A economies/N at/O the/O Woodrow/N Wilson/N School/N for/O Public/N and/O Internatonal/N Affairs/N at/O Princeton/N University./N STOP/STOP
+*/* */* CALL/N MONEY:/N 9/N 3/4%./N STOP/STOP
+*/* */* But/O Equitable/N said/V it/N was/V unable/N to/O find/V a/O buyer/N willing/A to/O pay/V what/N it/N considers/N ``fair/N value''/N for/O Younkers/N because/O of/O recent/A turmoil/N in/O the/O bond/N and/O stock/N markets/N and/O in/O retailing./N STOP/STOP
+*/* */* The/O El/N Paso,/N Texas,/N maker/N of/O Western/A boots/N and/O leather/N accessories/N said/V the/O preferred/V stock/N would/O accrue/N dividends/N at/O a/O 12%/O rate,/N but/O wouldn't/O be/V paid/V for/O the/O first/A two/O years./N STOP/STOP
+*/* */* Moreover,/A USX/N exports/N more/A than/O other/A steelmakers,/N and/O the/O overseas/A market/N has/V been/V under/O more/A severe/N pricing/N pressure./N STOP/STOP
+*/* */* Common/N wisdom/N suggests/N a/O single-digit/N rate/N of/O growth,/N reflecting/N a/O weakening/N in/O the/O economy/N and/O corporate/A profits./N STOP/STOP
+*/* */* A/O House-Senate/N conference/N approved/V major/A portions/N of/O a/O package/N for/O more/A than/O $500/N million/O in/O economic/A aid/N for/O Poland/N that/O relies/N heavily/A on/O $240/N million/O in/O credit/N and/O loan/N guarantees/N in/O fiscal/A 1990/O in/O hopes/V of/O stimulating/N future/A trade/N and/O investment./N STOP/STOP
+*/* */* --/O $10/O billion/O of/O three-year/N notes,/N to/O be/V auctioned/N Tuesday/N and/O to/O mature/A Nov./N 15,/N 1992./N STOP/STOP
+*/* */* This/O raises/N the/O key/A issue:/N What/N to/O do/V about/O people/N who/N suffer/N serious/A injuries/N from/O beneficial/N drugs?/N STOP/STOP
+*/* */* Serial/N bonds/N are/V priced/V at/O par/N to/O yield/V from/O 6.40%/N in/O 1991/N to/O 7.15%/N in/O 1999./N STOP/STOP
+*/* */* Ralston/N shares/N closed/V yesterday/N at/O $80.50,/N off/O $1,/N in/O New/N York/N Stock/N Exchange/N composite/A trading./N STOP/STOP
+*/* */* Hudson/N General,/N which/O provides/N maintenance,/N fueling/N and/O other/A services/N to/O airlines/N and/O airports,/N reported/V a/O loss/N for/O its/N most/A recent/A fiscal/A year/N and/O last/A month/N omitted/N the/O semiannual/N dividend/N on/O its/N common/A shares./N STOP/STOP
+*/* */* Mr./N Leinonen/N said/V he/N expects/V Ford/N to/O meet/V the/O deadline/N easily./N STOP/STOP
+*/* */* The/O Spiegel/N family/N has/V 25%/N of/O the/O common/A and/O 75%/N of/O the/O votes./N STOP/STOP
+*/* */* ``They/N don't/V want/V Japan/N to/O monopolize/N the/O region/N and/O sew/N it/N up,''/N says/V Chong-sik/N Lee,/N professor/N of/O East/N Asian/A politics/N at/O the/O University/N of/O Pennsylvania./N STOP/STOP
+*/* */* That/O year/N the/O Apple/N II,/N Commodore/N Pet/N and/O Tandy/N TRS-80/N came/V to/O market./N STOP/STOP
+*/* */* Mr./N Trudeau,/N a/O Writers/N Guild/N member,/N also/A was/V employed/N as/O a/O writer/N for/O Darkhorse,/N which/O was/V covered/N by/O a/O guild/N collective-bargaining/N agreement./N STOP/STOP
+*/* */* Although/O much/A of/O this/O country's/N export/N corn/N goes/V to/O New/N Orleans/N by/O barge,/N it/N is/V possible/A for/O exporters/N to/O sidestep/N the/O Mississippi/N River/N by/O shipping/N a/O larger-than-normal/N amount/N of/O corn/N by/O train/N to/O the/O port./N STOP/STOP
+*/* */* Source:/N Telerate/N Systems/N Inc./N STOP/STOP
+*/* */* Mr./N Baum/N said/V the/O two/O have/V orders/N to/O ``focus/N on/O bottom-line/N profits''/N and/O to/O ``take/N a/O hard/A look/V at/O our/N businesses/N --/O what/N is/V good,/N what/N is/V not/A so/A good.''/N STOP/STOP
+*/* */* Brisk/N domestic/A demand/N due/A to/O increasing/V capital/N investment/N pushed/N up/O sales/N sharply/A in/O construction/N and/O industrial/A machinery/N divisions./N STOP/STOP
+*/* */* Pakistan's/N Bhutto/N defeated/N the/O first/A no-confidence/N motion/N in/O the/O nation's/N 42-year/N history,/N surviving/N the/O vote/N that/O could/O have/V brought/N down/O her/N 11-month-old/N government./N STOP/STOP
+*/* */* It/N also/A asks/N them/N to/O add/N two-sevenths/N and/O three-sevenths./N STOP/STOP
+*/* */* When/A it/N occurs,/N the/O traders/N place/N orders/N via/O computers/N to/O buy/V the/O basket/N of/O stocks/N -LRB-/O such/A as/O the/O 500/O stocks/N that/O constitute/N the/O Standard/N &/O Poor's/N 500/O stock/N index/N -RRB-/O in/O whichever/N market/N is/V cheaper/N and/O sell/V them/N in/O the/O more/A expensive/N market;/N they/N lock/N in/O the/O difference/N in/O price/N as/O profit./N STOP/STOP
+*/* */* ``We/N had/V to/O do/V something/N structurally/N and/O radically/N different.''/N STOP/STOP
+*/* */* Triton/N Securities,/N of/O Danville,/N Calif.,/N and/O a/O principal/N of/O the/O firm,/N Delwin/N George/N Chase,/N also/A of/O Danville,/N were/V jointly/N fined/V $10,000/O and/O given/N 30-day/A suspensions/N as/O part/N of/O a/O settlement./N STOP/STOP
+*/* */* Futures/N prices/N rose,/N extending/N Tuesday's/N gains./N STOP/STOP
+*/* */* W.N./N Whelen/N &/O Co.,/N of/O Georgetown,/N Del.,/N and/O its/N president,/N William/N N./N Whelen/N Jr.,/N also/A of/O Georgetown,/N were/V barred/V from/O transacting/N principal/A trades/N for/O 90/O days/N and/O were/V jointly/N fined/V $15,000./N STOP/STOP
+*/* */* ``Just/N a/O blind/N fear/N of/O the/O unknown/N is/V causing/N them/N to/O beg/N the/O regulators/N for/O protection.''/N STOP/STOP
+*/* */* Diaper/N shortages/N this/O summer/N limited/V growth/N at/O Stork/N Diaper/N Services,/N Springfield,/N Mass.,/N where/A business/N is/V up/O 25%/N in/O STOP/STOP
+*/* */* ``I/N deserve/N something/N for/O my/N loyalty,''/N she/N says./V STOP/STOP
+*/* */* In/O a/O leveraged/A buy-out,/N a/O small/A group/N of/O investors/N acquires/N a/O company/N in/O a/O transaction/N financed/N largely/A by/O borrowing,/N with/O the/O expectation/N that/O the/O debt/N will/O be/V paid/V with/O funds/N generated/N by/O the/O acquired/V company's/N operations/N or/O sales/N of/O its/N assets./N STOP/STOP
+*/* */* Uptick/N --/O An/O expression/N signifying/N that/O a/O transaction/N in/O a/O listed/V security/N occurred/N at/O a/O higher/A price/N than/O the/O previous/A transaction/N in/O that/O security./N STOP/STOP
+*/* */* Mr./N Simmons/N and/O NL/N already/A own/A a/O 9.9%/N stake/N in/O Georgia/N Gulf./N STOP/STOP
+*/* */* ``An/N active/N 55-year-old/N in/O Boca/N Raton/N may/O care/N more/A about/O Senior/N Olympic/N games,/N while/O a/O 75-year-old/N in/O Panama/N City/N may/O care/N more/A about/O a/O seminar/N on/O health,''/N she/N says./V STOP/STOP
+*/* */* An/O official/N of/O the/O Palestinian/N Olympic/N Committee/N said/V the/O committee/N first/A applied/N for/O membership/N in/O 1979/N and/O renewed/N its/N application/N in/O August/N of/O this/O year./N STOP/STOP
+*/* */* First/N Securities/N Group/N of/O California/N and/O a/O principal/N of/O the/O firm,/N Louis/N Fernando/N Vargas/N of/O Marina/N del/N Rey,/N Calif.,/N were/V jointly/N fined/V $15,000/O and/O expelled/N for/O alleged/A violations/N of/O reporting/N requirements/N on/O securities/N sales./N STOP/STOP
+*/* */* The/O American/N Bar/N Association's/N House/N of/O Delegates/N passed/N a/O resolution/N in/O 1985/O condemning/N the/O IRS/N reporting/N requirement./N STOP/STOP
+*/* */* He/N declined/V to/O elaborate,/N other/A than/O to/O say,/V ``It/N just/A seemed/V the/O right/A thing/N to/O do/V at/O this/O minute./N STOP/STOP
+*/* */* People/N close/V to/O the/O utility/N industry/N said/V Mr./N Dingell's/N proposal/N appears/N to/O guarantee/N only/A an/O estimated/V seven-million-ton/N cut/V in/O annual/A sulfur-dioxide/N emissions/N that/O lead/V to/O acid/N rain,/N though/O additional/A cuts/N could/O be/V ordered/V later./N STOP/STOP
+*/* */* Plans/N to/O do/V this/O are/V due/A to/O be/V filed/V in/O a/O week/N or/O so./N STOP/STOP
+*/* */* Similar/N levels/N hamstrung/N barge/N shipments/N last/A year/N in/O the/O wake/N of/O the/O worst/N drought/N in/O 50/O years./N STOP/STOP
+*/* */* Hiroshi/N Asada/N STOP/STOP
+*/* */* Estimated/N and/O actual/A results/N involving/V losses/N are/V omitted./N STOP/STOP
+*/* */* In/O fact,/N ``the/O market/N has/V always/A tanked./N STOP/STOP
+*/* */* Despite/O the/O Supreme/N Court's/N refusal/N to/O hear/N the/O case,/N there/O are/V serious/A constitutional/N issues/N of/O due/A process/N and/O uncompensated/N takings/N from/O the/O defendants./N STOP/STOP
+*/* */* But/O voters/N decided/V that/O if/O the/O stadium/N was/V such/A a/O good/A idea/N someone/N would/O build/V it/N himself,/N and/O rejected/V it/N 59%/N to/O 41%./N STOP/STOP
+*/* */* Mr./N Canepa/N confirmed/N he/N had/V consented/V to/O the/O sanctions/N but/O declined/V to/O comment/N further./N STOP/STOP
+*/* */* Pictures/N of/O rusted/N oil/N drums/N swim/N into/O focus,/N and/O the/O female/N voice/N purrs,/N ``That/N hazardous/N waste/N on/O his/N -LCB-/O Mr./N Courter's/N -RCB-/O property/N --/O the/O neighbors/N are/V suing/N for/O consumer/N fraud.''/N STOP/STOP
+*/* */* Individuals/N familiar/N with/O the/O Justice/N Department's/N policy/N said/V that/O Justice/N officials/N hadn't/V any/O knowledge/N of/O the/O IRS's/N actions/N in/O the/O last/A week./N STOP/STOP
+*/* */* The/O March/N delivery,/N which/O has/V no/O limits,/N settled/N at/O 14.53/N cents,/N up/O 0.56/N cent/N a/O pound./N STOP/STOP
+*/* */* The/O heated/N talk/V stirred/N up/O by/O recent/A Japanese/A investments/N in/O the/O U.S./N is/V focusing/N attention/N on/O the/O differences/N in/O investment/N climate,/N even/A though/O it's/N only/A one/O of/O many/A subjects/N to/O be/V covered/N in/O the/O bilateral/N talks,/N known/V as/O the/O Structural/N Impediments/N Initiative./N STOP/STOP
+*/* */* They/N were/V tentatively/N priced/V to/O yield/V from/O 6.20%/N in/O 1991/N to/O 7.272%/N in/O STOP/STOP
+*/* */* Similarly,/N Campbell's/N Italian/N biscuit/N operation,/N D./N Lazzaroni/N &/O Co.,/N has/V been/V hurt/N by/O overproduction/N and/O distribution/N problems./N STOP/STOP
+*/* */* Lead/N underwriters/N for/O the/O issue/N are/V Scotia/N McLeod/N Inc./N and/O RBC/N Dominion/N Securities/N Inc.,/N both/O Toronto-based/N investment/N dealers./N STOP/STOP
+*/* */* Net/N cash/N income/N --/O the/O amount/N left/V in/O farmers'/N pockets/N after/O deducting/N expenses/N from/O gross/N cash/N income/N --/O increased/V in/O 33/N states/N in/O 1988,/O as/O the/O drought/N cut/V into/O crop/N yields/N and/O drove/N up/O commodity/N prices,/N the/O department's/N Economic/N Research/N Service/N reported/V yesterday./N STOP/STOP
+*/* */* Credit/N market/N analysts/N said/V the/O decision/N to/O reopen/N the/O current/A benchmark,/N the/O 8/O 1/8%/N bond/N due/A August/N 2019,/N is/V unusual/N because/O the/O issue/N trades/N at/O a/O premium/N to/O its/N face/N amount./N STOP/STOP
+*/* */* And/O unlike/N some/O trays,/N there's/O no/O place/N for/O food./N STOP/STOP
+*/* */* ``We/N don't/V think/V there/O is/V cause/V for/O concern/N at/O the/O moment.''/N STOP/STOP
+*/* */* All/O of/O this/O must/O have/V been/V enormously/N frustrating/N to/O Mr./N Katzenstein,/N who/N went/V to/O Sony/N with/O degrees/N in/O business/N and/O computer/N science/N and/O was/V raring/N to/O invent/N another/O Walkman./N STOP/STOP
+*/* */* Many/A banks,/N particularly/A smaller/A ones,/N were/V slow/V to/O computerize/N and/O couldn't/O target/N market/N niches/N that/O would/O have/V made/V the/O programs/N more/A profitable./N STOP/STOP
+*/* */* Sales/N rose/V 5%/O to/O $4.4/N billion/O from/O $4.2/N billion./O STOP/STOP
+*/* */* Mr./N Stearn,/N 46/N years/N old,/N couldn't/O be/V reached/V for/O comment./N STOP/STOP
+*/* */* R./N Gordon/N McGovern/N was/V forced/N out/O as/O Campbell/N Soup/N Co.'s/N president/N and/O chief/N executive/N officer,/N the/O strongest/N evidence/N yet/A of/O the/O power/N that/O Dorrance/N family/N members/N intend/N to/O wield/N in/O reshaping/N the/O troubled/N food/N company./N STOP/STOP
+*/* */* But/O like/O Mr./N Egnuss,/N few/A expect/N it/N to/O be/V halted/N entirely,/N and/O a/O surprising/N number/N doubt/N it/N should/O be./N STOP/STOP
+*/* */* The/O Herald's/N sports/N coverage/N and/O arts/N criticism/N were/V also/A highly/A regarded./N STOP/STOP
+*/* */* Some,/N such/A as/O traditional/A money/N manager/N Neuberger/N &/O Berman,/N have/V taken/V out/O national/A newspaper/N advertisements/N demanding/N that/O market/N regulators/N ``stop/N the/O numbers/N racket/N on/O Wall/N Street.''/N STOP/STOP
+*/* */* California/N led/V the/O nation/N with/O $6.5/N billion/O in/O net/A cash/N income/N last/A year,/N followed/V by/O Texas,/N $3.9/N billion;/N Iowa,/N $3.4/N billion;/N Florida,/N $3.1/N billion;/N and/O Minnesota,/N $2.7/N billion./O STOP/STOP
+*/* */* A/O spokesman/N for/O the/O Stamford,/N Conn.based/N company/N said/V operations/N had/V a/O loss/N of/O $5.5/N million/O for/O the/O quarter;/N in/O addition,/N the/O loss/N was/V magnified/N by/O nonrecurring/N charges/N totaling/N $23.5/N million/O and/O $8.2/N million/O in/O asset-valuation/N adjustments/N that/O he/N described/N as/O ``unusual.''/N STOP/STOP
+*/* */* Shearson/N ``really/N only/A has/V $300/N million/O of/O capital,''/N says/V Mr./N Bowman/N of/O S&P./N STOP/STOP
+*/* */* Of/N course,/N if/O the/O film/N contained/N dialogue,/N Mr./N Lane's/N Artist/N would/O be/V called/V a/O homeless/N person./N STOP/STOP
+*/* */* Young's/N Market/N Co.,/N a/O wholesaler/N of/O spirits,/N wines/N and/O other/A goods,/N said/V it/N will/O merge/N with/O a/O new/A corporation/N formed/N by/O the/O Underwood/N family,/N which/O controls/N Young's./N STOP/STOP
+*/* */* It/N is/V a/O passion/N that/O usually/A stays/N in/O the/O tower,/N however./N STOP/STOP
+*/* */* Campbell/N Soup,/N not/A surprisingly,/N doesn't/V have/V any/O plans/V to/O advertise/N in/O the/O magazine,/N according/V to/O its/N spokesman./N STOP/STOP
+*/* */* Still,/A scientists/N breathed/N a/O collective/N sigh/N of/O relief/N about/O the/O finding,/N because/O it/N demonstrates/N how/A to/O overcome/N the/O ``flux/N pinning''/N problem/N that/O earlier/A this/O year/N was/V widely/A publicized/N as/O undercutting/N new/A superconductors'/N potential./N STOP/STOP
+*/* */* Mr./N Nichol/N said/V he/N was/V ``extremely/N disappointed/N in/O the/O continuing/V deterioration/N of/O the/O company's/N operations/N while/O it/N attempted/N to/O conclude/N the/O reorganization/N during/O the/O past/A four/O months.''/N STOP/STOP
+*/* */* The/O Chinese/A responded/N in/O an/O equally/N undiplomatic/N fashion./N STOP/STOP
+*/* */* Prices/N also/A were/V boosted/V by/O another/O rumor/N that/O Mexico,/N usually/A a/O large/A producer/N and/O exporter,/N might/O have/V to/O buy/V a/O large/A quantity/N of/O sugar./N STOP/STOP
+*/* */* For/O 1988,/O Commonwealth/N Edison/N reported/V earnings/N of/O $737.5/N million,/O or/O $3.01/N a/O share./N STOP/STOP
+*/* */* The/O thrift/N holding/V company/N said/V it/N expects/V to/O obtain/N regulatory/N approval/N and/O complete/N the/O transaction/N by/O year-end./N STOP/STOP
+*/* */* TREASURY/N BILLS:/N Results/N of/O the/O Monday,/N October/N 30,/O 1989,/O auction/N of/O short-term/A U.S./N government/N bills,/N sold/V at/O a/O discount/N from/O face/V value/N in/O units/N of/O $10,000/O to/O $1/N million:/N 7.78%/N 13/O weeks;/N 7.62%/N 26/N weeks./N STOP/STOP
+*/* */* Mrs./N Ward/N took/V over/O in/O 1986,/N becoming/N the/O school's/N seventh/N principal/N in/O 15/O years./N STOP/STOP
+*/* */* But/O it's/N building/V on/O a/O long/A tradition./N STOP/STOP
+*/* */* Santa/N Fe/N Pacific/N dropped/V 1/O 1/8/N to/O 17/O 3/4./N STOP/STOP
+*/* */* ``Whether/N you/N thought/V the/O economy/N was/V growing/V weak/N or/O holding/V steady,/N yesterday's/N economic/A indicators/N didn't/V change/N your/N opinion,''/N said/V Charles/N Lieberman,/N a/O managing/N director/N at/O Manufacturers/N Hanover/N Securities/N Corp./N STOP/STOP
+*/* */* But/O Moody's/N warned/N that/O Shearson's/N commercial/A paper/N rating/N could/O be/V lowered/N soon,/N a/O move/N that/O would/O reduce/V Shearson's/N profit/N margins/N on/O its/N borrowings/N and/O signal/N trouble/N ahead/N for/O other/A firms./N STOP/STOP
+*/* */* The/O $35.7/N million/O net/A loss/N equals/N 86/N cents/N a/O share./N STOP/STOP
+*/* */* Most/A important,/N Ms./N Ganes/N noted,/N ``Brazilian/N officials/N said/V that/O no/O decision/N has/V as/O yet/A been/V made/V on/O the/O suspension/N of/O exports.''/N STOP/STOP
+*/* */* ``Compare/N two/O candidates/N for/O mayor,''/N says/V the/O announcer./N STOP/STOP
+*/* */* A/O player's/N commitment/N to/O practice/N and/O team/N image/N is/V as/O important/A as/O his/N batting/N average./N STOP/STOP
+*/* */* Norman/N Ricken,/N 52/N years/N old/A and/O former/A president/N and/O chief/N operating/N officer/N of/O Toys/N ``R''/N Us/N Inc.,/N and/O Frederick/N Deane/N Jr.,/N 63,/N chairman/N of/O Signet/N Banking/N Corp.,/N were/V elected/N directors/N of/O this/O consumer/N electronics/N and/O appliances/N retailing/N chain./N STOP/STOP
+*/* */* Although/O Georgia/N Gulf/N hasn't/V been/V eager/N to/O negotiate/N with/O Mr./N Simmons/N and/O NL,/N a/O specialty/N chemicals/N concern,/N the/O group/N apparently/A believes/V the/O company's/N management/N is/V interested/N in/O some/O kind/N of/O transaction./N STOP/STOP
+*/* */* Transamerica/N said/V third-quarter/N investment/N gains/N were/V $10.2/N million,/O compared/V with/O $6.4/N million/O the/O year/N earlier./A STOP/STOP
+*/* */* To/O the/O astonishment/N and/O dismay/N of/O her/N superiors/N and/O legal/A authorities/N --/O and/O perhaps/A as/O a/O measure/N of/O the/O unpopularity/N of/O standardized/N tests/N --/O Mrs./N Yeargin/N won/V widespread/N local/A support./N STOP/STOP
+*/* */* Among/O the/O lot/N of/O them,/N not/A one/O is/V wrestling/N with/O good/A and/O evil,/N or/O especially/A intelligent/N or/O even/A temporarily/N insane./N STOP/STOP
+*/* */* The/O vote/N came/V after/O a/O debate/N replete/N with/O complaints/N from/O both/O proponents/N and/O critics/N of/O a/O substantial/N increase/V in/O the/O wage/N floor./N STOP/STOP
+*/* */* Mr./N van/N Dover/N added/V that/O researchers/N are/V trying/V to/O determine/N precisely/N what/N crystal/N changes/N solved/N the/O problem./N STOP/STOP
+*/* */* These/O fiscal/A pressures/N are/V also/A a/O factor/N in/O shaping/N the/O Poland/N package,/N and/O while/O more/A ambitious/N authorizing/N legislation/N is/V still/A pending,/N the/O appropriations/N bill/N in/O conference/N will/O be/V more/A decisive/N on/O U.S./N aid/N to/O Eastern/N Europe./N STOP/STOP
+*/* */* New/N York/N financier/N Saul/N Steinberg/N sought/V federal/A permission/N to/O buy/V more/A than/O 15%/O of/O United/N Airlines'/N parent,/N UAL/N Corp.,/N saying/V he/N might/O seek/V control/N of/O the/O nation's/N second-largest/N airline./N STOP/STOP
+*/* */* Carnival/N said/V the/O Fantasy,/N a/O 2,050-passenger/N ship/N that/O was/V slated/N to/O be/V delivered/N this/O month,/N will/O be/V delivered/N in/O January./N STOP/STOP
+*/* */* The/O Financial/N Times-Stock/N Exchange/N 100-share/N index/N closed/V 17.5/N points/N higher/A at/O 2160.1./N STOP/STOP
+*/* */* Mrs./N Yeargin/N admits/N she/N made/V a/O big/A mistake/N but/O insists/N her/N motives/N were/V correct./N STOP/STOP
+*/* */* Back/N downtown,/N the/O execs/N squeezed/N in/O a/O few/A meetings/N at/O the/O hotel/N before/O boarding/N the/O buses/N again./N STOP/STOP
+*/* */* But/O Mr./N Boesel/N of/O T./N Rowe/N Price,/N who/N also/A expects/V 12%/O growth/N in/O dividends/N next/A year,/N doesn't/V think/V it/N will/O help/V the/O overall/A market/N all/O that/O much./N STOP/STOP
+*/* */* Upjohn/N Co./N said/V it/N will/O offer/V an/O early/A retirement/N package/N to/O as/O many/A as/O 1,100/N employees/N in/O a/O cost-cutting/N move/N expected/V to/O result/V in/O a/O fourth-quarter/N charge./N STOP/STOP
+*/* */* The/O 7.40%/N term/N bonds/N due/A 2009/N are/V priced/V to/O yield/V 7.45%,/N and/O 7.40%/N term/N bonds/N due/A 2017/N are/V priced/V to/O yield/N 7.50%./N STOP/STOP
+*/* */* They/N also/A said/V that/O more/A than/O a/O dozen/N presidents/N have/V called/V for/O line-item/A veto/N authority/N since/O the/O Civil/N War,/N and/O ``all/N have/V shared/N the/O view/N that/O such/A lawmaking/N power/N is/V beyond/N the/O reach''/N of/O the/O president./N STOP/STOP
+*/* */* However,/A the/O president/N does/V have/V a/O duty/N not/A to/O violate/N the/O Constitution./N STOP/STOP
+*/* */* Cooper/N Tire/N &/O Rubber/N Co./N said/V it/N has/V reached/V an/O agreement/N in/O principle/N to/O buy/V buildings/N and/O related/V property/N in/O Albany,/N Ga.,/N from/O Bridgestone/Firestone/N Inc./N STOP/STOP
+*/* */* Wednesday's/N volume/N on/O the/O First/N Section/N was/V estimated/V at/O 900/N million/O shares,/N in/O line/N with/O Tuesday's/N 909/N million./O STOP/STOP
+*/* */* Campbell/N officials/N said/V Mr./N McGovern/N wasn't/V available/A yesterday/N to/O discuss/N the/O circumstances/N of/O his/N departure./N STOP/STOP
+*/* */* Guaranteed/N by/O Svenska/N Handelsbanken./N STOP/STOP
+*/* */* While/O program/N trades/N swiftly/N kicked/N in,/N a/O ``circuit/N breaker''/N that/O halted/N trading/N in/O stock/N futures/N in/O Chicago/N made/V some/O program/N trading/N impossible./N STOP/STOP
+*/* */* The/O Ministry/N of/O International/N Trade/N and/O Industry/N summoned/N executives/N from/O the/O companies/N to/O ``make/N sure/N they/N understood''/N the/O concern/N about/O such/A practices,/N according/V to/O a/O government/N spokesman./N STOP/STOP
+*/* */* The/O stock/N would/O be/V redeemed/N in/O five/O years,/N subject/A to/O terms/N of/O the/O surviving/N company's/N debt./N STOP/STOP
+*/* */* Charles/N D./N Phipps/N Sr.,/N Hermitage,/N Pa.,/N fined/V $10,000;/N David/N Scott/N Rankin,/N Lake/N St./N Louis,/N Mo.,/N $15,000;/O Leigh/N A./N Sanderoff,/N Gaithersburg,/N Md.,/N fined/V $45,000,/N ordered/V to/O disgorge/N $12,252;/N Sandra/N Ann/N Smith,/N Ridgefield,/N N.J.,/N $15,000;/O James/N G./N Spence,/N Aloha,/N Ore.,/N $5,000/O and/O six-month/N suspension;/N Mona/N Sun,/N Jamaica/N Estates,/N N.Y.,/N $60,000;/N William/N Swearingen,/N Minneapolis,/N $15,000/O and/O six-month/N suspension;/N John/N Bew/N Wong,/N San/N Francisco,/N $25,000;/N Rabia/N M./N Zayed,/N San/N Francisco,/N $50,000./N STOP/STOP
+*/* */* BMP/N products/N may/O be/V useful/N in/O fracture/N healing/N and/O in/O treating/N bone/N loss/N associated/N with/O periodontal/N disease/N and/O certain/A cancers,/N the/O company/N said./V STOP/STOP
+*/* */* What's/N more,/N the/O test/N and/O Learning/N Materials/N are/V both/O produced/V by/O the/O same/A company,/N Macmillan/McGraw-Hill,/N a/O joint/A venture/N of/O McGraw-Hill/N Inc./N and/O Macmillan's/N parent,/N Britain's/N Maxwell/N Communication/N Corp./N STOP/STOP
+*/* */* Second,/N it/N can/O be/V used/V to/O unwind/N positions/N before/O U.S./N trading/N begins,/N but/O at/O prices/N pegged/N to/O the/O previous/A session's/N Big/N Board/N close./N STOP/STOP
+*/* */* Dealers/N said/V that/O interpretation/N sparked/N expectations/N of/O an/O imminent/N bid/N by/O Ford./N STOP/STOP
+*/* */* About/N 160/N workers/N at/O a/O factory/N that/O made/V paper/N for/O the/O Kent/N filters/N were/V exposed/N to/O asbestos/N in/O the/O 1950s./N STOP/STOP
+*/* */* Its/N fanciful/N offices/N were/V designed/V by/O architect/N Julia/N Morgan,/N who/N built/V the/O Hearst/N castle/N at/O San/N Simeon./N STOP/STOP
+*/* */* It/N has/V been/V targeted/N by/O Japanese/A investors/N as/O a/O good/A long-term/A play/N tied/N to/O 1992's/N European/N economic/A integration./N STOP/STOP
+*/* */* ``Invariably,/N those/O strong/A periods/N in/O the/O economy/N give/V way/N to/O recessionary/N environments,''/N he/N says./V STOP/STOP
+*/* */* Georgia/N Gulf/N added/V 1/O 3/4/O to/O 51/N 1/4/N after/O NL/N Industries,/N controlled/N by/O Dallas/N investor/N Harold/N Simmons,/N offered/V to/O acquire/V the/O stock/N it/N doesn't/V already/A own/A for/O $50/O a/O share./N STOP/STOP
+*/* */* Continued/N export/N demand/N also/A supported/N prices./N STOP/STOP
+*/* */* Separately,/N the/O Federal/N Energy/N Regulatory/N Commission/N turned/V down/O for/O now/A a/O request/N by/O Northeast/N seeking/V approval/N of/O its/N possible/A purchase/N of/O PS/N of/O New/N Hampshire./N STOP/STOP
+*/* */* Prices/N rose/V on/O the/O news/N that/O a/O sizable/N West/N German/N refinery/N was/V damaged/N in/O a/O fire,/N tightening/N an/O already/A tight/N European/N market./N STOP/STOP
+*/* */* However,/A Tony/N Lama/N said/V it/N would/O promptly/N submit/N the/O offer/N to/O a/O special/A committee/N of/O the/O company's/N board./N STOP/STOP
+*/* */* Without/N the/O Cray-3/N research/N and/O development/N expenses,/N the/O company/N would/O have/V been/V able/A to/O report/N a/O profit/N of/O $19.3/N million/O for/O the/O first/A half/N of/O 1989/O rather/A than/O the/O $5.9/N million/O it/N posted./N STOP/STOP
+*/* */* Probably/N the/O most/A egregious/N example/N is/V a/O proviso/N in/O the/O appropriations/N bill/N for/O the/O executive/A office/N that/O prevents/N the/O president's/N Office/N of/O Management/N and/O Budget/N from/O subjecting/N agricultural/N marketing/N orders/N to/O any/O cost-benefit/N scrutiny./N STOP/STOP
+*/* */* Futures/N traders/N respond/N that/O low/A margins/N help/V keep/V their/N markets/N active./N STOP/STOP
+*/* */* ``She/N just/A never/A gave/N it/N up,''/N says/V Mary/N Marchand,/N Mary/N Beth's/N mother./N STOP/STOP
+*/* */* ``These/N cases/N lead/V to/O the/O loss/N of/O the/O firms'/N social/N and/O international/A credibility,''/N a/O ministry/N statement/N said./V STOP/STOP
+*/* */* ORTEGA/N ENDED/N a/O truce/N with/O the/O Contras/N and/O said/V elections/N were/V threatened./N STOP/STOP
+*/* */* The/O price/N is/V a/O new/A high/A for/O California/N Cabernet/N Sauvignon,/N but/O it/N is/V not/A the/O highest./N STOP/STOP
+*/* */* A/O disaffected,/N hard-drinking,/N nearly-30/N hero/N sets/N off/O for/O snow/N country/N in/O search/N of/O an/O elusive/N sheep/N with/O a/O star/N on/O its/N back/A at/O the/O behest/N of/O a/O sinister,/N erudite/N mobster/N with/O a/O Stanford/N degree./N STOP/STOP
+*/* */* It's/N interesting/N to/O find/V that/O a/O lot/N of/O the/O expensive/N wines/N aren't/V always/A walking/N out/O the/O door./N STOP/STOP
+*/* */* Mr./N Rapanelli/N met/N in/O August/N with/O U.S./N Assistant/N Treasury/N Secretary/N David/N Mulford./N STOP/STOP
+*/* */* Dow/N Jones/N industrials/N 2645.90,/N up/O 0.82;/N transportation/N 1206.26,/N up/O 1.25;/N utilities/N 220.45,/N up/O 1.26./N STOP/STOP
+*/* */* Taking/N a/O cue/N from/O California,/N more/A politicians/N will/O launch/N their/N campaigns/N by/O backing/N initiatives,/N says/V David/N Magleby/N of/O Brigham/N Young/N University./N STOP/STOP
+*/* */* A/O second/A citation/N covering/N the/O company's/N Clairton,/N Pa.,/N coke/N works/N involved/V more/A than/O 200/N alleged/V violations/N of/O electrical-safety/N and/O other/A requirements,/N for/O which/O OSHA/N proposed/V $1.2/N million/O in/O fines./N STOP/STOP
+*/* */* Gilts,/N or/O British/A government/N bonds,/N which/O also/A fell/V sharply/A initially,/N retraced/N some/O of/O the/O losses/N to/O end/N about/O 3/8/O point/N lower./N STOP/STOP
+*/* */* In/O fiscal/A 1989,/O Elco/N earned/V $7.8/N million,/O or/O $1.65/N a/O share./N STOP/STOP
+*/* */* LONDON/N LATE/N EURODOLLARS:/N 8/O 3/4%/N to/O 8/O 5/8%/N one/O month;/N 8/O 13/16%/N to/O 8/O 11/16%/N two/O months;/N 8/O 3/4%/N to/O 8/O 5/8%/N three/O months;/N 8/O 5/8%/N to/O 8/O 1/2%/N four/O months;/N 8/O 1/2%/N to/O 8/O 7/16%/N five/O months;/N 8/O 1/2%/N to/O 8/O 3/8%/N six/O months./N STOP/STOP
+*/* */* The/O computers/N were/V crude/N by/O today's/N standards./N STOP/STOP
+*/* */* Failure/N to/O complete/N the/O form/N had/V been/V punishable/N as/O a/O misdemeanor/N until/O last/A November,/N when/A Congress/N determined/N that/O the/O crime/N was/V a/O felony/N punishable/N by/O up/O to/O 10/O years/N in/O prison./N STOP/STOP
+*/* */* Not/N that/O Washington/N and/O Tokyo/N disagree/N on/O the/O Japanese/A acquisitions;/N indeed,/N each/O has/V come/V out/O in/O favor/N of/O unfettered/N investment/N in/O the/O U.S../N STOP/STOP
+*/* */* South/N African/N gold/N stocks/N closed/V marginally/N lower./N STOP/STOP
+*/* */* The/O next/A province?/N STOP/STOP
+*/* */* Program/N trading/N --/O A/O wide/N range/N of/O computer-assisted/N portfolio/N trading/N strategies/N involving/V the/O simultaneous/N purchase/N or/O sale/N of/O 15/O or/O more/A stocks./N STOP/STOP
+*/* */* If/O not/A Chicago,/N then/A in/O New/N York;/N if/O not/A the/O U.S.,/N then/A overseas./N STOP/STOP
+*/* */* Mr./N Einhorn/N of/O Goldman/N Sachs/N estimates/N the/O stock/N market/N will/O deliver/N a/O 12%/O to/O 15%/O total/A return/N from/O appreciation/N and/O dividends/N over/O the/O next/A 12/O months/N --/O vs./N a/O ``cash/N rate/N of/O return''/N of/O perhaps/A 7%/N or/O 8%/N if/O dividend/N growth/N is/V weak./N STOP/STOP
+*/* */* South/N Africa/N accused/N armed/N Namibian/N nationalist/N guerrillas/N of/O crossing/N from/O bases/N in/O neighboring/N Angola,/N violating/N U.N.-supervised/N peace/N plans/V for/O the/O territory's/N independence/N from/O Pretoria./N STOP/STOP
+*/* */* Sen./N John/N Danforth/N -LRB-/O R.,/N Mo./N -RRB-/O praised/N the/O department's/N actions,/N noting/N that/O rollover/N crashes/N account/N for/O almost/A half/N of/O all/O light-truck/N deaths./N STOP/STOP
+*/* */* ``Small/N investors/N are/V absolutely/N dismayed/N that/O Wall/N Street/N is/V stacking/N the/O deck/N against/O them,/N and/O these/O wide/N swings/N are/V scaring/N them/N to/O death,''/N says/V Raymond/N A./N Mason,/N chairman/N of/O regional/A broker/N Legg/N Mason/N Inc./N in/O Baltimore./N STOP/STOP
+*/* */* ``It/N has/V not/A been/V disruptive/N in/O the/O markets/N here,''/N Mr./N Maughan/N said./V STOP/STOP
+*/* */* Fourth/N series/N serial/N bonds/N are/V priced/V at/O par/N to/O yield/V from/O 6.25%/N in/O 1992/N to/O 7%/N in/O 1999./N STOP/STOP
+*/* */* ``Many/N in/O the/O United/N States,/N including/V many/A friends/N of/O China,/N believe/V the/O crackdown/N was/V excessive/N and/O unjustified,''/N Mr./N Nixon/N told/V Mr./N Yang,/N who/N was/V directly/N involved/V in/O ordering/N the/O attack./N STOP/STOP
+*/* */* Esso/N said/V the/O fields/N were/V developed/V after/O the/O Australian/N government/N decided/V in/O 1987/O to/O make/V the/O first/A 30/O million/O barrels/N from/O new/A fields/N free/A of/O excise/N tax./N STOP/STOP
+*/* */* Rather/N than/O increasing/V dividends,/N some/O companies/N have/V used/V cash/N to/O buy/V back/A some/O of/O their/N shares,/N notes/N Steven/N G./N Einhorn,/N co-chairman/N of/O the/O investment/N policy/N committee/N at/O Goldman,/N Sachs/N &/O Co./N STOP/STOP
+*/* */* Sen./N Danforth/N and/O others/N also/A want/V the/O department/N to/O require/V additional/A safety/N equipment/N in/O light/A trucks/N and/O minivans,/N including/V air/N bags/N or/O automatic/N seat/N belts/N in/O front/N seats/N and/O improved/N side-crash/N protection./N STOP/STOP
+*/* */* But/O he/N is/V best/A known/V in/O the/O auto/N industry/N as/O the/O creator/N of/O a/O team/N car-development/N approach/N that/O produced/V the/O two/O midsized/N cars/N that/O were/V instrumental/N in/O helping/N the/O No./N 2/O auto/N maker/N record/N profits/N in/O recent/A years/N and/O in/O enabling/N the/O company's/N Ford/N division/N to/O eclipse/N General/N Motors/N Corp.'s/N Chevrolet/N division/N as/O the/O top-selling/N nameplate/N in/O the/O U.S../N STOP/STOP
+*/* */* Now,/N he/N said,/V the/O group/N plans/V to/O put/V in/O ``several/N hundred/N million''/N dollars/N in/O equity/N and/O finance/N the/O remainder/N with/O bank/N debt./N STOP/STOP
+*/* */* As/O a/O Foster/N Corporate/N Parent,/N you/N will/O experience/N the/O same/A joy/N felt/N by/O Robert/N Bass,/N Lewis/N Ranieri,/N William/N Simon/N and/O others,/N who/N find/V ways/N to/O help/V troubled/N savings/N institutions/N and/O their/N employees/N help/V themselves./N STOP/STOP
+*/* */* Mrs./N Yeargin/N concedes/N that/O she/N went/V over/O the/O questions/N in/O the/O earlier/A class,/N adding:/N ``I/N wanted/V to/O help/V all''/N students./N STOP/STOP
+*/* */* ``Unemployment/N continues/V at/O a/O relatively/A low/A level,/N providing/N a/O sense/N of/O job/N security,/N and/O a/O low/A inflation/N rate/N has/V kept/N the/O purchasing/V power/N of/O the/O weekly/N paycheck/N reasonably/N strong.''/N STOP/STOP
+*/* */* Patients/N who/N receive/V canine/N or/O feline/N visitors/N are/V found/V to/O have/V lower/A blood/N pressure/N and/O improved/N appetite/N and/O be/V more/A receptive/N to/O therapy,/N says/V Mary/N Ann/N O'Loughlin,/N program/N coordinator./N STOP/STOP
+*/* */* Atsushi/N Muramatsu,/N executive/N vice/N president/N and/O chief/N financial/A officer/N of/O Nissan,/N said,/V ``The/O company/N has/V experienced/N a/O remarkable/N turnaround/N in/O terms/N of/O profitability/N since/O the/O fiscal/A year/N ending/N March/N 1987,/N when/A the/O sharp/N and/O rapid/N appreciation/N of/O the/O yen/N caused/V many/A difficulties./N STOP/STOP
+*/* */* Under/O the/O measure/N passed/N yesterday,/N the/O minimum/A wage/N would/O rise/V to/O $3.80/N next/A April./N STOP/STOP
+*/* */* Some/O Democrats/N in/O Congress/N are/V warning/N that/O a/O complicated/N new/A funding/N device/N for/O the/O two/O federal/A antitrust/A agencies/N could/O result/V in/O further/A cutbacks/N in/O a/O regulatory/N area/N already/A reduced/V sharply/A in/O recent/A years./N STOP/STOP
+*/* */* Discos/N and/O private/A clubs/N are/V exempt/N from/O the/O ban,/N and/O smoking/N will/O be/V permitted/N in/O bars/N except/N during/O meal/N hours,/N an/O official/N said./V STOP/STOP
+*/* */* Securities/N firms/N are/V among/O the/O biggest/N issuers/N of/O commercial/A paper,/N or/O short-term/A corporate/A IOUs,/N which/O they/N sell/V to/O finance/N their/N daily/A operations./N STOP/STOP
+*/* */* In/O a/O separate/A report,/N the/O department/N said/V construction/N spending/N ran/N at/O an/O annual/A rate/N of/O $415.6/N billion,/O not/A significantly/N different/A from/O the/O $415.8/N billion/O reported/V for/O August./N STOP/STOP
+*/* */* The/O dispute/N involves/N Darkhorse/N Productions/N Inc.,/N a/O TV/N production/N company/N in/O which/O Mr./N Trudeau/N is/V a/O co-owner./N STOP/STOP
+*/* */* Both/N Newsweek/N and/O U.S./N News/N have/V been/V gaining/N circulation/N in/O recent/A years/N without/O heavy/N use/V of/O electronic/N giveaways/N to/O subscribers,/N such/A as/O telephones/N or/O watches./N STOP/STOP
+*/* */* In/O parts/N of/O Iowa,/N for/O example,/N some/O grain/N elevators/N are/V offering/V farmers/N $2.15/N a/O bushel/N for/O corn./N STOP/STOP
+*/* */* While/O worry/N grows/N about/O big/A Japanese/A investments/N in/O the/O U.S.,/N Japan's/N big/A trading/N companies/N are/V rapidly/N increasing/V their/N stake/N in/O America's/N smaller/A business./N STOP/STOP
+*/* */* At/O Christie's,/N a/O folio/N of/O 21/N prints/N from/O Alfred/N Stieglitz's/N ``Equivalents''/N series/N sold/V for/O $396,000,/N a/O single-lot/N record./N STOP/STOP
+*/* */* Asia's/N other/A cash-rich/N countries/N are/V following/V Japan's/N lead/V and/O pumping/N capital/N into/O the/O region./N STOP/STOP
+*/* */* Mr./N van/N Dover/N said/V the/O crystal/N changes/N his/N team/N introduced/V apparently/A pins/N the/O magnetic/N fields/N in/O place,/N preventing/N them/N from/O lowering/N current-carrying/A capacity./N STOP/STOP
+*/* */* Ford/N Chairman/N Donald/N E./N Petersen/N said/V yesterday/N that/O Mr./N Veraldi/N has/V ``helped/N to/O change/N the/O world's/N perception/N of/O American-made/N cars.''/N STOP/STOP
+*/* */* She/N says/V that/O because/O of/O Mrs./N Yeargin/N she/N gave/N up/O ambitions/N in/O architecture/N and/O is/V studying/N to/O become/V a/O teacher./N STOP/STOP
+*/* */* Voters/N generally/A agree/N when/A they/N are/V given/N a/O chance/N to/O decide/N if/O they/N want/V to/O sink/N their/N own/A tax/N dollars/N into/O a/O new/A mega-stadium./N STOP/STOP
+*/* */* NTG/N was/V formed/N by/O Osborn/N Communications/N Corp./N and/O Desai/N Capital./N STOP/STOP
+*/* */* But/O people/N familiar/N with/O the/O agenda/N of/O the/O board's/N meeting/N last/A week/N in/O London/N said/V Mr./N McGovern/N was/V fired./N STOP/STOP
+*/* */* The/O Toronto-based/N real/A estate/N concern/N said/V each/O bond/N warrant/N entitles/N the/O holder/N to/O buy/V $1,000/N principal/A amount/N of/O debentures/N at/O par/N plus/N accrued/N interest/N to/O the/O date/N of/O purchase./N STOP/STOP
+*/* */* Comprehensive/N Care/N had/V agreed/V to/O be/V acquired/V by/O closely/A held/V First/N Hospital/N Corp./N of/O Norfolk,/N Va.,/N but/O the/O sale/N sputtered/N almost/A from/O the/O beginning/V and/O finally/N collapsed/N last/A week./N STOP/STOP
+*/* */* A/O House/N aide/N suggested/N that/O Mr./N Phelan/N was/V so/A ``vague/N and/O mushy''/N that/O it/N was/V the/O kind/N of/O meeting/N where/A people/N of/O all/O viewpoints/N could/O ``come/N out/O feeling/N good.''/N STOP/STOP
+*/* */* In/O October/N 1988,/O 7.3%/N said/V they/N would/O buy/V a/O car./N STOP/STOP
+*/* */* The/O Stamford,/N Conn.,/N concern/N has/V agreed/V to/O a/O buy-out/N by/O Bank/N of/O New/N York/N in/O a/O transaction/N with/O an/O indicated/V value/N of/O about/O $100/O a/O share/N that/O expires/N next/A August./N STOP/STOP
+*/* */* Something/N like/O one-third/N of/O the/O nation's/N 60/O largest/A cities/N are/V thinking/N about/O new/A stadiums,/N ranging/N from/O Cleveland/N to/O San/N Antonio/N and/O St./N Petersburg./N STOP/STOP
+*/* */* Analysts/N were/V disappointed/N that/O the/O enthusiasm/N investors/N showed/V for/O stocks/N in/O the/O wake/N of/O Georgia-Pacific's/N $3.18/N billion/O bid/N for/O Great/N Northern/N Nekoosa/N evaporated/N so/A quickly./N STOP/STOP
+*/* */* THREE/N COMPUTERS/N THAT/N CHANGED/N the/O face/V of/O personal/A computing/N were/V launched/V in/O 1977./N STOP/STOP
+*/* */* Retail/N sales/N also/A were/V reported/V slow/A in/O most/A districts,/N particularly/A ``for/N discretionary,/N big-ticket/N items/N such/A as/O furniture,/N home/N appliances/N and/O consumer/N electronics.''/N STOP/STOP
+*/* */* In/O October/N 1988,/O 21.1%/N said/V business/N conditions/N would/O improve./N STOP/STOP
+*/* */* Sure/N enough,/N when/A he/N arrived/N at/O the/O embassy/N two/O days/N later,/N the/O machine-gun-toting/N guards/N were/V gone/N --/O for/O the/O first/A time/N in/O five/O months./N STOP/STOP
+*/* */* An/O entirely/N new/A band/N rings/N today/N at/O Great/N Torrington,/N several/A of/O whom/N are/V members/N of/O the/O congregation./N STOP/STOP
+*/* */* The/O U.S./N Chamber/N of/O Commerce,/N still/A opposed/N to/O any/O mininum-wage/N increase,/N said/V the/O compromise/N plan/N to/O lift/N the/O wage/N floor/N 27%/N in/O two/O stages/N between/O April/N 1990/O and/O April/N 1991/N ``will/N be/V impossible/N for/O many/A employers/N to/O accommodate/N and/O will/O result/N in/O the/O elimination/N of/O jobs/N for/O American/A workers/N and/O higher/A prices/N for/O American/A consumers./N STOP/STOP
+*/* */* By/O constantly/N seeking/V to/O own/A the/O cheapest/N widget,/N index-arbitrage/N traders/N hope/N to/O add/N between/O 1%/N and/O 3%/N to/O the/O annual/A return/N of/O the/O S&P/N 500./N STOP/STOP
+*/* */* Yet/N he/N isn't/V in/O favor/N of/O new/A legislation./N STOP/STOP
+*/* */* The/O department/N would/O be/V required/V to/O block/V the/O buy-out/N if/O the/O acquisition/N is/V likely/A to/O financially/N weaken/N a/O carrier/N so/A that/O safety/N would/O be/V impaired;/N its/N ability/N to/O compete/N would/O be/V sharply/A diminished;/N it/N would/O be/V put/V into/O foreign/A control;/N or/O if/O the/O transaction/N would/O result/V in/O the/O sale/N of/O airline-related/N assets/N --/O unless/O selling/V such/A assets/N had/V an/O overriding/N public/A benefit./N STOP/STOP
+*/* */* R.P./N Scherer/N Corp./N said/V it/N completed/V the/O $10.2/N million/O sale/N of/O its/N Southern/N Optical/N subsidiary/N to/O a/O group/N led/V by/O the/O unit's/N president,/N Thomas/N R./N Sloan,/N and/O other/A managers./N STOP/STOP
+*/* */* Not/N counting/N the/O extraordinary/N charge,/N the/O company/N said/V it/N would/O have/V had/V a/O net/A loss/N of/O $3.1/N million,/O or/O seven/O cents/N a/O share./N STOP/STOP
+*/* */* Typical/N rates/N in/O the/O secondary/N market:/N 8.60%/N one/O month;/N 8.55%/N three/O months;/N 8.35%/N six/O months./N STOP/STOP
+*/* */* In/O composite/A New/N York/N Stock/N Exchange/N trading,/N the/O shares/N closed/V at/O $177,/N up/O $1.50./N STOP/STOP
+*/* */* Consumer/N confidence/N stayed/N strong/A in/O October,/N despite/O the/O unsettling/N gyrations/N of/O the/O stock/N market./N STOP/STOP
+*/* */* The/O spinoff/N also/A will/O compete/N with/O International/N Business/N Machines/N Corp./N and/O Japan's/N Big/N Three/N --/O Hitachi/N Ltd.,/N NEC/N Corp./N and/O Fujitsu/N Ltd./N STOP/STOP
+*/* */* A/O year/N earlier,/N net/N income/N was/V $2.1/N million,/O or/O six/O cents/N a/O share,/N on/O revenue/N of/O $169.9/N million./O STOP/STOP
+*/* */* Taking/N over/O as/O chief/N executive/N officer/N in/O 1983,/N he/N inherited/N a/O company/N that/O was/V mired/N in/O debt/N and/O hurt/N by/O a/O recession-inspired/N slide/N in/O its/N building-products/N business./N STOP/STOP
+*/* */* These/O vertically/N integrated/N combines,/N some/O of/O which/O got/V their/N start/V in/O Japan's/N feudal/N period,/N deal/N globally/N in/O commodities,/N construction/N and/O manufacturing./N STOP/STOP
+*/* */* This/O trial/N is/V expected/V to/O last/A five/O weeks./N STOP/STOP
+*/* */* In/O October,/N before/O the/O market/N dropped,/N Mrs./N Arighi/N of/O Arnold,/N Calif.,/N moved/N to/O sell/V the/O ``speculative/N stocks''/N in/O her/N family/N trust/N ``so/N we/N will/O be/V able/A to/O withstand/N all/O this/O flim-flammery''/N caused/V by/O program/N trading./N STOP/STOP
+*/* */* ``But/N now,/A there/O seems/V to/O be/V a/O fairly/N systematic/N effort/N to/O address/N the/O problem,''/N said/V Chuck/N Hurley,/N vice/N president/N of/O communications/N for/O the/O Insurance/N Institute/N for/O Highway/N Safety./N STOP/STOP
+*/* */* Possible/N candidates/N include/V Susan/N Petersen,/N president/N of/O Ballantine/Del/N Rey/Fawcett,/N Random/N House's/N huge/A and/O successful/N paperback/N division./N STOP/STOP
+*/* */* The/O latest/A two/O funds/N were/V assembled/N jointly/N by/O Goldman,/N Sachs/N &/O Co./N of/O the/O U.S./N and/O Japan's/N Daiwa/N Securities/N Co./N STOP/STOP
+*/* */* The/O nonprofit,/N industry-supported/N group/N said/V its/N Consumer/N Confidence/N Index/N was/V 116.4/N in/O October,/N barely/N changed/V from/O a/O revised/N 116.3/N in/O September./N STOP/STOP
+*/* */* Only/N this/O week,/N it/N was/V announced/V that/O Mitsubishi/N Estate/N Co./N had/V acquired/V a/O 51%/N stake/N in/O Rockefeller/N Group,/N which/O owns/V New/N York's/N prestigious/N Rockefeller/N Center./N STOP/STOP
+*/* */* Takashima/N &/O Co./N -LRB-/O Japan/N -RRB-/O --/O STOP/STOP
+*/* */* They/N have/V begun/N sending/N letters/N explaining/N the/O program,/N which/O began/V Oct./N 18/N and/O will/O end/N Dec./N 18,/N to/O about/O five/O million/O card/N holders./N STOP/STOP
+*/* */* Macmillan/McGraw/N says/V ``well/N over/O 10/O million''/N of/O its/N Scoring/N High/N test-preparation/N books/N have/V been/V sold/V since/O their/N introduction/N 10/O years/N ago,/A with/O most/A sales/N in/O the/O last/A five/O years./N STOP/STOP
+*/* */* The/O real/A battle/N is/V over/O who/N will/O control/N that/O market/N and/O reap/N its/N huge/A rewards./N STOP/STOP
+*/* */* Now,/N only/A one/O local/A ringer/N remains:/N 64-year-old/N Derek/N Hammond./N STOP/STOP
+*/* */* Test-preparation/N booklets,/N software/N and/O worksheets/N are/V a/O booming/N publishing/N subindustry./N STOP/STOP
+*/* */* And/O several/A new/A funds/N that/O aren't/V even/A fully/A invested/N yet/A have/V jumped/V to/O trade/N at/O big/A premiums./N STOP/STOP
+*/* */* The/O White/N House/N said/V the/O shipboard/N meetings/N next/A month/N between/O Bush/N and/O Soviet/A leader/N Gorbachev/N will/O take/V place/N in/O the/O waters/N off/O Malta./N STOP/STOP
+*/* */* Kalipharma/N is/V a/O New/N Jersey-based/N pharmaceuticals/N concern/N that/O sells/V products/N under/O the/O Purepac/N label./N STOP/STOP
+*/* */* China/N pulled/N out/O of/O the/O program/N in/O July./N STOP/STOP
+*/* */* As/O expected,/N a/O national/A purchasing/N managers'/N report/N indicated/V the/O nation's/N manufacturing/N sector/N continues/V to/O contract/N modestly./N STOP/STOP
+*/* */* We/N got/V our/N two/O six-packs/N --/O and/O they're/N gone.''/N STOP/STOP
+*/* */* Koito/N has/V refused/N to/O grant/N Mr./N Pickens/N seats/N on/O its/N board,/N asserting/N he/N is/V a/O greenmailer/N trying/V to/O pressure/N Koito's/N other/A shareholders/N into/O buying/V him/N out/O at/O a/O profit./N STOP/STOP
+*/* */* The/O concept/N begot/N a/O slew/N of/O copycats,/N but/O the/O banks/N stopped/N promoting/N the/O packages./N STOP/STOP
+*/* */* A/O federal/A appeals/N court/N upheld/N a/O lower/A court/N ruling/N that/O the/O U.S./N can/O bar/N the/O use/V of/O federal/A funds/N for/O family-planning/N programs/N that/O include/V abortion-related/N services./N STOP/STOP
+*/* */* Analysts/N saw/N the/O latest/A offer/N as/O proof/N that/O Mr./N Simmons,/N an/O aggressive/N and/O persistent/N investor,/N won't/O leave/V Georgia/N Gulf/N alone/N until/O some/O kind/N of/O transaction/N is/V completed./N STOP/STOP
+*/* */* After/O the/O race,/N Fortune/N 500/O executives/N drooled/N like/O schoolboys/N over/O the/O cars/N and/O drivers./N STOP/STOP
+*/* */* No/N one/O is/V more/A unhappy/N with/O program/N trading/N than/O the/O nation's/N stockbrokers./N STOP/STOP
+*/* */* Among/O other/A banking/N issues,/N Pennview/N Savings/N Association/N leapt/N more/A than/O 44%/N with/O a/O gain/N of/O 6/N 5/8/N to/O 21/N 5/8./N STOP/STOP
+*/* */* At/O another/O point/N during/O the/O hearing,/N Rep./N Markey/N asked/N Mr./N Phelan/N what/N would/O be/V discussed/N at/O a/O New/N York/N exchange/N board/N meeting/N today./N STOP/STOP
+*/* */* While/O renewed/N optimism/N about/O the/O outlook/N for/O takeover/N activity/N boosted/V several/A so-called/A deal/N stocks,/N traders/N said/V profit-taking/N weighed/N on/O the/O market,/N with/O blue-chips/N bearing/N the/O brunt/N of/O the/O selling./N STOP/STOP
+*/* */* The/O panel/N ruled/N that/O the/O restrictions/N don't/V violate/N the/O freedom/N of/O speech/N of/O health/N care/N providers/N and/O that/O the/O limits/N on/O counseling/N services/N don't/V violate/N the/O rights/N of/O pregnant/N women./N STOP/STOP
+*/* */* This/O year's/N results/N included/V a/O gain/N of/O $70.2/N million/O on/O the/O disposal/N of/O seafood/N operations./N STOP/STOP
+*/* */* The/O base/N rate/N on/O corporate/A loans/N at/O large/A U.S./N money/N center/N commercial/A banks./N STOP/STOP
+*/* */* He/N said/V Equitable/N hopes/V to/O eventually/N reduce/V its/N stake/N in/O Younkers/N to/O less/A than/O 50%./N STOP/STOP
+*/* */* Random/N House/N Chairman/N Robert/N Bernstein/N said/V he/N is/V resigning/N from/O the/O publishing/N house/N he/N has/V run/V for/O 23/N years./N STOP/STOP
+*/* */* Stephen/N Salmore,/N a/O political/A scientist/N at/O New/N Jersey's/N Eagleton/N Institute,/N says/V it's/N another/O example/N of/O an/O ad/N that's/O true/N but/O not/A fully/A accurate./N STOP/STOP
+*/* */* GenCorp/N Inc.,/N hurt/N by/O a/O plant/N accident/N and/O other/A unexpected/N costs,/N said/V it/N expects/V to/O report/N that/O fiscal/A fourth-quarter/N profit/N from/O continuing/V operations/N will/O be/V significantly/N below/O last/A year's/N $25/N million./O STOP/STOP
+*/* */* Drink/N Carrier/N Competes/N With/O Cartons/N STOP/STOP
+*/* */* Under/O the/O new/A U.S./N trade/N law,/N those/O countries/N could/O face/V accelerated/N unfair-trade/N investigations/N and/O stiff/N trade/N sanctions/N if/O they/N don't/V improve/V their/N protection/N of/O intellectual/N property/N by/O next/A spring./N STOP/STOP
+*/* */* This/O year,/N the/O average/A of/O daily/A contracts/N traded/V totaled/V 9,118,/N up/O from/O 4,645/N a/O year/N earlier/A and/O from/O 917/N in/O 1984./N STOP/STOP
+*/* */* The/O offer/N is/V being/V launched/V pursuant/N to/O a/O previously/A announced/V agreement/N between/O the/O companies./N STOP/STOP
+*/* */* Items/N listed/V as/O being/V in/O short/A supply/N numbered/N only/A about/O a/O dozen,/N but/O they/N included/V one/O newcomer:/N milk/N and/O milk/N powder./N STOP/STOP
+*/* */* Britain/N has/V two/O main/A index-arbitrage/N instruments./N STOP/STOP
+*/* */* Among/O the/O top/A practitioners/N were/V Wall/N Street/N blue/N bloods:/N Morgan/N Stanley/N &/O Co.,/N Kidder/N Peabody,/N Merrill/N Lynch,/N Salomon/N Brothers/N Inc./N and/O PaineWebber/N Group/N Inc./N STOP/STOP
+*/* */* Temple,/N however,/A harshly/N criticized/N Sea/N Containers'/N plan/N yesterday,/N characterizing/N it/N as/O a/O ``highly/N conditional/N device/N designed/V to/O entrench/N management,/N confuse/N shareholders/N and/O prevent/V them/N from/O accepting/N our/N superior/N cash/N offer.''/N STOP/STOP
+*/* */* The/O Soviet/A orders/N were/V compressed/N into/O the/O month/N of/O October/N because/O of/O delays./N STOP/STOP
+*/* */* ``If/O they/N approach/N it/N with/O a/O benevolent,/N altruistic/N attitude,/N there/O will/O be/V a/O net/A gain/N for/O everyone.''/N STOP/STOP
+*/* */* The/O federal/A government/N suspended/N sales/N of/O U.S./N savings/N bonds/N because/O Congress/N hasn't/V lifted/N the/O ceiling/N on/O government/N debt./N STOP/STOP
+*/* */* PORTING/N POTABLES/N just/A got/V easier,/N or/O so/A claims/N Scypher/N Corp.,/N the/O maker/N of/O the/O Cup-Tote./N STOP/STOP
+*/* */* ``The/O IRS/N is/V asking/N lawyers/N to/O red-flag/N a/O criminal/A problem/N to/O the/O government,''/N added/V Mr./N Sonnett,/N a/O Miami/N lawyer/N who/N has/V heard/N from/O dozens/N of/O attorneys/N who/N received/V letters/N in/O recent/A days/N and/O has/V himself/N received/V the/O computer-generated/N IRS/N forms/N sent/N by/O certified/N mail./N STOP/STOP
+*/* */* Also,/A a/O Communist/N official/N for/O the/O first/A time/N said/V the/O future/A of/O the/O Berlin/N Wall/N could/O be/V open/A to/O discussion./N STOP/STOP
+*/* */* Oshkosh/N Truck/N attributed/N the/O downturn/N in/O its/N earnings/N to/O higher/A start-up/N costs/N of/O its/N new/A chassis/N division,/N a/O softer/N motor-home/N market/N and/O higher/A administrative/N costs/N of/O compliance/N with/O government/N contractor/N regulations./N STOP/STOP
+*/* */* Dreyfus/N World-Wide/N Dollar,/N the/O top-yielding/N fund,/N had/V a/O seven-day/N compound/N yield/V of/O 9.37%/N during/O the/O latest/A week,/N down/O from/O 9.45%/N a/O week/N earlier./A STOP/STOP
+*/* */* ``She/N said/V something/N like/O ``You/N just/A want/V to/O make/V it/N easy/A for/O the/O school./N '/N STOP/STOP
+*/* */* To/O quote/N the/O highly/A regarded/N director/N of/O a/O privately/N funded/N drop-in/N center/N for/O the/O homeless/N in/O New/N York:/N ``If/O you're/N homeless,/N you/N don't/V sleep/N for/O fear/N of/O being/V robbed/N or/O murdered./N STOP/STOP
+*/* */* In/O New/N York/N Stock/N Exchange/N composite/A trading/N yesterday,/N Commonwealth/N Edison/N closed/V at/O $38.375,/N down/O 12.5/N cents./N STOP/STOP
+*/* */* The/O previous/A contract/N between/O Copperweld's/N Ohio/N Steel/N Tube/N division/N and/O the/O union/N expired/N at/O midnight/N Tuesday./N STOP/STOP
+*/* */* Economic/N news/N had/V little/A effect/N on/O financial/A markets./N STOP/STOP
+*/* */* In/O the/O steel/N division,/N operating/N profit/N dropped/V 11%/N to/O $85/N million./O STOP/STOP
+*/* */* According/V to/O an/O American/A member/N of/O the/O Nixon/N party,/N the/O former/A president/N raised/V a/O number/N of/O controversial/N issues/N in/O his/N 20/O hours/N of/O talks/N with/O top-level/N Chinese/A officials./N STOP/STOP
+*/* */* Both/N contracts/N have/V gained/V a/O following/V since/O the/O 1987/O global/N market/N crash./N STOP/STOP
+*/* */* American/N Express/N also/A represents/N the/O upscale/N image/N ``we're/N trying/V to/O project,''/N she/N adds./N STOP/STOP
+*/* */* More/N than/O three/O in/O five/O said/V they/N are/V under/O a/O great/A deal/N of/O stress/N most/A of/O the/O time,/N compared/V with/O less/A than/O one/O in/O two/O U.S./N consumers/N and/O one/O in/O four/O in/O Japan./N STOP/STOP
+*/* */* He/N said/V disciplinary/N proceedings/N are/V confidential/N and/O declined/V to/O comment/N on/O whether/O any/O are/V being/V held/V against/O Mr./N Trudeau./N STOP/STOP
+*/* */* At/O Tokyo,/N the/O Nikkei/N index/N of/O 225/N selected/N issues,/N which/O gained/V 132/N points/N Tuesday,/N added/V 14.99/N points/N to/O 35564.43./N STOP/STOP
+*/* */* West/N Texas/N Intermediate/N for/O December/N delivery/N advanced/V 22/N cents/N to/O $19.94/N a/O barrel./N STOP/STOP
+*/* */* But/O Rep./N Don/N Edwards/N -LRB-/O D.,/N Calif./N -RRB-/O responded/N that/O a/O recession/N could/O stifle/N merger/N activity,/N reducing/N the/O amount/N of/O fees/N collected./N STOP/STOP
+*/* */* In/O quoting/N from/O our/N research/N you/N emphasized/N the/O high/A prevalance/N of/O mental/N illness/N and/O alcoholism./N STOP/STOP
+*/* */* The/O bids,/N he/N added,/N were/V ``contrary/N to/O common/A sense.''/N STOP/STOP
+*/* */* In/O addition/N to/O the/O damages,/N the/O suit/N seeks/N a/O court/N order/N preventing/N the/O guild/N from/O punishing/N or/O retaliating/N against/O Mr./N Trudeau./N STOP/STOP
+*/* */* For/O all/O the/O furor,/N there/O is/V nothing/N particularly/A complex/N about/O the/O concept/N of/O stock-index/A arbitrage,/N the/O most/A controversial/N type/N of/O computer-assisted/N program/N trading./N STOP/STOP
+*/* */* The/O company's/N prepared/V statement/N quoted/N him/N as/O saying,/N ``The/O CEO/N succession/N is/V well/A along/N and/O I/N 've/V decided/V for/O personal/A reasons/N to/O take/V early/A retirement.''/N STOP/STOP
+*/* */* Guaranteed/N minimum/A 6%./N STOP/STOP
+*/* */* Mrs./N Yeargin/N declined./N STOP/STOP
+*/* */* But/O a/O takeover/N battle/N opens/N up/O the/O possibility/N of/O a/O bidding/N war,/N with/O all/O that/O implies./N STOP/STOP
+*/* */* This/O species/N of/O congressional/A action/N is/V predicated/N on/O an/O interpretation/N of/O the/O appropriations/N clause/N that/O is/V erroneous/N and/O unconstitutional./N STOP/STOP
+*/* */* Primerica,/N as/O expected,/N also/A acquired/V certain/A assets/N of/O the/O agency/N and/O assumed/N certain/A of/O its/N liabilities./N STOP/STOP
+*/* */* Travelers/N estimated/V that/O the/O California/N earthquake/N last/A month/N will/O result/V in/O a/O fourth-quarter/N pre-tax/N charge/N of/O less/A than/O $10/O million./O STOP/STOP
+*/* */* The/O other/A has/V opposed/N a/O woman's/N right/N to/O choose.''/N STOP/STOP
+*/* */* ``It's/N the/O classic/N problem/N of/O the/O small/A businessman,''/N says/V Malcolm/N Davies,/N managing/N director/N of/O Trading/N Alliance/N Corp./N of/O New/N York./N STOP/STOP
+*/* */* Komatsu/N Ltd.,/N a/O large/A integrated/N maker/N of/O construction/N machinery,/N posted/V a/O 32%/N unconsolidated/N gain/N in/O first-half/N pretax/N profit./N STOP/STOP
+*/* */* In/O the/O aftermath/N of/O the/O stock/N market's/N gut-wrenching/N 190-point/N drop/N on/O Oct./N 13,/N Kidder,/N Peabody/N &/O Co.'s/N 1,400/N stockbrokers/N across/O the/O country/N began/V a/O telephone/N and/O letter-writing/N campaign/N aimed/V at/O quashing/N the/O country's/N second-largest/N program/N trader./N STOP/STOP
+*/* */* The/O Big/N Board's/N directors/N meet/V today/N to/O approve/V some/O program-trading/A restrictions,/N but/O a/O total/A ban/N isn't/V being/V considered,/N Big/N Board/N officials/N say./V STOP/STOP
+*/* */* In/O a/O letter/N to/O Georgia/N Gulf/N President/N Jerry/N R./N Satrum,/N Mr./N Martin/N asked/N Georgia/N Gulf/N to/O answer/N its/N offer/V by/O Tuesday./N STOP/STOP
+*/* */* The/O Coleman/N counterattack/N featured/N a/O close-up/N of/O a/O young/A woman/N in/O shadows/N and/O the/O ad/N suggested/N that/O she/N was/V recalling/N an/O unpleasant/N courtroom/N ordeal./N STOP/STOP
+*/* */* A/O full,/N four-color/N page/N in/O Newsweek/N will/O cost/N $100,980./N STOP/STOP
+*/* */* Part/N of/O the/O problem/N is/V that/O chip/N buyers/N are/V keeping/N inventories/N low/A because/O of/O jitters/N about/O the/O course/N of/O the/O U.S./N economy./N STOP/STOP
+*/* */* Herbert/N M./N Baum,/N the/O 53-year-old/N president/N of/O the/O company's/N Campbell/N U.S.A./N unit,/N and/O Edwin/N L./N Harper,/N 47,/N the/O chief/N financial/A officer,/N will/O run/V Campbell/N as/O a/O team,/N dividing/N responsibilities/N rather/A evenly/N until/O a/O successor/N is/V named./N STOP/STOP
+*/* */* Some/O analysts/N are/V worried/N that/O reports/N of/O the/O grain/N industry's/N problems/N might/O spark/N investors/N to/O begin/V buying/V corn/N futures/N contracts/N --/O only/A to/O see/V little/A appreciation./N STOP/STOP
+*/* */* ``Total/N merchant/N banking/N exposures/N are/V in/O excess/N of/O the/O firm's/N equity.''/N STOP/STOP
+*/* */* But/O he/N adds,/N ``I/N feel/V pressured,/N disappointed,/N uncomfortable/N and,/O frankly,/N quite/N angry/N with/O Viacom./N STOP/STOP
+*/* */* ``It/N can/O be/V said/V that/O the/O trend/N of/O financial/A improvement/N has/V been/V firmly/N set,''/N he/N added./V STOP/STOP
+*/* */* Many/A lost/V their/N farms./N STOP/STOP
+*/* */* But/O for/O small/A American/N companies,/N it/N also/A provides/N a/O growing/V source/N of/O capital/N and/O even/A marketing/N help./N STOP/STOP
+*/* */* Yesterday's/N share/N turnover/N was/V well/A below/O the/O year's/N daily/A average/A of/O 133.8/N million./O STOP/STOP
+*/* */* ``Florio's/N lying,''/N the/O voice/N goes/V on,/N because/O ``the/O barrel/N on/O Courter's/N land/N .../O contained/N heating/N oil,/N was/V cleaned/N up/A and/O caused/V no/O pollution.''/N STOP/STOP
+*/* */* The/O attacks/N began/V when/A Democratic/N Rep./N James/N Florio/N aired/N an/O ad/N featuring/N a/O drawing/N of/O Pinocchio/N and/O a/O photograph/N of/O Mr./N Florio's/N rival,/N Republican/N Rep./N Jim/N Courter./N STOP/STOP
+*/* */* That/O amount/N is/V convertible/A into/O shares/N of/O Meridian/N common/A stock/N at/O $2/N a/O share/N during/O its/N one-year/N term./N STOP/STOP
+*/* */* The/O filing/N adds/N a/O new/A twist/N to/O market/N speculation/N that/O Coniston/N Partners,/N a/O New/N York/N money/N manager,/N has/V bought/V more/A than/O 5%/O of/O UAL/N stock/N and/O may/O challenge/N the/O UAL/N board's/N decision/N last/A week/N to/O remain/V independent./N STOP/STOP
+*/* */* They/N point/N out/O that/O these/O institutions/N want/V to/O lock/N in/O returns/N on/O high-yield/N U.S./N Treasury/N debt/N and/O suggest/N demand/N for/O the/O U.S./N unit/N will/O continue/V unabated/N until/O rates/N in/O the/O U.S./N recede./N STOP/STOP
+*/* */* Negotiable,/N bank-backed/N business/N credit/N instruments/N typically/N financing/V an/O import/N order./N STOP/STOP
+*/* */* James/N Mason,/N assistant/N secretary/N for/O health,/N said/V the/O ban/N on/O federal/A funding/N of/O fetal-tissue/A transplant/N research/N ``should/N be/V continued/V indefinitely.''/N STOP/STOP
+*/* */* With/O membership/N of/O the/O Church/N of/O England/N steadily/N dwindling,/N strong-willed/N vicars/N are/V pressing/N equally/N strong-willed/N and/O often/A non-religious/N ringers/N to/O attend/N services./N STOP/STOP
+*/* */* The/O charges/N were/V offset/V in/O part/N by/O a/O gain/N from/O the/O sale/N of/O the/O company's/N construction/N division./N STOP/STOP
+*/* */* The/O flow/N of/O Japanese/A funds/N has/V set/V in/O motion/N ``a/O process/N whereby/N these/O economies/N will/O be/V knitted/N together/N by/O the/O great/A Japanese/A investment/N machine,''/N says/V Robert/N Hormats,/N vice/N chairman/N of/O Goldman/N Sachs/N International/N Corp./N STOP/STOP
+*/* */* Sales/N fell/V 20%/O to/O #/O 722/N million./O STOP/STOP
+*/* */* Financial/N planners/N often/A urge/N investors/N to/O diversify/N and/O to/O hold/N a/O smattering/N of/O international/A securities./N STOP/STOP
+*/* */* Service/N Fracturing/N Co.,/N proposed/V offering/V of/O 1.2/N million/O shares/N of/O common/A stock,/N via/O Lovett/N Mitchell/N Webb/N &/O Garrison,/N Inc.,/N and/O Blunt/N Ellis/N &/O Loewi/N Inc./N STOP/STOP
+*/* */* Currently,/N ShareData/N has/V about/O 4.1/N million/O common/A shares/N outstanding./A STOP/STOP
+*/* */* Tokyo's/N leading/V program/N traders/N are/V the/O big/A U.S./N securities/N houses,/N though/O the/O Japanese/A are/V playing/N catch-up./N STOP/STOP
+*/* */* In/O 1979,/N Hearst/N hired/N editor/N James/N Bellows,/N who/N brightened/N the/O editorial/N product/N considerably./N STOP/STOP
+*/* */* ``Funny/N thing,''/N says/V the/O kicker,/N ``both/N these/O candidates/N are/V named/V Rudolph/N Giuliani.''/N STOP/STOP
+*/* */* But/O the/O council's/N program/N to/O attract/N and/O train/N ringers/N is/V only/A partly/A successful,/N says/V Mr./N Baldwin./N STOP/STOP
+*/* */* In/O the/O past/A five/O years,/N Japanese/A companies/N have/V tripled/N their/N commitments/N in/O Asia/N to/O $5.57/N billion./O STOP/STOP
+*/* */* She/N gives/V the/O Artist/N a/O sense/N of/O purpose,/N but/O also/A alerts/N him/N to/O the/O serious/A inadequacy/N of/O his/N vagrant/N life./N STOP/STOP
+*/* */* ``New/N managers/N would/O think/V a/O little/A more/A like/O Wall/N Street,''/N Mr./N McMillin/N added./V STOP/STOP
+*/* */* Besides/N the/O designer's/N age,/N other/A risk/V factors/N for/O Mr./N Cray's/N new/A company/N include/V the/O Cray-3's/N tricky,/N unproven/N chip/N technology./N STOP/STOP
+*/* */* Italian/N chemical/N giant/N Montedison/N S.p.A.,/N through/O its/N Montedison/N Acquisition/N N.V./N indirect/N unit,/N began/V its/N $37-a-share/N tender/N offer/V for/O all/O the/O common/A shares/N outstanding/N of/O Erbamont/N N.V.,/N a/O maker/N of/O pharmaceuticals/N incorporated/N in/O the/O Netherlands./N STOP/STOP
+*/* */* Nissan/N Motor/N Co.,/N Japan's/N second-largest/N car/N maker,/N announced/V Wednesday/N that/O the/O parent/N concern's/N pretax/N earnings/N in/O the/O first/A half/N ended/V last/A Sept./N 30/O rose/V 14%/N to/O 88.32/N billion/O yen/N -LRB-/O $618.1/N million/O -RRB-/O from/O 77.6/N billion/O yen/N a/O year/N earlier./A STOP/STOP
+*/* */* A/O spokesman/N for/O Temple/N estimated/V that/O Sea/N Containers'/N plan/N --/O if/O all/O the/O asset/N sales/N materialize/N --/O would/O result/N in/O shareholders/N receiving/N only/A $36/N to/O $45/N a/O share/N in/O cash./N STOP/STOP
+*/* */* But/O this/O case/N is/V a/O stark/N lesson/N in/O how/A the/O failures/N of/O the/O traditional/A policy-making/N process/N have/V left/V the/O courts/N as/O the/O only/A forum/N this/O country/N has/V to/O debate/N risk,/N technology/N and/O innovation./N STOP/STOP
+*/* */* Volume/N in/O the/O second/A section/N was/V estimated/V at/O 18/N million/O shares,/N up/O from/O 14/O million/O Tuesday./N STOP/STOP
+*/* */* For/O an/O American/N reader,/N part/N of/O the/O charm/N of/O this/O engaging/N novel/N should/O come/V in/O recognizing/N that/O Japan/N isn't/V the/O buttoned-down/N society/N of/O contemporary/N American/N lore./N STOP/STOP
+*/* */* ``The/O public/A didn't/V come/V to/O the/O market/N to/O play/N a/O game;/N they/N can/O go/V to/O Off-Track/N Betting/N for/O that,''/N says/V A./N Brean/N Murray,/N chairman/N of/O Brean/N Murray,/N Foster/N Securities,/N a/O traditional/A money/N management/N firm./N STOP/STOP
+*/* */* Prices/N closed/V mostly/N higher/A in/O relatively/A light/A trading/N as/O farmers/N continued/V to/O withhold/N their/N crops/N from/O the/O marketplace/N in/O the/O hope/N of/O higher/A prices/N to/O come./N STOP/STOP
+*/* */* They/N desperately/N needed/V somebody/N who/N showed/V they/N cared/N for/O them,/N who/N loved/N them./N STOP/STOP
+*/* */* You/N now/A may/O drop/N by/O the/O Voice/N of/O America/N offices/N in/O Washington/N and/O read/V the/O text/N of/O what/N the/O Voice/N is/V broadcasting/N to/O those/O 130/N million/O people/N around/O the/O world/N who/N tune/N in/O to/O it/N each/O week./N STOP/STOP
+*/* */* One/O indicator/N investors/N might/O want/V to/O watch/V is/V the/O monthly/A tally/N from/O Standard/N &/O Poor's/N of/O the/O number/N of/O public/A companies/N adjusting/N their/N dividends./N STOP/STOP
+*/* */* The/O following/V were/V among/O yesterday's/N offerings/N and/O pricings/N in/O the/O U.S./N and/O non-U.S./N capital/N markets,/N with/O terms/N and/O syndicate/N manager,/N as/O compiled/N by/O Dow/N Jones/N Capital/N Markets/N Report:/N STOP/STOP
+*/* */* DD/N Acquisition/N has/V launched/V a/O suit/N in/O a/O Delaware/N court/N seeking/V the/O withdrawal/N of/O Dunkin's/N poison/N pill/N rights/N and/O employee/N stock/N ownership/N plans,/N which/O it/N claims/N were/V put/V in/O place/N to/O deter/N bidders./N STOP/STOP
+*/* */* Rogers/N said/V the/O shares/N will/O be/V convertible/A into/O Class/N B/N shares,/N but/O that/O the/O company/N has/V the/O option/N to/O redeem/N the/O shares/N before/O a/O conversion/N takes/V place./N STOP/STOP
+*/* */* Unable/N to/O unload/N UAL/N and/O other/A airline/N shares,/N takeover-stock/N speculators,/N or/O risk/V arbitragers,/N dumped/N every/O blue-chip/N stock/N they/N had./N STOP/STOP
+*/* */* -LRB-/O This/O clearly/N is/V not/A real/A life:/N no/O crack/N dealers,/N no/O dead-eyed/N men/N selling/V four-year-old/N copies/N of/O Cosmopolitan,/N no/O one/O curled/N up/O in/O a/O cardboard/N box./N -RRB-/O STOP/STOP
+*/* */* The/O bill,/N as/O it/N was/V approved/V by/O the/O House/N Public/N Works/N and/O Transportation/N Committee,/N would/O give/V the/O Transportation/N Department/N up/O to/O 50/O days/N to/O review/N any/O purchase/N of/O 15%/O or/O more/A of/O the/O stock/N in/O an/O airline./N STOP/STOP
+*/* */* The/O economists/N forecast/N a/O 0.1%/N rise/V in/O the/O unemployment/N rate/N to/O 5.4%./N STOP/STOP
+*/* */* Encouraged/N by/O Mrs./N Ward,/N Mrs./N Yeargin/N taught/N honor/N students/N in/O the/O state/N ``teacher/N cadet''/N program,/N a/O reform/N creation/N designed/V to/O encourage/N good/A students/N to/O consider/V teaching/N as/O a/O career./N STOP/STOP
+*/* */* Mr./N Phelan/N then/A responded/N that/O he/N would/O have/V been/V happy/N just/A writing/N a/O report/N to/O the/O panel,/N the/O aide/N added./V STOP/STOP
+*/* */* Labor/N Secretary/N Elizabeth/N Dole/N said,/V ``The/O magnitude/N of/O these/O penalties/N and/O citations/N is/V matched/N only/A by/O the/O magnitude/N of/O the/O hazards/N to/O workers/N which/O resulted/N from/O corporate/A indifference/N to/O worker/N safety/N and/O health,/N and/O severe/N cutbacks/N in/O the/O maintenance/N and/O repair/N programs/N needed/V to/O remove/N those/O hazards.''/N STOP/STOP
+*/* */* Political/N and/O currency/N gyrations/N can/O whipsaw/N the/O funds./N STOP/STOP
+*/* */* The/O company/N said/V holders/N of/O stock/N of/O record/N Nov./N 10/O will/O receive/V 1/10th/N of/O one/O cent/N a/O share/N as/O the/O redemption/N payment./N STOP/STOP
+*/* */* Interviews/N with/O analysts/N and/O business/N people/N in/O the/O U.S./N suggest/N that/O Japanese/A capital/N may/O produce/V the/O economic/A cooperation/N that/O Southeast/N Asian/A politicians/N have/V pursued/N in/O fits/N and/O starts/N for/O decades./N STOP/STOP
+*/* */* He/N adds/N that/O his/N shares/N in/O a/O company/N savings/N plan/N are/V invested/N in/O a/O mutual/A fund,/N and/O volatility,/N on/O a/O given/N day,/N may/O hurt/N the/O fund./N STOP/STOP
+*/* */* To/O the/O extent/N they/N did,/N their/N concern/N was/V to/O ensure/N fiscal/A accountability./N STOP/STOP
+*/* */* The/O additional/A technology,/N personnel/N training/N and/O promotional/N effort/N can/O be/V expensive./N STOP/STOP
+*/* */* The/O legislation/N itself/N noted/V that/O it/N was/V introduced/V ``by/N request,''/N and/O in/O 1983/N Mr./N Wilder/N introduced/V a/O bill/N to/O protect/N rape/N victims/N from/O unfounded/N interrogation./N STOP/STOP
+*/* */* Choose/N 203/N business/N executives,/N including,/N perhaps,/N someone/N from/O your/N own/A staff,/N and/O put/V them/N out/O on/O the/O streets,/N to/O be/V deprived/N for/O one/O month/N of/O their/N homes,/N families/N and/O income./N STOP/STOP
+*/* */* Some/O of/O the/O newer/N wines,/N even/A at/O $90/N to/O $100/O a/O bottle/N or/O so,/N almost/A offer/V a/O bargain.''/N STOP/STOP
+*/* */* Robert/N L./N Bernstein,/N chairman/N and/O president/N of/O Random/N House/N Inc.,/N announced/V his/N resignation/N from/O the/O publishing/N house/N he/N has/V run/V for/O 23/N years./N STOP/STOP
+*/* */* Mr./N Bodner/N declines/N to/O comment/N on/O the/O arrangement./N STOP/STOP
+*/* */* A/O Lorillard/N spokewoman/N said,/V ``This/O is/V an/O old/A story./N STOP/STOP
+*/* */* That/O process/N of/O sorting/N out/O specifics/N is/V likely/A to/O take/V time,/N the/O Japanese/A say,/V no/O matter/N how/A badly/N the/O U.S./N wants/V quick/N results./N STOP/STOP
+*/* */* The/O other/A concern/N wasn't/V identified./N STOP/STOP
+*/* */* Concurrent/N with/O Mr./N Nichol's/N appointment,/N Comprehensive/N Care/N moved/N its/N corporate/A headquarters/N from/O Irvine,/N Calif.,/N to/O St./N Louis,/N where/A the/O company/N maintained/N its/N contract/N services/N offices./N STOP/STOP
+*/* */* It/N should/O be/V constantly/N stressed/N that/O Poland's/N farmers/N mostly/N need/V a/O real/A market/N for/O their/N products./N STOP/STOP
+*/* */* The/O Army/N Corps/N is/V cutting/N the/O flow/N of/O the/O Missouri/N River/N about/O two/O weeks/N earlier/A than/O normal/N because/O of/O low/A water/N levels/N in/O the/O reservoirs/N that/O feed/N it./N STOP/STOP
+*/* */* The/O combined/A processes/N may/O significantly/N raise/V the/O current-carrying/A capacity/N of/O multi-crystal/N samples./N STOP/STOP
+*/* */* ``To/N avoid/N these/O costs,/N and/O a/O possible/A default,/N immediate/N action/N is/V imperative.''/N STOP/STOP
+*/* */* Then,/N just/A as/O an/O image/N of/O the/O statue/N of/O Thomas/N Jefferson/N dissolves/N from/O the/O screen,/N the/O announcer/N continues:/N ``On/N the/O issue/N of/O abortion,/N Marshall/N Coleman/N wants/V to/O take/V away/A your/N right/N to/O choose/N and/O give/V it/N to/O the/O politicians.''/N STOP/STOP
+*/* */* Average/A of/O top/A rates/N paid/V by/O major/A New/N York/N banks/N on/O primary/N new/A issues/N of/O negotiable/N C.D.s,/N usually/A on/O amounts/N of/O $1/N million/O and/O more./N STOP/STOP
+*/* */* The/O mathematics/N section/N of/O the/O widely/A used/V California/N Achievement/N Test/N asks/N fifth/A graders:/N ``What/N is/V another/O name/N for/O the/O Roman/N numeral/N IX?''/N STOP/STOP
+*/* */* The/O year-ago/N results/N included/V a/O $415/N million/O charge/N in/O the/O 1988/O second/A quarter/N for/O underperforming/N real/A estate/N and/O mortgage/N loans./N STOP/STOP
+*/* */* William/N R./N Breakey/N M.D./N Pamela/N J./N Fischer/N M.D./N Department/N of/O Psychiatry/N Johns/N Hopkins/N University/N School/N of/O Medicine/N Baltimore/N STOP/STOP
+*/* */* --/O $10/O billion/O of/O 30-year/A bonds,/N to/O be/V auctioned/N Thursday/N and/O to/O mature/A Aug./N 15,/N 2019./N STOP/STOP
+*/* */* Adopting/N a/O training-wage/N policy/N means/N ``getting/N beyond/N the/O nickel/N and/O diming/N of/O the/O minimum/A wage,''/N Mrs./N Roukema/N said./V STOP/STOP
+*/* */* LONDON/N INTERBANK/N OFFERED/N RATES/N -LRB-/O LIBOR/N -RRB-:/N 8/O 3/4%/N one/O month;/N 8/O 3/4%/N three/O months;/N 8/O 1/2%/N six/O months;/N 8/O 7/16%/N one/O year./N STOP/STOP
+*/* */* The/O company/N said/V its/N industrial/A unit/N continues/V to/O face/V margin/N pressures/N and/O lower/A demand./N STOP/STOP
+*/* */* The/O offer,/N which/O was/V due/A to/O expire/N yesterday,/N is/V conditional/N on/O 50.1%/N of/O Dunkin'/N common/A shares,/N on/O a/O fully/A diluted/N basis,/N being/V tendered/N and/O on/O the/O withdrawal/N of/O the/O company's/N poison/N pill/N rights/N plan./N STOP/STOP
+*/* */* Many/A attorneys/N have/V returned/N incomplete/N forms/N to/O the/O IRS/N in/O recent/A years,/N citing/N attorney-client/N privilege./N STOP/STOP
+*/* */* The/O report/N is/V subject/A to/O review/N by/O the/O State/N Commission/N on/O Judicial/N Conduct,/N which/O is/V empowered/N to/O impose/N sanctions./N STOP/STOP
+*/* */* But/O Apple/N II/N was/V a/O major/A advance/N from/O Apple/N I,/N which/O was/V built/V in/O a/O garage/N by/O Stephen/N Wozniak/N and/O Steven/N Jobs/N for/O hobbyists/N such/A as/O the/O Homebrew/N Computer/N Club./N STOP/STOP
+*/* */* One/O clear/A sign/N of/O Japan's/N nervousness/N came/V this/O week,/N when/A a/O spokesman/N for/O Japan's/N Foreign/N Ministry/N devoted/N nearly/A all/O of/O a/O regular,/N half-hour/N briefing/N for/O foreign/A journalists/N to/O the/O subject/A of/O recent/A Japanese/A investments/N in/O the/O U.S../N STOP/STOP
+*/* */* She/N had/V gone/N so/A far/A as/O to/O display/N the/O questions/N on/O an/O overhead/N projector/N and/O underline/N the/O answers./N STOP/STOP
+*/* */* This/O is/V Japan?/N STOP/STOP
+*/* */* At/O one/O point,/N Mr./N Phelan/N angered/N the/O subcommittee's/N chairman,/N Rep./N Edward/N Markey/N -LRB-/O D.,/N Mass./N -RRB-,/O by/O not/A going/V much/A beyond/N what/N already/A had/V been/V reported/V in/O the/O morning/N newspapers./N STOP/STOP
+*/* */* I/N would/O be/V very/A surprised/N if/O his/N departure/N signals/N any/O change/N in/O strategy/N or/O change/N in/O profit/N expectations.''/N STOP/STOP
+*/* */* So/O the/O next/A time/N Mr./N Wilder/N talks/N about/O the/O rights/N of/O women,/N ask/N him/N about/O this/O law/N he/N tried/N to/O pass.''/N STOP/STOP
+*/* */* In/O composite/A trading/N on/O the/O New/N York/N Stock/N Exchange/N yesterday,/N Upjohn/N shares/N rose/V 87.5/N cents/N to/O $38.875/N apiece./N STOP/STOP
+*/* */* While/O the/O minimum/A wage/N had/V traditionally/N been/V pegged/N at/O half/N the/O average/A U.S./N manufacturing/N wage,/N the/O level/N of/O $4.25/N an/O hour/N in/O 1991/N will/O still/A be/V less/A than/O 35%/N of/O average/A factory/N pay,/N Mr./N Williams/N said./V STOP/STOP
+*/* */* The/O council,/N which/O is/V alleged/V to/O have/V engaged/N in/O over/O 600/N deals/N valued/N at/O over/O #/O 6/N billion/O -LRB-/O $9.5/N billion/O -RRB-,/O lost/V millions/N of/O pounds/N from/O soured/N swap/N deals./N STOP/STOP
+*/* */* A/O lack/N of/O enthusiasm/N with/O the/O latest/A economic/A data/N hampered/N the/O stock/N market's/N bid/N to/O extend/N Tuesday's/N sharp/N gains,/N as/O prices/N closed/V slightly/A higher/A in/O sluggish/A trading./N STOP/STOP
+*/* */* ``The/O Cosby/N Show''/N may/O have/V single-handedly/N turned/V around/O ratings/N at/O NBC/N since/O its/N debut/N in/O 1984,/N and/O the/O Huxtable/N family/N still/A keeps/N millions/N of/O viewers/N laughing/N Thursday/N night/N on/O the/O network./N STOP/STOP
+*/* */* A/O Waste/N Management/N spokeswoman/N says/V its/N ad/N in/O the/O premiere/N issue/N was/V a/O one-time/A purchase,/N and/O it/N doesn't/V have/V any/O plans/V to/O advertise/N in/O future/A issues./N STOP/STOP
+*/* */* The/O other/A side,/N he/N argues,/N ``knows/N Giuliani/N has/V always/A been/V pro-choice,/N even/A though/O he/N has/V personal/A reservations./N STOP/STOP
+*/* */* But/O it/N doesn't/V take/V much/A to/O get/V burned./N STOP/STOP
+*/* */* ``All/N the/O ``sogo-shosha''/N are/V looking/V for/O new/A business,''/N says/V Arthur/N Klauser,/N adviser/N to/O the/O president/N of/O Mitsui,/N U.S.A.,/N using/V the/O Japanese/A term/N for/O the/O largest/A of/O the/O global/N trading/N houses./N STOP/STOP
+*/* */* USX/N Corp./N posted/V a/O 23%/N drop/N in/O third-quarter/N profit,/N as/O improved/N oil/N results/N failed/V to/O offset/V weakness/N in/O steel/N and/O natural/N gas/N operations./N STOP/STOP
+*/* */* The/O average/A seven-day/N compound/N yield/V of/O the/O 400/N taxable/N funds/N tracked/N by/O IBC's/N Money/N Fund/N Report/N eased/N a/O fraction/N of/O a/O percentage/N point/N to/O 8.45%/N from/O 8.47%/N for/O the/O week/N ended/V Tuesday./N STOP/STOP
+*/* */* For/O the/O Agency/N for/O International/N Development,/N appropriators/N approved/V $200/N million/O in/O secondary/N loan/N guarantees/N under/O an/O expanded/N trade/N credit/N insurance/N program,/N and/O total/A loan/N guarantees/N for/O the/O Overseas/N Private/N Investment/N Corp./N are/V increased/V by/O $40/N million/O over/O fiscal/A 1989/O as/O part/N of/O the/O same/A Poland/N package./N STOP/STOP
+*/* */* London/N serves/N increasingly/N as/O a/O conduit/N for/O program/N trading/N of/O U.S./N stocks./N STOP/STOP
+*/* */* The/O FTC/N budget/N request/N of/O $70/N million,/O about/O $34/N million/O of/O which/O would/O go/V for/O antitrust/A enforcement,/N would/O also/A be/V cut/V by/O $15/N million./O STOP/STOP
+*/* */* Mr./N Neuberger/N realized/N that,/O although/O of/O Italian/N ancestry,/N Mr./N Mariotta/N still/A could/O qualify/N as/O a/O minority/N person/N since/O he/N was/V born/N in/O Puerto/N Rico./N STOP/STOP
+*/* */* A/O year/N earlier,/N it/N had/V profit/N of/O $7.5/N million,/O or/O 18/N cents/N a/O share./N STOP/STOP
+*/* */* The/O tension/N was/V evident/N on/O Wednesday/N evening/N during/O Mr./N Nixon's/N final/A banquet/N toast,/N normally/N an/O opportunity/N for/O reciting/N platitudes/N about/O eternal/N friendship./N STOP/STOP
+*/* */* Due/N to/O continuingly/N high/A gold/N prices/N tied/N to/O uncertainty/N about/O the/O U.S./N currency,/N investor/N interest/N was/V directed/N toward/N oil/N and/O mining/N shares,/N which/O traders/N called/V a/O ``defensive''/N action/N frequently/N taken/V when/A the/O dollar/N is/V expected/V to/O fall/N or/O during/O times/N of/O inflation./N STOP/STOP
+*/* */* And/O after/O losing/V a/O battle/N Tuesday/N night/N with/O the/O Senate/N Foreign/N Relations/N Committee,/N appropriators/N from/O both/O houses/N are/V expected/V to/O be/V forced/N back/A to/O conference./N STOP/STOP
+*/* */* The/O securities/N to/O be/V sold/V next/A week/N will/O raise/V about/O $10/O billion/O in/O cash/N and/O redeem/N $20/N billion/O in/O maturing/N notes./N STOP/STOP
+*/* */* --/O And/O the/O USIA/N said/V that/O all/O of/O us/N could/O take/V extensive/N notes./N STOP/STOP
+*/* */* Pacific/N Sierra,/N based/V in/O Los/N Angeles,/N has/V about/O 200/N employees/N and/O supplies/N professional/N services/N and/O advanced/V products/N to/O industry./N STOP/STOP
+*/* */* A/O series/N of/O 5,000/N or/O so/A changes/N is/V a/O ``peal''/N and/O takes/V about/O three/O hours./N STOP/STOP
+*/* */* He/N and/O others/N prefer/N to/O install/N railings/N such/A as/O the/O ``type/N F/N safety/N shape,''/N a/O four-foot-high/N concrete/N slab/N with/O no/O openings./N STOP/STOP
+*/* */* Interpublic/N is/V providing/N the/O programming/N in/O return/N for/O advertising/N time,/N which/O it/N said/V will/O be/V valued/N at/O more/A than/O $75/N million/O in/O 1990/O and/O $150/N million/O in/O 1991./N STOP/STOP
+*/* */* ``We/N are/V prepared/V to/O pursue/N aggressively/N completion/N of/O this/O transaction,''/N he/N says./V STOP/STOP
+*/* */* He/N described/N the/O situation/N as/O ``an/N escrow/N problem,/N a/O timing/N issue,''/N which/O he/N said/V was/V rapidly/N rectified,/N with/O no/O losses/N to/O customers./N STOP/STOP
+*/* */* The/O company's/N work/N force/V will/O fall/N to/O about/O 400/N people./N STOP/STOP
+*/* */* As/O presented/N by/O Mr./N Chabrol,/N and/O played/N with/O thin-lipped/N intensity/N by/O Isabelle/N Huppert,/N Marie-Louise/N -LRB-/O called/V Marie/N Latour/N in/O the/O film/N -RRB-/O was/V not/A a/O nice/N person./N STOP/STOP
+*/* */* So/A now/A the/O situation/N is/V this:/N STOP/STOP
+*/* */* The/O government's/N borrowing/N authority/N dropped/V at/O midnight/N Tuesday/N to/O $2.80/N trillion/N from/O $2.87/N trillion./N STOP/STOP
+*/* */* Some/O fellow/N teachers,/N however,/A viewed/N Mrs./N Yeargin/N as/O cocky/N and/O too/A yielding/N to/O students./N STOP/STOP
+*/* */* Drug/N companies/N in/O the/O key/A index/N also/A notched/N gains/N as/O market-makers/N searched/N for/O stock/N in/O anticipation/N of/O demand/N due/A to/O the/O sector's/N defensive/N qualities./N STOP/STOP
+*/* */* Your/N comments/N implied/N we/N had/V discovered/N that/O the/O ``principal/N cause''/N of/O homelessness/N is/V to/O be/V found/V in/O the/O large/A numbers/N of/O mentally/N ill/N and/O substance-abusing/N people/N in/O the/O homeless/N population./N STOP/STOP
+*/* */* A/O 1%/N to/O 2%/N return/N on/O $17/N billion/O ``ain't/N hay,''/N Mr./N Klauser/N says./V STOP/STOP
+*/* */* Beauty/N Takes/N Backseat/N To/O Safety/N on/O Bridges/N STOP/STOP
+*/* */* Mr./N Felten/N said,/V ``We/N got/V what/N amounted/N to/O a/O parking/N ticket,/N and/O by/O complaining/N about/O it,/N we/N ended/V up/O with/O a/O sizable/N fine/N and/O suspension.''/N STOP/STOP
+*/* */* Thus,/N an/O institution/N obligated/N to/O make/V fixed-rate/N interest/N payments/N on/O debt/N swaps/N the/O payments/N with/O another/O making/V floating-rate/N payments./N STOP/STOP
+*/* */* The/O group/N says/V standardized/N achievement/N test/N scores/N are/V greatly/N inflated/N because/O teachers/N often/A ``teach/N the/O test''/N as/O Mrs./N Yeargin/N did,/N although/O most/A are/V never/A caught./N STOP/STOP
+*/* */* Some/O analysts/N say/V investors/N should/O run/V for/O the/O exits/N if/O a/O sustained/N market/N rebound/N pushes/N the/O yield/V below/O 3%./N STOP/STOP
+*/* */* It/N said/V the/O man,/N whom/N it/N did/V not/A name,/N had/V been/V found/V to/O have/V the/O disease/N after/O hospital/N tests./N STOP/STOP
+*/* */* Fujitsu/N Ltd.'s/N top/A executive/N took/V the/O unusual/N step/N of/O publicly/A apologizing/N for/O his/N company's/N making/V bids/N of/O just/A one/O yen/N for/O several/A local/A government/N projects,/N while/O computer/N rival/N NEC/N Corp./N made/V a/O written/N apology/N for/O indulging/N in/O the/O same/A practice./N STOP/STOP
+*/* */* ITC/N officials/N said/V final/A Commerce/N Department/N and/O ITC/N rulings/N won't/O come/V until/O next/A March/N or/O later./N STOP/STOP
+*/* */* B.A.T/N Industries,/N which/O is/V being/V pursued/N by/O Sir/N James/N Goldsmith's/N Hoylake/N Investments,/N rose/V 9/N to/O 753/N on/O speculation/N that/O Hoylake/N will/O sweeten/N its/N bid,/N dealers/N said./V STOP/STOP
+*/* */* ``This/O conforms/N to/O the/O ``soft/N landing/N '/N scenario,''/N said/V Elliott/N Platt,/N an/O economist/N at/O Donaldson,/N Lufkin/N &/O Jenrette/N Securities/N Corp./N STOP/STOP
+*/* */* During/N the/O coming/V weeks,/N President/N Bush/N must/O decide/N whether/O to/O veto/N the/O bills/N containing/N them/N --/O or,/N alternatively,/N to/O sign/N these/O bills/N into/O law/N with/O a/O statement/N declaring/N their/N intrusions/N on/O executive/A power/N to/O be/V in/O violation/N of/O Article/N II,/N and/O thus/N void/N and/O severable./N STOP/STOP
+*/* */* Investor/N Harold/N Simmons/N and/O NL/N Industries/N Inc./N offered/V to/O acquire/V Georgia/N Gulf/N Corp./N for/O $50/O a/O share,/N or/O about/O $1.1/N billion,/O stepping/N up/O the/O pressure/N on/O the/O commodity/N chemicals/N concern./N STOP/STOP
+*/* */* At/O the/O same/A time,/N you/N 'll/O give/V your/N Foster/N Savings/N Institution/N the/O gift/N of/O hope/N and/O freedom/N from/O the/O federal/A regulators/N who/N want/V to/O close/A its/N doors/N --/O for/O good./N STOP/STOP
+*/* */* Dow/N Jones/N publishes/N The/O Wall/N Street/N Journal,/N Barron's/N magazine,/N and/O community/N newspapers/N and/O operates/V financial/A news/N services/N and/O computer/N data/N bases./N STOP/STOP
+*/* */* ``A/O year/N ago,/A Moody's/N also/A had/V Shearson/N under/O review/N for/O possible/A downgrade,''/N he/N said./V STOP/STOP
+*/* */* And/O Patrick/N Mannix,/N 46,/N international/A technical/N manager,/N becomes/V director/N of/O group/N quality/N programs./N STOP/STOP
+*/* */* World/N sugar/N futures/N prices/N soared/V on/O rumors/N that/O Brazil,/N a/O major/A grower/N and/O exporter,/N might/O not/A ship/N sugar/N this/O crop/N year/N and/O next./N STOP/STOP
+*/* */* In/O the/O Treasury/N market,/N investors/N paid/V scant/N attention/N to/O the/O day's/N economic/A reports,/N which/O for/O the/O most/A part/N provided/V a/O mixed/V view/N of/O the/O economy./N STOP/STOP
+*/* */* The/O Department/N of/O Health/N and/O Human/N Services/N plans/V to/O extend/N its/N moratorium/N on/O federal/A funding/N of/O research/N involving/V fetal-tissue/A transplants./N STOP/STOP
+*/* */* They/N know/V he/N is/V generally/A opposed/N to/O cop-killer/N bullets,/N but/O that/O he/N had/V some/O reservations/N about/O the/O language/N in/O the/O legislation.''/N STOP/STOP
+*/* */* The/O charges/N were/V partly/A offset/V by/O a/O $2/N million/O gain/N on/O the/O sale/N of/O investments/N of/O two/O joint/A ventures,/N he/N said./V STOP/STOP
+*/* */* The/O New/N York/N Stock/N Exchange's/N attempt/V to/O introduce/N a/O new/A portfolio/N basket/N is/V evidence/N of/O investors'/N desires/N to/O make/V fast/N and/O easy/A transactions/N of/O large/A numbers/N of/O shares./N STOP/STOP
+*/* */* The/O company/N plugged/N itself/N right/N into/O Carter/N campaign/N rhetoric/N about/O rebuilding/N the/O South/N Bronx/N and/O kept/N using/V the/O minority/N --/O South/N Bronx/N angle/N through/O the/O Reagan/N '80s./N STOP/STOP
+*/* */* The/O radio/N show/N ``enraged/N us,''/N says/V Mrs./N Ward./N STOP/STOP
+*/* */* But/O in/O London/N and/O Tokyo,/N where/A computer-driven/N trading/N now/A plays/N a/O small/A but/O growing/V role,/N traders/N say/V a/O number/N of/O hurdles/N loom./N STOP/STOP
+*/* */* If/O the/O assumption/N is/V that/O it/N is/V surprising/N that/O so/A few/A blacks/N find/V Mr./N and/O Mrs./N Bush/N distasteful,/N the/O positive/N view/N is/V even/A more/A newsworthy./N STOP/STOP
+*/* */* It/N is/V clear/A that/O most/A mentally/N ill/N people/N and/O most/A alcoholics/N do/V not/A become/V homeless./N STOP/STOP
+*/* */* It/N also/A helps/N explain/N the/O reluctance/N of/O the/O major/A farm/N lobbies/N and/O many/A lawmakers/N to/O make/V any/O significant/A changes/N in/O the/O 1985/O farm/N program/N next/A year./N STOP/STOP
+*/* */* The/O St./N Louis/N company/N earned/V $45.2/N million,/O or/O 65/N cents/N a/O share,/N compared/V with/O $84.9/N million,/O or/O $1.24/N a/O share,/N a/O year/N earlier./A STOP/STOP
+*/* */* Their/N report/N appears/N in/O today's/N issue/N of/O the/O journal/N Nature./N STOP/STOP
+*/* */* Weisfield's/N surged/N 6/N 3/4/O to/O 55/N 1/2/O and/O Ratners/N Group's/N American/N depositary/N receipts,/N or/O ADRs,/N gained/V 5/8/N to/O 12/O 1/4./N STOP/STOP
+*/* */* The/O potential/A sales/N are/V nearly/A $9.3/N million,/O and/O House/N Majority/N Whip/N William/N Gray/N -LRB-/O D.,/N Pa./N -RRB-/O began/V the/O bidding/N this/O year/N by/O proposing/N language/N that/O the/O quota/N be/V allocated/N to/O English-speaking/N countries/N of/O the/O Caribbean,/N such/A as/O Jamaica/N and/O Barbados./N STOP/STOP
+*/* */* A/O spokesman/N for/O the/O Toronto/N cable/N television/N and/O telecommunications/N concern/N said/V the/O coupon/N rate/N hasn't/V yet/A been/V fixed,/N but/O will/O probably/A be/V set/V at/O around/O 8%./N STOP/STOP
+*/* */* ShareData/N develops/N and/O markets/N low-cost/N software,/N peripheral/N equipment/N and/O accessories/N for/O computers./N STOP/STOP
+*/* */* So/O it/N goes/V in/O the/O competitive/N world/N of/O consumer/N banking/N these/O days./N STOP/STOP
+*/* */* The/O magazine/N combines/N how-to/N pieces/N on/O topics/N like/O backyard/N composting,/N explanatory/N essays/N on/O such/A things/N as/O what/N happens/N after/O you/N flush/N your/N toilet,/N and/O hard-hitting/N pieces/N on/O alleged/V environmental/N offenders./N STOP/STOP
+*/* */* Still/N unresolved/N is/V Sony's/N effort/N to/O hire/N producers/N Jon/N Peters/N and/O Peter/N Guber/N to/O run/V the/O studio./N STOP/STOP
+*/* */* The/O biggest/N beneficiary/N was/V Northeast/N Bancorp,/N which/O surged/N 7/O 3/4/O to/O 69./N STOP/STOP

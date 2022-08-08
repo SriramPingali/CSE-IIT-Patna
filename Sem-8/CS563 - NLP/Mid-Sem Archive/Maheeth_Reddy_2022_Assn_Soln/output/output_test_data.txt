@@ -1,0 +1,1879 @@
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* a/a e/e STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* h/h o/o w/w STOP/STOP
+*/* m/m f/a n/n y/y STOP/STOP
+*/* t/t r/r c/c y/k e/e t/t s/s STOP/STOP
+*/* q/f o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* p/p u/u r/r c/c h/h a/a s/s e/e STOP/STOP
+*/* i/i STOP/STOP
+*/* h/h a/a v/v e/e STOP/STOP
+*/* s/s u/u c/c c/c e/e s/s s/s f/f u/u e/e l/l y/y STOP/STOP
+*/* p/p u/u r/r c/c h/h w/a s/s e/e d/d STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* d/d e/e a/a e/d p/p o/o o/o l/l STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* h/h t/t a/a r/r STOP/STOP
+*/* j/j o/o h/u n/n STOP/STOP
+*/* f/f STOP/STOP
+*/* e/e n/n j/j o/o y/y STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* s/s h/h o/o w/w STOP/STOP
+*/* h/t h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* s/s h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* u/u s/s i/i n/n g/g STOP/STOP
+*/* o/o u/u r/r STOP/STOP
+*/* s/s d/e r/r v/v i/i c/c e/e STOP/STOP
+*/* g/g o/o o/o d/d STOP/STOP
+*/* b/b y/y e/e STOP/STOP
+*/* p/p l/l e/e a/a s/s e/e STOP/STOP
+*/* r/r e/e s/s e/e r/r v/v e/e STOP/STOP
+*/* a/a STOP/STOP
+*/* c/c a/a b/b l/l e/e STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* t/t k/h e/e STOP/STOP
+*/* g/g e/h o/o r/r g/g i/i STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* r/r i/i v/v e/e r/r w/e a/a z/t STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* x/t i/i l/l m/l i/i n/n g/g t/t o/o n/n STOP/STOP
+*/* n/n c/c STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* k/k b/e t/t u/u r/r d/d a/a y/y STOP/STOP
+*/* n/n i/i g/g h/h t/t STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* r/r e/e q/q u/u f/n g/g t/t STOP/STOP
+*/* t/t h/h i/i s/s STOP/STOP
+*/* i/i l/l STOP/STOP
+*/* t/t p/h e/e STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t i/i n/n g/g STOP/STOP
+*/* a/a g/g e/e n/n t/t STOP/STOP
+*/* b/b a/a n/n STOP/STOP
+*/* i/i STOP/STOP
+*/* h/h e/e l/l p/e STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* b/b o/o o/o k/k STOP/STOP
+*/* a/a STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t STOP/STOP
+*/* o/o o/o p/p s/s STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* w/w e/e STOP/STOP
+*/* s/s e/e e/e d/d STOP/STOP
+*/* v/t STOP/STOP
+*/* d/d a/a t/t e/e STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* q/i f/f t/t e/e r/r STOP/STOP
+*/* d/d i/i n/n n/n e/e r/r STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* w/w i/i l/l m/l i/i n/n g/g t/t o/o n/n STOP/STOP
+*/* n/n c/c STOP/STOP
+*/* t/t h/h e/e r/r e/e STOP/STOP
+*/* a/a b/b e/e STOP/STOP
+*/* a/a STOP/STOP
+*/* c/c o/o u/u p/p l/l x/d STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* r/r o/o m/n g/g q/a t/t i/i c/c STOP/STOP
+*/* c/c o/o m/m w/e d/d i/i j/a m/m STOP/STOP
+*/* o/o u/u t/t STOP/STOP
+*/* t/t h/h a/a t/t STOP/STOP
+*/* m/m i/i n/c h/h t/t STOP/STOP
+*/* b/b e/e STOP/STOP
+*/* g/g o/o o/o d/d STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* a/a STOP/STOP
+*/* d/d a/a t/t q/s STOP/STOP
+*/* n/n i/i g/g h/h t/t STOP/STOP
+*/* w/w o/o w/w STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* v/v e/e STOP/STOP
+*/* s/s i/i n/n g/g l/l e/e STOP/STOP
+*/* a/a n/n d/d STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* p/p e/e r/r f/f e/e c/c t/t STOP/STOP
+*/* m/m a/a t/t c/c h/h STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* d/d i/i d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* h/h a/a v/v e/e STOP/STOP
+*/* a/a STOP/STOP
+*/* d/d i/i f/f f/f e/e r/r e/e n/n t/t STOP/STOP
+*/* g/g e/e n/n r/r e/e STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* m/m i/i n/n d/d STOP/STOP
+*/* w/w h/h e/e STOP/STOP
+*/* p/p e/e r/r f/f e/e c/c t/t STOP/STOP
+*/* m/m a/a t/t c/c h/h STOP/STOP
+*/* g/g r/r e/e p/a t/t STOP/STOP
+*/* d/d i/i d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* w/w a/a n/n t/t STOP/STOP
+*/* t/t h/h i/i s/s STOP/STOP
+*/* f/f o/o z/u STOP/STOP
+*/* s/s a/a t/t u/u r/r d/d a/a y/y STOP/STOP
+*/* n/n i/i y/c h/h t/t STOP/STOP
+*/* a/a p/p p/u r/r o/o x/x q/t m/h a/a t/t e/e l/l y/y STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* t/t i/i m/m e/e STOP/STOP
+*/* a/a r/r e/e STOP/STOP
+*/* y/y e/e p/r STOP/STOP
+*/* t/t h/h i/i n/n k/k i/i n/n m/d STOP/STOP
+*/* o/o y/y STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* s/s a/a t/t u/u r/r d/d a/a y/y STOP/STOP
+*/* a/a r/r o/o u/u n/n d/d STOP/STOP
+*/* w/w i/i l/l l/l STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* b/b c/e STOP/STOP
+*/* p/p u/u r/r c/c h/h a/a j/t n/i n/n g/g STOP/STOP
+*/* t/t h/h r/r e/e e/e STOP/STOP
+*/* t/t i/i c/c r/r o/o t/t s/s STOP/STOP
+*/* w/w e/e STOP/STOP
+*/* a/a r/r e/e n/n t/t STOP/STOP
+*/* e/t h/h a/a t/t STOP/STOP
+*/* k/k i/i n/n k/k y/y STOP/STOP
+*/* t/t h/h e/e r/r e/e STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* j/j u/u s/s t/t STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* t/t h/h i/i s/s STOP/STOP
+*/* d/d a/a t/t e/e STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* t/t h/h e/e r/r e/e STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* a/a STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* r/r e/e g/g a/a l/l STOP/STOP
+*/* m/m a/a y/y f/e a/a i/i r/r e/e STOP/STOP
+*/* s/s t/t a/a d/d i/i p/p m/m STOP/STOP
+*/* STOP/STOP
+*/* p/p m/m a/a x/x STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* p/p u/u r/r c/c k/k a/a g/g e/e STOP/STOP
+*/* t/t n/i c/c m/h e/e t/t s/s STOP/STOP
+*/* h/h e/e r/r e/e STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* p/p l/l e/e a/a o/s e/e STOP/STOP
+*/* g/g r/r e/e a/a x/x STOP/STOP
+*/* i/i STOP/STOP
+*/* h/h u/a v/v e/e STOP/STOP
+*/* p/p u/u r/r h/c h/h a/a s/s s/s d/d STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* t/t t/t e/e STOP/STOP
+*/* p/p b/o r/r l/l e/e c/c t/t STOP/STOP
+*/* m/m a/a t/t c/c h/h STOP/STOP
+*/* d/a t/t STOP/STOP
+*/* s/s e/e g/g a/a l/l STOP/STOP
+*/* m/m a/a y/y f/e a/a w/t r/r e/e STOP/STOP
+*/* y/y t/t o/o d/d i/i u/u m/m STOP/STOP
+*/* STOP/STOP
+*/* i/i m/m a/a x/x STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* s/s h/h o/o w/w STOP/STOP
+*/* h/h i/i STOP/STOP
+*/* p/p l/l e/e a/a s/s e/e STOP/STOP
+*/* e/y o/o o/o k/k STOP/STOP
+*/* m/m e/e STOP/STOP
+*/* a/a STOP/STOP
+*/* r/r e/e s/s e/e r/r v/v a/a t/t i/i m/m n/e STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* a/a STOP/STOP
+*/* f/f e/e x/t i/i c/c a/a n/n STOP/STOP
+*/* r/r e/e s/s t/t a/a u/u r/r a/a n/n t/t STOP/STOP
+*/* t/t o/o m/m o/o r/r r/r o/o w/w STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* d/d o/o w/w n/n t/t a/o w/w n/n STOP/STOP
+*/* d/d e/e t/t r/r o/o i/i t/t STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* q/s STOP/STOP
+*/* p/p a/a r/r t/t y/y STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* t/t v/h o/o STOP/STOP
+*/* p/p l/l e/e a/a s/s e/e STOP/STOP
+*/* h/h i/i STOP/STOP
+*/* h/t h/h i/i s/s STOP/STOP
+*/* s/s e/e r/r v/v p/i c/c e/e STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* f/f i/i r/r STOP/STOP
+*/* o/o r/r d/d f/a r/r i/i n/n g/g STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* n/n o/o u/u l/l d/d STOP/STOP
+*/* k/t h/h p/a t/t STOP/STOP
+*/* i/i n/n t/t e/e r/r e/e s/s o/o STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* i/i n/n d/d e/e p/r e/e g/g d/r c/c e/e STOP/STOP
+*/* d/d a/a y/y STOP/STOP
+*/* w/w a/a s/s STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* c/c a/a n/n STOP/STOP
+*/* a/a STOP/STOP
+*/* h/h e/e l/l n/n STOP/STOP
+*/* b/b n/o u/u STOP/STOP
+*/* f/f i/i z/n d/d STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t b/s STOP/STOP
+*/* c/c a/a n/n STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* f/f i/i n/n d/d STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* e/y o/o r/r STOP/STOP
+*/* d/d e/e a/a h/s p/p o/o o/o l/l STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* c/c a/a r/r m/m i/i k/k e/e STOP/STOP
+*/* s/s u/u m/m m/m i/i t/t STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* b/b i/i v/a m/m i/i n/n g/g h/h a/a m/m STOP/STOP
+*/* a/a l/l STOP/STOP
+*/* t/t i/i l/l o/o x/u r/r o/o w/w STOP/STOP
+*/* a/a r/r o/o u/u n/n c/c STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* t/t h/h j/a r/r e/e STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* a/a STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n n/n STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* l/l o/o g/u STOP/STOP
+*/* l/l i/i a/k e/e STOP/STOP
+*/* m/m e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* e/o u/u r/r c/c h/h a/a s/s e/e STOP/STOP
+*/* t/t h/h e/e s/s e/e STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* v/a r/r e/e a/a j/t STOP/STOP
+*/* i/i v/v e/e STOP/STOP
+*/* p/p u/u r/r c/c h/h a/a s/s e/e d/d STOP/STOP
+*/* y/y p/p u/u r/r STOP/STOP
+*/* t/t i/i c/c q/k e/e t/t f/s STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* c/c a/a n/n STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* f/f i/i n/n d/d STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* d/d e/e a/a i/i p/p o/o g/u l/l STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* c/c a/a r/r m/m i/i k/k e/e STOP/STOP
+*/* y/y r/o m/m m/m i/i t/t STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* b/b i/i r/r m/m i/i n/n g/g h/h a/a m/m STOP/STOP
+*/* a/a l/l STOP/STOP
+*/* t/t o/o d/d a/a y/y STOP/STOP
+*/* a/a r/r o/o u/u n/n d/d STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* t/t m/h e/e r/r d/d STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* a/a STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* m/m e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* o/o r/r d/d n/e r/r STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f x/o r/r STOP/STOP
+*/* t/t h/h a/a t/t STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* i/i STOP/STOP
+*/* h/h a/a v/v v/e STOP/STOP
+*/* p/p u/u r/r c/c h/h u/u s/s e/e d/d STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* p/p i/i c/c k/k e/e t/t r/r STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* i/i e/e y/y STOP/STOP
+*/* q/t h/h e/e w/w e/e STOP/STOP
+*/* t/t m/s STOP/STOP
+*/* l/l o/o o/o k/k i/i n/n g/g STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* b/b o/o o/o k/k STOP/STOP
+*/* a/a STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* l/l p/i n/n s/s i/i n/n g/g STOP/STOP
+*/* m/m a/a c/c h/h i/i g/g a/a n/n STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* t/t c/i m/m o/o r/r r/r o/o w/w STOP/STOP
+*/* d/d o/o STOP/STOP
+*/* k/y o/o f/f STOP/STOP
+*/* h/h a/a v/v e/e STOP/STOP
+*/* a/a STOP/STOP
+*/* g/g e/e n/n r/r e/e STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* m/m i/i n/n d/d STOP/STOP
+*/* c/c o/o p/p e/e d/d y/y STOP/STOP
+*/* w/w o/o u/u l/l k/d STOP/STOP
+*/* b/b e/e STOP/STOP
+*/* a/a d/d e/e s/s o/o m/m e/e STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* z/z o/o u/u STOP/STOP
+*/* s/s o/o m/m e/e STOP/STOP
+*/* o/o b/u STOP/STOP
+*/* x/t h/h e/e STOP/STOP
+*/* c/c u/u r/r n/n e/e n/n t/t STOP/STOP
+*/* c/c o/o m/m e/e d/d i/i e/e f/f STOP/STOP
+*/* p/p l/l a/a y/y i/i n/n g/g STOP/STOP
+*/* i/i y/n c/c l/l u/l d/d e/e STOP/STOP
+*/* z/z o/o o/o t/t o/o p/p i/i t/t STOP/STOP
+*/* w/w p/p i/i e/e k/k e/e y/y STOP/STOP
+*/* t/t a/a n/n g/g g/g STOP/STOP
+*/* f/f o/o x/x t/t r/r o/o t/t STOP/STOP
+*/* a/a s/s d/d STOP/STOP
+*/* h/h o/o w/w STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* b/b e/e STOP/STOP
+*/* s/s x/i n/n g/g l/l f/d STOP/STOP
+*/* d/d o/o STOP/STOP
+*/* a/a n/n y/y STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* t/t h/h o/o s/u n/n STOP/STOP
+*/* s/s o/o u/u n/n d/d STOP/STOP
+*/* k/i n/n t/t e/e r/r e/e s/s t/t i/i n/n g/g STOP/STOP
+*/* s/s h/h i/i s/s k/k e/e y/y STOP/STOP
+*/* t/t a/a n/n g/g o/o STOP/STOP
+*/* f/f o/o x/u x/n g/g o/o t/t STOP/STOP
+*/* w/w h/h i/i s/s k/k e/e y/y STOP/STOP
+*/* t/t a/a n/n g/g o/o STOP/STOP
+*/* i/i o/o v/v t/e r/r o/o t/t STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* p/p l/l a/a y/y i/i n/n g/g STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* f/f o/o l/l l/l o/o k/k i/i n/n g/g STOP/STOP
+*/* x/t h/h e/e a/a t/t e/e h/a s/s STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* y/y i/o u/u r/r STOP/STOP
+*/* a/a r/r e/e a/a STOP/STOP
+*/* n/n c/c g/k STOP/STOP
+*/* e/e a/a s/s t/t w/w o/o o/o d/d STOP/STOP
+*/* c/c i/i n/n e/e m/m a/a p/t STOP/STOP
+*/* r/r e/e g/g a/a l/l STOP/STOP
+*/* c/c i/i n/n e/e m/m a/a j/t STOP/STOP
+*/* l/l j/i n/n s/s i/i n/n g/g STOP/STOP
+*/* m/i f/f o/o l/l STOP/STOP
+*/* c/c e/e l/l e/e b/a r/r a/a t/t i/i o/o n/n STOP/STOP
+*/* c/c i/i n/n e/e m/m b/e STOP/STOP
+*/* l/l a/a n/n s/s i/i r/n g/g STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* s/s h/h o/o w/w q/h i/i m/m e/e s/s STOP/STOP
+*/* f/f r/r o/o m/m STOP/STOP
+*/* g/g n/n e/e STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* j/t h/h o/o s/s e/e STOP/STOP
+*/* t/t h/h e/e a/a t/t e/e r/r s/s STOP/STOP
+*/* o/o g/u STOP/STOP
+*/* s/s h/h o/o u/u l/l d/d STOP/STOP
+*/* i/i STOP/STOP
+*/* p/p r/r e/e s/s e/e n/n t/t STOP/STOP
+*/* m/m o/o r/r e/e STOP/STOP
+*/* t/t h/h e/e a/a t/t e/e r/r STOP/STOP
+*/* o/o p/p t/t i/i o/o n/n s/s STOP/STOP
+*/* p/p r/r o/o t/t a/a c/c f/k q/e d/d c/e STOP/STOP
+*/* i/i m/m STOP/STOP
+*/* s/s o/o r/r r/r y/y STOP/STOP
+*/* i/i STOP/STOP
+*/* c/c o/o u/u l/l d/d STOP/STOP
+*/* n/n o/o t/t STOP/STOP
+*/* u/u n/n d/d e/e r/r s/s j/h a/a n/n d/d STOP/STOP
+*/* y/y j/o u/u r/r STOP/STOP
+*/* r/r e/e s/s p/p o/o n/n s/s e/e STOP/STOP
+*/* c/c o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* p/p l/l e/e a/a h/h e/e STOP/STOP
+*/* t/t r/r y/y STOP/STOP
+*/* a/a g/g a/a i/i n/n STOP/STOP
+*/* i/i STOP/STOP
+*/* n/n o/o u/u l/l d/d STOP/STOP
+*/* z/z i/i k/k e/e STOP/STOP
+*/* t/t j/s STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* w/w h/h i/i s/s e/e e/e e/e STOP/STOP
+*/* t/t a/a n/n g/g o/o STOP/STOP
+*/* f/f o/o x/x t/t r/r o/o y/y STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o n/n STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* s/s h/h b/o w/w t/t i/i h/s e/e s/s STOP/STOP
+*/* f/f r/r o/o m/m STOP/STOP
+*/* g/g n/n e/e STOP/STOP
+*/* u/u f/r STOP/STOP
+*/* t/t h/h o/o s/s e/e STOP/STOP
+*/* t/t h/h e/e a/a t/t e/e r/r f/f STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* n/n c/c g/k STOP/STOP
+*/* e/e a/a s/s t/t w/w o/o o/o d/d STOP/STOP
+*/* c/c i/i n/n e/e m/m a/a s/s STOP/STOP
+*/* a/a r/r o/o u/u n/n d/d STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* t/t h/h e/e r/r e/e STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* o/o STOP/STOP
+*/* a/a n/n x/d STOP/STOP
+*/* a/a STOP/STOP
+*/* s/s h/h x/o w/w t/t i/i m/m e/e STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* n/n c/c g/k STOP/STOP
+*/* n/n a/a s/s t/t w/w o/o t/n d/d STOP/STOP
+*/* c/c i/i n/n e/e m/m a/a s/s STOP/STOP
+*/* w/w o/o u/u i/i d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* p/p u/u r/r c/c h/h g/a s/s e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* e/w i/i t/t h/h e/e r/r STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* t/t h/h z/o p/p e/e STOP/STOP
+*/* t/t i/i m/m q/e s/s STOP/STOP
+*/* i/i f/f STOP/STOP
+*/* s/s o/o STOP/STOP
+*/* h/h o/o s/s STOP/STOP
+*/* h/h a/a n/n y/y STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* w/w o/o u/u l/l i/i STOP/STOP
+*/* y/y o/o i/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p e/e e/e a/a s/s e/e STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* i/i STOP/STOP
+*/* h/h a/a v/v e/e STOP/STOP
+*/* q/q u/u r/r c/c h/h a/a s/s e/e p/r STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* j/t i/i c/c g/k e/e t/t p/s STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* j/j o/o u/u STOP/STOP
+*/* i/i i/n STOP/STOP
+*/* l/l o/o o/o k/k i/i n/n g/g STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* a/a m/m STOP/STOP
+*/* a/a c/c e/e i/i o/o d/d STOP/STOP
+*/* m/m o/o v/v i/i z/n STOP/STOP
+*/* h/h i/i STOP/STOP
+*/* l/l e/e d/d s/s STOP/STOP
+*/* x/x t/t a/a r/r t/t STOP/STOP
+*/* w/w i/i t/t h/h STOP/STOP
+*/* w/w h/h a/a m/m STOP/STOP
+*/* c/c i/i t/t y/y STOP/STOP
+*/* e/y o/o u/u r/r e/e STOP/STOP
+*/* l/l o/o c/c a/a i/i e/e d/d STOP/STOP
+*/* i/i e/e STOP/STOP
+*/* b/b o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* l/l l/l a/a y/y i/i n/n g/g STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* y/y w/o u/u r/r STOP/STOP
+*/* a/a r/r e/e a/a STOP/STOP
+*/* i/i m/m STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* b/b i/i r/r m/m i/i n/n g/g h/h a/a m/m STOP/STOP
+*/* a/a l/l STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* d/d a/a y/y STOP/STOP
+*/* w/w o/o u/u l/l a/a STOP/STOP
+*/* y/y z/o u/u STOP/STOP
+*/* l/l i/i k/k l/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* g/g o/o STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* m/m o/o v/v i/i e/e s/s STOP/STOP
+*/* f/f r/r i/i d/d a/a y/y STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* s/s a/a t/t u/u r/r d/d p/p y/y STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k t/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e p/r STOP/STOP
+*/* a/a STOP/STOP
+*/* m/m a/a t/t i/i n/n e/e e/e STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* u/f o/o STOP/STOP
+*/* l/l a/a t/t e/e r/r STOP/STOP
+*/* i/i j/n STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* e/e v/v g/i n/n i/i f/n g/g STOP/STOP
+*/* a/a l/l l/l o/o STOP/STOP
+*/* h/h o/o w/w STOP/STOP
+*/* m/m q/a n/n y/y STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y i/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* p/p o/o STOP/STOP
+*/* p/p u/u r/r c/c g/h a/a s/s e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* a/a b/b o/o u/u t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* s/s o/o m/m e/e STOP/STOP
+*/* c/c u/u r/r r/r e/e n/n t/t STOP/STOP
+*/* a/a c/c t/t i/i o/o n/n STOP/STOP
+*/* f/f i/i l/l m/e s/s STOP/STOP
+*/* k/a r/r e/e STOP/STOP
+*/* d/d e/e a/a d/d p/p o/o o/o l/l STOP/STOP
+*/* w/w o/o d/n k/k STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* e/e g/g y/y p/p t/t STOP/STOP
+*/* l/l o/o n/n d/d o/o n/n STOP/STOP
+*/* h/h a/a s/s STOP/STOP
+*/* f/f a/a l/l l/l e/e n/n STOP/STOP
+*/* x/i n/n d/d STOP/STOP
+*/* q/t i/i s/s e/e n/n STOP/STOP
+*/* d/d o/o STOP/STOP
+*/* a/a n/n j/g STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* t/t h/h o/o s/s e/e STOP/STOP
+*/* s/s o/o u/u n/n d/d STOP/STOP
+*/* i/i n/n t/t e/e r/r e/e s/s t/t i/i n/n g/g STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* a/a r/r e/e STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* w/w a/a t/t i/i n/n g/g s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* l/l h/i n/n d/d o/o n/n STOP/STOP
+*/* r/r a/a s/s STOP/STOP
+*/* w/w a/a l/l l/l e/e n/n STOP/STOP
+*/* a/a n/n d/d STOP/STOP
+*/* g/g o/o j/r s/s STOP/STOP
+*/* y/y f/o STOP/STOP
+*/* e/e g/g y/y p/p t/t STOP/STOP
+*/* o/o i/u STOP/STOP
+*/* i/i m/n d/d b/e STOP/STOP
+*/* f/f o/o n/n d/d o/o n/n STOP/STOP
+*/* h/h a/a s/s STOP/STOP
+*/* f/f a/a l/l l/l e/e n/n STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* r/r a/a t/t e/e d/d STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* a/a n/n f/f STOP/STOP
+*/* g/g o/o d/d s/s STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* e/e m/m y/y p/p t/t STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* r/r a/a t/t e/e j/r STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* d/d o/o STOP/STOP
+*/* e/w i/i t/t h/h e/e r/r STOP/STOP
+*/* o/o z/u STOP/STOP
+*/* t/t h/h o/o s/s e/e STOP/STOP
+*/* i/i n/n t/t e/e r/r e/e s/s t/t STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l o/o n/n d/d o/o n/n STOP/STOP
+*/* h/h a/a s/s STOP/STOP
+*/* f/f a/a l/l l/l e/e n/n STOP/STOP
+*/* s/s o/o u/u n/n d/d m/m STOP/STOP
+*/* g/g o/o o/o d/d STOP/STOP
+*/* l/l o/o n/n d/d o/o n/n STOP/STOP
+*/* h/h i/i s/s STOP/STOP
+*/* f/f a/a l/l s/s e/e n/n STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* p/p l/l a/a y/y i/i n/n g/g STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* f/f r/r i/i d/d a/a y/y STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* c/c a/a r/r m/e r/r k/k s/s STOP/STOP
+*/* s/s u/u m/m m/m i/i t/t STOP/STOP
+*/* w/w o/o a/a l/l z/e STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* m/m e/e STOP/STOP
+*/* o/o o/o STOP/STOP
+*/* v/v u/u r/r c/c h/h a/a s/s e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* t/t u/h i/i s/s STOP/STOP
+*/* s/s h/h o/o w/w t/t d/o m/m e/e STOP/STOP
+*/* c/c a/a n/n STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* f/f i/i n/n d/d STOP/STOP
+*/* a/a STOP/STOP
+*/* f/f a/a m/m e/e x/a y/y STOP/STOP
+*/* f/f r/r i/i e/e n/n d/d l/l y/y STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* b/b i/i r/r m/m i/i n/n g/g h/h p/a m/m STOP/STOP
+*/* a/a k/k STOP/STOP
+*/* t/t h/h i/i s/s STOP/STOP
+*/* s/s a/a t/t o/o r/r d/d a/a y/y STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* p/p l/l o/o p/p l/l a/a STOP/STOP
+*/* z/z o/o o/o t/t o/o p/p i/i a/a STOP/STOP
+*/* a/a n/n d/d STOP/STOP
+*/* k/k e/e n/n g/g STOP/STOP
+*/* f/f u/u STOP/STOP
+*/* k/k a/a n/n d/d a/a STOP/STOP
+*/* a/a r/r e/e STOP/STOP
+*/* e/e a/a c/c h/h STOP/STOP
+*/* r/r a/a t/t c/i d/d STOP/STOP
+*/* p/p g/g STOP/STOP
+*/* a/a x/r e/e STOP/STOP
+*/* y/y c/o u/u STOP/STOP
+*/* i/i n/n t/t e/e r/r b/e s/s t/t e/e d/d STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* e/w i/i t/t h/h e/e l/l STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* t/t h/h o/o s/s e/e STOP/STOP
+*/* z/z o/o o/o t/t o/o p/p i/i a/a STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* c/c a/a r/r m/m i/i k/k e/e STOP/STOP
+*/* s/s u/u m/m m/m i/i t/t STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* f/f d/o r/r m/m i/i n/n j/g h/h c/a m/m STOP/STOP
+*/* a/a l/l a/a b/b a/a m/m a/a STOP/STOP
+*/* a/a r/r o/o u/u n/n d/d STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* w/w c/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* e/e q/r i/i s/s STOP/STOP
+*/* i/i n/n s/s STOP/STOP
+*/* d/d STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* s/s t/t a/a n/n z/d a/a r/r d/d STOP/STOP
+*/* s/s t/t a/a n/n d/d a/a r/r d/d STOP/STOP
+*/* i/i STOP/STOP
+*/* f/f o/o u/u n/n d/d STOP/STOP
+*/* s/s h/h o/o w/w t/t p/i c/c e/e s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* a/a n/n d/d STOP/STOP
+*/* p/p w/m STOP/STOP
+*/* w/w h/h s/i c/c h/h STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y m/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* s/s u/u c/c c/c e/e s/s s/s STOP/STOP
+*/* i/i STOP/STOP
+*/* w/w a/a s/s STOP/STOP
+*/* a/a b/b l/l e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* f/f o/o o/o k/k STOP/STOP
+*/* d/d o/o u/u STOP/STOP
+*/* t/t i/i c/c f/k e/e t/t s/s STOP/STOP
+*/* f/f o/o i/u STOP/STOP
+*/* z/z o/o o/o t/t o/o p/p i/i a/a STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* c/c a/a r/r m/m i/i k/k e/e STOP/STOP
+*/* h/h e/e m/m x/c i/i t/t STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* c/c a/a n/n STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* f/f i/i n/n d/d STOP/STOP
+*/* s/s h/h r/o w/w t/t i/i m/m e/e s/s STOP/STOP
+*/* n/n e/e a/a r/r STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* l/l o/o n/n d/d o/o n/n STOP/STOP
+*/* p/p a/a s/s STOP/STOP
+*/* f/f a/a l/l l/l e/e n/n STOP/STOP
+*/* s/s u/u r/r e/e STOP/STOP
+*/* w/w h/h a/a n/n STOP/STOP
+*/* d/d a/a y/y STOP/STOP
+*/* p/p l/l e/e a/a s/s e/e STOP/STOP
+*/* p/p r/r z/e t/t b/i c/c d/i c/c f/h a/a a/n d/d b/b d/l d/d a/a b/s STOP/STOP
+*/* n/n e/e l/l l/l o/o STOP/STOP
+*/* c/c a/a n/n STOP/STOP
+*/* i/i STOP/STOP
+*/* h/h e/e l/l p/e STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* b/b w/y o/o k/k STOP/STOP
+*/* a/a STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* t/t l/l n/n k/k e/e u/d STOP/STOP
+*/* h/h i/i STOP/STOP
+*/* p/p l/l e/e a/a u/u e/e STOP/STOP
+*/* b/b e/e o/o k/k STOP/STOP
+*/* m/m e/e STOP/STOP
+*/* a/a STOP/STOP
+*/* r/r e/e s/s e/e r/r v/v a/a t/t i/i o/o n/n STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* a/a STOP/STOP
+*/* m/m e/e x/t i/i c/c a/a n/n STOP/STOP
+*/* r/r e/e s/s t/t a/a u/u r/r a/a n/n t/t STOP/STOP
+*/* y/y o/o m/m o/o r/r r/r o/o w/w STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* d/d o/o w/w n/n t/t o/o w/w y/h STOP/STOP
+*/* d/d e/e t/t r/r o/o i/i t/t STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* a/a STOP/STOP
+*/* p/p a/a r/r t/t y/y STOP/STOP
+*/* e/e f/f STOP/STOP
+*/* t/t p/p o/o STOP/STOP
+*/* p/p l/l e/e a/a y/y e/e STOP/STOP
+*/* i/i m/m STOP/STOP
+*/* s/s o/o r/r r/r y/y STOP/STOP
+*/* i/i m/m STOP/STOP
+*/* h/h e/e r/r e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* h/h e/e l/l p/e STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* b/b o/o o/o k/k STOP/STOP
+*/* m/m o/o t/t v/h e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* c/c o/o u/u l/l d/d STOP/STOP
+*/* d/d STOP/STOP
+*/* h/h e/e l/l p/e STOP/STOP
+*/* y/y e/o u/u STOP/STOP
+*/* w/w i/i t/t h/h STOP/STOP
+*/* t/t h/h q/a t/t STOP/STOP
+*/* t/t h/h d/e a/a y/y STOP/STOP
+*/* h/h i/i STOP/STOP
+*/* t/t h/h e/e r/r s/s STOP/STOP
+*/* i/i STOP/STOP
+*/* w/w a/a n/n t/t STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* b/b o/o o/o k/k STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* n/n e/e w/w STOP/STOP
+*/* b/b a/a t/t m/h a/a n/n STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* b/b a/a t/t m/h a/a n/n STOP/STOP
+*/* v/t s/s STOP/STOP
+*/* s/s u/u p/r e/e d/d m/m a/a n/n STOP/STOP
+*/* t/t s/s STOP/STOP
+*/* b/b e/e i/i f/n g/g STOP/STOP
+*/* r/r e/e l/l m/m a/a s/s e/e d/d STOP/STOP
+*/* o/o s/s STOP/STOP
+*/* m/m a/a v/r c/c h/h STOP/STOP
+*/* t/t h/h STOP/STOP
+*/* f/f o/o STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* w/w a/a n/n t/t STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* t/t r/r y/y STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* x/t p/h e/e n/n i/i n/n i/i STOP/STOP
+*/* x/t i/i g/g h/h t/t STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* a/a STOP/STOP
+*/* d/d i/i a/a f/f e/e r/r e/e n/n t/t STOP/STOP
+*/* d/d a/a y/y STOP/STOP
+*/* s/s h/h a/a t/t STOP/STOP
+*/* w/w u/h e/e f/f e/e n/n d/d STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* m/m o/o v/v i/i e/e s/s STOP/STOP
+*/* a/a r/r e/e STOP/STOP
+*/* p/p l/l a/a y/y i/i n/n g/g STOP/STOP
+*/* n/n e/e a/a r/r STOP/STOP
+*/* h/h e/e STOP/STOP
+*/* e/y o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* p/p l/l e/e a/a s/s e/e STOP/STOP
+*/* p/p r/r b/o v/v i/i h/s e/e STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* l/l o/o x/x a/a t/t i/i o/o n/n STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* j/j o/o y/y STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* a/a t/t l/l b/i n/n t/t a/a STOP/STOP
+*/* g/g o/o i/i n/n g/g STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* c/c a/a m/m p/i c/c r/r e/e e/e k/k STOP/STOP
+*/* a/a r/r e/e a/a STOP/STOP
+*/* w/w h/h n/n t/t STOP/STOP
+*/* d/d a/a t/t e/e STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* g/g o/o STOP/STOP
+*/* t/t h/h y/a s/s STOP/STOP
+*/* c/c o/o m/m i/i n/n g/g STOP/STOP
+*/* s/s a/a t/t u/u r/r i/i a/a y/y STOP/STOP
+*/* h/h o/o q/r STOP/STOP
+*/* m/m a/a n/n y/y STOP/STOP
+*/* t/t i/i c/c v/k e/e t/t s/s STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y j/o u/u STOP/STOP
+*/* l/l y/i k/k e/e STOP/STOP
+*/* c/c a/a l/l STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* t/t e/e l/l e/e STOP/STOP
+*/* m/m z/e STOP/STOP
+*/* s/s o/o m/m e/e STOP/STOP
+*/* s/s h/h o/o w/w t/t i/i m/m e/e s/s STOP/STOP
+*/* z/z o/o o/o t/t o/o p/p j/m a/a STOP/STOP
+*/* p/p l/l e/e a/a s/n g/g STOP/STOP
+*/* t/t o/o m/m s/o r/r r/r o/o w/w STOP/STOP
+*/* a/a f/f t/t t/t r/r n/n y/y o/o n/n STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* n/n o/o r/r t/t h/h e/e r/r n/n STOP/STOP
+*/* s/s a/a n/n STOP/STOP
+*/* f/f r/r a/a n/n e/e i/i s/s c/c o/o STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* k/i n/n o/o w/w STOP/STOP
+*/* a/a b/b o/o u/u t/t STOP/STOP
+*/* a/a STOP/STOP
+*/* s/s p/p e/e c/c i/i f/f i/i c/c STOP/STOP
+*/* t/t h/h e/e t/t t/t e/e r/r STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* g/g e/e n/n e/e r/r a/a l/l STOP/STOP
+*/* u/t h/h o/o w/w t/t i/i m/m e/e s/s STOP/STOP
+*/* g/g e/e n/n e/e r/r a/a l/l STOP/STOP
+*/* s/s h/h o/o w/w t/t i/i m/m b/e s/s STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* n/n o/o h/h t/t h/h e/e r/r n/n STOP/STOP
+*/* s/s a/a n/n STOP/STOP
+*/* f/f r/r a/a n/n c/c i/i s/s c/e d/d STOP/STOP
+*/* p/p l/l e/e a/a f/f e/e STOP/STOP
+*/* w/w o/o l/l l/l o/o STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* s/s t/t a/a n/n d/d a/a r/r d/d STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* d/d STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g STOP/STOP
+*/* s/s t/t a/a n/n d/d a/a r/r d/d STOP/STOP
+*/* p/p l/l e/e a/a s/s s/s STOP/STOP
+*/* y/y o/o v/v o/e r/r r/r o/o w/w STOP/STOP
+*/* t/t h/h e/e r/r e/e STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* o/o n/n l/l y/y STOP/STOP
+*/* a/a STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* z/z o/o o/o t/t o/o p/p i/i a/a STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* t/t h/h i/i s/s STOP/STOP
+*/* e/t h/h e/e a/a t/t e/e i/i q/p m/m c/c STOP/STOP
+*/* v/a t/t q/s STOP/STOP
+*/* n/n y/y s/s s/s STOP/STOP
+*/* v/v a/a n/n STOP/STOP
+*/* n/n e/e s/s s/s STOP/STOP
+*/* a/a v/v e/e n/n u/u e/e STOP/STOP
+*/* s/s a/a n/n STOP/STOP
+*/* f/f r/r a/a n/n c/c n/e s/s c/c o/o STOP/STOP
+*/* u/u a/a STOP/STOP
+*/* i/i STOP/STOP
+*/* a/a m/m STOP/STOP
+*/* n/n o/o t/t STOP/STOP
+*/* s/s u/u b/b e/e STOP/STOP
+*/* i/i f/f STOP/STOP
+*/* t/t u/h i/i s/s STOP/STOP
+*/* t/t h/h e/e b/a t/t e/e r/r STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* f/t h/h e/e STOP/STOP
+*/* d/d c/i n/n t/t h/h e/e r/r n/n STOP/STOP
+*/* p/p a/a r/r t/t STOP/STOP
+*/* o/o b/u STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* c/c i/i t/t y/y STOP/STOP
+*/* h/h o/o w/w STOP/STOP
+*/* m/m v/a n/n y/y STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* m/m o/o u/u STOP/STOP
+*/* b/b e/e STOP/STOP
+*/* n/n p/k e/e d/d i/i n/n g/g STOP/STOP
+*/* c/c a/a n/n STOP/STOP
+*/* i/i STOP/STOP
+*/* g/g e/e t/t STOP/STOP
+*/* t/t h/h r/r e/e e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* t/t h/h a/a t/t STOP/STOP
+*/* x/t h/h o/o w/w i/i n/n g/g STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* v/v l/i n/n STOP/STOP
+*/* n/n e/e s/s s/s STOP/STOP
+*/* s/s u/u c/c c/c e/e s/s s/s STOP/STOP
+*/* i/i STOP/STOP
+*/* z/z a/a s/s STOP/STOP
+*/* a/a b/b l/l e/e STOP/STOP
+*/* z/z o/o STOP/STOP
+*/* b/b o/o o/o k/k STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* f/f o/o o/o t/t o/o p/p i/i a/a STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* n/p m/m STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* v/v a/a n/n STOP/STOP
+*/* n/n e/e s/s s/s STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* t/t h/h a/a n/n a/a STOP/STOP
+*/* n/n o/o u/u STOP/STOP
+*/* y/y o/o u/u r/r e/e STOP/STOP
+*/* w/w e/e l/l c/c e/e m/m e/e STOP/STOP
+*/* h/h s/a v/v p/e STOP/STOP
+*/* a/a STOP/STOP
+*/* g/g o/o o/o d/d STOP/STOP
+*/* d/d b/b y/y STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* w/w a/a s/s STOP/STOP
+*/* v/y o/o u/u r/r STOP/STOP
+*/* f/f a/a v/v h/e r/r i/i t/t e/e STOP/STOP
+*/* p/p a/a r/r t/t STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* d/d e/e w/n d/d p/p o/o o/o l/l STOP/STOP
+*/* h/h e/e j/a l/l o/o STOP/STOP
+*/* p/p STOP/STOP
+*/* h/h a/a v/v e/e n/n t/t STOP/STOP
+*/* y/y a/a d/d STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* o/o p/p p/p o/o r/r t/t u/u n/n i/i t/t y/y STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* w/w a/a t/t c/c h/h STOP/STOP
+*/* i/i t/t STOP/STOP
+*/* j/m e/e t/t STOP/STOP
+*/* d/d o/o STOP/STOP
+*/* u/f o/o u/u STOP/STOP
+*/* t/t h/h i/i n/n k/k STOP/STOP
+*/* i/i t/t STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* s/s o/o r/r t/e d/d STOP/STOP
+*/* w/w a/a t/t c/c h/h i/i n/n g/g STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* c/c r/r i/i t/t i/i c/c s/k STOP/STOP
+*/* c/c o/o n/n y/y e/e n/n b/b u/u s/s STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* t/t h/h a/a t/t STOP/STOP
+*/* i/i t/t STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* f/f a/a s/s t/t STOP/STOP
+*/* f/f u/u n/n n/n y/y STOP/STOP
+*/* a/a n/n b/d STOP/STOP
+*/* g/g l/l e/e e/e f/f b/i c/c l/l y/y STOP/STOP
+*/* p/p r/r o/o f/f a/a n/n e/e STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* f/f o/o u/u r/r t/t h/h w/e a/a o/t l/l b/o u/u s/s t/t i/i n/n l/l STOP/STOP
+*/* d/d e/e a/a d/d p/p o/o o/o l/l STOP/STOP
+*/* s/s u/u b/r v/v e/e r/r t/t s/s STOP/STOP
+*/* s/s u/u p/r e/e r/t h/h e/e r/r o/o STOP/STOP
+*/* f/f o/o l/u m/m STOP/STOP
+*/* f/f o/o r/r m/m u/u l/l a/a STOP/STOP
+*/* u/f i/i t/t e/e STOP/STOP
+*/* r/r i/i l/l d/d l/l y/y STOP/STOP
+*/* e/e n/t h/h e/e r/r t/t a/a i/i n/n i/i n/n g/g STOP/STOP
+*/* a/a n/n u/u STOP/STOP
+*/* d/d e/e c/c i/i d/d e/e d/d l/l y/y STOP/STOP
+*/* e/y o/o n/n f/f a/a m/m i/i l/l y/y f/o d/d i/i e/e n/n d/d l/l y/y STOP/STOP
+*/* e/e e/e s/s u/u l/l t/t s/s STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* t/t h/h i/i s/s STOP/STOP
+*/* w/w h/h e/e r/r e/e STOP/STOP
+*/* i/i STOP/STOP
+*/* b/b u/u y/y STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* j/j g/o s/s t/t STOP/STOP
+*/* t/t e/e l/l l/l STOP/STOP
+*/* s/s e/e STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* l/l o/o c/c a/a t/t i/i o/o n/n STOP/STOP
+*/* a/a h/n d/d STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* t/t y/o w/w e/e STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* u/f o/o u/u r/r e/e STOP/STOP
+*/* i/i n/n t/t e/e r/r e/e s/s t/t e/e d/d STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* p/a n/n d/d STOP/STOP
+*/* i/i d/d STOP/STOP
+*/* v/v e/e STOP/STOP
+*/* h/h a/a p/p p/l y/y STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* h/h e/e l/l p/e STOP/STOP
+*/* i/i STOP/STOP
+*/* w/w a/a n/n t/t STOP/STOP
+*/* e/y o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* d/d e/e a/a d/d p/p o/o o/o i/u STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* l/l k/i n/n g/g STOP/STOP
+*/* i/i s/s l/h a/a n/n d/d STOP/STOP
+*/* n/n y/y STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* d/d a/a c/c STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* q/t i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* g/g o/o STOP/STOP
+*/* b/b w/y o/o STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* t/t o/o n/n i/i g/g h/h t/t STOP/STOP
+*/* p/p l/l e/e a/a s/s a/a STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* t/t l/l e/e a/a t/t e/e i/i STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* g/g o/o STOP/STOP
+*/* r/r e/e g/g a/a l/l STOP/STOP
+*/* d/d e/e e/e r/r STOP/STOP
+*/* p/p a/a r/r k/k STOP/STOP
+*/* s/s t/t a/a d/d l/o u/u m/m STOP/STOP
+*/* r/r e/e g/g a/a l/l STOP/STOP
+*/* t/t h/h e/e a/a t/t r/r e/e s/s STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* a/a r/r c/c h/h e/e s/s STOP/STOP
+*/* a/a n/n d/d STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* l/l p/p e/e w/a s/s STOP/STOP
+*/* s/s t/t o/o n/n y/y STOP/STOP
+*/* b/b r/r o/o o/o a/a STOP/STOP
+*/* a/a k/k e/e STOP/STOP
+*/* a/a STOP/STOP
+*/* f/f e/e w/w STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* a/a r/r e/e a/a STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* l/l o/o e/e q/a s/s STOP/STOP
+*/* s/s t/t o/o n/n y/y STOP/STOP
+*/* d/d r/r o/o o/o k/k STOP/STOP
+*/* p/p l/l e/e a/a s/s e/e STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* s/s h/h k/o w/w i/i k/k g/e STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g STOP/STOP
+*/* g/g r/r i/i a/a t/t STOP/STOP
+*/* i/i v/v e/e STOP/STOP
+*/* t/t e/e r/r c/c h/h a/a s/s e/e d/d STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* t/t i/i o/o k/k f/e t/t s/s STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* c/c a/a u/u STOP/STOP
+*/* i/i STOP/STOP
+*/* g/g e/e t/t STOP/STOP
+*/* s/s o/o m/m e/e STOP/STOP
+*/* x/y o/o v/u r/r e/e STOP/STOP
+*/* t/t i/i c/c r/r e/e t/t s/s STOP/STOP
+*/* s/s u/u r/r e/e STOP/STOP
+*/* l/l e/e t/t s/s STOP/STOP
+*/* s/s t/t a/a r/r t/t STOP/STOP
+*/* w/w i/i t/t h/h STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* c/c b/a t/t y/y STOP/STOP
+*/* y/y o/o u/u r/r e/e STOP/STOP
+*/* l/l o/o c/c a/a t/t e/e d/d STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* a/a q/n d/d STOP/STOP
+*/* w/w i/i a/a t/t STOP/STOP
+*/* t/t y/y p/p e/e s/s STOP/STOP
+*/* e/e f/f STOP/STOP
+*/* m/m o/o v/v i/i e/e s/s STOP/STOP
+*/* y/y o/o u/u r/r e/e STOP/STOP
+*/* i/i n/n t/t e/e r/r e/e s/s t/t e/e d/d STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* i/i m/m STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* n/n o/o r/r t/t h/h u/u r/r n/n STOP/STOP
+*/* s/s a/a n/n STOP/STOP
+*/* f/f r/r a/a n/n c/c i/i s/s c/c o/o STOP/STOP
+*/* i/i STOP/STOP
+*/* w/w w/a s/s STOP/STOP
+*/* t/t h/h i/i n/n k/k i/i n/n g/g STOP/STOP
+*/* k/o u/u n/n g/g STOP/STOP
+*/* f/f u/u STOP/STOP
+*/* p/p a/a x/x d/d a/a STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* t/t o/o m/m o/o r/r r/r m/m w/e STOP/STOP
+*/* a/a f/f t/t e/e r/r n/n o/o o/o n/n STOP/STOP
+*/* h/h o/o w/w STOP/STOP
+*/* m/m a/a n/n y/y STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t g/s STOP/STOP
+*/* w/w i/i l/l l/l STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* b/b e/e STOP/STOP
+*/* p/p u/u d/r c/c h/h a/a s/s i/i n/n m/d STOP/STOP
+*/* w/w d/o l/l l/l t/t STOP/STOP
+*/* a/a n/n d/d STOP/STOP
+*/* c/c h/h i/i l/l d/d STOP/STOP
+*/* y/y o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i w/s e/e STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* s/s t/t a/a n/n d/d a/a r/r b/e STOP/STOP
+*/* s/s h/h u/o w/w i/i n/n g/g STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* d/d STOP/STOP
+*/* s/s t/t a/a u/n d/d a/a r/r d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* c/c o/o c/c l/l d/d STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* k/o u/u n/n g/g STOP/STOP
+*/* f/f u/u STOP/STOP
+*/* p/p a/a n/n d/d a/a STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* a/a s/s STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* d/d a/a n/n STOP/STOP
+*/* c/c e/e s/s s/s STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* c/c e/e n/n t/t u/u r/r y/y STOP/STOP
+*/* d/d a/a l/l y/y STOP/STOP
+*/* c/c i/i t/t y/y STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* e/w i/i t/t h/h e/e r/r STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* t/t h/h o/o s/s e/e STOP/STOP
+*/* w/w c/o r/r k/k STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* b/b o/o o/o k/k STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* r/t h/h e/e STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* p/p l/l e/e a/a s/s e/e STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* i/i STOP/STOP
+*/* h/h a/a v/v e/e STOP/STOP
+*/* p/p u/u r/r c/c h/h a/a s/s e/e d/d STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* t/t h/h a/a n/n a/a STOP/STOP
+*/* y/y w/o u/u STOP/STOP
+*/* i/i STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* f/f t/t a/a r/r STOP/STOP
+*/* w/w a/a r/r s/s STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* p/p o/o r/r t/t l/l a/a n/n t/t STOP/STOP
+*/* o/o r/r e/e o/o o/o n/n STOP/STOP
+*/* s/s u/u r/r e/e STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* d/d a/a y/y STOP/STOP
+*/* s/s v/v i/i d/d a/a y/y STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* x/a r/r e/e a/a t/t STOP/STOP
+*/* h/h o/o w/w STOP/STOP
+*/* m/m a/a u/u y/y STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* l/l o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* a/a d/d u/u l/l t/t s/s STOP/STOP
+*/* p/p l/l e/e a/a s/s e/e STOP/STOP
+*/* t/t h/h m/e r/r e/e STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* a/a STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* r/r e/e g/g a/a l/l STOP/STOP
+*/* l/l l/l o/o y/n d/d STOP/STOP
+*/* c/c n/i n/n t/t e/e r/r STOP/STOP
+*/* STOP/STOP
+*/* i/i m/m a/a x/x STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* m/m e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* p/p u/u r/r c/c h/h a/a s/s e/e STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t w/w STOP/STOP
+*/* h/h e/e r/r c/c STOP/STOP
+*/* a/a e/e z/d STOP/STOP
+*/* p/p l/l e/e a/a s/s e/e STOP/STOP
+*/* i/i STOP/STOP
+*/* h/h a/a v/v e/e STOP/STOP
+*/* i/i x/e r/r c/c h/h a/a s/s e/e d/d STOP/STOP
+*/* y/y o/o u/u x/r STOP/STOP
+*/* t/t i/i c/c k/k e/e o/a s/s STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* i/i STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* p/p u/u r/r c/c h/h v/a n/n e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* g/g o/o d/d s/s STOP/STOP
+*/* e/e y/a y/y p/p t/t STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* f/f i/i r/r s/s t/t STOP/STOP
+*/* i/i STOP/STOP
+*/* r/r e/e e/e d/d STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* l/l o/o c/c a/a t/t i/i o/o n/n STOP/STOP
+*/* a/a n/n h/g STOP/STOP
+*/* n/n u/u m/m a/a e/e r/r STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* m/m i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* s/s e/e a/a t/t t/t l/l l/l STOP/STOP
+*/* a/a n/n k/k STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* d/d a/a i/i e/e STOP/STOP
+*/* w/w o/o m/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* g/g o/o STOP/STOP
+*/* f/f r/r i/i d/d a/a y/y STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* t/t a/a STOP/STOP
+*/* x/t i/i d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* m/m e/e a/a n/n STOP/STOP
+*/* f/f r/r i/i d/d a/a y/y STOP/STOP
+*/* t/t h/h x/e STOP/STOP
+*/* t/t h/h STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* e/t h/h a/a t/t STOP/STOP
+*/* t/t i/i m/m e/e STOP/STOP
+*/* w/w l/o u/u l/l d/d STOP/STOP
+*/* y/y o/o j/r STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* m/m e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e a/a r/r c/c h/h STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* g/g o/o d/d s/s STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* e/e g/g y/y p/p t/t STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* s/s h/h o/o w/w i/i c/n g/g STOP/STOP
+*/* o/o t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* c/c i/i n/n e/e m/m a/a r/r k/k STOP/STOP
+*/* l/l m/i n/n c/c o/o l/l n/n STOP/STOP
+*/* s/s q/q u/u a/a r/r e/e STOP/STOP
+*/* c/c i/i t/t i/i m/m a/a s/s STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* b/b e/e STOP/STOP
+*/* i/i n/n t/t e/e r/r e/e s/s t/t e/e d/d STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* t/t h/h a/a t/t STOP/STOP
+*/* t/t h/h x/a r/r h/e STOP/STOP
+*/* a/a r/r e/e STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g s/s STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* o/o t/t h/h s/e r/r STOP/STOP
+*/* t/t i/i a/a i/i s/s STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* o/o t/t h/h e/e r/r STOP/STOP
+*/* t/t h/h e/e a/a t/t i/i u/u s/s STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* t/t h/h a/a t/t STOP/STOP
+*/* l/l k/d STOP/STOP
+*/* g/g o/o o/o d/d STOP/STOP
+*/* t/t q/h a/a n/n k/k s/s STOP/STOP
+*/* i/i STOP/STOP
+*/* h/h a/a v/v e/e STOP/STOP
+*/* p/p u/u r/r c/c h/h a/a s/s e/e d/d STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o q/r STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* g/g o/o d/d s/s STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* e/e g/g a/a p/n t/t STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* c/c i/i n/n e/e m/m a/a r/r k/k STOP/STOP
+*/* l/l i/i n/n c/c i/i l/l n/n STOP/STOP
+*/* s/s n/o u/u a/a r/r e/e STOP/STOP
+*/* c/c i/i n/n e/e m/m a/a s/s STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o n/n STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* u/u s/s i/i n/n g/g STOP/STOP
+*/* o/o u/u r/r STOP/STOP
+*/* s/s e/e r/r v/v i/i t/t e/e STOP/STOP
+*/* p/p l/l e/e x/a s/s e/e STOP/STOP
+*/* t/t r/r y/y STOP/STOP
+*/* a/a g/g a/a i/i n/n STOP/STOP
+*/* s/s o/o o/o n/n STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* i/i n/n c/c q/k e/e a/a s/s e/e d/d STOP/STOP
+*/* f/f u/u n/n a/a t/t i/i o/o n/n a/a l/l i/i t/t y/y STOP/STOP
+*/* e/e n/n j/j o/o y/y STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* s/s h/h o/o w/w STOP/STOP
+*/* i/i d/d STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e y/y STOP/STOP
+*/* c/c r/r e/e n/n d/d STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* d/d STOP/STOP
+*/* v/v e/e a/a r/r STOP/STOP
+*/* d/d o/o w/w n/n t/t o/o w/w n/n STOP/STOP
+*/* y/y a/a STOP/STOP
+*/* t/t o/o m/m o/o r/r r/r o/o w/w STOP/STOP
+*/* n/n i/i g/g h/h t/t STOP/STOP
+*/* p/p l/l o/o n/n e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* v/v i/i STOP/STOP
+*/* u/u n/n f/f y/o r/r t/t u/u n/n a/a t/t e/e l/l y/y STOP/STOP
+*/* t/t h/h h/a r/r e/e STOP/STOP
+*/* a/a r/r e/e STOP/STOP
+*/* n/n o/o STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g s/s STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* c/c r/o u/u e/e d/d STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* d/d STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* d/d STOP/STOP
+*/* t/t s/s s/s t/t e/e a/a d/d STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* d/d STOP/STOP
+*/* w/w o/o b/b l/l d/d STOP/STOP
+*/* b/b e/e STOP/STOP
+*/* m/m i/i n/n e/e STOP/STOP
+*/* i/i l/l s/s STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p a/a c/c i/i f/f i/i c/c STOP/STOP
+*/* s/s h/h d/e r/r m/m a/a n/n STOP/STOP
+*/* o/o a/a k/k s/s STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* s/s p/e STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* l/l a/a STOP/STOP
+*/* m/m g/o r/r a/a d/d a/a STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* w/w h/h i/i c/c h/h STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* b/b o/o o/o k/k STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* p/p l/l p/p a/a s/s e/e STOP/STOP
+*/* w/w h/h i/i c/c h/h STOP/STOP
+*/* t/t n/h e/e STOP/STOP
+*/* w/w o/o u/u s/s d/d STOP/STOP
+*/* y/y o/o n/n STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* b/b o/o o/o k/k STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* l/l a/a STOP/STOP
+*/* m/m i/i r/r a/a d/d a/a STOP/STOP
+*/* w/w e/e j/a c/n d/d STOP/STOP
+*/* b/b e/e STOP/STOP
+*/* g/g r/r e/e a/a m/m STOP/STOP
+*/* g/g r/r e/e w/a t/t STOP/STOP
+*/* i/i STOP/STOP
+*/* h/h a/a v/v e/e STOP/STOP
+*/* p/p u/u r/r c/c h/h a/a s/s e/e d/d STOP/STOP
+*/* t/t s/s c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* l/a r/r e/e e/e d/d STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* s/s h/h e/e STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* t/t h/h a/a n/n k/k s/s STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* h/h a/a n/n e/e STOP/STOP
+*/* a/a STOP/STOP
+*/* w/w o/o n/n d/d e/e r/r f/f u/u l/l STOP/STOP
+*/* d/d a/a y/y STOP/STOP
+*/* h/h i/i STOP/STOP
+*/* c/c a/a n/n STOP/STOP
+*/* i/i STOP/STOP
+*/* g/g q/r z/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* z/z o/o o/o t/t o/o p/p i/i a/a STOP/STOP
+*/* a/a b/t s/s o/o l/l u/u t/t e/e l/l e/e STOP/STOP
+*/* w/w h/h e/e r/r e/e STOP/STOP
+*/* a/a n/n d/d STOP/STOP
+*/* w/w q/h e/e n/n STOP/STOP
+*/* w/w o/o u/u j/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* i/i t/t STOP/STOP
+*/* t/t a/a m/m x/e a/a STOP/STOP
+*/* y/y l/l STOP/STOP
+*/* s/s a/a t/t u/u r/r d/d a/a y/y STOP/STOP
+*/* a/a f/f t/t e/e r/r n/n o/o o/o n/n STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* i/i t/t STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* d/d STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* s/s t/t a/a n/n d/d a/a i/i d/d STOP/STOP
+*/* s/s t/t l/l n/n d/d a/a r/r d/d STOP/STOP
+*/* z/z o/o o/o t/t o/o p/p i/i a/a STOP/STOP
+*/* i/i t/t STOP/STOP
+*/* p/p l/l a/a y/y i/i n/n j/g STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* w/w e/e s/s t/t STOP/STOP
+*/* s/s h/h o/o r/r e/e STOP/STOP
+*/* STOP/STOP
+*/* w/w e/e s/s t/t s/s p/p o/o r/r e/e STOP/STOP
+*/* p/p l/l a/a z/z a/a STOP/STOP
+*/* t/t a/a m/m p/p a/a STOP/STOP
+*/* f/f l/l STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* a/a m/m STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* a/a m/m STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* e/y o/o u/u l/l w/e STOP/STOP
+*/* o/o n/n e/e STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* z/t h/h o/o s/s e/e STOP/STOP
+*/* t/t i/i m/m e/e s/s STOP/STOP
+*/* w/w l/o r/r k/k STOP/STOP
+*/* f/f c/o r/r STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* p/p l/l l/l STOP/STOP
+*/* t/t a/a k/k e/e STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* s/s h/h o/o w/w STOP/STOP
+*/* i/i v/v e/e STOP/STOP
+*/* p/p s/u r/r c/c h/h a/a s/s e/e d/d STOP/STOP
+*/* a/a n/n d/d STOP/STOP
+*/* u/f o/o n/n f/f i/i r/r m/m e/e d/d STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* t/t g/i c/c k/k e/e t/t s/s STOP/STOP
+*/* e/e n/n j/j o/o y/y STOP/STOP
+*/* f/t h/h e/e STOP/STOP
+*/* s/s h/h o/o w/w STOP/STOP
+*/* c/c t/t e/e STOP/STOP
+*/* i/i m/m STOP/STOP
+*/* s/s o/o r/r r/r m/m STOP/STOP
+*/* i/i STOP/STOP
+*/* d/d o/o n/n t/t STOP/STOP
+*/* u/u n/n d/d e/e r/r s/s t/t a/a n/n d/d STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* p/p u/u r/r c/c h/h i/i s/s e/e STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* h/h e/e l/l l/l j/e STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* b/b e/e s/s t/t STOP/STOP
+*/* m/m o/o v/v i/i e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* w/w a/a t/t c/c h/h STOP/STOP
+*/* t/t o/o d/d a/a y/y STOP/STOP
+*/* l/l e/e t/t s/s STOP/STOP
+*/* s/s t/t a/a r/r t/t STOP/STOP
+*/* w/w i/i c/c p/k STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* l/l o/o c/c a/a t/t i/i o/o n/n STOP/STOP
+*/* s/s o/o STOP/STOP
+*/* i/i STOP/STOP
+*/* c/c a/a n/n STOP/STOP
+*/* f/f i/i n/n d/d STOP/STOP
+*/* a/a v/v a/a i/i l/l a/a b/b l/l e/e STOP/STOP
+*/* o/o n/n e/e s/s STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* a/a r/r e/e a/a STOP/STOP
+*/* c/c a/a n/n STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* f/f i/i n/n d/d STOP/STOP
+*/* m/m e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* n/n e/e x/x t/t STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* z/z o/o o/o l/l o/o g/r y/y STOP/STOP
+*/* a/a v/t STOP/STOP
+*/* a/a STOP/STOP
+*/* t/t h/h e/e j/a t/t e/e r/r STOP/STOP
+*/* c/c l/l o/o s/s e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* a/a r/r e/e a/a STOP/STOP
+*/* s/s o/o d/d e/e STOP/STOP
+*/* h/h o/o w/w STOP/STOP
+*/* m/m c/a n/n y/y STOP/STOP
+*/* a/a r/r e/e STOP/STOP
+*/* y/y o/o i/i n/n u/u STOP/STOP
+*/* t/t w/w o/o STOP/STOP
+*/* a/a d/d r/r l/e t/t s/s STOP/STOP
+*/* w/w h/h j/a t/t STOP/STOP
+*/* d/d a/a t/t e/e STOP/STOP
+*/* w/w e/o u/u l/l d/d STOP/STOP
+*/* r/r o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* m/m e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* l/l o/o o/o w/w STOP/STOP
+*/* u/f i/i r/r s/s t/t STOP/STOP
+*/* s/s h/h o/o p/p i/i n/n g/g STOP/STOP
+*/* t/t o/o a/f o/o r/r r/r o/o w/w STOP/STOP
+*/* m/m o/o r/r n/n i/i v/n g/g STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* h/h i/i k/k e/e STOP/STOP
+*/* d/d STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* d/d STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* i/i m/m i/i x/n STOP/STOP
+*/* i/i m/m a/a x/x STOP/STOP
+*/* p/p l/l e/e p/a s/s e/e STOP/STOP
+*/* w/w h/h y/a t/t STOP/STOP
+*/* t/t i/i m/m e/e STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y d/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* d/d e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e a/a r/r c/c h/h STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* i/i m/m STOP/STOP
+*/* s/s o/o r/r r/r y/y STOP/STOP
+*/* t/t o/o e/e e/e e/e STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* n/n o/o STOP/STOP
+*/* m/m o/o v/v i/i u/u STOP/STOP
+*/* c/c a/a w/t l/l e/e d/d STOP/STOP
+*/* z/z o/o n/n l/l o/o x/r y/y STOP/STOP
+*/* r/r i/i g/g h/h t/t STOP/STOP
+*/* h/h o/o w/w STOP/STOP
+*/* d/d i/i d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* m/m e/e a/a n/n STOP/STOP
+*/* z/a y/y o/o t/t o/o p/p i/i a/a STOP/STOP
+*/* a/a e/e s/s STOP/STOP
+*/* i/i STOP/STOP
+*/* d/d w/e d/d STOP/STOP
+*/* i/i STOP/STOP
+*/* a/a z/t STOP/STOP
+*/* s/s o/o r/r r/r y/y STOP/STOP
+*/* t/t h/h l/e STOP/STOP
+*/* i/i m/m a/a x/x STOP/STOP
+*/* t/t h/h e/e a/a t/t e/e r/r STOP/STOP
+*/* d/d o/o t/t s/s STOP/STOP
+*/* n/n o/o t/t STOP/STOP
+*/* a/a l/l l/l o/o w/w STOP/STOP
+*/* j/a n/n l/l i/i n/n e/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t STOP/STOP
+*/* p/p u/u j/r c/c h/h a/a s/s e/e s/s STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* c/c o/o n/n s/s i/i w/s e/e r/r STOP/STOP
+*/* m/m STOP/STOP
+*/* s/s t/t a/a n/n d/d a/a r/r d/d STOP/STOP
+*/* o/o r/r STOP/STOP
+*/* d/d STOP/STOP
+*/* v/v e/e r/r s/s i/i o/o n/n STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* l/t h/h o/o w/w STOP/STOP
+*/* b/b g/o m/m m/m e/e r/r STOP/STOP
+*/* d/d STOP/STOP
+*/* l/l f/o u/u l/l l/l STOP/STOP
+*/* b/b e/e STOP/STOP
+*/* c/c o/o o/o l/l STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* z/z o/o o/o t/t o/o p/p i/i a/a STOP/STOP
+*/* d/d STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* p/p l/l a/a y/y i/i n/n g/g STOP/STOP
+*/* a/a n/n STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* p/p e/e g/g a/a l/l STOP/STOP
+*/* n/n a/a t/t o/o m/m a/a s/s STOP/STOP
+*/* m/m a/a r/r k/k p/e t/t p/p l/l a/a c/c e/e STOP/STOP
+*/* f/f t/t a/a d/d i/i u/u m/m STOP/STOP
+*/* STOP/STOP
+*/* r/r p/o x/x STOP/STOP
+*/* t/t r/o u/u x/l e/e l/l STOP/STOP
+*/* r/r o/o a/a d/d STOP/STOP
+*/* s/s a/a c/c r/r a/a m/m e/e n/n t/t o/o STOP/STOP
+*/* c/c r/r STOP/STOP
+*/* b/b t/t STOP/STOP
+*/* a/a m/m STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* a/a m/m STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* a/a n/n y/y STOP/STOP
+*/* o/o f/f STOP/STOP
+*/* t/t h/h j/a s/s e/e STOP/STOP
+*/* t/t i/i m/m e/e s/s STOP/STOP
+*/* w/w o/o q/r k/k STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* p/p l/l e/e a/a s/s e/e STOP/STOP
+*/* g/g r/r e/e a/a t/t STOP/STOP
+*/* i/i STOP/STOP
+*/* h/h a/a v/v e/e STOP/STOP
+*/* b/b o/o o/o k/k e/e d/d STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* z/z o/o o/o d/d o/o p/p i/i k/k STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* d/d STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* r/r e/e g/g a/a l/l STOP/STOP
+*/* n/n a/a d/d o/o m/m a/a s/s STOP/STOP
+*/* m/m a/a r/r c/c e/e t/t p/p l/l a/a p/r e/e STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* m/m o/o u/u STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* m/m p/a v/t h/h e/e STOP/STOP
+*/* t/t h/h e/e a/a t/t e/e r/r s/s STOP/STOP
+*/* s/s e/e a/a r/r STOP/STOP
+*/* s/s t/t o/o g/r y/y STOP/STOP
+*/* b/b r/r f/f o/o k/k STOP/STOP
+*/* n/n y/y STOP/STOP
+*/* a/a r/r e/e STOP/STOP
+*/* s/s h/h o/o w/w i/i x/n g/g STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* y/y o/o u/u n/n g/g STOP/STOP
+*/* m/m e/e s/s x/t i/i a/a h/n STOP/STOP
+*/* a/a s/s STOP/STOP
+*/* a/a STOP/STOP
+*/* m/m p/a t/t i/i n/n e/e e/e STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* b/b a/a y/y STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* f/f o/o STOP/STOP
+*/* g/g o/o STOP/STOP
+*/* s/s a/a t/t u/u r/r d/d a/a y/y STOP/STOP
+*/* a/a m/m c/c STOP/STOP
+*/* l/l o/o e/o w/w s/s STOP/STOP
+*/* s/s t/t o/o n/n y/y STOP/STOP
+*/* b/b o/o o/o o/o k/k STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* s/s h/h o/o w/w i/i n/n g/g STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* y/y o/o u/u n/n g/g STOP/STOP
+*/* m/m e/e s/s s/s i/i a/a h/n STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* s/s a/a p/p u/u r/r d/d a/a y/y STOP/STOP
+*/* w/w o/o u/u b/l d/d STOP/STOP
+*/* y/y p/p u/u STOP/STOP
+*/* b/b e/e STOP/STOP
+*/* i/i n/n t/t e/e r/r e/e s/s t/t s/s d/d STOP/STOP
+*/* i/i n/n STOP/STOP
+*/* p/p u/u r/r c/c h/h a/a s/s i/i n/n g/g STOP/STOP
+*/* k/k i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* y/y e/e s/s STOP/STOP
+*/* p/p l/l e/e a/a s/s e/e STOP/STOP
+*/* i/i STOP/STOP
+*/* n/n e/e e/e d/d STOP/STOP
+*/* a/a d/d u/u l/l t/t STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* f/a n/n d/d STOP/STOP
+*/* c/c h/h i/i l/l d/d c/e STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t STOP/STOP
+*/* i/i i/n STOP/STOP
+*/* l/l o/o o/o k/k s/s STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* i/i t/t STOP/STOP
+*/* i/i s/s STOP/STOP
+*/* p/p l/l a/a y/y i/i n/n g/g STOP/STOP
+*/* a/a t/t STOP/STOP
+*/* u/u m/m STOP/STOP
+*/* a/a n/n d/d STOP/STOP
+*/* f/p m/m STOP/STOP
+*/* o/o n/n STOP/STOP
+*/* m/m a/a t/t i/i n/n e/e e/e STOP/STOP
+*/* q/s e/e i/i c/c h/h STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* t/t o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* g/g e/e t/t STOP/STOP
+*/* t/t i/i c/c k/k e/e t/t y/y STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* p/p m/m STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* d/d i/i c/c k/k e/e t/t s/s STOP/STOP
+*/* w/w x/o r/r e/e STOP/STOP
+*/* b/b o/o l/n k/k e/e d/d STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* y/y o/o i/i k/k g/e STOP/STOP
+*/* m/m e/e s/s s/s i/i a/a h/n STOP/STOP
+*/* e/e n/n j/j o/o y/y STOP/STOP
+*/* t/t h/h e/e STOP/STOP
+*/* m/m o/o v/v i/i g/g STOP/STOP
+*/* t/t h/h a/a n/n k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* t/t h/h a/a s/s k/k STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* m/m o/o x/v i/i e/e STOP/STOP
+*/* d/d o/o STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* r/r e/e c/c o/o m/m m/m e/e n/n d/d STOP/STOP
+*/* t/t i/i STOP/STOP
+*/* f/f l/o r/r s/s t/t STOP/STOP
+*/* i/i l/l l/l STOP/STOP
+*/* n/n e/e e/e d/d STOP/STOP
+*/* y/y o/o u/u r/r STOP/STOP
+*/* l/l o/o c/c a/a t/t i/i o/o n/n STOP/STOP
+*/* t/t o/o STOP/STOP
+*/* s/s e/e e/e STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* m/m o/o v/v i/i e/e a/a STOP/STOP
+*/* a/a b/b e/e STOP/STOP
+*/* p/p t/t q/a y/y i/i n/n g/g STOP/STOP
+*/* l/l o/o j/w a/a l/l l/l y/y STOP/STOP
+*/* s/s e/e a/a t/t t/t l/l e/e STOP/STOP
+*/* f/f a/a s/s h/h i/i n/n g/g t/t o/o n/n STOP/STOP
+*/* w/w h/h a/a t/t STOP/STOP
+*/* d/d a/a t/t e/e STOP/STOP
+*/* w/w o/o u/u l/l d/d STOP/STOP
+*/* y/y o/o u/u STOP/STOP
+*/* l/l i/i k/k e/e STOP/STOP
+*/* m/m e/e STOP/STOP
+*/* t/t a/a STOP/STOP
+*/* l/l o/o o/o k/k STOP/STOP
+*/* f/f o/o r/r STOP/STOP
+*/* t/t o/o m/m o/o r/r r/r o/o w/w STOP/STOP
+*/* b/b i/i g/g h/h t/t STOP/STOP
+*/* h/h o/o w/w STOP/STOP
+*/* m/m a/a n/n y/y STOP/STOP
+*/* a/a y/y e/e STOP/STOP
+*/* g/g o/o i/i n/n g/g STOP/STOP
